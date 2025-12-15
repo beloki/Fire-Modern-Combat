@@ -1,0 +1,7680 @@
+{
+  "config": {
+    "trackHighestDivision": true
+  },
+  "appVersion": 2,
+  "disallowMultipleFactions": true,
+  "colors": {
+    "light": {
+      "primary": "#841912",
+      "background": "#a58650",
+      "pageBackground": "#fffffe",
+      "buttonBackground": "#e2ded3",
+      "primaryBorder": "#841912",
+      "primaryBackgroundColor": "#fffffe"
+    },
+    "dark": {
+      "primary": "#fffffe",
+      "background": "#814143",
+      "pageBackground": "#3b1d1e",
+      "buttonBackground": "#a58650",
+      "primaryBorder": "#841912",
+      "primaryBackgroundColor": "#841912"
+    }
+  },
+  "credit": [
+    {
+      "type": "text",
+      "text": "Data provided by ChicoBeloki."
+    },
+    {
+      "type": "url",
+      "text": "FIRE! Modern Combat",
+      "url": "https://www.youtube.com/@firemoderncombat"
+    }
+  ],
+  "game": "FIRE! Modern Combat - Miniature Wargame (WIP)",
+  "toggles": [],
+  "scenarios": [],
+  "stats": [
+    {
+      "name": "Training",
+      "abbreviation": "Entrenamiento"
+    },
+    {
+      "name": "Experience",
+      "abbreviation": "Experiencia"
+    }
+  ],
+  "dataTableKeys": [
+    "suboficiales",
+    "soldados"
+  ],
+  "limits": [
+    {
+      "type": "rpg",
+      "property": "models",
+      "byFaction": true,
+      "maximumPercentage": 12.50,
+      "roundUp": true,
+      "label": "RPG's"
+    },
+    {
+      "type": "lmg",
+      "property": "models",
+      "byFaction": true,
+      "maximumPercentage": 12.50,
+      "roundUp": true,
+      "label": "LMG"
+    },
+    {
+      "type": "dog",
+      "property": "soldados",
+      "byFaction": true,
+      "maximumPercentage": 1.00,
+      "roundUp": true,
+      "label": "Perro"
+    }
+  ],
+  "counts": [
+    {
+      "property": "rpg",
+      "label": "RPG"
+    },
+    {
+      "property": "lmg",
+      "label": "LMG"
+    }
+  ],
+  "validations": [],
+  "calculations": [
+    {
+      "label": "Moral 25% (1d10)",
+      "property": "models",
+      "percentage": 25.0000,
+      "roundup": true,
+      "suffix": " bajas"
+    },
+    {
+      "label": "Moral 50% (2d10)",
+      "property": "models",
+      "percentage": 50.0000,
+      "roundup": true,
+      "suffix": " bajas"
+    },
+    {
+      "label": "Moral 75% (3d10)",
+      "property": "models",
+      "percentage": 75.0000,
+      "roundup": true,
+      "suffix": " bajas"
+    }
+  ],
+  "leaderConfig": {
+    "elementPropertyName": "suboficiales",
+    "usesProperty": "suboficialTier"
+  },
+  "additionalPrint": [
+    {
+      "propertyName": "wargear",
+      "label": "Wargear",
+      "dataSource": "gear"
+    }
+  ],
+  "elements": [
+    {
+      "propertyName": "factions",
+      "label": "Pelotones",
+      "type": "faction",
+      "dataSource": "factions",
+      "divisionProperty": "alignment",
+      "divisions": [
+        "EEUU",
+        "España",
+        "Francia",
+        "Reino Unido",
+        "Alemania",
+        "Italia",
+        "China",
+        "Australia",
+        "Insurgencia"
+      ],
+      "children": [
+        {
+          "propertyName": "suboficiales",
+          "dataSource": "suboficiales",
+          "label": "Escuadras",
+          "type": "main",
+          "tierProperty": "suboficialTier",
+          "tierData": "suboficialTiers",
+          "tiers": [
+            {
+              "name": "Mando Principal",
+              "maximumChildren": {
+                "soldados": 6
+              },
+              "rank": 1
+            },
+            {
+              "name": "Mando Secundario",
+              "maximumChildren": {
+                "soldados": 6
+              },
+              "rank": 2
+            },
+            {
+              "name": "Mando Apoyo",
+              "maximumChildren": {
+                "soldados": 2
+              },
+              "rank": 3
+            },
+            {
+              "name": "Arma Apoyo",
+              "maximumChildren": {
+                "soldados": 2
+              },
+              "rank": 3
+            }
+          ],
+          "children": [
+            {
+              "singleKey": "soldado",
+              "dataSource": "soldados",
+              "propertyName": "soldados",
+              "label": "Soldados",
+              "type": "list",
+              "children": [
+                {
+                  "propertyName": "options",
+                  "type": "checkbox",
+                  "dataSource": "gear"
+                },
+                {
+                  "propertyName": "wargear",
+                  "label": "Wargear",
+                  "type": "static",
+                  "dataSource": "gear"
+                },
+                {
+                  "propertyName": "unitType",
+                  "label": "Unit Type",
+                  "type": "static"
+                },
+                {
+                  "propertyName": "baseSize",
+                  "label": "Base Size",
+                  "type": "static"
+                }
+              ]
+            },
+            {
+              "propertyName": "options",
+              "type": "checkbox",
+              "dataSource": "gear"
+            },
+            {
+              "propertyName": "wargear",
+              "label": "Wargear",
+              "type": "static",
+              "dataSource": "gear"
+            },
+            {
+              "propertyName": "unitType",
+              "label": "Unit Type",
+              "type": "static"
+            },
+            {
+              "propertyName": "baseSize",
+              "label": "Base Size",
+              "type": "static"
+            }
+          ]
+        },
+        {
+          "propertyName": "options",
+          "label": "Equipo Compartido",
+          "type": "checkbox",
+          "dataSource": "gear"
+        }
+      ]
+    }
+  ],
+  "data": {
+    "factions": [
+      {
+        "name": "US Rangers",
+        "alignment": "EEUU",
+        "options": [
+          {
+            "name": "Minas",
+            "points": 10,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Granada de Fragmentación",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Aturdidora",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Lanzagranadas (Fusil)",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          }
+        ],
+        "requiredChildren": [
+          {
+            "name": "Sargento US Ranger",
+            "points": 70,
+            "mustBeLeader": true,
+            "elementPropertyName": "suboficiales"
+          },
+          {
+            "name": "Cabo US Ranger",
+            "points": 65,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado LMG US Rangers",
+                "points": 60,
+                "elementPropertyName": "soldados",
+                "quantity": 1
+              },
+              {
+                "name": "Soldado Fusil US Rangers",
+                "points": 50,
+                "elementPropertyName": "soldados",
+                "quantity": 1
+              }
+            ]
+          },
+          {
+            "name": "Cabo US Ranger",
+            "points": 65,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado LMG US Rangers",
+                "points": 60,
+                "elementPropertyName": "soldados",
+                "quantity": 1
+              },
+              {
+                "name": "Soldado Fusil y Lanzagranadas US Rangers",
+                "points": 60,
+                "elementPropertyName": "soldados",
+                "quantity": 1
+              },
+              {
+                "name": "Soldado Fusil US Rangers",
+                "points": 50,
+                "elementPropertyName": "soldados",
+                "quantity": 1
+              }
+            ]
+          }
+        ],
+        "requireOne": [
+          [
+            "Soldado Fusil y Lanzagranadas US Rangers",
+            "Soldado Escopeta US Rangers",
+            "Tirador Designado US Rangers"
+          ]
+        ]
+      },
+      {
+        "name": "US Army",
+        "alignment": "EEUU",
+        "options": [
+          {
+            "name": "Minas",
+            "points": 10,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Granada de Fragmentación",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Aturdidora",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Lanzagranadas (Fusil)",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          }
+        ],
+        "requiredChildren": [
+          {
+            "name": "Sargento US Army",
+            "points": 65,
+            "mustBeLeader": true,
+            "elementPropertyName": "suboficiales"
+          },
+          {
+            "name": "Cabo US Army",
+            "points": 60,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado LMG US Army",
+                "points": 55,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil US Army",
+                "points": 45,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          },
+          {
+            "name": "Cabo US Army",
+            "points": 60,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado LMG US Army",
+                "points": 55,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil con Lanzagranadas US Army",
+                "points": 55,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil US Army",
+                "points": 45,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          }
+        ],
+        "requireOne": [
+          [
+            "Soldado Fusil con Lanzagranadas US Army",
+            "Soldado Escopeta US Army",
+            "Tirador Designado US Army"
+          ]
+        ]
+      },
+      {
+        "name": "US Marines",
+        "alignment": "EEUU",
+        "options": [
+          {
+            "name": "Minas",
+            "points": 10,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Granada de Fragmentación",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Aturdidora",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Lanzagranadas (Fusil)",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          }
+        ],
+        "requiredChildren": [
+          {
+            "name": "Sargento US Marines",
+            "points": 65,
+            "mustBeLeader": true,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil US Marines",
+                "points": 45,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil US Marines",
+                "points": 45,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          },
+          {
+            "name": "Cabo US Marines",
+            "points": 60,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil US Marines",
+                "points": 45,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil US Marines",
+                "points": 45,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          },
+          {
+            "name": "Cabo US Marines",
+            "points": 60,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil US Marines",
+                "points": 45,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil con Lanzagranadas US Marines",
+                "points": 55,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil US Marines",
+                "points": 45,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          },
+          {
+            "name": "Cabo US Marines",
+            "points": 60,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil US Marines",
+                "points": 45,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil con Lanzagranadas US Marines",
+                "points": 55,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil US Marines",
+                "points": 45,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "US SOCOM",
+        "alignment": "EEUU",
+        "options": [
+          {
+            "name": "Minas",
+            "points": 10,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Granada de Fragmentación",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Aturdidora",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Lanzagranadas (Fusil)",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          }
+        ],
+        "requiredChildren": [
+          {
+            "name": "Sargento US SOCOM",
+            "points": 75,
+            "mustBeLeader": true,
+            "elementPropertyName": "suboficiales"
+          },
+          {
+            "name": "Cabo US SOCOM",
+            "points": 70,
+            "elementPropertyName": "suboficiales"
+          }
+        ]
+      },
+      {
+        "name": "British Army (2010)",
+        "alignment": "Reino Unido",
+        "options": [
+          {
+            "name": "Minas",
+            "points": 10,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Granada de Fragmentación",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Aturdidora",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Lanzagranadas (Fusil)",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          }
+        ],
+        "requiredChildren": [
+          {
+            "name": "Sargento British Army",
+            "points": 60,
+            "mustBeLeader": true,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil con Lanzagranadas British Army",
+                "points": 50,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado LMG British Army",
+                "points": 50,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Tirador Designado British Army",
+                "points": 40,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          },
+          {
+            "name": "Cabo British Army",
+            "points": 55,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado LMG British Army",
+                "points": 50,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil con Lanzagranadas British Army",
+                "points": 50,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil British Army",
+                "points": 40,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "British Army (2018)",
+        "alignment": "Reino Unido",
+        "options": [
+          {
+            "name": "Minas",
+            "points": 10,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Granada de Fragmentación",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Aturdidora",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Lanzagranadas (Fusil)",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          }
+        ],
+        "requiredChildren": [
+          {
+            "name": "Sargento British Army",
+            "points": 60,
+            "mustBeLeader": true,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil con Lanzagranadas British Army",
+                "points": 50,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil British Army",
+                "points": 40,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Tirador Designado British Army",
+                "points": 40,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          },
+          {
+            "name": "Cabo British Army",
+            "points": 55,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil con Lanzagranadas British Army",
+                "points": 50,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Royal Marines / Paras / Gurkhas (2010)",
+        "alignment": "Reino Unido",
+        "options": [
+          {
+            "name": "Minas",
+            "points": 10,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Granada de Fragmentación",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Aturdidora",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Lanzagranadas (Fusil)",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          }
+        ],
+        "requiredChildren": [
+          {
+            "name": "Sargento Royal Marines / Paras / Gurkhas",
+            "points": 65,
+            "mustBeLeader": true,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil con Lanzagranadas Royal Marines / Paras / Gurkhas",
+                "points": 55,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado LMG Royal Marines / Paras / Gurkhas",
+                "points": 55,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Tirador Designado Royal Marines / Paras / Gurkhas",
+                "points": 45,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          },
+          {
+            "name": "Cabo Royal Marines / Paras / Gurkhas",
+            "points": 60,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado LMG Royal Marines / Paras / Gurkhas",
+                "points": 55,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil con Lanzagranadas Royal Marines / Paras / Gurkhas",
+                "points": 55,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil Royal Marines / Paras / Gurkhas",
+                "points": 45,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Royal Marines / Paras / Gurkhas (2018)",
+        "alignment": "Reino Unido",
+        "options": [
+          {
+            "name": "Minas",
+            "points": 10,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Granada de Fragmentación",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Aturdidora",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Lanzagranadas (Fusil)",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          }
+        ],
+        "requiredChildren": [
+          {
+            "name": "Sargento Royal Marines / Paras / Gurkhas",
+            "points": 65,
+            "mustBeLeader": true,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil con Lanzagranadas Royal Marines / Paras / Gurkhas",
+                "points": 55,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil Royal Marines / Paras / Gurkhas",
+                "points": 45,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Tirador Designado Royal Marines / Paras / Gurkhas",
+                "points": 45,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          },
+          {
+            "name": "Cabo Royal Marines / Paras / Gurkhas",
+            "points": 55,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil con Lanzagranadas Royal Marines / Paras / Gurkhas",
+                "points": 55,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "SAS / SBS / SRR / SFSG",
+        "alignment": "Reino Unido",
+        "options": [
+          {
+            "name": "Minas",
+            "points": 10,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Granada de Fragmentación",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Aturdidora",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Lanzagranadas (Fusil)",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          }
+        ],
+        "requiredChildren": [
+          {
+            "name": "Sargento SAS / SBS / SRR / SFSG",
+            "points": 75,
+            "mustBeLeader": true,
+            "elementPropertyName": "suboficiales"
+          },
+          {
+            "name": "Cabo SAS / SBS / SRR / SFSG",
+            "points": 70,
+            "elementPropertyName": "suboficiales"
+          }
+        ]
+      },
+      {
+        "name": "Ejército de Tierra",
+        "alignment": "España",
+        "options": []
+      },
+      {
+        "name": "Legionarios / Cazadores de Montaña / Infantería de Marina",
+        "alignment": "España",
+        "options": []
+      },
+      {
+        "name": "Insurgentes Tipo 1",
+        "alignment": "Insurgencia",
+        "options": [
+          {
+            "name": "Cohetes Extra",
+            "points": 20,
+            "increment": true,
+            "max": 4
+          },
+          {
+            "name": "Minas",
+            "points": 10,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Granada de Fragmentación",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Aturdidora",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Lanzagranadas (Fusil)",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Cóctel Molotov",
+            "points": 5,
+            "increment": true,
+            "max": 4
+          }
+        ],
+        "requiredChildren": [
+          {
+            "name": "Jefe Insurgentes Tipo 1",
+            "points": 50,
+            "mustBeLeader": true,
+            "elementPropertyName": "suboficiales"
+          },
+          {
+            "name": "Ayudante Insurgentes Tipo 1",
+            "points": 45,
+            "elementPropertyName": "suboficiales"
+          }
+        ]
+      },
+      {
+        "name": "Insurgentes Tipo 2",
+        "alignment": "Insurgencia",
+        "options": [
+          {
+            "name": "Cohetes Extra",
+            "points": 20,
+            "increment": true,
+            "max": 4
+          },
+          {
+            "name": "Minas",
+            "points": 10,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Granada de Fragmentación",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Aturdidora",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Lanzagranadas (Fusil)",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Cóctel Molotov",
+            "points": 5,
+            "increment": true,
+            "max": 4
+          }
+        ],
+        "requiredChildren": [
+          {
+            "name": "Jefe Insurgentes Tipo 2",
+            "points": 55,
+            "mustBeLeader": true,
+            "elementPropertyName": "suboficiales"
+          },
+          {
+            "name": "Ayudante Insurgentes Tipo 2",
+            "points": 50,
+            "elementPropertyName": "suboficiales"
+          }
+        ]
+      },
+      {
+        "name": "Insurgentes Tipo 3",
+        "alignment": "Insurgencia",
+        "options": [
+          {
+            "name": "Cohetes Extra",
+            "points": 20,
+            "increment": true,
+            "max": 4
+          },
+          {
+            "name": "Minas",
+            "points": 10,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Granada de Fragmentación",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Aturdidora",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Lanzagranadas (Fusil)",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Cóctel Molotov",
+            "points": 5,
+            "increment": true,
+            "max": 4
+          }
+        ],
+        "requiredChildren": [
+          {
+            "name": "Jefe Insurgentes Tipo 3",
+            "points": 60,
+            "mustBeLeader": true,
+            "elementPropertyName": "suboficiales"
+          },
+          {
+            "name": "Ayudante Insurgentes Tipo 3",
+            "points": 55,
+            "elementPropertyName": "suboficiales"
+          }
+        ]
+      },
+      {
+        "name": "Insurgentes Tipo 4",
+        "alignment": "Insurgencia",
+        "options": [
+          {
+            "name": "Cohetes Extra",
+            "points": 20,
+            "increment": true,
+            "max": 4
+          },
+          {
+            "name": "Minas",
+            "points": 10,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Granada de Fragmentación",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Aturdidora",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Lanzagranadas (Fusil)",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Cóctel Molotov",
+            "points": 5,
+            "increment": true,
+            "max": 4
+          }
+        ],
+        "requiredChildren": [
+          {
+            "name": "Jefe Insurgentes Tipo 4",
+            "points": 65,
+            "mustBeLeader": true,
+            "elementPropertyName": "suboficiales"
+          },
+          {
+            "name": "Ayudante Insurgentes Tipo 4",
+            "points": 60,
+            "elementPropertyName": "suboficiales"
+          }
+        ]
+      },
+      {
+        "name": "Insurgentes Tipo 5",
+        "alignment": "Insurgencia",
+        "options": [
+          {
+            "name": "Cohetes Extra",
+            "points": 20,
+            "increment": true,
+            "max": 4
+          },
+          {
+            "name": "Minas",
+            "points": 10,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Granada de Fragmentación",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Aturdidora",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Lanzagranadas (Fusil)",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Cóctel Molotov",
+            "points": 5,
+            "increment": true,
+            "max": 4
+          }
+        ],
+        "requiredChildren": [
+          {
+            "name": "Jefe Insurgentes Tipo 5",
+            "points": 65,
+            "mustBeLeader": true,
+            "elementPropertyName": "suboficiales"
+          },
+          {
+            "name": "Ayudante Insurgentes Tipo 5",
+            "points": 60,
+            "elementPropertyName": "suboficiales"
+          }
+        ]
+      }
+    ],
+    "suboficialTiers": [
+      {
+        "name": "Mando Principal",
+        "followers": 6
+      },
+      {
+        "name": "Mando Secundario",
+        "followers": 6
+      },
+      {
+        "name": "Arma Apoyo",
+        "followers": 3
+      }
+    ],
+    "suboficiales": [
+      {
+        "name": "Sargento US Ranger",
+        "points": 70,
+        "training": 8,
+        "experience": -1,
+        "factions": [
+          {
+            "name": "US Rangers",
+            "suboficialTier": "Mando Principal"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cabo US Ranger",
+        "points": 65,
+        "limit": 2,
+        "training": 7,
+        "experience": -1,
+        "factions": [
+          {
+            "name": "US Rangers",
+            "suboficialTier": "Mando Secundario"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Sargento US Army",
+        "points": 65,
+        "training": 8,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "US Army",
+            "suboficialTier": "Mando Principal"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cabo US Army",
+        "points": 60,
+        "limit": 2,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "US Army",
+            "suboficialTier": "Mando Secundario"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Sargento US Marines",
+        "points": 65,
+        "training": 8,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "US Marines",
+            "suboficialTier": "Mando Principal"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -4
+        },
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cabo US Marines",
+        "points": 60,
+        "limit": 1,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "US Marines",
+            "suboficialTier": "Mando Secundario"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -3
+        },
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Sargento US SOCOM",
+        "points": 75,
+        "training": 9,
+        "experience": -1,
+        "factions": [
+          {
+            "name": "US SOCOM",
+            "suboficialTier": "Mando Principal"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cabo US SOCOM",
+        "points": 70,
+        "training": 8,
+        "experience": -1,
+        "factions": [
+          {
+            "name": "US SOCOM",
+            "suboficialTier": "Mando Secundario"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Suboficial US Army",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "US Army",
+            "suboficialTier": "Mando Apoyo"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Suboficial US Marines",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "US Marines",
+            "suboficialTier": "Mando Apoyo"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Suboficial US Rangers",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          {
+            "name": "US Rangers",
+            "suboficialTier": "Mando Apoyo"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Suboficial US SOCOM",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 9,
+        "experience": -1,
+        "factions": [
+          {
+            "name": "US SOCOM",
+            "suboficialTier": "Mando Apoyo"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Ametralladora Media (MMG) US Army",
+        "points": 100,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "US Army",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "MMG*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador US Army"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador US Army",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Ametralladora Media (MMG) US Marines",
+        "points": 100,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "US Marines",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "MMG*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador US Marines"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador US Marines",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Ametralladora Media (MMG) Rangers",
+        "points": 110,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "US Rangers",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "MMG*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador US Rangers"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador US Rangers",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Ametralladora Media (MMG) SOCOM",
+        "points": 120,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "US SOCOM",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "MMG*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador US SOCOM"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador US SOCOM",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Lanzacohetes US Army",
+        "points": 180,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "US Army",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Lanzacohetes Pesado* (3 x Cohetes)"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Lanzacohetes US Army"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Lanzacohetes US Army",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Lanzacohetes US Marines",
+        "points": 180,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "US Marines",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Lanzacohetes Pesado* (3 x Cohetes)"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Lanzacohetes US Marines"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Lanzacohetes US Marines",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Lanzacohetes US Rangers",
+        "points": 190,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "US Rangers",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Lanzacohetes Pesado* (3 x Cohetes)"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Lanzacohetes US Rangers"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Lanzacohetes US Rangers",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Lanzacohetes US SOCOM",
+        "points": 200,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "US SOCOM",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Lanzacohetes Pesado* (3 x Cohetes)"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Lanzacohetes US SOCOM"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Lanzacohetes US SOCOM",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Francotiradores US Army",
+        "points": 130,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "US Army",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Francotirador US Army"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Observador US Army",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Francotiradores US Marines",
+        "points": 130,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "US Marines",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Francotirador US Marines"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Observador US Marines",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Francotiradores US Rangers",
+        "points": 140,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "US Rangers",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Francotirador US Rangers"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Observador US Rangers",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Francotiradores US SOCOM",
+        "points": 150,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "US SOCOM",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Francotirador US SOCOM"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Observador US SOCOM",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Ligero US Army",
+        "points": 135,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "US Army",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Ligero*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial US Army"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador US Army",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador US Army",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Ligero US Marines",
+        "points": 135,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "US Marines",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Ligero*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial US Marines"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador US Marines",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador US Marines",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Ligero US Rangers",
+        "points": 150,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "US Rangers",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Ligero*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial US Rangers"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador US Rangers",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador US Rangers",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Sargento British Army",
+        "points": 60,
+        "training": 8,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "British Army (2010)",
+            "suboficialTier": "Mando Principal"
+          },
+          {
+            "name": "British Army (2018)",
+            "suboficialTier": "Mando Principal"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cabo British Army",
+        "points": 55,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "British Army (2010)",
+            "suboficialTier": "Mando Secundario"
+          },
+          {
+            "name": "British Army (2018)",
+            "suboficialTier": "Mando Principal"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Sargento Royal Marines / Paras / Gurkhas",
+        "points": 65,
+        "training": 8,
+        "experience": -1,
+        "factions": [
+          {
+            "name": "Royal Marines / Paras / Gurkhas (2010)",
+            "suboficialTier": "Mando Principal"
+          },
+          {
+            "name": "Royal Marines / Paras / Gurkhas (2018)",
+            "suboficialTier": "Mando Principal"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cabo Royal Marines / Paras / Gurkhas",
+        "points": 60,
+        "training": 7,
+        "experience": -1,
+        "factions": [
+          {
+            "name": "Royal Marines / Paras / Gurkhas (2010)",
+            "suboficialTier": "Mando Secundario"
+          },
+          {
+            "name": "Royal Marines / Paras / Gurkhas (2018)",
+            "suboficialTier": "Mando Principal"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Sargento SAS / SBS / SRR / SFSG",
+        "points": 75,
+        "training": 9,
+        "experience": -1,
+        "factions": [
+          {
+            "name": "SAS / SBS / SRR / SFSG",
+            "suboficialTier": "Mando Principal"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cabo SAS / SBS / SRR / SFSG",
+        "points": 70,
+        "training": 8,
+        "experience": -1,
+        "factions": [
+          {
+            "name": "SAS / SBS / SRR / SFSG",
+            "suboficialTier": "Mando Secundario"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Suboficial British Army",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 8,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "British Army (2010)",
+            "suboficialTier": "Arma Apoyo"
+          },
+          {
+            "name": "British Army (2018)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Ametralladora Media (MMG) British Army",
+        "points": 90,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "British Army (2010)",
+            "suboficialTier": "Arma Apoyo"
+          },
+          {
+            "name": "British Army (2018)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "MMG*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador British Army"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador British Army",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Lanzacohetes British Army",
+        "points": 170,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "British Army (2010)",
+            "suboficialTier": "Arma Apoyo"
+          },
+          {
+            "name": "British Army (2018)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Lanzacohetes Pesado* (3 x Cohetes)"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Lanzacohetes British Army"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Lanzacohetes British Army",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Francotiradores British Army",
+        "points": 120,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "British Army (2010)",
+            "suboficialTier": "Arma Apoyo"
+          },
+          {
+            "name": "British Army (2018)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Francotirador British Army"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Observador British Army",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Ligero British Army",
+        "points": 120,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "British Army (2010)",
+            "suboficialTier": "Arma Apoyo"
+          },
+          {
+            "name": "British Army (2018)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Ligero*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial British Army"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador British Army",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador British Army",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Suboficial Royal Marines / Paras / Gurkhas",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 8,
+        "experience": -1,
+        "factions": [
+          {
+            "name": "Royal Marines / Paras / Gurkhas (2010)",
+            "suboficialTier": "Mando Apoyo"
+          },
+          {
+            "name": "Royal Marines / Paras / Gurkhas (2018)",
+            "suboficialTier": "Mando Apoyo"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Ametralladora Media (MMG) Royal Marines / Paras / Gurkhas",
+        "points": 100,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Royal Marines / Paras / Gurkhas (2010)",
+            "suboficialTier": "Arma Apoyo"
+          },
+          {
+            "name": "Royal Marines / Paras / Gurkhas (2018)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "MMG*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Royal Marines / Paras / Gurkhas"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Royal Marines / Paras / Gurkhas",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Lanzacohetes Royal Marines / Paras / Gurkhas",
+        "points": 180,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Royal Marines / Paras / Gurkhas (2010)",
+            "suboficialTier": "Arma Apoyo"
+          },
+          {
+            "name": "Royal Marines / Paras / Gurkhas (2018)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Lanzacohetes Pesado* (3 x Cohetes)"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Lanzacohetes Royal Marines / Paras / Gurkhas"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Lanzacohetes Royal Marines / Paras / Gurkhas",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Francotiradores Royal Marines / Paras / Gurkhas",
+        "points": 130,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Royal Marines / Paras / Gurkhas (2010)",
+            "suboficialTier": "Arma Apoyo"
+          },
+          {
+            "name": "Royal Marines / Paras / Gurkhas (2018)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Francotirador Royal Marines / Paras / Gurkhas"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Observador Royal Marines / Paras / Gurkhas",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Ligero Royal Marines / Paras / Gurkhas",
+        "points": 135,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Royal Marines / Paras / Gurkhas (2010)",
+            "suboficialTier": "Arma Apoyo"
+          },
+          {
+            "name": "Royal Marines / Paras / Gurkhas (2018)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Ligero*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Royal Marines / Paras / Gurkhas"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Royal Marines / Paras / Gurkhas",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Royal Marines / Paras / Gurkhas",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Suboficial SAS / SBS / SRR / SFSG",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 9,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "SAS / SBS / SRR / SFSG",
+            "suboficialTier": "Mando Apoyo"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Ametralladora Media (MMG) SAS / SBS / SRR / SFSG",
+        "points": 110,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "SAS / SBS / SRR / SFSG",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "MMG*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador SAS / SBS / SRR / SFSG"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador SAS / SBS / SRR / SFSG",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Lanzacohetes SAS / SBS / SRR / SFSG",
+        "points": 190,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "SAS / SBS / SRR / SFSG",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Lanzacohetes Pesado* (3 x Cohetes)"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Lanzacohetes SAS / SBS / SRR / SFSG"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Lanzacohetes SAS / SBS / SRR / SFSG",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Francotiradores SAS / SBS / SRR / SFSG",
+        "points": 140,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "SAS / SBS / SRR / SFSG",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Francotirador SAS / SBS / SRR / SFSG"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Observador SAS / SBS / SRR / SFSG",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Sargento Ejército de Tierra",
+        "points": 60,
+        "training": 8,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Ejército de Tierra",
+            "suboficialTier": "Mando Principal"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cabo Ejército de Tierra",
+        "points": 55,
+        "unlimited": true,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Ejército de Tierra",
+            "suboficialTier": "Mando Secundario"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Sargento Legionarios / Cazadores de Montaña / Infantería de Marina",
+        "points": 60,
+        "training": 8,
+        "experience": -1,
+        "factions": [
+          {
+            "name": "Legionarios / Cazadores de Montaña / Infantería de Marina",
+            "suboficialTier": "Mando Principal"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cabo Legionarios / Cazadores de Montaña / Infantería de Marina",
+        "points": 55,
+        "unlimited": true,
+        "training": 7,
+        "experience": -1,
+        "factions": [
+          {
+            "name": "Legionarios / Cazadores de Montaña / Infantería de Marina",
+            "suboficialTier": "Mando Secundario"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Jefe Insurgentes Tipo 1",
+        "points": 55,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 1",
+            "suboficialTier": "Mando Principal"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Ayudante Insurgentes Tipo 1",
+        "points": 50,
+        "unlimited": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 1",
+            "suboficialTier": "Mando Secundario"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Jefe Insurgentes Tipo 2",
+        "points": 55,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 2",
+            "suboficialTier": "Mando Principal"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Ayudante Insurgentes Tipo 2",
+        "points": 50,
+        "unlimited": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 2",
+            "suboficialTier": "Mando Secundario"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Jefe Insurgentes Tipo 3",
+        "points": 60,
+        "training": 8,
+        "experience": -1,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 3",
+            "suboficialTier": "Mando Principal"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Ayudante Insurgentes Tipo 3",
+        "points": 55,
+        "unlimited": true,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 3",
+            "suboficialTier": "Mando Secundario"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Jefe Insurgentes Tipo 4",
+        "points": 65,
+        "training": 8,
+        "experience": -1,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 4",
+            "suboficialTier": "Mando Principal"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Ayudante Insurgentes Tipo 4",
+        "points": 60,
+        "unlimited": true,
+        "training": 7,
+        "experience": -1,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 4",
+            "suboficialTier": "Mando Secundario"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Jefe Insurgentes Tipo 5",
+        "points": 65,
+        "training": 9,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 5",
+            "suboficialTier": "Mando Principal"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Ayudante Insurgentes Tipo 5",
+        "points": 60,
+        "unlimited": true,
+        "training": 8,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 5",
+            "suboficialTier": "Mando Secundario"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Suboficial Insurgente Tipo 1",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": -1,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 1",
+            "suboficialTier": "Mando Apoyo"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Suboficial Insurgente Tipo 2",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 2",
+            "suboficialTier": "Mando Apoyo"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Suboficial Insurgente Tipo 3",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 8,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 3",
+            "suboficialTier": "Mando Apoyo"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Suboficial Insurgente Tipo 4",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 8,
+        "experience": -1,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 4",
+            "suboficialTier": "Mando Apoyo"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Suboficial Insurgente Tipo 5",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 9,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 5",
+            "suboficialTier": "Mando Apoyo"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Ametralladora Media (MMG) Insurgentes Tipo 1",
+        "points": 70,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 1",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "MMG*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Insurgentes Tipo 1"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Insurgentes Tipo 1",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Ametralladora Pesada (HMG) Insurgentes Tipo 1",
+        "points": 130,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 1",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Insurgente Tipo 1"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Insurgentes Tipo 1",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Insurgentes Tipo 1",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Ligero Insurgentes Tipo 1",
+        "points": 90,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 1",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Ligero*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Insurgente Tipo 1"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Insurgentes Tipo 1",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Insurgentes Tipo 1",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Medio Insurgentes Tipo 1",
+        "points": 100,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 1",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Medio*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Insurgente Tipo 1"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Insurgentes Tipo 1",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Insurgentes Tipo 1",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Ametralladora Media (MMG) Insurgentes Tipo 2",
+        "points": 80,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 2",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "MMG*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Insurgentes Tipo 2"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Insurgentes Tipo 2",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Ametralladora Pesada (HMG) Insurgentes Tipo 2",
+        "points": 145,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 2",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Insurgente Tipo 2"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Insurgentes Tipo 2",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Insurgentes Tipo 2",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Ligero Insurgentes Tipo 2",
+        "points": 105,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 2",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Ligero*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Insurgente Tipo 2"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Insurgentes Tipo 2",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Insurgentes Tipo 2",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Medio Insurgentes Tipo 2",
+        "points": 115,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 2",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Medio*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Insurgente Tipo 2"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Insurgentes Tipo 2",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Insurgentes Tipo 2",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Pesado Insurgentes Tipo 2",
+        "points": 125,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 2",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Pesado*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Insurgente Tipo 2"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Insurgentes Tipo 2",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Insurgentes Tipo 2",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Ametralladora Media (MMG) Insurgentes Tipo 3",
+        "points": 90,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 3",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "MMG*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Insurgentes Tipo 3"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Insurgentes Tipo 3",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Ametralladora Pesada (HMG) Insurgentes Tipo 3",
+        "points": 160,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 3",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Insurgente Tipo 3"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Insurgentes Tipo 3",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Insurgentes Tipo 3",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Ligero Insurgentes Tipo 3",
+        "points": 120,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 3",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Ligero*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Insurgente Tipo 3"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Insurgentes Tipo 3",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Insurgentes Tipo 3",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Medio Insurgentes Tipo 3",
+        "points": 130,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 3",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Medio*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Insurgente Tipo 3"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Insurgentes Tipo 3",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Insurgentes Tipo 3",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Pesado Insurgentes Tipo 3",
+        "points": 140,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 3",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Pesado*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Insurgente Tipo 3"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Insurgentes Tipo 3",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Insurgentes Tipo 3",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Francotiradores Insurgentes Tipo 3",
+        "points": 120,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 3",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Francotirador Insurgentes Tipo 3"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Observador Insurgentes Tipo 3",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Ametralladora Media (MMG) Insurgentes Tipo 4",
+        "points": 100,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 4",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "MMG*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Insurgentes Tipo 4"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Insurgentes Tipo 4",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Ametralladora Pesada (HMG) Insurgentes Tipo 4",
+        "points": 175,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 4",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Insurgente Tipo 4"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Insurgentes Tipo 4",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Insurgentes Tipo 4",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Ligero Insurgentes Tipo 4",
+        "points": 135,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 4",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Ligero*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Insurgente Tipo 4"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Insurgentes Tipo 4",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Insurgentes Tipo 4",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Medio Insurgentes Tipo 4",
+        "points": 145,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 4",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Medio*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Insurgente Tipo 4"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Insurgentes Tipo 4",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Insurgentes Tipo 4",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Francotiradores Insurgentes Tipo 4",
+        "points": 130,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 4",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Francotirador Insurgentes Tipo 4"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Observador Insurgentes Tipo 4",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Ametralladora Media (MMG) Insurgentes Tipo 5",
+        "points": 100,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 5",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "MMG*"
+        ],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 10
+          }
+        ],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Insurgentes Tipo 5"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Insurgentes Tipo 5",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Ligero Insurgentes Tipo 5",
+        "points": 135,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 5",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Ligero*"
+        ],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 15
+          }
+        ],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Insurgente Tipo 5"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Insurgentes Tipo 5",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Insurgentes Tipo 5",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Medio Insurgentes Tipo 5",
+        "points": 145,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 5",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Medio*"
+        ],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 15
+          }
+        ],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Insurgente Tipo 5"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Insurgentes Tipo 5",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Insurgentes Tipo 5",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Francotiradores Insurgentes Tipo 5",
+        "points": 130,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 5",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 10
+          }
+        ],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Francotirador Insurgentes Tipo 5"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Observador Insurgentes Tipo 5",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      }
+    ],
+    "soldados": [
+      {
+        "name": "Soldado LMG US Rangers",
+        "points": 60,
+        "autoAddOnly": true,
+        "limit": 2,
+        "training": 6,
+        "experience": -1,
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Cabo US Ranger"
+              },
+              {
+                "in": "US Rangers"
+              }
+            ]
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "LMG",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil y Lanzagranadas US Rangers",
+        "points": 60,
+        "limit": 2,
+        "max": 2,
+        "training": 6,
+        "experience": -1,
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Cabo US Ranger"
+              },
+              {
+                "in": "US Rangers"
+              }
+            ]
+          }
+        ],
+        "limits": [
+          {
+            "key": "opcionAlfa",
+            "limit": 1,
+            "perParent": true
+          },
+          {
+            "key": "lanzagranadas",
+            "limit": 2,
+            "perParent": false
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Lanzagranadas para Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil US Rangers",
+        "points": 50,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "US Rangers"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Soldado Escopeta US Rangers",
+        "points": 45,
+        "limit": 1,
+        "training": 6,
+        "experience": -1,
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Cabo US Ranger"
+              },
+              {
+                "in": "US Rangers"
+              }
+            ]
+          }
+        ],
+        "limits": [
+          {
+            "key": "opcionAlfa",
+            "limit": 1,
+            "perParent": true
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Escopeta",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Tirador Designado US Rangers",
+        "points": 50,
+        "limit": 1,
+        "training": 6,
+        "experience": -1,
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Cabo US Ranger"
+              },
+              {
+                "in": "US Rangers"
+              }
+            ]
+          }
+        ],
+        "limits": [
+          {
+            "key": "opcionAlfa",
+            "limit": 1,
+            "perParent": true
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Soldado LMG US Army",
+        "points": 55,
+        "limit": 2,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Cabo US Army"
+              },
+              {
+                "in": "US Army"
+              }
+            ]
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "LMG",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil con Lanzagranadas US Army",
+        "points": 55,
+        "autoAddOnly": true,
+        "limit": 2,
+        "training": 6,
+        "experience": 0,
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Cabo US Army"
+              },
+              {
+                "in": "US Army"
+              }
+            ]
+          }
+        ],
+        "limits": [
+          {
+            "key": "opcionAlfa",
+            "limit": 1,
+            "perParent": true
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Lanzagranadas para Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil US Army",
+        "points": 45,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "US Army"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Soldado Escopeta US Army",
+        "points": 40,
+        "limit": 1,
+        "training": 6,
+        "experience": 0,
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Cabo US Army"
+              },
+              {
+                "in": "US Army"
+              }
+            ]
+          }
+        ],
+        "limits": [
+          {
+            "key": "opcionAlfa",
+            "limit": 1,
+            "perParent": true
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Escopeta",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Tirador Designado US Army",
+        "points": 45,
+        "limit": 1,
+        "training": 6,
+        "experience": 0,
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Cabo US Army"
+              },
+              {
+                "in": "US Army"
+              }
+            ]
+          }
+        ],
+        "limits": [
+          {
+            "key": "opcionAlfa",
+            "limit": 1,
+            "perParent": true
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil con Lanzagranadas US Marines",
+        "points": 55,
+        "limit": 3,
+        "training": 6,
+        "experience": 0,
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Cabo US Marines"
+              },
+              {
+                "in": "US Marines"
+              }
+            ]
+          }
+        ],
+        "limits": [
+          {
+            "key": "opcionAlfa",
+            "limit": 1,
+            "perParent": true
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Lanzagranadas para Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil US Marines",
+        "points": 45,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "US Marines"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Soldado Escopeta US Marines",
+        "points": 40,
+        "limit": 1,
+        "training": 6,
+        "experience": 0,
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Cabo US Marines"
+              },
+              {
+                "in": "US Marines"
+              }
+            ]
+          }
+        ],
+        "limits": [
+          {
+            "key": "opcionAlfa",
+            "limit": 1,
+            "perParent": true
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Escopeta",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Tirador Designado US Marines",
+        "points": 45,
+        "limit": 1,
+        "training": 6,
+        "experience": 0,
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Cabo US Marines"
+              },
+              {
+                "in": "US Marines"
+              }
+            ]
+          }
+        ],
+        "limits": [
+          {
+            "key": "opcionAlfa",
+            "limit": 1,
+            "perParent": true
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Soldado LMG US SOCOM",
+        "points": 65,
+        "training": 7,
+        "experience": -1,
+        "factions": [
+          "US SOCOM"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "LMG",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil con Lanzagranadas US SOCOM",
+        "points": 65,
+        "training": 7,
+        "experience": -1,
+        "factions": [
+          "US SOCOM"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Lanzagranadas para Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil US SOCOM",
+        "points": 55,
+        "training": 7,
+        "experience": -1,
+        "factions": [
+          "US SOCOM"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Soldado Escopeta US SOCOM",
+        "points": 45,
+        "training": 7,
+        "experience": -1,
+        "factions": [
+          "US SOCOM"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Escopeta",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Tirador Designado US SOCOM",
+        "points": 55,
+        "training": 7,
+        "experience": -1,
+        "factions": [
+          "US SOCOM"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Soldado SMG US SOCOM",
+        "points": 50,
+        "training": 7,
+        "experience": -1,
+        "factions": [
+          "US SOCOM"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Subfusil (SMG)",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Tirador US Army",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "US Army"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cargador US Army",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "US Army"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Tirador US Marines",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "US Marines"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cargador US Marines",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "US Marines"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Tirador US Rangers",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "US Rangers"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "MMG*",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cargador US Rangers",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "US Rangers"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Tirador MMG SOCOM",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 7,
+        "experience": -1,
+        "factions": [
+          "US SOCOM"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cargador US SOCOM",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 7,
+        "experience": -1,
+        "factions": [
+          "US SOCOM"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Francotirador US Army",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "US Army"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Observador US Army",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "US Army"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Francotirador US Marines",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "US Marines"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Observador US Marines",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "US Marines"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Francotirador US Rangers",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "US Rangers"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Observador US Rangers",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "US Rangers"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Francotirador US SOCOM",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 7,
+        "experience": -1,
+        "factions": [
+          "US Rangers"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Observador US SOCOM",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 7,
+        "experience": -1,
+        "factions": [
+          "US Rangers"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Tirador Lanzacohetes US Army",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "US Army"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Lanzacohetes Pesado* (3 x Cohetes)",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cargador Lanzacohetes US Army",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "US Army"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Tirador Lanzacohetes US Marines",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "US Marines"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Lanzacohetes Pesado* (3 x Cohetes)",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cargador Lanzacohetes US Marines",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "US Marines"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Tirador Lanzacohetes US Rangers",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "US Rangers"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Lanzacohetes Pesado* (3 x Cohetes)",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cargador Lanzacohetes US Rangers",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "US Rangers"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Tirador Lanzacohetes US SOCOM",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 7,
+        "experience": -1,
+        "factions": [
+          "US SOCOM"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Lanzacohetes Pesado* (3 x Cohetes)",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cargador Lanzacohetes US SOCOM",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 7,
+        "experience": -1,
+        "factions": [
+          "US SOCOM"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Tirador British Army",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "British Army (2010)",
+          "British Army (2018)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Cargador British Army",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "British Army (2010)",
+          "British Army (2018)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Francotirador British Army",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "British Army (2010)",
+          "British Army (2018)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión"
+        ],
+        "options": []
+      },
+      {
+        "name": "Observador British Army",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "British Army (2010)",
+          "British Army (2018)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Tirador Lanzacohetes British Army",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "British Army (2010)",
+          "British Army (2018)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Lanzacohetes Pesado* (3 x Cohetes)"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cargador Lanzacohetes British Army",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "British Army (2010)",
+          "British Army (2018)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Tirador Royal Marines / Paras / Gurkhas",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Royal Marines / Paras / Gurkhas (2010)",
+          "Royal Marines / Paras / Gurkhas (2018)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Cargador Royal Marines / Paras / Gurkhas",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Royal Marines / Paras / Gurkhas (2010)",
+          "Royal Marines / Paras / Gurkhas (2018)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Francotirador Royal Marines / Paras / Gurkhas",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Royal Marines / Paras / Gurkhas (2010)",
+          "Royal Marines / Paras / Gurkhas (2018)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión"
+        ],
+        "options": []
+      },
+      {
+        "name": "Observador Royal Marines / Paras / Gurkhas",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Royal Marines / Paras / Gurkhas (2010)",
+          "Royal Marines / Paras / Gurkhas (2018)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Tirador Lanzacohetes Royal Marines / Paras / Gurkhas",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Royal Marines / Paras / Gurkhas (2010)",
+          "Royal Marines / Paras / Gurkhas (2018)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Lanzacohetes Pesado* (3 x Cohetes)"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cargador Lanzacohetes Royal Marines / Paras / Gurkhas",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Royal Marines / Paras / Gurkhas (2010)",
+          "Royal Marines / Paras / Gurkhas (2018)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Tirador SAS / SBS / SRR / SFSG",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": -1,
+        "factions": [
+          "SAS / SBS / SRR / SFSG"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cargador SAS / SBS / SRR / SFSG",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": -1,
+        "factions": [
+          "SAS / SBS / SRR / SFSG"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Francotirador SAS / SBS / SRR / SFSG",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": -1,
+        "factions": [
+          "SAS / SBS / SRR / SFSG"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Observador SAS / SBS / SRR / SFSG",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": -1,
+        "factions": [
+          "SAS / SBS / SRR / SFSG"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Tirador Lanzacohetes SAS / SBS / SRR / SFSG",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": -1,
+        "factions": [
+          "SAS / SBS / SRR / SFSG"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Lanzacohetes Pesado* (3 x Cohetes)",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cargador Lanzacohetes SAS / SBS / SRR / SFSG",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": -1,
+        "factions": [
+          "SAS / SBS / SRR / SFSG"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Soldado LMG British Army",
+        "points": 50,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "British Army (2010)",
+          "British Army (2018)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "LMG"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil con Lanzagranadas British Army",
+        "points": 50,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "British Army (2010)",
+          "British Army (2018)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Lanzagranadas para Fusil de Asalto"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil British Army",
+        "points": 40,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "British Army (2010)",
+          "British Army (2018)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Tirador Designado British Army",
+        "points": 40,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "British Army (2010)",
+          "British Army (2018)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Soldado LMG Royal Marines / Paras / Gurkhas",
+        "points": 55,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Royal Marines / Paras / Gurkhas (2010)",
+          "Royal Marines / Paras / Gurkhas (2018)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "LMG"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil con Lanzagranadas Royal Marines / Paras / Gurkhas",
+        "points": 55,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Royal Marines / Paras / Gurkhas (2010)",
+          "Royal Marines / Paras / Gurkhas (2018)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Lanzagranadas para Fusil de Asalto"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil Royal Marines / Paras / Gurkhas",
+        "points": 45,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Royal Marines / Paras / Gurkhas (2010)",
+          "Royal Marines / Paras / Gurkhas (2018)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Tirador Designado Royal Marines / Paras / Gurkhas",
+        "points": 45,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Royal Marines / Paras / Gurkhas (2010)",
+          "Royal Marines / Paras / Gurkhas (2018)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Soldado LMG SAS / SBS / SRR / SFSG",
+        "points": 65,
+        "limit": 2,
+        "training": 7,
+        "experience": -1,
+        "factions": [
+          "SAS / SBS / SRR / SFSG"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "LMG",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil con Lanzagranadas SAS / SBS / SRR / SFSG",
+        "points": 65,
+        "training": 7,
+        "experience": -1,
+        "factions": [
+          "SAS / SBS / SRR / SFSG"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Lanzagranadas para Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil SAS / SBS / SRR / SFSG",
+        "points": 55,
+        "training": 7,
+        "experience": -1,
+        "factions": [
+          "SAS / SBS / SRR / SFSG"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Soldado Escopeta SAS / SBS / SRR / SFSG",
+        "points": 45,
+        "training": 7,
+        "experience": -1,
+        "factions": [
+          "SAS / SBS / SRR / SFSG"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Escopeta",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Tirador Designado SAS / SBS / SRR / SFSG",
+        "points": 55,
+        "training": 7,
+        "experience": -1,
+        "factions": [
+          "SAS / SBS / SRR / SFSG"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Soldado SMG SAS / SBS / SRR / SFSG",
+        "points": 50,
+        "training": 7,
+        "experience": -1,
+        "factions": [
+          "SAS / SBS / SRR / SFSG"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Subfusil (SMG)",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Soldado LMG Ejército de Tierra",
+        "points": 50,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Ejército de Tierra"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "LMG"
+        ],
+        "options": []
+      },
+      {
+        "name": "Soldado Fusil con Lanzagranadas Ejército de Tierra",
+        "points": 50,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Ejército de Tierra"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Lanzagranadas para Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Soldado Fusil Ejército de Tierra",
+        "points": 40,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Ejército de Tierra"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Soldado LMG Legionarios / Cazadores de Montaña / Infantería de Marina",
+        "points": 50,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Legionarios / Cazadores de Montaña / Infantería de Marina"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "LMG"
+        ],
+        "options": []
+      },
+      {
+        "name": "Soldado Fusil con Lanzagranadas Legionarios / Cazadores de Montaña / Infantería de Marina",
+        "points": 50,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Legionarios / Cazadores de Montaña / Infantería de Marina"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Lanzagranadas para Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Soldado Fusil Legionarios / Cazadores de Montaña / Infantería de Marina",
+        "points": 40,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Legionarios / Cazadores de Montaña / Infantería de Marina"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Soldado Pistola Insurgentes Tipo 1",
+        "points": 15,
+        "training": 5,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 1"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Pistola"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Recargable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Soldado Rifle Insurgentes Tipo 1",
+        "points": 20,
+        "training": 5,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 1"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Recargable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Soldado Escopeta Insurgentes Tipo 1",
+        "points": 20,
+        "training": 5,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 1"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Escopeta"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Recargable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Soldado SMG Insurgentes Tipo 1",
+        "points": 25,
+        "training": 5,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 1"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Subfusil (SMG)"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Recargable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil Insurgentes Tipo 1",
+        "points": 30,
+        "training": 5,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 1"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Recargable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Soldado LMG Insurgentes Tipo 1",
+        "points": 40,
+        "training": 5,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 1"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "LMG"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Recargable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Francotirador Insurgentes Tipo 1",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 5,
+        "experience": 1,
+        "factions": [
+          "Insurgentes Tipo 1"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión"
+        ],
+        "options": []
+      },
+      {
+        "name": "Observador Insurgentes Tipo 1",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 5,
+        "experience": 1,
+        "factions": [
+          "Insurgentes Tipo 1"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          ""
+        ],
+        "options": []
+      },
+      {
+        "name": "Tirador Insurgentes Tipo 1",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 5,
+        "experience": 1,
+        "factions": [
+          "Insurgentes Tipo 1"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Cargador Insurgentes Tipo 1",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 5,
+        "experience": 1,
+        "factions": [
+          "Insurgentes Tipo 1"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Soldado Pistola Insurgentes Tipo 2",
+        "points": 20,
+        "training": 5,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 2"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Pistola"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Recargable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Soldado Escopeta Insurgentes Tipo 2",
+        "points": 25,
+        "training": 5,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 2"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Escopeta"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Recargable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Soldado SMG Insurgentes Tipo 2",
+        "points": 30,
+        "training": 5,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 2"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Subfusil (SMG)"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Recargable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil Insurgentes Tipo 2",
+        "points": 35,
+        "training": 5,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 2"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Recargable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Soldado LMG Insurgentes Tipo 2",
+        "points": 45,
+        "training": 5,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 2"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "LMG"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Recargable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Tirador Designado Insurgentes Tipo 2",
+        "points": 35,
+        "training": 5,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 2"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Recargable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Francotirador Insurgentes Tipo 2",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 5,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 2"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión"
+        ],
+        "options": []
+      },
+      {
+        "name": "Observador Insurgentes Tipo 2",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 5,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 2"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          ""
+        ],
+        "options": []
+      },
+      {
+        "name": "Tirador Insurgentes Tipo 2",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 5,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 2"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Cargador Insurgentes Tipo 2",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 5,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 2"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Soldado SMG Insurgentes Tipo 3",
+        "points": 35,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 3"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Subfusil (SMG)"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Recargable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil Insurgentes Tipo 3",
+        "points": 40,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 3"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Recargable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil con Lanzagranadas Insurgentes Tipo 3",
+        "points": 50,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 3"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Lanzagranadas para Fusil de Asalto"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Recargable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Soldado LMG Insurgentes Tipo 3",
+        "points": 50,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 3"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "LMG"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Recargable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Tirador Designado Insurgentes Tipo 3",
+        "points": 40,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 3"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Recargable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Francotirador Insurgentes Tipo 3",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 3"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión"
+        ],
+        "options": []
+      },
+      {
+        "name": "Observador Insurgentes Tipo 3",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 3"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          ""
+        ],
+        "options": []
+      },
+      {
+        "name": "Tirador Insurgentes Tipo 3",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 3"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Cargador Insurgentes Tipo 3",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 3"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          ""
+        ],
+        "options": []
+      },
+      {
+        "name": "Soldado SMG Insurgentes Tipo 4",
+        "points": 40,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 4"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Subfusil (SMG)"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Recargable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil Insurgentes Tipo 4",
+        "points": 45,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 4"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Recargable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil con Lanzagranadas Insurgentes Tipo 4",
+        "points": 55,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Insurgentes Tipo 4"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Lanzagranadas para Fusil de Asalto"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Recargable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Soldado LMG Insurgentes Tipo 4",
+        "points": 55,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 4"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "LMG"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Recargable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Tirador Designado Insurgentes Tipo 4",
+        "points": 45,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Insurgentes Tipo 4"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Recargable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          }
+        ]
+      },
+      {
+        "name": "Francotirador Insurgentes Tipo 4",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Insurgentes Tipo 4"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión"
+        ],
+        "options": []
+      },
+      {
+        "name": "Observador Insurgentes Tipo 4",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Insurgentes Tipo 4"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Tirador Insurgentes Tipo 4",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Insurgentes Tipo 4"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Cargador Insurgentes Tipo 4",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Insurgentes Tipo 4"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Soldado Escopeta Insurgentes Tipo 5",
+        "points": 35,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 5"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Escopeta"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Recargable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Soldado SMG Insurgentes Tipo 5",
+        "points": 45,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 5"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Subfusil (SMG)"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Recargable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          },
+          {
+            "name": "Miras tácticas",
+            "points": 5
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil Insurgentes Tipo 5",
+        "points": 50,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 5"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Recargable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          },
+          {
+            "name": "Miras tácticas",
+            "points": 5
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil con Lanzagranadas Insurgentes Tipo 5",
+        "points": 55,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 5"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Lanzagranadas para Fusil de Asalto"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Recargable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          },
+          {
+            "name": "Miras tácticas",
+            "points": 5
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Soldado LMG Insurgentes Tipo 5",
+        "points": 60,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 5"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "LMG"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Recargable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Tirador Designado Insurgentes Tipo 5",
+        "points": 45,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 5"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Recargable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Francotirador Insurgentes Tipo 5",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 5"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión"
+        ],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Observador Insurgentes Tipo 5",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 5"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Tirador Insurgentes Tipo 5",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 5"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Cargador Insurgentes Tipo 5",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Insurgentes Tipo 5"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
+      }
+    ],
+    "gear": [
+      {
+        "name": "Pistola",
+        "definition": "25cm | PF: 2 | B/E: 3/6 | AT: - | Especial: - | Ejemplos: Makarov, Glock, M9"
+      },
+      {
+        "name": "Subfusil (SMG)",
+        "definition": "40cm | PF: 3 | B/E: 3/6 | AT: - | Especial: - | Ejemplos: MP-5, UZI",
+        "type": "fusil"
+      },
+      {
+        "name": "Fusil de Asalto",
+        "definition": "70cm | PF: 3 | B/E: 4/7 | AT: - | Especial: - | Ejemplos: AK-47, M-16, G-36, M-4",
+        "type": "fusil"
+      },
+      {
+        "name": "Lanzagranadas para Fusil de Asalto",
+        "definition": "40cm | PF: - | B/E: 3/8 | AT: 4 | Especial: Área, Recarga | Ejemplos: M79, M320"
+      },
+      {
+        "name": "Rifle",
+        "definition": "100cm | PF: 1 | B/E: 4/8 | AT: - | Especial: - | Ejemplos: Lee-Enfield, KaR98, Mosin-Nagant"
+      },
+      {
+        "name": "Rifle de Precisión",
+        "definition": "100cm | PF: 1 | B/E: 4/8 | AT: - | Especial: Mira telescópica | Ejemplos: Dragunov, Accuracy"
+      },
+      {
+        "name": "Escopeta",
+        "definition": "30cm | PF: 1 | B/E: 5C/0L / 6C/6L | AT: - | Especial: Escopeta | Ejemplos: Mossberg 590, Benelli M4"
+      },
+      {
+        "name": "LMG",
+        "definition": "100cm | PF: 4 | B/E: 4/7 | AT: 4 | Especial: ¡Atascada! | Ejemplos: SAW, Minimi, RPK-47, MG-4",
+        "type": "lmg"
+      },
+      {
+        "name": "MMG*",
+        "definition": "120cm | PF: 5 | B/E: 4/8 | AT: 6 | Especial: ¡Atascada!, 180º visión | Ejemplos: M60, PKM, FN-MAG"
+      },
+      {
+        "name": "HMG*",
+        "definition": "150cm | PF: 6 | B/E: 4/8 | AT: 6 | Especial: ¡Atascada!, Montar y Desmontar, 180º visión | Ejemplos: Browning .50 cal, DSHK"
+      },
+      {
+        "name": "Lanzagranadas automático 40 mm*",
+        "definition": "100cm | PF: - | B/E: 3/8 | AT: 6 | Especial: Área, ¡Atascada!, Montar y Desmontar, 180º visión | Ejemplos: LAG-40, MK-19, AGS-17"
+      },
+      {
+        "name": "Mortero Ligero*",
+        "definition": "90cm | PF: - | B/E: 3/8 | AT: 6 | Especial: Área, Recarga, Montar y Desmontar, 180º visión, Humo | Ejemplos: Mortero de 50 mm, Mortero de 60 mm, Mortero de 2”"
+      },
+      {
+        "name": "Mortero Medio*",
+        "definition": "120cm | PF: - | B/E: 4/8 | AT: 7 | Especial: Área, Recarga, Montar y Desmontar, 180º visión, Humo | Ejemplos: Mortero de 80 mm, Mortero de 3”"
+      },
+      {
+        "name": "Mortero Pesado*",
+        "definition": "150cm | PF: - | B/E: 4/9 | AT: 8 | Especial: Área (3d10), Recarga, Montar y Desmontar, 180º visión, Humo | Ejemplos: Mortero de 120 mm"
+      },
+      {
+        "name": "Lanzacohetes Ligero Desechable",
+        "definition": "60cm | PF: - | B/E: 3/8 | AT: 10 | Especial: Área, Un sólo uso | Ejemplos: LAW-80, AT-4, C-90",
+        "type": "rpg"
+      },
+      {
+        "name": "Lanzacohetes Ligero Recargable",
+        "definition": "60cm | PF: - | B/E: 3/8 | AT: 10 | Especial: Área, Recarga | Ejemplos: RPG-7",
+        "type": "rpg"
+      },
+      {
+        "name": "Lanzacohetes Pesado* (3 x Cohetes)",
+        "definition": "80cm | PF: - | B/E: 4/8 | AT: 12 | Especial: Área, Recarga, Montar y Desmontar, 180º visión | Ejemplos: Javelin, NLAW, Alcotán-100"
+      },
+      {
+        "name": "Minas",
+        "definition": "Contacto | PF: Base | B/E: 3/8 | AT: 4 | Especial: Área, Un solo uso | Ejemplos: Claymore / Booby Trap"
+      },
+      {
+        "name": "Cañón (Vehículo)",
+        "definition": "120cm | PF: - | B/E: 3/8 | AT: 8 | Especial: Área (3d10) | Ejemplos: Bradley, Pizarro"
+      },
+      {
+        "name": "Miras tácticas",
+        "definition": "Corta distancia (+5cm)"
+      },
+      {
+        "name": "Perro Adiestrado",
+        "definition": "3 Att - 20",
+        "type": "dog"
+      },
+      {
+        "name": "Chaleco Antibalas",
+        "definition": "Terreno Abierto (B/E -1/0)"
+      },
+      {
+        "name": "Cohetes Extra",
+        "definition": "+1 Cohete Lanzacohetes ligero recargable"
+      },
+      {
+        "name": "Granada de Fragmentación",
+        "definition": "20cm | PF: - | B/E: 3/8 | AT: 4 | Especial: Área, Humo | Ejemplos: Granada de mano"
+      },
+      {
+        "name": "Granada Aturdidora",
+        "definition": "20cm | PF: - | B/E: 0/10 | AT: - | Especial: Área, Humo | Ejemplos: Granada de mano"
+      },
+      {
+        "name": "Granada Lanzagranadas (Fusil)",
+        "definition": "40cm | PF: - | B/E: 3/8 | AT: 4 | Especial: Área | Ejemplos: -"
+      },
+      {
+        "name": "Cóctel Molotov",
+        "definition": "20cm | PF: - | B/E: 1/8 | AT: 3 | Especial: Área, Humo | Ejemplos: -"
+      }
+    ],
+    "armyBonuses": []
+  }
+}
