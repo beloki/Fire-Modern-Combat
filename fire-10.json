@@ -25,7 +25,7 @@
   "credit": [
     {
       "type": "text",
-      "text": "Data provided by ChicoBeloki."
+      "text": "Datos creados por ChicoBeloki. No es un producto/fuente oficial"
     },
     {
       "type": "url",
@@ -33,7 +33,7 @@
       "url": "https://www.youtube.com/@firemoderncombat"
     }
   ],
-  "game": "FIRE! Modern Combat - Miniature Wargame (WIP)",
+  "game": "FIRE! Modern Combat - Miniature Wargame (Beta)",
   "toggles": [],
   "scenarios": [],
   "stats": [
@@ -897,6 +897,164 @@
             "name": "Cabo SAS / SBS / SRR / SFSG",
             "points": 70,
             "elementPropertyName": "suboficiales"
+          }
+        ]
+      },
+      {
+        "name": "Armée de Terre",
+        "alignment": "Francia",
+        "options": [
+          {
+            "name": "Minas",
+            "points": 10,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Granada de Fragmentación",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Aturdidora",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Lanzagranadas (Fusil)",
+            "points": 5,
+            "increment": true,
+            "max": 6
+          }
+        ],
+        "requiredChildren": [
+          {
+            "name": "Sargento Armée de Terre",
+            "points": 60,
+            "mustBeLeader": true,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Tirador Designado Armée de Terre",
+                "points": 50,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          },
+          {
+            "name": "Cabo Armée de Terre",
+            "points": 55,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil y Lanzacohetes Armée de Terre",
+                "points": 65,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil y Lanzacohetes Armée de Terre",
+                "points": 65,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          },
+          {
+            "name": "Cabo Armée de Terre",
+            "points": 55,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado LMG Armée de Terre",
+                "points": 50,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil con Lanzagranadas Armée de Terre",
+                "points": 50,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Légion Étrangere",
+        "alignment": "Francia",
+        "options": [
+          {
+            "name": "Minas",
+            "points": 10,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Granada de Fragmentación",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Aturdidora",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Lanzagranadas (Fusil)",
+            "points": 5,
+            "increment": true,
+            "max": 6
+          }
+        ],
+        "requiredChildren": [
+          {
+            "name": "Sargento Légion Étrangere",
+            "points": 65,
+            "mustBeLeader": true,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Tirador Designado Légion Étrangere",
+                "points": 55,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          },
+          {
+            "name": "Cabo Légion Étrangere",
+            "points": 60,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil y Lanzacohetes Légion Étrangere",
+                "points": 70,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil y Lanzacohetes Légion Étrangere",
+                "points": 70,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          },
+          {
+            "name": "Cabo Légion Étrangere",
+            "points": 60,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado LMG Légion Étrangere",
+                "points": 55,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil con Lanzagranadas Légion Étrangere",
+                "points": 55,
+                "elementPropertyName": "soldados"
+              }
+            ]
           }
         ]
       },
@@ -2895,6 +3053,462 @@
           {
             "elementPropertyName": "soldados",
             "name": "Observador SAS / SBS / SRR / SFSG",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Sargento Armée de Terre",
+        "points": 60,
+        "training": 8,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Armée de Terre",
+            "suboficialTier": "Mando Principal"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cabo Armée de Terre",
+        "points": 55,
+        "limit": 2,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Armée de Terre",
+            "suboficialTier": "Mando Secundario"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Sargento Légion Étrangere",
+        "points": 60,
+        "training": 8,
+        "experience": -1,
+        "factions": [
+          {
+            "name": "Légion Étrangere",
+            "suboficialTier": "Mando Principal"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cabo Légion Étrangere",
+        "points": 55,
+        "limit": 2,
+        "training": 7,
+        "experience": -1,
+        "factions": [
+          {
+            "name": "Légion Étrangere",
+            "suboficialTier": "Mando Secundario"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Suboficial Armée de Terre",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Armée de Terre",
+            "suboficialTier": "Mando Apoyo"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Suboficial Légion Étrangere",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          {
+            "name": "Légion Étrangere",
+            "suboficialTier": "Mando Apoyo"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Ametralladora Media (MMG) Armée de Terre",
+        "points": 90,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Armée de Terre",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "MMG*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Armée de Terre"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Armée de Terre",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Lanzacohetes Armée de Terre",
+        "points": 170,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Armée de Terre",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Lanzacohetes Pesado* (3 x Cohetes)"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Lanzacohetes Armée de Terre"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Lanzacohetes Armée de Terre",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Francotiradores Armée de Terre",
+        "points": 120,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Armée de Terre",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Francotirador Armée de Terre"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Observador Armée de Terre",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Ligero Armée de Terre",
+        "points": 120,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Armée de Terre",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Ligero*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Armée de Terre"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Armée de Terre",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Armée de Terre",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Ametralladora Media (MMG) Légion Étrangere",
+        "points": 100,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Légion Étrangere",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "MMG*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Légion Étrangere"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Légion Étrangere",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Lanzacohetes Légion Étrangere",
+        "points": 180,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Légion Étrangere",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Lanzacohetes Pesado* (3 x Cohetes)"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Lanzacohetes Légion Étrangere"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Lanzacohetes Légion Étrangere",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Francotiradores Légion Étrangere",
+        "points": 130,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Légion Étrangere",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Francotirador Légion Étrangere"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Observador Légion Étrangere",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Ligero Légion Étrangere",
+        "points": 130,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Légion Étrangere",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Ligero*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Légion Étrangere"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Légion Étrangere",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Légion Étrangere",
             "quantity": 1,
             "points": 0,
             "lockedChildren": true
@@ -6720,6 +7334,653 @@
             "points": 10
           }
         ]
+      },
+      {
+        "name": "Soldado LMG Armée de Terre",
+        "points": 50,
+        "autoAddOnly": true,
+        "limit": 1,
+        "training": 6,
+        "experience": 0,
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Cabo Armée de Terre"
+              },
+              {
+                "in": "Armée de Terre"
+              }
+            ]
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "LMG"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil con Lanzagranadas Armée de Terre",
+        "points": 50,
+        "autoAddOnly": true,
+        "limit": 1,
+        "training": 6,
+        "experience": 0,
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Cabo Armée de Terre"
+              },
+              {
+                "in": "Armée de Terre"
+              }
+            ]
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Lanzagranadas para Fusil de Asalto"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil y Lanzacohetes Armée de Terre",
+        "points": 65,
+        "autoAddOnly": true,
+        "limit": 2,
+        "training": 6,
+        "experience": 0,
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Cabo Armée de Terre"
+              },
+              {
+                "in": "Armée de Terre"
+              }
+            ]
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Lanzacohetes Ligero Desechable"
+        ],
+        "options": [
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil Armée de Terre",
+        "points": 40,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Armée de Terre"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Tirador Designado Armée de Terre",
+        "points": 40,
+        "autoAddOnly": true,
+        "limit": 1,
+        "training": 6,
+        "experience": 0,
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Sargento Armée de Terre"
+              },
+              {
+                "in": "Armée de Terre"
+              }
+            ]
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Recargable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Soldado LMG Légion Étrangere",
+        "points": 55,
+        "autoAddOnly": true,
+        "limit": 1,
+        "training": 6,
+        "experience": -1,
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Cabo Légion Étrangere"
+              },
+              {
+                "in": "Légion Étrangere"
+              }
+            ]
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "LMG"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil con Lanzagranadas Légion Étrangere",
+        "points": 55,
+        "autoAddOnly": true,
+        "limit": 1,
+        "training": 6,
+        "experience": -1,
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Cabo Légion Étrangere"
+              },
+              {
+                "in": "Légion Étrangere"
+              }
+            ]
+          }
+        ],
+        "limits": [
+          {
+            "key": "lanzagranadas",
+            "limit": 1,
+            "perParent": true
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Lanzagranadas para Fusil de Asalto"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil y Lanzacohetes Légion Étrangere",
+        "points": 70,
+        "autoAddOnly": true,
+        "limit": 2,
+        "training": 6,
+        "experience": -1,
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Cabo Légion Étrangere"
+              },
+              {
+                "in": "Légion Étrangere"
+              }
+            ]
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Lanzacohetes Ligero Desechable"
+        ],
+        "options": [
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil Légion Étrangere",
+        "points": 45,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Légion Étrangere"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Tirador Designado Légion Étrangere",
+        "points": 45,
+        "autoAddOnly": true,
+        "limit": 1,
+        "training": 6,
+        "experience": -1,
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Sargento Légion Étrangere"
+              },
+              {
+                "in": "Légion Étrangere"
+              }
+            ]
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Recargable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Tirador Armée de Terre",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Armée de Terre"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Cargador Armée de Terre",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Armée de Terre"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Tirador Légion Étrangere",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Légion Étrangere"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Cargador Légion Étrangere",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Légion Étrangere"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Francotirador Armée de Terre",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Armée de Terre"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión"
+        ],
+        "options": []
+      },
+      {
+        "name": "Observador Armée de Terre",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Armée de Terre"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Francotirador Légion Étrangere",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Légion Étrangere"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión"
+        ],
+        "options": []
+      },
+      {
+        "name": "Observador Légion Étrangere",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Légion Étrangere"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Tirador Lanzacohetes Armée de Terre",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Armée de Terre"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Lanzacohetes Pesado* (3 x Cohetes)"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cargador Lanzacohetes Armée de Terre",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Armée de Terre"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Tirador Lanzacohetes Légion Étrangere",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Légion Étrangere"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Lanzacohetes Pesado* (3 x Cohetes)"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cargador Lanzacohetes Légion Étrangere",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Légion Étrangere"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
       },
       {
         "name": "Soldado LMG Ejército de Tierra",
