@@ -6724,10 +6724,28 @@
       {
         "name": "Soldado LMG Ejército de Tierra",
         "points": 50,
+        "limit": 2,
         "training": 6,
         "experience": 0,
-        "factions": [
-          "Ejército de Tierra"
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Cabo Legionarios / Cazadores de Montaña / Infantería de Marina"
+              },
+              {
+                "in": "Legionarios / Cazadores de Montaña / Infantería de Marina"
+              }
+            ]
+          }
+        ],
+        "limits": [
+          {
+            "key": "LMG",
+            "limit": 1,
+            "perParent": true
+          }
         ],
         "unitType": [
           "Infantry"
@@ -6738,15 +6756,46 @@
         "wargear": [
           "LMG"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 25
+          }
+        ]
       },
       {
         "name": "Soldado Fusil con Lanzagranadas Ejército de Tierra",
         "points": 50,
+        "limit": 2,
         "training": 6,
         "experience": 0,
-        "factions": [
-          "Ejército de Tierra"
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Cabo Legionarios / Cazadores de Montaña / Infantería de Marina"
+              },
+              {
+                "in": "Legionarios / Cazadores de Montaña / Infantería de Marina"
+              }
+            ]
+          }
+        ],
+        "limits": [
+          {
+            "key": "lanzagranadas",
+            "limit": 1,
+            "perParent": true
+          }
         ],
         "unitType": [
           "Infantry"
@@ -6758,7 +6807,20 @@
           "Fusil de Asalto",
           "Lanzagranadas para Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 25
+          }
+        ]
       },
       {
         "name": "Soldado Fusil Ejército de Tierra",
@@ -6777,11 +6839,24 @@
         "wargear": [
           "Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 25
+          }
+        ]
       },
       {
         "name": "Soldado LMG Legionarios / Cazadores de Montaña / Infantería de Marina",
-        "points": 50,
+        "points": 55,
         "limit": 2,
         "training": 6,
         "experience": -1,
@@ -6831,7 +6906,7 @@
       },
       {
         "name": "Soldado Fusil con Lanzagranadas Legionarios / Cazadores de Montaña / Infantería de Marina",
-        "points": 50,
+        "points": 55,
         "limit": 2,
         "training": 6,
         "experience": -1,
@@ -6882,7 +6957,7 @@
       },
       {
         "name": "Soldado Fusil Legionarios / Cazadores de Montaña / Infantería de Marina",
-        "points": 40,
+        "points": 45,
         "training": 6,
         "experience": -1,
         "factions": [
