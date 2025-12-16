@@ -938,14 +938,14 @@
             "requiredChildren": [
               {
                 "name": "Tirador Designado Armée de Terre",
-                "points": 50,
+                "points": 40,
                 "elementPropertyName": "soldados"
               }
             ]
           },
           {
             "name": "Cabo Armée de Terre",
-            "points": 55,
+            "points": 65,
             "elementPropertyName": "suboficiales",
             "requiredChildren": [
               {
@@ -962,7 +962,7 @@
           },
           {
             "name": "Cabo Armée de Terre",
-            "points": 55,
+            "points": 65,
             "elementPropertyName": "suboficiales",
             "requiredChildren": [
               {
@@ -1017,14 +1017,14 @@
             "requiredChildren": [
               {
                 "name": "Tirador Designado Légion Étrangere",
-                "points": 55,
+                "points": 45,
                 "elementPropertyName": "soldados"
               }
             ]
           },
           {
             "name": "Cabo Légion Étrangere",
-            "points": 60,
+            "points": 70,
             "elementPropertyName": "suboficiales",
             "requiredChildren": [
               {
@@ -1041,7 +1041,7 @@
           },
           {
             "name": "Cabo Légion Étrangere",
-            "points": 60,
+            "points": 70,
             "elementPropertyName": "suboficiales",
             "requiredChildren": [
               {
