@@ -903,12 +903,146 @@
       {
         "name": "Ejército de Tierra",
         "alignment": "España",
-        "options": []
+        "options": [
+          {
+            "name": "Minas",
+            "points": 10,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Granada de Fragmentación",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Aturdidora",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Lanzagranadas (Fusil)",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          }
+        ],
+        "requiredChildren": [
+          {
+            "name": "Sargento Ejército de Tierra",
+            "points": 60,
+            "mustBeLeader": true,
+            "elementPropertyName": "suboficiales"
+          },
+          {
+            "name": "Cabo Ejército de Tierra",
+            "points": 55,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil con Lanzagranadas Ejército de Tierra",
+                "points": 50,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil Ejército de Tierra",
+                "points": 40,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          },
+          {
+            "name": "Cabo Ejército de Tierra",
+            "points": 55,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado LMG Ejército de Tierra",
+                "points": 50,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil Ejército de Tierra",
+                "points": 40,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Legionarios / Cazadores de Montaña / Infantería de Marina",
         "alignment": "España",
-        "options": []
+        "options": [
+          {
+            "name": "Minas",
+            "points": 10,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Granada de Fragmentación",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Aturdidora",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Lanzagranadas (Fusil)",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          }
+        ],
+        "requiredChildren": [
+          {
+            "name": "Sargento Legionarios / Cazadores de Montaña / Infantería de Marina",
+            "points": 65,
+            "mustBeLeader": true,
+            "elementPropertyName": "suboficiales"
+          },
+          {
+            "name": "Cabo Legionarios / Cazadores de Montaña / Infantería de Marina",
+            "points": 60,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil con Lanzagranadas Legionarios / Cazadores de Montaña / Infantería de Marina",
+                "points": 55,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil Legionarios / Cazadores de Montaña / Infantería de Marina",
+                "points": 45,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          },
+          {
+            "name": "Cabo Legionarios / Cazadores de Montaña / Infantería de Marina",
+            "points": 60,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado LMG Legionarios / Cazadores de Montaña / Infantería de Marina",
+                "points": 55,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil Legionarios / Cazadores de Montaña / Infantería de Marina",
+                "points": 45,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Insurgentes Tipo 1",
@@ -2792,7 +2926,7 @@
       {
         "name": "Cabo Ejército de Tierra",
         "points": 55,
-        "unlimited": true,
+        "limit": 2,
         "training": 7,
         "experience": 0,
         "factions": [
@@ -2837,7 +2971,7 @@
       {
         "name": "Cabo Legionarios / Cazadores de Montaña / Infantería de Marina",
         "points": 55,
-        "unlimited": true,
+        "limit": 2,
         "training": 7,
         "experience": -1,
         "factions": [
@@ -6648,10 +6782,28 @@
       {
         "name": "Soldado LMG Legionarios / Cazadores de Montaña / Infantería de Marina",
         "points": 50,
+        "limit": 2,
         "training": 6,
         "experience": -1,
-        "factions": [
-          "Legionarios / Cazadores de Montaña / Infantería de Marina"
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Cabo Legionarios / Cazadores de Montaña / Infantería de Marina"
+              },
+              {
+                "in": "Legionarios / Cazadores de Montaña / Infantería de Marina"
+              }
+            ]
+          }
+        ],
+        "limits": [
+          {
+            "key": "LMG",
+            "limit": 1,
+            "perParent": true
+          }
         ],
         "unitType": [
           "Infantry"
@@ -6662,15 +6814,46 @@
         "wargear": [
           "LMG"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 25
+          }
+        ]
       },
       {
         "name": "Soldado Fusil con Lanzagranadas Legionarios / Cazadores de Montaña / Infantería de Marina",
         "points": 50,
+        "limit": 2,
         "training": 6,
         "experience": -1,
-        "factions": [
-          "Legionarios / Cazadores de Montaña / Infantería de Marina"
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Cabo Legionarios / Cazadores de Montaña / Infantería de Marina"
+              },
+              {
+                "in": "Legionarios / Cazadores de Montaña / Infantería de Marina"
+              }
+            ]
+          }
+        ],
+        "limits": [
+          {
+            "key": "lanzagranadas",
+            "limit": 1,
+            "perParent": true
+          }
         ],
         "unitType": [
           "Infantry"
@@ -6682,7 +6865,20 @@
           "Fusil de Asalto",
           "Lanzagranadas para Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 25
+          }
+        ]
       },
       {
         "name": "Soldado Fusil Legionarios / Cazadores de Montaña / Infantería de Marina",
@@ -6701,7 +6897,20 @@
         "wargear": [
           "Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 25
+          }
+        ]
       },
       {
         "name": "Tirador Ejército de Tierra",
