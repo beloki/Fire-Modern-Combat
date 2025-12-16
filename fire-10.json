@@ -2858,6 +2858,372 @@
         "options": []
       },
       {
+        "name": "Suboficial Ejército de Tierra",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Ejército de Tierra",
+            "suboficialTier": "Mando Apoyo"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Suboficial Legionarios / Cazadores de Montaña / Infantería de Marina",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          {
+            "name": "Legionarios / Cazadores de Montaña / Infantería de Marina",
+            "suboficialTier": "Mando Apoyo"
+          }
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Ametralladora Media (MMG) Ejército de Tierra",
+        "points": 90,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Ejército de Tierra",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "MMG*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Ejército de Tierra"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Ejército de Tierra",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Lanzacohetes Ejército de Tierra",
+        "points": 170,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Ejército de Tierra",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Lanzacohetes Pesado* (3 x Cohetes)"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Lanzacohetes Ejército de Tierra"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Lanzacohetes Ejército de Tierra",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Francotiradores Ejército de Tierra",
+        "points": 120,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Ejército de Tierra",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Francotirador Ejército de Tierra"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Observador Ejército de Tierra",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Ligero Ejército de Tierra",
+        "points": 120,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Ejército de Tierra",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Ligero*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Ejército de Tierra"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Ejército de Tierra",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Ejército de Tierra",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Ametralladora Media (MMG) Legionarios / Cazadores de Montaña / Infantería de Marina",
+        "points": 100,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Legionarios / Cazadores de Montaña / Infantería de Marina",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "MMG*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Legionarios / Cazadores de Montaña / Infantería de Marina"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Legionarios / Cazadores de Montaña / Infantería de Marina",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Lanzacohetes Legionarios / Cazadores de Montaña / Infantería de Marina",
+        "points": 180,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Legionarios / Cazadores de Montaña / Infantería de Marina",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Lanzacohetes Pesado* (3 x Cohetes)"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Lanzacohetes Legionarios / Cazadores de Montaña / Infantería de Marina"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Lanzacohetes Legionarios / Cazadores de Montaña / Infantería de Marina",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Francotiradores Legionarios / Cazadores de Montaña / Infantería de Marina",
+        "points": 130,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Legionarios / Cazadores de Montaña / Infantería de Marina",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Francotirador Legionarios / Cazadores de Montaña / Infantería de Marina"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Observador Legionarios / Cazadores de Montaña / Infantería de Marina",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Ligero Legionarios / Cazadores de Montaña / Infantería de Marina",
+        "points": 130,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Legionarios / Cazadores de Montaña / Infantería de Marina",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Support Weapon"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Ligero*"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Legionarios / Cazadores de Montaña / Infantería de Marina"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Legionarios / Cazadores de Montaña / Infantería de Marina",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Legionarios / Cazadores de Montaña / Infantería de Marina",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
         "name": "Jefe Insurgentes Tipo 1",
         "points": 55,
         "training": 7,
@@ -6321,6 +6687,234 @@
       {
         "name": "Soldado Fusil Legionarios / Cazadores de Montaña / Infantería de Marina",
         "points": 40,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Legionarios / Cazadores de Montaña / Infantería de Marina"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Tirador Ejército de Tierra",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Ejército de Tierra"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Cargador Ejército de Tierra",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Ejército de Tierra"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Tirador Legionarios / Cazadores de Montaña / Infantería de Marina",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Legionarios / Cazadores de Montaña / Infantería de Marina"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Cargador Legionarios / Cazadores de Montaña / Infantería de Marina",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Legionarios / Cazadores de Montaña / Infantería de Marina"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Francotirador Ejército de Tierra",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Ejército de Tierra"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión"
+        ],
+        "options": []
+      },
+      {
+        "name": "Observador Ejército de Tierra",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Ejército de Tierra"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Francotirador Legionarios / Cazadores de Montaña / Infantería de Marina",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Legionarios / Cazadores de Montaña / Infantería de Marina"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión"
+        ],
+        "options": []
+      },
+      {
+        "name": "Observador Legionarios / Cazadores de Montaña / Infantería de Marina",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Legionarios / Cazadores de Montaña / Infantería de Marina"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Tirador Lanzacohetes Ejército de Tierra",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Ejército de Tierra"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Lanzacohetes Pesado* (3 x Cohetes)"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cargador Lanzacohetes Ejército de Tierra",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Ejército de Tierra"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Tirador Lanzacohetes Legionarios / Cazadores de Montaña / Infantería de Marina",
+        "autoAddOnly": true,
+        "points": 0,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Legionarios / Cazadores de Montaña / Infantería de Marina"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Lanzacohetes Pesado* (3 x Cohetes)"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cargador Lanzacohetes Legionarios / Cazadores de Montaña / Infantería de Marina",
+        "autoAddOnly": true,
+        "points": 0,
         "training": 6,
         "experience": -1,
         "factions": [
