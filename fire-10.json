@@ -25,7 +25,7 @@
   "credit": [
     {
       "type": "text",
-      "text": "Datos creados por ChicoBeloki. No es un producto/fuente oficial. Si se detecta cualquier error, escribid a chico.beloki@gmail.com."
+      "text": "Módulo creado por ChicoBeloki. No es un producto/fuente oficial. Si se detecta cualquier error, escribid a chico.beloki@gmail.com. "
     },
     {
       "type": "url",
@@ -1822,7 +1822,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -1862,7 +1862,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -1902,7 +1902,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -1942,7 +1942,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -1982,11 +1982,9 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
-        "baseSize": [
-          "60mm"
-        ],
+        "baseSize": [],
         "wargear": [
           "Lanzacohetes Pesado (3 x Cohetes)"
         ],
@@ -2022,11 +2020,9 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
-        "baseSize": [
-          "60mm"
-        ],
+        "baseSize": [],
         "wargear": [
           "Lanzacohetes Pesado (3 x Cohetes)"
         ],
@@ -2062,11 +2058,9 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
-        "baseSize": [
-          "60mm"
-        ],
+        "baseSize": [],
         "wargear": [
           "Lanzacohetes Pesado (3 x Cohetes)"
         ],
@@ -2102,11 +2096,9 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
-        "baseSize": [
-          "60mm"
-        ],
+        "baseSize": [],
         "wargear": [
           "Lanzacohetes Pesado (3 x Cohetes)"
         ],
@@ -2142,11 +2134,9 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
-        "baseSize": [
-          "60mm"
-        ],
+        "baseSize": [],
         "wargear": [],
         "options": [],
         "includes": [
@@ -2180,11 +2170,9 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
-        "baseSize": [
-          "60mm"
-        ],
+        "baseSize": [],
         "wargear": [],
         "options": [],
         "includes": [
@@ -2218,11 +2206,9 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
-        "baseSize": [
-          "60mm"
-        ],
+        "baseSize": [],
         "wargear": [],
         "options": [],
         "includes": [
@@ -2256,11 +2242,9 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
-        "baseSize": [
-          "60mm"
-        ],
+        "baseSize": [],
         "wargear": [],
         "options": [],
         "includes": [
@@ -2294,7 +2278,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -2338,7 +2322,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -2382,7 +2366,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -2603,7 +2587,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -2611,7 +2595,12 @@
         "wargear": [
           "MMG"
         ],
-        "options": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 10
+          }
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -2647,15 +2636,18 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
-        "baseSize": [
-          "60mm"
-        ],
+        "baseSize": [],
         "wargear": [
           "Lanzacohetes Pesado (3 x Cohetes)"
         ],
-        "options": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 10
+          }
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -2691,13 +2683,16 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
-        "baseSize": [
-          "60mm"
-        ],
+        "baseSize": [],
         "wargear": [],
-        "options": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 10
+          }
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -2733,7 +2728,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -2741,7 +2736,12 @@
         "wargear": [
           "Mortero Ligero"
         ],
-        "options": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 15
+          }
+        ],
         "includes": [
           {
             "dataSource": "suboficiales",
@@ -2806,7 +2806,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -2814,7 +2814,12 @@
         "wargear": [
           "MMG"
         ],
-        "options": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 10
+          }
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -2850,15 +2855,18 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
-        "baseSize": [
-          "60mm"
-        ],
+        "baseSize": [],
         "wargear": [
           "Lanzacohetes Pesado (3 x Cohetes)"
         ],
-        "options": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 10
+          }
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -2894,13 +2902,16 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
-        "baseSize": [
-          "60mm"
-        ],
+        "baseSize": [],
         "wargear": [],
-        "options": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 10
+          }
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -2936,7 +2947,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -2944,7 +2955,12 @@
         "wargear": [
           "Mortero Ligero"
         ],
-        "options": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 15
+          }
+        ],
         "includes": [
           {
             "dataSource": "suboficiales",
@@ -3001,7 +3017,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -3009,7 +3025,12 @@
         "wargear": [
           "MMG"
         ],
-        "options": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 10
+          }
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -3041,15 +3062,18 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
-        "baseSize": [
-          "60mm"
-        ],
+        "baseSize": [],
         "wargear": [
           "Lanzacohetes Pesado (3 x Cohetes)"
         ],
-        "options": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 10
+          }
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -3081,13 +3105,16 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
-        "baseSize": [
-          "60mm"
-        ],
+        "baseSize": [],
         "wargear": [],
-        "options": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 10
+          }
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -3127,7 +3154,12 @@
         "wargear": [
           "Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Cabo Armée de Terre",
@@ -3150,7 +3182,12 @@
         "wargear": [
           "Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Sargento Légion Étrangere",
@@ -3172,7 +3209,12 @@
         "wargear": [
           "Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Cabo Légion Étrangere",
@@ -3195,7 +3237,12 @@
         "wargear": [
           "Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Suboficial Armée de Terre",
@@ -3251,7 +3298,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -3259,7 +3306,12 @@
         "wargear": [
           "MMG"
         ],
-        "options": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 10
+          }
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -3291,15 +3343,18 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
-        "baseSize": [
-          "60mm"
-        ],
+        "baseSize": [],
         "wargear": [
           "Lanzacohetes Pesado (3 x Cohetes)"
         ],
-        "options": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 10
+          }
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -3331,13 +3386,16 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
-        "baseSize": [
-          "60mm"
-        ],
+        "baseSize": [],
         "wargear": [],
-        "options": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 10
+          }
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -3369,7 +3427,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -3377,7 +3435,12 @@
         "wargear": [
           "Mortero Ligero"
         ],
-        "options": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 15
+          }
+        ],
         "includes": [
           {
             "dataSource": "suboficiales",
@@ -3413,7 +3476,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -3421,7 +3484,12 @@
         "wargear": [
           "MMG"
         ],
-        "options": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 10
+          }
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -3453,15 +3521,18 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
-        "baseSize": [
-          "60mm"
-        ],
+        "baseSize": [],
         "wargear": [
           "Lanzacohetes Pesado (3 x Cohetes)"
         ],
-        "options": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 10
+          }
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -3493,13 +3564,16 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
-        "baseSize": [
-          "60mm"
-        ],
+        "baseSize": [],
         "wargear": [],
-        "options": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 10
+          }
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -3531,7 +3605,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -3539,7 +3613,12 @@
         "wargear": [
           "Mortero Ligero"
         ],
-        "options": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 15
+          }
+        ],
         "includes": [
           {
             "dataSource": "suboficiales",
@@ -3628,7 +3707,12 @@
         "wargear": [
           "Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Cabo Legionarios / Cazadores de Montaña / Infantería de Marina",
@@ -3651,7 +3735,12 @@
         "wargear": [
           "Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Suboficial Ejército de Tierra",
@@ -3707,7 +3796,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -3747,11 +3836,9 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
-        "baseSize": [
-          "60mm"
-        ],
+        "baseSize": [],
         "wargear": [
           "Lanzacohetes Pesado (3 x Cohetes)"
         ],
@@ -3787,11 +3874,9 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
-        "baseSize": [
-          "60mm"
-        ],
+        "baseSize": [],
         "wargear": [],
         "options": [],
         "includes": [
@@ -3825,7 +3910,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -3869,7 +3954,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -3877,7 +3962,12 @@
         "wargear": [
           "MMG"
         ],
-        "options": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 10
+          }
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -3909,15 +3999,18 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
-        "baseSize": [
-          "60mm"
-        ],
+        "baseSize": [],
         "wargear": [
           "Lanzacohetes Pesado (3 x Cohetes)"
         ],
-        "options": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 10
+          }
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -3949,13 +4042,16 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
-        "baseSize": [
-          "60mm"
-        ],
+        "baseSize": [],
         "wargear": [],
-        "options": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 10
+          }
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -3987,7 +4083,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -3995,7 +4091,12 @@
         "wargear": [
           "Mortero Ligero"
         ],
-        "options": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 15
+          }
+        ],
         "includes": [
           {
             "dataSource": "suboficiales",
@@ -4219,7 +4320,12 @@
         "wargear": [
           "Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Ayudante Insurgentes Tipo 5",
@@ -4242,7 +4348,12 @@
         "wargear": [
           "Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Suboficial Insurgente Tipo 1",
@@ -4366,7 +4477,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -4406,7 +4517,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -4450,7 +4561,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -4494,7 +4605,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -4538,7 +4649,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -4578,7 +4689,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -4622,7 +4733,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -4666,7 +4777,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -4710,7 +4821,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -4754,7 +4865,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -4794,7 +4905,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -4838,7 +4949,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -4882,7 +4993,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -4926,7 +5037,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -4970,11 +5081,9 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
-        "baseSize": [
-          "60mm"
-        ],
+        "baseSize": [],
         "wargear": [],
         "options": [],
         "includes": [
@@ -5008,7 +5117,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -5048,7 +5157,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -5092,7 +5201,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -5136,7 +5245,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -5180,11 +5289,9 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
-        "baseSize": [
-          "60mm"
-        ],
+        "baseSize": [],
         "wargear": [],
         "options": [],
         "includes": [
@@ -5218,7 +5325,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -5263,7 +5370,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -5312,7 +5419,7 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
         "baseSize": [
           "60mm"
@@ -5361,11 +5468,9 @@
           }
         ],
         "unitType": [
-          "Support Weapon"
+          "Arma Apoyo"
         ],
-        "baseSize": [
-          "60mm"
-        ],
+        "baseSize": [],
         "wargear": [],
         "options": [
           {
@@ -7434,7 +7539,7 @@
           },
           {
             "name": "Chaleco Antibalas",
-            "points": 25
+            "points": 5
           }
         ]
       },
@@ -7479,7 +7584,7 @@
           },
           {
             "name": "Chaleco Antibalas",
-            "points": 25
+            "points": 5
           }
         ]
       },
@@ -7520,7 +7625,7 @@
           },
           {
             "name": "Chaleco Antibalas",
-            "points": 25
+            "points": 5
           }
         ]
       },
@@ -7552,7 +7657,7 @@
           },
           {
             "name": "Chaleco Antibalas",
-            "points": 25
+            "points": 5
           }
         ]
       },
@@ -7596,7 +7701,7 @@
           },
           {
             "name": "Chaleco Antibalas",
-            "points": 25
+            "points": 5
           }
         ]
       },
@@ -7640,7 +7745,7 @@
           },
           {
             "name": "Chaleco Antibalas",
-            "points": 25
+            "points": 5
           }
         ]
       },
@@ -7692,7 +7797,7 @@
           },
           {
             "name": "Chaleco Antibalas",
-            "points": 25
+            "points": 5
           }
         ]
       },
@@ -7733,7 +7838,7 @@
           },
           {
             "name": "Chaleco Antibalas",
-            "points": 25
+            "points": 5
           }
         ]
       },
@@ -7765,7 +7870,7 @@
           },
           {
             "name": "Chaleco Antibalas",
-            "points": 25
+            "points": 5
           }
         ]
       },
@@ -7809,7 +7914,7 @@
           },
           {
             "name": "Chaleco Antibalas",
-            "points": 25
+            "points": 5
           }
         ]
       },
@@ -8087,7 +8192,7 @@
           },
           {
             "name": "Chaleco Antibalas",
-            "points": 25
+            "points": 5
           }
         ]
       },
@@ -8138,7 +8243,7 @@
           },
           {
             "name": "Chaleco Antibalas",
-            "points": 25
+            "points": 5
           }
         ]
       },
@@ -8170,7 +8275,7 @@
           },
           {
             "name": "Chaleco Antibalas",
-            "points": 25
+            "points": 5
           }
         ]
       },
@@ -8220,7 +8325,7 @@
           },
           {
             "name": "Chaleco Antibalas",
-            "points": 25
+            "points": 5
           }
         ]
       },
@@ -8271,7 +8376,7 @@
           },
           {
             "name": "Chaleco Antibalas",
-            "points": 25
+            "points": 5
           }
         ]
       },
@@ -8303,7 +8408,7 @@
           },
           {
             "name": "Chaleco Antibalas",
-            "points": 25
+            "points": 5
           }
         ]
       },
@@ -9833,7 +9938,7 @@
       },
       {
         "name": "Minas",
-        "definition": "Contacto | PF: Base | B/E: 3/8 | AT: 4 | Especial: Área, Un solo uso | Ejemplos: Claymore / Booby Trap"
+        "definition": "Contacto Base | PF: - | B/E: 3/8 | AT: 4 | Especial: Área, Un solo uso | Ejemplos: Claymore / Booby Trap"
       },
       {
         "name": "Cañón (Vehículo)",
