@@ -714,7 +714,16 @@
           {
             "name": "Ametralladora Media (MMG) British Army",
             "points": 90,
-            "elementPropertyName": "suboficiales"
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "elementPropertyName": "soldados",
+                "name": "Cargador British Army",
+                "quantity": 1,
+                "points": 0,
+                "lockedChildren": true
+              }
+            ]
           }
         ]
       },
@@ -850,7 +859,7 @@
           },
           {
             "name": "Cabo Royal Marines / Paras / Gurkhas",
-            "points": 55,
+            "points": 60,
             "elementPropertyName": "suboficiales",
             "requiredChildren": [
               {
@@ -863,7 +872,16 @@
           {
             "name": "Ametralladora Media (MMG) Royal Marines / Paras / Gurkhas",
             "points": 100,
-            "elementPropertyName": "suboficiales"
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "elementPropertyName": "soldados",
+                "name": "Cargador British Army",
+                "quantity": 1,
+                "points": 0,
+                "lockedChildren": true
+              }
+            ]
           }
         ]
       },
