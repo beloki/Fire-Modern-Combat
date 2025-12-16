@@ -25,11 +25,11 @@
   "credit": [
     {
       "type": "text",
-      "text": "Datos creados por ChicoBeloki. No es un producto/fuente oficial"
+      "text": "Datos creados por ChicoBeloki. No es un producto/fuente oficial. Si se detecta cualquier error, escribid a chico.beloki@gmail.com."
     },
     {
       "type": "url",
-      "text": "FIRE! Modern Combat",
+      "text": "- FIRE! Modern Combat -",
       "url": "https://www.youtube.com/@firemoderncombat"
     }
   ],
@@ -117,7 +117,7 @@
   "additionalPrint": [
     {
       "propertyName": "wargear",
-      "label": "Wargear",
+      "label": "Equipo",
       "dataSource": "gear"
     }
   ],
@@ -192,18 +192,18 @@
                 },
                 {
                   "propertyName": "wargear",
-                  "label": "Wargear",
+                  "label": "Equipo",
                   "type": "static",
                   "dataSource": "gear"
                 },
                 {
                   "propertyName": "unitType",
-                  "label": "Unit Type",
+                  "label": "Tipo Unidad",
                   "type": "static"
                 },
                 {
                   "propertyName": "baseSize",
-                  "label": "Base Size",
+                  "label": "Tamaño peana",
                   "type": "static"
                 }
               ]
@@ -215,18 +215,18 @@
             },
             {
               "propertyName": "wargear",
-              "label": "Wargear",
+              "label": "Equipo",
               "type": "static",
               "dataSource": "gear"
             },
             {
               "propertyName": "unitType",
-              "label": "Unit Type",
+              "label": "Tipo Unidad",
               "type": "static"
             },
             {
               "propertyName": "baseSize",
-              "label": "Base Size",
+              "label": "Tamaño peana",
               "type": "static"
             }
           ]
@@ -268,18 +268,18 @@
             "name": "Granada Lanzagranadas (Fusil)",
             "points": 5,
             "increment": true,
-            "max": 3
+            "max": 6
           }
         ],
         "requiredChildren": [
           {
-            "name": "Sargento US Ranger",
+            "name": "Sargento US Rangers",
             "points": 70,
             "mustBeLeader": true,
             "elementPropertyName": "suboficiales"
           },
           {
-            "name": "Cabo US Ranger",
+            "name": "Cabo US Rangers",
             "points": 65,
             "elementPropertyName": "suboficiales",
             "requiredChildren": [
@@ -298,7 +298,7 @@
             ]
           },
           {
-            "name": "Cabo US Ranger",
+            "name": "Cabo US Rangers",
             "points": 65,
             "elementPropertyName": "suboficiales",
             "requiredChildren": [
@@ -357,7 +357,7 @@
             "name": "Granada Lanzagranadas (Fusil)",
             "points": 5,
             "increment": true,
-            "max": 3
+            "max": 6
           }
         ],
         "requiredChildren": [
@@ -441,7 +441,7 @@
             "name": "Granada Lanzagranadas (Fusil)",
             "points": 5,
             "increment": true,
-            "max": 3
+            "max": 6
           }
         ],
         "requiredChildren": [
@@ -552,7 +552,7 @@
             "name": "Granada Lanzagranadas (Fusil)",
             "points": 5,
             "increment": true,
-            "max": 3
+            "max": 6
           }
         ],
         "requiredChildren": [
@@ -672,7 +672,7 @@
             "name": "Granada Lanzagranadas (Fusil)",
             "points": 5,
             "increment": true,
-            "max": 3
+            "max": 6
           }
         ],
         "requiredChildren": [
@@ -710,6 +710,11 @@
                 "elementPropertyName": "soldados"
               }
             ]
+          },
+          {
+            "name": "Ametralladora Media (MMG) British Army",
+            "points": 90,
+            "elementPropertyName": "suboficiales"
           }
         ]
       },
@@ -739,7 +744,7 @@
             "name": "Granada Lanzagranadas (Fusil)",
             "points": 5,
             "increment": true,
-            "max": 3
+            "max": 6
           }
         ],
         "requiredChildren": [
@@ -816,7 +821,7 @@
             "name": "Granada Lanzagranadas (Fusil)",
             "points": 5,
             "increment": true,
-            "max": 3
+            "max": 6
           }
         ],
         "requiredChildren": [
@@ -854,6 +859,11 @@
                 "elementPropertyName": "soldados"
               }
             ]
+          },
+          {
+            "name": "Ametralladora Media (MMG) Royal Marines / Paras / Gurkhas",
+            "points": 100,
+            "elementPropertyName": "suboficiales"
           }
         ]
       },
@@ -883,7 +893,7 @@
             "name": "Granada Lanzagranadas (Fusil)",
             "points": 5,
             "increment": true,
-            "max": 3
+            "max": 6
           }
         ],
         "requiredChildren": [
@@ -1084,7 +1094,7 @@
             "name": "Granada Lanzagranadas (Fusil)",
             "points": 5,
             "increment": true,
-            "max": 3
+            "max": 6
           }
         ],
         "requiredChildren": [
@@ -1156,7 +1166,7 @@
             "name": "Granada Lanzagranadas (Fusil)",
             "points": 5,
             "increment": true,
-            "max": 3
+            "max": 6
           }
         ],
         "requiredChildren": [
@@ -1494,7 +1504,7 @@
     ],
     "suboficiales": [
       {
-        "name": "Sargento US Ranger",
+        "name": "Sargento US Rangers",
         "points": 70,
         "training": 8,
         "experience": -1,
@@ -1511,12 +1521,13 @@
           "25mm"
         ],
         "wargear": [
-          "Fusil de Asalto"
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
         ],
         "options": []
       },
       {
-        "name": "Cabo US Ranger",
+        "name": "Cabo US Rangers",
         "points": 65,
         "limit": 2,
         "training": 7,
@@ -1534,7 +1545,8 @@
           "25mm"
         ],
         "wargear": [
-          "Fusil de Asalto"
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
         ],
         "options": []
       },
@@ -1556,7 +1568,8 @@
           "25mm"
         ],
         "wargear": [
-          "Fusil de Asalto"
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
         ],
         "options": []
       },
@@ -1579,7 +1592,8 @@
           "25mm"
         ],
         "wargear": [
-          "Fusil de Asalto"
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
         ],
         "options": []
       },
@@ -1604,7 +1618,8 @@
           "25mm"
         ],
         "wargear": [
-          "Fusil de Asalto"
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
         ],
         "options": []
       },
@@ -1630,7 +1645,8 @@
           "25mm"
         ],
         "wargear": [
-          "Fusil de Asalto"
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
         ],
         "options": []
       },
@@ -1652,9 +1668,15 @@
           "25mm"
         ],
         "wargear": [
-          "Fusil de Asalto"
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Miras tácticas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Cabo US SOCOM",
@@ -1674,9 +1696,15 @@
           "25mm"
         ],
         "wargear": [
-          "Fusil de Asalto"
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Miras tácticas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Suboficial US Army",
@@ -1696,7 +1724,9 @@
         "baseSize": [
           "25mm"
         ],
-        "wargear": [],
+        "wargear": [
+          "Chaleco Antibalas"
+        ],
         "options": []
       },
       {
@@ -1780,7 +1810,7 @@
           "60mm"
         ],
         "wargear": [
-          "MMG*"
+          "MMG"
         ],
         "options": [],
         "includes": [
@@ -1820,7 +1850,7 @@
           "60mm"
         ],
         "wargear": [
-          "MMG*"
+          "MMG"
         ],
         "options": [],
         "includes": [
@@ -1860,7 +1890,7 @@
           "60mm"
         ],
         "wargear": [
-          "MMG*"
+          "MMG"
         ],
         "options": [],
         "includes": [
@@ -1900,7 +1930,7 @@
           "60mm"
         ],
         "wargear": [
-          "MMG*"
+          "MMG"
         ],
         "options": [],
         "includes": [
@@ -1940,7 +1970,7 @@
           "60mm"
         ],
         "wargear": [
-          "Lanzacohetes Pesado* (3 x Cohetes)"
+          "Lanzacohetes Pesado (3 x Cohetes)"
         ],
         "options": [],
         "includes": [
@@ -1980,7 +2010,7 @@
           "60mm"
         ],
         "wargear": [
-          "Lanzacohetes Pesado* (3 x Cohetes)"
+          "Lanzacohetes Pesado (3 x Cohetes)"
         ],
         "options": [],
         "includes": [
@@ -2020,7 +2050,7 @@
           "60mm"
         ],
         "wargear": [
-          "Lanzacohetes Pesado* (3 x Cohetes)"
+          "Lanzacohetes Pesado (3 x Cohetes)"
         ],
         "options": [],
         "includes": [
@@ -2060,7 +2090,7 @@
           "60mm"
         ],
         "wargear": [
-          "Lanzacohetes Pesado* (3 x Cohetes)"
+          "Lanzacohetes Pesado (3 x Cohetes)"
         ],
         "options": [],
         "includes": [
@@ -2252,7 +2282,7 @@
           "60mm"
         ],
         "wargear": [
-          "Mortero Ligero*"
+          "Mortero Ligero"
         ],
         "options": [],
         "includes": [
@@ -2296,7 +2326,7 @@
           "60mm"
         ],
         "wargear": [
-          "Mortero Ligero*"
+          "Mortero Ligero"
         ],
         "options": [],
         "includes": [
@@ -2340,7 +2370,7 @@
           "60mm"
         ],
         "wargear": [
-          "Mortero Ligero*"
+          "Mortero Ligero"
         ],
         "options": [],
         "includes": [
@@ -2561,7 +2591,7 @@
           "60mm"
         ],
         "wargear": [
-          "MMG*"
+          "MMG"
         ],
         "options": [],
         "includes": [
@@ -2605,7 +2635,7 @@
           "60mm"
         ],
         "wargear": [
-          "Lanzacohetes Pesado* (3 x Cohetes)"
+          "Lanzacohetes Pesado (3 x Cohetes)"
         ],
         "options": [],
         "includes": [
@@ -2691,7 +2721,7 @@
           "60mm"
         ],
         "wargear": [
-          "Mortero Ligero*"
+          "Mortero Ligero"
         ],
         "options": [],
         "includes": [
@@ -2764,7 +2794,7 @@
           "60mm"
         ],
         "wargear": [
-          "MMG*"
+          "MMG"
         ],
         "options": [],
         "includes": [
@@ -2808,7 +2838,7 @@
           "60mm"
         ],
         "wargear": [
-          "Lanzacohetes Pesado* (3 x Cohetes)"
+          "Lanzacohetes Pesado (3 x Cohetes)"
         ],
         "options": [],
         "includes": [
@@ -2894,7 +2924,7 @@
           "60mm"
         ],
         "wargear": [
-          "Mortero Ligero*"
+          "Mortero Ligero"
         ],
         "options": [],
         "includes": [
@@ -2959,7 +2989,7 @@
           "60mm"
         ],
         "wargear": [
-          "MMG*"
+          "MMG"
         ],
         "options": [],
         "includes": [
@@ -2999,7 +3029,7 @@
           "60mm"
         ],
         "wargear": [
-          "Lanzacohetes Pesado* (3 x Cohetes)"
+          "Lanzacohetes Pesado (3 x Cohetes)"
         ],
         "options": [],
         "includes": [
@@ -3209,7 +3239,7 @@
           "60mm"
         ],
         "wargear": [
-          "MMG*"
+          "MMG"
         ],
         "options": [],
         "includes": [
@@ -3249,7 +3279,7 @@
           "60mm"
         ],
         "wargear": [
-          "Lanzacohetes Pesado* (3 x Cohetes)"
+          "Lanzacohetes Pesado (3 x Cohetes)"
         ],
         "options": [],
         "includes": [
@@ -3327,7 +3357,7 @@
           "60mm"
         ],
         "wargear": [
-          "Mortero Ligero*"
+          "Mortero Ligero"
         ],
         "options": [],
         "includes": [
@@ -3371,7 +3401,7 @@
           "60mm"
         ],
         "wargear": [
-          "MMG*"
+          "MMG"
         ],
         "options": [],
         "includes": [
@@ -3411,7 +3441,7 @@
           "60mm"
         ],
         "wargear": [
-          "Lanzacohetes Pesado* (3 x Cohetes)"
+          "Lanzacohetes Pesado (3 x Cohetes)"
         ],
         "options": [],
         "includes": [
@@ -3489,7 +3519,7 @@
           "60mm"
         ],
         "wargear": [
-          "Mortero Ligero*"
+          "Mortero Ligero"
         ],
         "options": [],
         "includes": [
@@ -3665,7 +3695,7 @@
           "60mm"
         ],
         "wargear": [
-          "MMG*"
+          "MMG"
         ],
         "options": [],
         "includes": [
@@ -3705,7 +3735,7 @@
           "60mm"
         ],
         "wargear": [
-          "Lanzacohetes Pesado* (3 x Cohetes)"
+          "Lanzacohetes Pesado (3 x Cohetes)"
         ],
         "options": [],
         "includes": [
@@ -3783,7 +3813,7 @@
           "60mm"
         ],
         "wargear": [
-          "Mortero Ligero*"
+          "Mortero Ligero"
         ],
         "options": [],
         "includes": [
@@ -3827,7 +3857,7 @@
           "60mm"
         ],
         "wargear": [
-          "MMG*"
+          "MMG"
         ],
         "options": [],
         "includes": [
@@ -3867,7 +3897,7 @@
           "60mm"
         ],
         "wargear": [
-          "Lanzacohetes Pesado* (3 x Cohetes)"
+          "Lanzacohetes Pesado (3 x Cohetes)"
         ],
         "options": [],
         "includes": [
@@ -3945,7 +3975,7 @@
           "60mm"
         ],
         "wargear": [
-          "Mortero Ligero*"
+          "Mortero Ligero"
         ],
         "options": [],
         "includes": [
@@ -4324,7 +4354,7 @@
           "60mm"
         ],
         "wargear": [
-          "MMG*"
+          "MMG"
         ],
         "options": [],
         "includes": [
@@ -4364,7 +4394,7 @@
           "60mm"
         ],
         "wargear": [
-          "HMG*"
+          "HMG"
         ],
         "options": [],
         "includes": [
@@ -4408,7 +4438,7 @@
           "60mm"
         ],
         "wargear": [
-          "Mortero Ligero*"
+          "Mortero Ligero"
         ],
         "options": [],
         "includes": [
@@ -4452,7 +4482,7 @@
           "60mm"
         ],
         "wargear": [
-          "Mortero Medio*"
+          "Mortero Medio"
         ],
         "options": [],
         "includes": [
@@ -4496,7 +4526,7 @@
           "60mm"
         ],
         "wargear": [
-          "MMG*"
+          "MMG"
         ],
         "options": [],
         "includes": [
@@ -4536,7 +4566,7 @@
           "60mm"
         ],
         "wargear": [
-          "HMG*"
+          "HMG"
         ],
         "options": [],
         "includes": [
@@ -4580,7 +4610,7 @@
           "60mm"
         ],
         "wargear": [
-          "Mortero Ligero*"
+          "Mortero Ligero"
         ],
         "options": [],
         "includes": [
@@ -4624,7 +4654,7 @@
           "60mm"
         ],
         "wargear": [
-          "Mortero Medio*"
+          "Mortero Medio"
         ],
         "options": [],
         "includes": [
@@ -4668,7 +4698,7 @@
           "60mm"
         ],
         "wargear": [
-          "Mortero Pesado*"
+          "Mortero Pesado"
         ],
         "options": [],
         "includes": [
@@ -4712,7 +4742,7 @@
           "60mm"
         ],
         "wargear": [
-          "MMG*"
+          "MMG"
         ],
         "options": [],
         "includes": [
@@ -4752,7 +4782,7 @@
           "60mm"
         ],
         "wargear": [
-          "HMG*"
+          "HMG"
         ],
         "options": [],
         "includes": [
@@ -4796,7 +4826,7 @@
           "60mm"
         ],
         "wargear": [
-          "Mortero Ligero*"
+          "Mortero Ligero"
         ],
         "options": [],
         "includes": [
@@ -4840,7 +4870,7 @@
           "60mm"
         ],
         "wargear": [
-          "Mortero Medio*"
+          "Mortero Medio"
         ],
         "options": [],
         "includes": [
@@ -4884,7 +4914,7 @@
           "60mm"
         ],
         "wargear": [
-          "Mortero Pesado*"
+          "Mortero Pesado"
         ],
         "options": [],
         "includes": [
@@ -4966,7 +4996,7 @@
           "60mm"
         ],
         "wargear": [
-          "MMG*"
+          "MMG"
         ],
         "options": [],
         "includes": [
@@ -5006,7 +5036,7 @@
           "60mm"
         ],
         "wargear": [
-          "HMG*"
+          "HMG"
         ],
         "options": [],
         "includes": [
@@ -5050,7 +5080,7 @@
           "60mm"
         ],
         "wargear": [
-          "Mortero Ligero*"
+          "Mortero Ligero"
         ],
         "options": [],
         "includes": [
@@ -5094,7 +5124,7 @@
           "60mm"
         ],
         "wargear": [
-          "Mortero Medio*"
+          "Mortero Medio"
         ],
         "options": [],
         "includes": [
@@ -5176,7 +5206,7 @@
           "60mm"
         ],
         "wargear": [
-          "MMG*"
+          "MMG"
         ],
         "options": [
           {
@@ -5221,7 +5251,7 @@
           "60mm"
         ],
         "wargear": [
-          "Mortero Ligero*"
+          "Mortero Ligero"
         ],
         "options": [
           {
@@ -5270,7 +5300,7 @@
           "60mm"
         ],
         "wargear": [
-          "Mortero Medio*"
+          "Mortero Medio"
         ],
         "options": [
           {
@@ -5358,7 +5388,7 @@
           {
             "all": [
               {
-                "in": "Cabo US Ranger"
+                "in": "Cabo US Rangers"
               },
               {
                 "in": "US Rangers"
@@ -5395,7 +5425,7 @@
           {
             "all": [
               {
-                "in": "Cabo US Ranger"
+                "in": "Cabo US Rangers"
               },
               {
                 "in": "US Rangers"
@@ -5469,7 +5499,7 @@
           {
             "all": [
               {
-                "in": "Cabo US Ranger"
+                "in": "Cabo US Rangers"
               },
               {
                 "in": "US Rangers"
@@ -5512,7 +5542,7 @@
           {
             "all": [
               {
-                "in": "Cabo US Ranger"
+                "in": "Cabo US Rangers"
               },
               {
                 "in": "US Rangers"
@@ -5944,6 +5974,10 @@
           {
             "name": "Perro Adiestrado",
             "points": 10
+          },
+          {
+            "name": "Miras tácticas",
+            "points": 5
           }
         ]
       },
@@ -5973,6 +6007,10 @@
           {
             "name": "Perro Adiestrado",
             "points": 10
+          },
+          {
+            "name": "Miras tácticas",
+            "points": 5
           }
         ]
       },
@@ -6060,6 +6098,10 @@
           {
             "name": "Perro Adiestrado",
             "points": 10
+          },
+          {
+            "name": "Miras tácticas",
+            "points": 5
           }
         ]
       },
@@ -6159,7 +6201,6 @@
           "60mm"
         ],
         "wargear": [
-          "MMG*",
           "Chaleco Antibalas"
         ],
         "options": []
@@ -6185,7 +6226,7 @@
         "options": []
       },
       {
-        "name": "Tirador MMG SOCOM",
+        "name": "Tirador US SOCOM",
         "autoAddOnly": true,
         "points": 0,
         "training": 7,
@@ -6404,7 +6445,7 @@
           "25mm"
         ],
         "wargear": [
-          "Lanzacohetes Pesado* (3 x Cohetes)",
+          "Lanzacohetes Pesado (3 x Cohetes)",
           "Chaleco Antibalas"
         ],
         "options": []
@@ -6446,7 +6487,7 @@
           "25mm"
         ],
         "wargear": [
-          "Lanzacohetes Pesado* (3 x Cohetes)",
+          "Lanzacohetes Pesado (3 x Cohetes)",
           "Chaleco Antibalas"
         ],
         "options": []
@@ -6488,7 +6529,7 @@
           "25mm"
         ],
         "wargear": [
-          "Lanzacohetes Pesado* (3 x Cohetes)",
+          "Lanzacohetes Pesado (3 x Cohetes)",
           "Chaleco Antibalas"
         ],
         "options": []
@@ -6530,7 +6571,7 @@
           "25mm"
         ],
         "wargear": [
-          "Lanzacohetes Pesado* (3 x Cohetes)",
+          "Lanzacohetes Pesado (3 x Cohetes)",
           "Chaleco Antibalas"
         ],
         "options": []
@@ -6651,7 +6692,7 @@
           "25mm"
         ],
         "wargear": [
-          "Lanzacohetes Pesado* (3 x Cohetes)"
+          "Lanzacohetes Pesado (3 x Cohetes)"
         ],
         "options": []
       },
@@ -6771,7 +6812,7 @@
           "25mm"
         ],
         "wargear": [
-          "Lanzacohetes Pesado* (3 x Cohetes)"
+          "Lanzacohetes Pesado (3 x Cohetes)"
         ],
         "options": []
       },
@@ -6893,7 +6934,7 @@
           "25mm"
         ],
         "wargear": [
-          "Lanzacohetes Pesado* (3 x Cohetes)",
+          "Lanzacohetes Pesado (3 x Cohetes)",
           "Chaleco Antibalas"
         ],
         "options": []
@@ -7918,7 +7959,7 @@
           "25mm"
         ],
         "wargear": [
-          "Lanzacohetes Pesado* (3 x Cohetes)"
+          "Lanzacohetes Pesado (3 x Cohetes)"
         ],
         "options": []
       },
@@ -7958,7 +7999,7 @@
           "25mm"
         ],
         "wargear": [
-          "Lanzacohetes Pesado* (3 x Cohetes)"
+          "Lanzacohetes Pesado (3 x Cohetes)"
         ],
         "options": []
       },
@@ -8412,7 +8453,7 @@
           "25mm"
         ],
         "wargear": [
-          "Lanzacohetes Pesado* (3 x Cohetes)"
+          "Lanzacohetes Pesado (3 x Cohetes)"
         ],
         "options": []
       },
@@ -8452,7 +8493,7 @@
           "25mm"
         ],
         "wargear": [
-          "Lanzacohetes Pesado* (3 x Cohetes)"
+          "Lanzacohetes Pesado (3 x Cohetes)"
         ],
         "options": []
       },
@@ -9735,11 +9776,11 @@
         "type": "lmg"
       },
       {
-        "name": "MMG*",
+        "name": "MMG",
         "definition": "120cm | PF: 5 | B/E: 4/8 | AT: 6 | Especial: ¡Atascada!, 180º visión | Ejemplos: M60, PKM, FN-MAG"
       },
       {
-        "name": "HMG*",
+        "name": "HMG",
         "definition": "150cm | PF: 6 | B/E: 4/8 | AT: 6 | Especial: ¡Atascada!, Montar y Desmontar, 180º visión | Ejemplos: Browning .50 cal, DSHK"
       },
       {
@@ -9747,15 +9788,15 @@
         "definition": "100cm | PF: - | B/E: 3/8 | AT: 6 | Especial: Área, ¡Atascada!, Montar y Desmontar, 180º visión | Ejemplos: LAG-40, MK-19, AGS-17"
       },
       {
-        "name": "Mortero Ligero*",
+        "name": "Mortero Ligero",
         "definition": "90cm | PF: - | B/E: 3/8 | AT: 6 | Especial: Área, Recarga, Montar y Desmontar, 180º visión, Humo | Ejemplos: Mortero de 50 mm, Mortero de 60 mm, Mortero de 2”"
       },
       {
-        "name": "Mortero Medio*",
+        "name": "Mortero Medio",
         "definition": "120cm | PF: - | B/E: 4/8 | AT: 7 | Especial: Área, Recarga, Montar y Desmontar, 180º visión, Humo | Ejemplos: Mortero de 80 mm, Mortero de 3”"
       },
       {
-        "name": "Mortero Pesado*",
+        "name": "Mortero Pesado",
         "definition": "150cm | PF: - | B/E: 4/9 | AT: 8 | Especial: Área (3d10), Recarga, Montar y Desmontar, 180º visión, Humo | Ejemplos: Mortero de 120 mm"
       },
       {
@@ -9769,7 +9810,7 @@
         "type": "rpg"
       },
       {
-        "name": "Lanzacohetes Pesado* (3 x Cohetes)",
+        "name": "Lanzacohetes Pesado (3 x Cohetes)",
         "definition": "80cm | PF: - | B/E: 4/8 | AT: 12 | Especial: Área, Recarga, Montar y Desmontar, 180º visión | Ejemplos: Javelin, NLAW, Alcotán-100"
       },
       {
