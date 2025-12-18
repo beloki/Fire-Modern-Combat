@@ -1504,6 +1504,314 @@
             "elementPropertyName": "suboficiales"
           }
         ]
+      },
+      {
+        "name": "Forze Armate Italiane",
+        "alignment": "Italia",
+        "options": [
+          {
+            "name": "Minas",
+            "points": 10,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Granada de Fragmentación",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Aturdidora",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Lanzagranadas (Fusil)",
+            "points": 5,
+            "increment": true,
+            "max": 6
+          }
+        ],
+        "requiredChildren": [
+          {
+            "name": "Sargento Forze Armate Italiane",
+            "points": 65,
+            "mustBeLeader": true,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil con Lanzagranadas Forze Armate Italiane",
+                "points": 55,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil y Lanzacohetes Forze Armate Italiane",
+                "points": 70,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado LMG Forze Armate Italiane",
+                "points": 55,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          },
+          {
+            "name": "Cabo Forze Armate Italiane",
+            "points": 60,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil con Lanzagranadas Forze Armate Italiane",
+                "points": 55,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado LMG Forze Armate Italiane",
+                "points": 55,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Tirador Designado Forze Armate Italiane",
+                "points": 45,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bersaglieri / Alpini / Folgore",
+        "alignment": "Italia",
+        "options": [
+          {
+            "name": "Minas",
+            "points": 10,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Granada de Fragmentación",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Aturdidora",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Lanzagranadas (Fusil)",
+            "points": 5,
+            "increment": true,
+            "max": 6
+          }
+        ],
+        "requiredChildren": [
+          {
+            "name": "Sargento Bersaglieri / Alpini / Folgore",
+            "points": 70,
+            "mustBeLeader": true,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil con Bersaglieri / Alpini / Folgore",
+                "points": 60,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil y Lanzacohetes Bersaglieri / Alpini / Folgore",
+                "points": 75,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado LMG Bersaglieri / Alpini / Folgore",
+                "points": 60,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          },
+          {
+            "name": "Cabo Bersaglieri / Alpini / Folgore",
+            "points": 65,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil con Lanzagranadas Bersaglieri / Alpini / Folgore",
+                "points": 60,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado LMG Bersaglieri / Alpini / Folgore",
+                "points": 60,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Tirador Designado Bersaglieri / Alpini / Folgore",
+                "points": 50,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Australian Army",
+        "alignment": "Australia",
+        "options": [
+          {
+            "name": "Minas",
+            "points": 10,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Granada de Fragmentación",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Aturdidora",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Lanzagranadas (Fusil)",
+            "points": 5,
+            "increment": true,
+            "max": 6
+          }
+        ],
+        "requiredChildren": [
+          {
+            "name": "Sargento Australian Army",
+            "points": 60,
+            "mustBeLeader": true,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil con Lanzagranadas Australian Army",
+                "points": 50,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil y Lanzacohetes Australian Army",
+                "points": 65,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          },
+          {
+            "name": "Cabo Australian Army",
+            "points": 55,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado LMG Australian Army",
+                "points": 50,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil con Lanzagranadas Australian Army",
+                "points": 50,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil y Lanzacohetes Australian Army",
+                "points": 65,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Special Operations Command (SOCOMD)",
+        "alignment": "Australia",
+        "options": [
+          {
+            "name": "Minas",
+            "points": 10,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Granada de Fragmentación",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Aturdidora",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Lanzagranadas (Fusil)",
+            "points": 5,
+            "increment": true,
+            "max": 6
+          }
+        ],
+        "requiredChildren": [
+          {
+            "name": "Sargento Special Operations Command (SOCOMD)",
+            "points": 65,
+            "mustBeLeader": true,
+            "elementPropertyName": "suboficiales"
+          },
+          {
+            "name": "Cabo Special Operations Command (SOCOMD)",
+            "points": 60,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil Special Operations Command (SOCOMD)",
+                "points": 45,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil con Lanzagranadas Special Operations Command (SOCOMD)",
+                "points": 55,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado LMG Special Operations Command (SOCOMD)",
+                "points": 55,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          },
+          {
+            "name": "Cabo Special Operations Command (SOCOMD)",
+            "points": 60,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil Special Operations Command (SOCOMD)",
+                "points": 55,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil con Lanzagranadas Special Operations Command (SOCOMD)",
+                "points": 55,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado LMG Special Operations Command (SOCOMD)",
+                "points": 55,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          }
+        ]
       }
     ],
     "suboficialTiers": [
@@ -5496,6 +5804,906 @@
             "lockedChildren": true
           }
         ]
+      },
+      {
+        "name": "Sargento Forze Armate Italiane",
+        "points": 65,
+        "training": 8,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Forze Armate Italiane",
+            "suboficialTier": "Mando Principal"
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cabo Forze Armate Italiane",
+        "points": 60,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Forze Armate Italiane",
+            "suboficialTier": "Mando Secundario"
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Suboficial Forze Armate Italiane",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 8,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Forze Armate Italiane",
+            "suboficialTier": "Mando Apoyo"
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Sargento Bersaglieri / Alpini / Folgore",
+        "points": 70,
+        "training": 8,
+        "experience": -1,
+        "factions": [
+          {
+            "name": "Bersaglieri / Alpini / Folgore",
+            "suboficialTier": "Mando Principal"
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cabo Bersaglieri / Alpini / Folgore",
+        "points": 65,
+        "training": 7,
+        "experience": -1,
+        "factions": [
+          {
+            "name": "Bersaglieri / Alpini / Folgore",
+            "suboficialTier": "Mando Secundario"
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Suboficial Bersaglieri / Alpini / Folgore",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 8,
+        "experience": -1,
+        "factions": [
+          {
+            "name": "Bersaglieri / Alpini / Folgore",
+            "suboficialTier": "Mando Apoyo"
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Ametralladora Media (MMG) Forze Armate Italiane",
+        "points": 100,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Forze Armate Italiane",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "MMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Forze Armate Italiane"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Forze Armate Italiane",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Ametralladora Media (MMG) Bersaglieri / Alpini / Folgore",
+        "points": 110,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Bersaglieri / Alpini / Folgore",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "MMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Bersaglieri / Alpini / Folgore"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Bersaglieri / Alpini / Folgore",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Lanzacohetes Forze Armate Italiane",
+        "points": 180,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Forze Armate Italiane",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [],
+        "wargear": [
+          "Lanzacohetes Pesado (3 x Cohetes)"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Lanzacohetes Forze Armate Italiane"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Lanzacohetes Forze Armate Italiane",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Lanzacohetes Bersaglieri / Alpini / Folgore",
+        "points": 190,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Bersaglieri / Alpini / Folgore",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [],
+        "wargear": [
+          "Lanzacohetes Pesado (3 x Cohetes)"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Lanzacohetes Bersaglieri / Alpini / Folgore"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Lanzacohetes Bersaglieri / Alpini / Folgore",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Francotiradores Forze Armate Italiane",
+        "points": 130,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Forze Armate Italiane",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [],
+        "wargear": [],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Francotirador Forze Armate Italiane"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Observador Forze Armate Italiane",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Francotiradores Bersaglieri / Alpini / Folgore",
+        "points": 140,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Bersaglieri / Alpini / Folgore",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [],
+        "wargear": [],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Francotirador Bersaglieri / Alpini / Folgore"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Observador Bersaglieri / Alpini / Folgore",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Ligero Forze Armate Italiane",
+        "points": 135,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Forze Armate Italiane",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Ligero"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Forze Armate Italiane"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Forze Armate Italiane",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Forze Armate Italiane",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Ligero Bersaglieri / Alpini / Folgore",
+        "points": 150,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Bersaglieri / Alpini / Folgore",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Ligero"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Bersaglieri / Alpini / Folgore"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Bersaglieri / Alpini / Folgore",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Bersaglieri / Alpini / Folgore",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Sargento Australian Army",
+        "points": 65,
+        "training": 8,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Australian Army",
+            "suboficialTier": "Mando Principal"
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cabo Australian Army",
+        "points": 60,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Australian Army",
+            "suboficialTier": "Mando Secundario"
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Suboficial Australian Army",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 8,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Australian Army",
+            "suboficialTier": "Mando Apoyo"
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Sargento Special Operations Command (SOCOMD)",
+        "points": 75,
+        "training": 9,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Special Operations Command (SOCOMD)",
+            "suboficialTier": "Mando Principal"
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cabo Special Operations Command (SOCOMD)",
+        "points": 70,
+        "training": 8,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Special Operations Command (SOCOMD)",
+            "suboficialTier": "Mando Secundario"
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Suboficial Special Operations Command (SOCOMD)",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 9,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Special Operations Command (SOCOMD)",
+            "suboficialTier": "Mando Apoyo"
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Ametralladora Media (MMG) Australian Army",
+        "points": 100,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Australian Army",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "MMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Australian Army"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Australian Army",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Ametralladora Media (MMG) Special Operations Command (SOCOMD)",
+        "points": 110,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Special Operations Command (SOCOMD)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "MMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Special Operations Command (SOCOMD)"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Special Operations Command (SOCOMD)",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Lanzacohetes Australian Army",
+        "points": 180,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Australian Army",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [],
+        "wargear": [
+          "Lanzacohetes Pesado (3 x Cohetes)"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Lanzacohetes Australian Army"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Lanzacohetes Australian Army",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Lanzacohetes Special Operations Command (SOCOMD)",
+        "points": 190,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Special Operations Command (SOCOMD)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [],
+        "wargear": [
+          "Lanzacohetes Pesado (3 x Cohetes)"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Lanzacohetes Special Operations Command (SOCOMD)"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Lanzacohetes Special Operations Command (SOCOMD)",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Francotiradores Australian Army",
+        "points": 130,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Australian Army",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [],
+        "wargear": [],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Francotirador Australian Army"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Observador Australian Army",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Francotiradores Special Operations Command (SOCOMD)",
+        "points": 140,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Special Operations Command (SOCOMD)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [],
+        "wargear": [],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Francotirador Special Operations Command (SOCOMD)"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Observador Special Operations Command (SOCOMD)",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Ligero Australian Army",
+        "points": 135,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Australian Army",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Ligero"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Australian Army"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Australian Army",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Australian Army",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Ligero Special Operations Command (SOCOMD)",
+        "points": 150,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Special Operations Command (SOCOMD)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Ligero"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Special Operations Command (SOCOMD)"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Special Operations Command (SOCOMD)",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Special Operations Command (SOCOMD)",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
       }
     ],
     "soldados": [
@@ -5696,7 +6904,6 @@
         "name": "Soldado LMG US Army",
         "points": 55,
         "limit": 2,
-        "increment": false,
         "autoAddOnly": true,
         "training": 6,
         "experience": 0,
@@ -5733,7 +6940,6 @@
       {
         "name": "Soldado Fusil con Lanzagranadas US Army",
         "points": 55,
-        "increment": false,
         "autoAddOnly": true,
         "limit": 2,
         "training": 6,
@@ -5779,7 +6985,6 @@
       {
         "name": "Soldado Fusil US Army",
         "points": 45,
-        "increment": false,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -5805,7 +7010,6 @@
       {
         "name": "Soldado Escopeta US Army",
         "points": 40,
-        "increment": false,
         "limit": 1,
         "training": 6,
         "experience": 0,
@@ -5849,7 +7053,6 @@
       {
         "name": "Tirador Designado US Army",
         "points": 45,
-        "increment": false,
         "limit": 1,
         "training": 6,
         "experience": 0,
@@ -9865,6 +11068,1039 @@
             "points": 5
           }
         ]
+      },
+      {
+        "name": "Soldado Fusil Forze Armate Italiane",
+        "points": 45,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Forze Armate Italiane"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Soldado LMG Forze Armate Italiane",
+        "points": 55,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Forze Armate Italiane"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "LMG",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil con Lanzagranadas Forze Armate Italiane",
+        "points": 55,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Forze Armate Italiane"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Lanzagranadas para Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil y Lanzacohetes Forze Armate Italiane",
+        "points": 70,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Forze Armate Italiane"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Lanzacohetes Ligero Desechable",
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Tirador Designado Forze Armate Italiane",
+        "points": 45,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Forze Armate Italiane"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Tirador Forze Armate Italiane",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Forze Armate Italiane"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cargador Forze Armate Italiane",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Forze Armate Italiane"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Tirador Lanzacohetes Forze Armate Italiane",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Forze Armate Italiane"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Lanzacohetes Pesado (3 x Cohetes)",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cargador Lanzacohetes Forze Armate Italiane",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Forze Armate Italiane"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Soldado Fusil Bersaglieri / Alpini / Folgore",
+        "points": 50,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Bersaglieri / Alpini / Folgore"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Soldado LMG Bersaglieri / Alpini / Folgore",
+        "points": 60,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Bersaglieri / Alpini / Folgore"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "LMG",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil con Lanzagranadas Bersaglieri / Alpini / Folgore",
+        "points": 60,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Bersaglieri / Alpini / Folgore"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Lanzagranadas para Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil y Lanzacohetes Bersaglieri / Alpini / Folgore",
+        "points": 75,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Bersaglieri / Alpini / Folgore"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Lanzacohetes Ligero Desechable",
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Tirador Designado Bersaglieri / Alpini / Folgore",
+        "points": 50,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Bersaglieri / Alpini / Folgore"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Tirador Bersaglieri / Alpini / Folgore",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Bersaglieri / Alpini / Folgore"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cargador Bersaglieri / Alpini / Folgore",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Bersaglieri / Alpini / Folgore"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Tirador Lanzacohetes Bersaglieri / Alpini / Folgore",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Bersaglieri / Alpini / Folgore"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Lanzacohetes Pesado (3 x Cohetes)",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cargador Lanzacohetes Bersaglieri / Alpini / Folgore",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Bersaglieri / Alpini / Folgore"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Soldado Fusil Australian Army",
+        "points": 40,
+        "limit": 4,
+        "training": 6,
+        "experience": 0,
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Sargento Australian Army"
+              },
+              {
+                "in": "Australian Army"
+              }
+            ]
+          }
+        ],
+        "limits": [
+          {
+            "key": "opcionAlfa",
+            "limit": 3,
+            "perParent": true
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil con Lanzagranadas Australian Army",
+        "points": 50,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Australian Army"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Lanzagranadas para Fusil de Asalto"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil y Lanzacohetes Australian Army",
+        "points": 65,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Australian Army"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Lanzacohetes Ligero Desechable"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Soldado LMG Australian Army",
+        "points": 50,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Australian Army"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "LMG"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Tirador Designado Australian Army",
+        "points": 40,
+        "limit": 1,
+        "training": 6,
+        "experience": 0,
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Sargento Australian Army"
+              },
+              {
+                "in": "Australian Army"
+              }
+            ]
+          }
+        ],
+        "limits": [
+          {
+            "key": "opcionAlfa",
+            "limit": 1,
+            "perParent": true
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil Special Operations Command (SOCOMD)",
+        "points": 45,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Special Operations Command (SOCOMD)"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          },
+          {
+            "name": "Miras tácticas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil con Lanzagranadas Special Operations Command (SOCOMD)",
+        "points": 55,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Special Operations Command (SOCOMD)"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Lanzagranadas para Fusil de Asalto"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          },
+          {
+            "name": "Miras tácticas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Soldado LMG Special Operations Command (SOCOMD)",
+        "points": 55,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Special Operations Command (SOCOMD)"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "LMG"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Tirador Designado Special Operations Command (SOCOMD)",
+        "points": 45,
+        "limit": 1,
+        "training": 7,
+        "experience": 0,
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Cabo Special Operations Command (SOCOMD)"
+              },
+              {
+                "in": "US Special Operations Command (SOCOMD)"
+              }
+            ]
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Soldado SMG Special Operations Command (SOCOMD)",
+        "points": 40,
+        "limit": 1,
+        "training": 7,
+        "experience": 0,
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Cabo Special Operations Command (SOCOMD)"
+              },
+              {
+                "in": "US Special Operations Command (SOCOMD)"
+              }
+            ]
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "SMG"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          },
+          {
+            "name": "Miras tácticas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Tirador Australian Army",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Australian Army"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Cargador Australian Army",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Australian Army"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Francotirador Australian Army",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Australian Army"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión"
+        ],
+        "options": []
+      },
+      {
+        "name": "Observador Australian Army",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Australian Army"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Tirador Lanzacohetes Australian Army",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Australian Army"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Lanzacohetes Pesado (3 x Cohetes)"
+        ],
+        "options": [
+          {
+            "name": "Miras tácticas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Cargador Lanzacohetes Australian Army",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Australian Army"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": [
+          {
+            "name": "Miras tácticas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Tirador Special Operations Command (SOCOMD)",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Special Operations Command (SOCOMD)"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Cargador Special Operations Command (SOCOMD)",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Special Operations Command (SOCOMD)"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Francotirador Special Operations Command (SOCOMD)",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Special Operations Command (SOCOMD)"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión"
+        ],
+        "options": []
+      },
+      {
+        "name": "Observador Special Operations Command (SOCOMD)",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Special Operations Command (SOCOMD)"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Tirador Lanzacohetes Special Operations Command (SOCOMD)",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Special Operations Command (SOCOMD)"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Lanzacohetes Pesado (3 x Cohetes)"
+        ],
+        "options": [
+          {
+            "name": "Miras tácticas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Cargador Lanzacohetes Special Operations Command (SOCOMD)",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Special Operations Command (SOCOMD)"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": [
+          {
+            "name": "Miras tácticas",
+            "points": 5
+          }
+        ]
       }
     ],
     "gear": [
@@ -9912,7 +12148,7 @@
         "definition": "150cm | PF: 6 | B/E: 4/8 | AT: 6 | Especial: ¡Atascada!, Montar y Desmontar, 180º visión | Ejemplos: Browning .50 cal, DSHK"
       },
       {
-        "name": "Lanzagranadas automático 40 mm*",
+        "name": "Lanzagranadas automático 40 mm",
         "definition": "100cm | PF: - | B/E: 3/8 | AT: 6 | Especial: Área, ¡Atascada!, Montar y Desmontar, 180º visión | Ejemplos: LAG-40, MK-19, AGS-17"
       },
       {
@@ -9955,10 +12191,16 @@
       },
       {
         "name": "Perro Adiestrado",
-		"training": 3,
-		"experience": 0,
+        "training": 3,
+        "experience": 0,
         "definition": "3 Att - 20cm",
-        "type": "dog"
+        "type": "dog",
+        "unitType": [
+          "Animal"
+        ],
+        "baseSize": [
+          "25mm"
+        ]
       },
       {
         "name": "Chaleco Antibalas",
@@ -9988,4 +12230,3 @@
     "armyBonuses": []
   }
 }
-
