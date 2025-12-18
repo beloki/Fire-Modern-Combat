@@ -1773,11 +1773,6 @@
             "elementPropertyName": "suboficiales",
             "requiredChildren": [
               {
-                "name": "Soldado Fusil Special Operations Command (SOCOMD)",
-                "points": 45,
-                "elementPropertyName": "soldados"
-              },
-              {
                 "name": "Soldado Fusil con Lanzagranadas Special Operations Command (SOCOMD)",
                 "points": 55,
                 "elementPropertyName": "soldados"
