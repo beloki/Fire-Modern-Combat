@@ -11569,18 +11569,8 @@
         "limit": 4,
         "training": 6,
         "experience": 0,
-        "factions": [],
-        "availableIn": [
-          {
-            "all": [
-              {
-                "in": "Sargento Australian Army"
-              },
-              {
-                "in": "Australian Army"
-              }
-            ]
-          }
+        "factions": [
+          "Australian Army"
         ],
         "limits": [
           {
@@ -11747,11 +11737,28 @@
       {
         "name": "Soldado Fusil Special Operations Command (SOCOMD)",
         "points": 45,
-        "autoAddOnly": true,
+        "limit": 1,
         "training": 7,
         "experience": 0,
-        "factions": [
-          "Special Operations Command (SOCOMD)"
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Cabo Special Operations Command (SOCOMD)"
+              },
+              {
+                "in": "US Special Operations Command (SOCOMD)"
+              }
+            ]
+          }
+        ],
+        "limits": [
+          {
+            "key": "opcionAlfa",
+            "limit": 1,
+            "perParent": true
+          }
         ],
         "unitType": [
           "Infantería"
@@ -11869,6 +11876,13 @@
                 "in": "US Special Operations Command (SOCOMD)"
               }
             ]
+          }
+        ],
+        "limits": [
+          {
+            "key": "opcionAlfa",
+            "limit": 1,
+            "perParent": true
           }
         ],
         "unitType": [
