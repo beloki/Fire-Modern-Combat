@@ -1619,7 +1619,7 @@
             "elementPropertyName": "suboficiales",
             "requiredChildren": [
               {
-                "name": "Soldado Fusil con Bersaglieri / Alpini / Folgore",
+                "name": "Soldado Fusil con Lanzagranadas Bersaglieri / Alpini / Folgore",
                 "points": 60,
                 "elementPropertyName": "soldados"
               },
@@ -11072,6 +11072,7 @@
       {
         "name": "Soldado Fusil Forze Armate Italiane",
         "points": 45,
+        "limit": 3,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -11097,6 +11098,7 @@
       {
         "name": "Soldado LMG Forze Armate Italiane",
         "points": 55,
+        "autoAddOnly": true,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -11122,6 +11124,7 @@
       {
         "name": "Soldado Fusil con Lanzagranadas Forze Armate Italiane",
         "points": 55,
+        "autoAddOnly": true,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -11148,6 +11151,7 @@
       {
         "name": "Soldado Fusil y Lanzacohetes Forze Armate Italiane",
         "points": 70,
+        "autoAddOnly": true,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -11169,6 +11173,7 @@
       {
         "name": "Tirador Designado Forze Armate Italiane",
         "points": 45,
+        "autoAddOnly": true,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -11276,6 +11281,7 @@
       {
         "name": "Soldado Fusil Bersaglieri / Alpini / Folgore",
         "points": 50,
+        "limit": 3,
         "training": 6,
         "experience": -1,
         "factions": [
@@ -11301,6 +11307,7 @@
       {
         "name": "Soldado LMG Bersaglieri / Alpini / Folgore",
         "points": 60,
+        "autoAddOnly": true,
         "training": 6,
         "experience": -1,
         "factions": [
@@ -11326,6 +11333,7 @@
       {
         "name": "Soldado Fusil con Lanzagranadas Bersaglieri / Alpini / Folgore",
         "points": 60,
+        "autoAddOnly": true,
         "training": 6,
         "experience": -1,
         "factions": [
@@ -11352,6 +11360,7 @@
       {
         "name": "Soldado Fusil y Lanzacohetes Bersaglieri / Alpini / Folgore",
         "points": 75,
+        "autoAddOnly": true,
         "training": 6,
         "experience": -1,
         "factions": [
@@ -11373,6 +11382,7 @@
       {
         "name": "Tirador Designado Bersaglieri / Alpini / Folgore",
         "points": 50,
+        "autoAddOnly": true,
         "training": 6,
         "experience": -1,
         "factions": [
@@ -11526,6 +11536,7 @@
       {
         "name": "Soldado Fusil con Lanzagranadas Australian Army",
         "points": 50,
+        "autoAddOnly": true,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -11555,6 +11566,7 @@
       {
         "name": "Soldado Fusil y Lanzacohetes Australian Army",
         "points": 65,
+        "autoAddOnly": true,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -11584,6 +11596,7 @@
       {
         "name": "Soldado LMG Australian Army",
         "points": 50,
+        "autoAddOnly": true,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -11658,6 +11671,7 @@
       {
         "name": "Soldado Fusil Special Operations Command (SOCOMD)",
         "points": 45,
+        "autoAddOnly": true,
         "training": 7,
         "experience": 0,
         "factions": [
