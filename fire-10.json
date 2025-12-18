@@ -11237,6 +11237,44 @@
         "options": []
       },
       {
+        "name": "Francotirador Forze Armate Italiane",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Forze Armate Italiane"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión"
+        ],
+        "options": []
+      },
+      {
+        "name": "Observador Forze Armate Italiane",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Forze Armate Italiane"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
         "name": "Tirador Lanzacohetes Forze Armate Italiane",
         "points": 0,
         "autoAddOnly": true,
@@ -11443,6 +11481,44 @@
         "wargear": [
           "Chaleco Antibalas"
         ],
+        "options": []
+      },
+      {
+        "name": "Francotirador Forze Armate Italiane",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Forze Armate Italiane"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión"
+        ],
+        "options": []
+      },
+      {
+        "name": "Observador Forze Armate Italiane",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Forze Armate Italiane"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
         "options": []
       },
       {
