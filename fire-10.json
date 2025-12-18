@@ -11484,13 +11484,13 @@
         "options": []
       },
       {
-        "name": "Francotirador Forze Armate Italiane",
+        "name": "Francotirador Bersaglieri / Alpini / Folgore",
         "points": 0,
         "autoAddOnly": true,
         "training": 6,
         "experience": 0,
         "factions": [
-          "Forze Armate Italiane"
+          "Bersaglieri / Alpini / Folgore"
         ],
         "unitType": [
           "Infantería"
@@ -11504,13 +11504,13 @@
         "options": []
       },
       {
-        "name": "Observador Forze Armate Italiane",
+        "name": "Observador Bersaglieri / Alpini / Folgore",
         "points": 0,
         "autoAddOnly": true,
         "training": 6,
         "experience": 0,
         "factions": [
-          "Forze Armate Italiane"
+          "Bersaglieri / Alpini / Folgore"
         ],
         "unitType": [
           "Infantería"
