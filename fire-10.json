@@ -11856,8 +11856,10 @@
       },
       {
         "name": "Tirador Designado Special Operations Command (SOCOMD)",
-        "points": 50,
+        "points": 45,
         "limit": 1,
+		"unlimited": false,
+		"increment": false,
         "max": 1,
         "training": 7,
         "experience": 0,
