@@ -11488,7 +11488,7 @@
         "points": 0,
         "autoAddOnly": true,
         "training": 6,
-        "experience": 0,
+        "experience": -1,
         "factions": [
           "Bersaglieri / Alpini / Folgore"
         ],
@@ -11508,7 +11508,7 @@
         "points": 0,
         "autoAddOnly": true,
         "training": 6,
-        "experience": 0,
+        "experience": -1,
         "factions": [
           "Bersaglieri / Alpini / Folgore"
         ],
