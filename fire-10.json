@@ -11732,6 +11732,7 @@
       {
         "name": "Soldado Fusil Special Operations Command (SOCOMD)",
         "points": 45,
+		"limit": 3,
         "training": 7,
         "experience": 0,
         "factions": [],
