@@ -5696,6 +5696,7 @@
         "name": "Soldado LMG US Army",
         "points": 55,
         "limit": 2,
+        "increment": false,
         "autoAddOnly": true,
         "training": 6,
         "experience": 0,
@@ -5732,6 +5733,7 @@
       {
         "name": "Soldado Fusil con Lanzagranadas US Army",
         "points": 55,
+        "increment": false,
         "autoAddOnly": true,
         "limit": 2,
         "training": 6,
@@ -5777,6 +5779,7 @@
       {
         "name": "Soldado Fusil US Army",
         "points": 45,
+        "increment": false,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -5802,6 +5805,7 @@
       {
         "name": "Soldado Escopeta US Army",
         "points": 40,
+        "increment": false,
         "limit": 1,
         "training": 6,
         "experience": 0,
@@ -5845,6 +5849,7 @@
       {
         "name": "Tirador Designado US Army",
         "points": 45,
+        "increment": false,
         "limit": 1,
         "training": 6,
         "experience": 0,
@@ -9983,3 +9988,4 @@
     "armyBonuses": []
   }
 }
+
