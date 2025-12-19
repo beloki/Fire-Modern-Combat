@@ -11856,7 +11856,7 @@
       },
       {
         "name": "Tirador Designado Special Operations Command (SOCOMD)",
-        "points": 45,
+        "points": 50,
         "limit": 1,
 		"unlimited": false,
 		"increment": false,
@@ -11883,6 +11883,7 @@
             "perParent": true
           }
         ],
+		"localLimit": 1,
         "unitType": [
           "Infantería"
         ],
