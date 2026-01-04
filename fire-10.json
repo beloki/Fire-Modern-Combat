@@ -89,6 +89,12 @@
   "validations": [],
   "calculations": [
     {
+      "label": "Puntos Mando",
+      "properties": [
+        "pm"
+      ]
+    },
+    {
       "label": "Moral 25% (1d10)",
       "property": "models",
       "percentage": 25.0000,
@@ -245,6 +251,7 @@
       {
         "name": "US Rangers",
         "alignment": "EEUU",
+		"pm": 6,
         "options": [
           {
             "name": "Minas",
@@ -1827,6 +1834,7 @@
       {
         "name": "Sargento US Rangers",
         "points": 70,
+		"pm": 2,
         "training": 8,
         "experience": -1,
         "factions": [
@@ -1850,6 +1858,7 @@
       {
         "name": "Cabo US Rangers",
         "points": 65,
+		"pm": 1,
         "limit": 2,
         "training": 7,
         "experience": -1,
@@ -12333,3 +12342,4 @@
     "armyBonuses": []
   }
 }
+
