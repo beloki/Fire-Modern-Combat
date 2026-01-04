@@ -1826,6 +1826,7 @@
       {
         "name": "Sargento US Rangers",
         "points": 70,
+		"models": 1,
         "training": 8,
         "experience": -1,
         "factions": [
@@ -1849,6 +1850,7 @@
       {
         "name": "Cabo US Rangers",
         "points": 65,
+		"models": 1,
         "limit": 2,
         "training": 7,
         "experience": -1,
@@ -6704,6 +6706,7 @@
       {
         "name": "Soldado LMG US Rangers",
         "points": 60,
+		"models": 1,
         "autoAddOnly": true,
         "limit": 2,
         "training": 6,
@@ -6741,6 +6744,7 @@
       {
         "name": "Soldado Fusil y Lanzagranadas US Rangers",
         "points": 60,
+		"models": 1,
         "autoAddOnly": true,
         "limit": 2,
         "max": 2,
@@ -6822,6 +6826,7 @@
       {
         "name": "Soldado Fusil US Rangers",
         "points": 50,
+		"models": 1,
         "training": 6,
         "experience": -1,
         "factions": [
@@ -6847,6 +6852,7 @@
       {
         "name": "Soldado Escopeta US Rangers",
         "points": 45,
+		"models": 1,
         "limit": 1,
         "training": 6,
         "experience": -1,
@@ -6890,6 +6896,7 @@
       {
         "name": "Tirador Designado US Rangers",
         "points": 50,
+		"models": 1,
         "limit": 1,
         "training": 6,
         "experience": -1,
