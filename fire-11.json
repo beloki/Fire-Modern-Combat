@@ -293,21 +293,7 @@
                 "name": "Soldado Fusil y Lanzagranadas US Rangers",
                 "points": 60,
                 "elementPropertyName": "soldados",
-                "quantity": 1,
-                "requiredChildren": [
-                  {
-                    "name": "Cambiar fusil con lanzagranadas por escopeta",
-                    "usesDefinition": "Escopeta",
-                    "elementPropertyName": "options",
-                    "points": -15
-                  },
-                  {
-                    "name": "Cambiar fusil con lanzagranadas por rifle de precisión",
-                    "usesDefinition": "Rifle de Precisión",
-                    "elementPropertyName": "options",
-                    "points": -10
-                  }
-                ]
+                "quantity": 1
               },
               {
                 "name": "Soldado Fusil US Rangers",
@@ -342,13 +328,6 @@
               }
             ]
           }
-        ],
-        "requireOne": [
-          [
-            "Soldado Fusil y Lanzagranadas US Rangers",
-            "Soldado Escopeta US Rangers",
-            "Tirador Designado US Rangers"
-          ]
         ]
       },
       {
@@ -6807,6 +6786,16 @@
           {
             "name": "Lanzacohetes Ligero Desechable",
             "points": 25
+          },
+          {
+            "name": "Cambiar Fusil con Lanzagranadas por Escopeta",
+            "points": -15,
+            "usesDefinition": "Escopeta"
+          },
+          {
+            "name": "Cambiar Fusil con Lanzagranadas por Rifle de Precisión",
+            "points": -15,
+            "usesDefinition": "Rifle de Precisión"
           }
         ]
       },
