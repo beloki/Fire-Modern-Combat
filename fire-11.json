@@ -6790,12 +6790,28 @@
           {
             "name": "Cambiar Fusil con Lanzagranadas por Escopeta",
             "points": -15,
-            "usesDefinition": "Escopeta"
+            "usesDefinition": "Escopeta",
+            "chooseOneKey": "a",
+            "limits": [
+              {
+                "key": "escopeta",
+                "limit": 1,
+                "perParent": false
+              }
+            ]
           },
           {
             "name": "Cambiar Fusil con Lanzagranadas por Rifle de Precisión",
             "points": -15,
-            "usesDefinition": "Rifle de Precisión"
+            "usesDefinition": "Rifle de Precisión",
+            "chooseOneKey": "a",
+            "limits": [
+              {
+                "key": "rifle francotirador",
+                "limit": 1,
+                "perParent": false
+              }
+            ]
           }
         ]
       },
