@@ -6803,6 +6803,10 @@
           {
             "name": "Cambiar Fusil con Lanzagranadas por Rifle de Precisión",
             "points": -15,
+            "remove": {
+              "name": "Lanzagranadas para Fusil de Asalto",
+              "property": "wargear"
+            },
             "usesDefinition": "Rifle de Precisión",
             "chooseOneKey": "a",
             "limits": [
