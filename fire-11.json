@@ -6762,6 +6762,7 @@
       {
         "name": "Soldado Fusil y Lanzagranadas US Rangers",
         "points": 60,
+        "autoAddOnly": true,
         "limit": 2,
         "max": 2,
         "training": 6,
