@@ -1833,7 +1833,7 @@
       {
         "name": "Sargento US Rangers",
         "points": 70,
-        "pm": 6,
+        "pm": 2,
         "models": 1,
         "training": 8,
         "experience": -1,
@@ -1858,7 +1858,7 @@
       {
         "name": "Cabo US Rangers",
         "points": 65,
-        "pm": 6,
+        "pm": 1,
         "models": 1,
         "limit": 2,
         "training": 7,
