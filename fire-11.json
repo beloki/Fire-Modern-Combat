@@ -6842,8 +6842,7 @@
           {
             "name": "Fusil con Lanzagranadas",
             "points": 0,
-            "usesDefinition": "Escopeta",
-            "chooseOneKey": "a",
+            "requireChooseOneKey": "a",
             "includes": [
               {
                 "name": "Fusil de Asalto",
@@ -6859,13 +6858,13 @@
             "name": "Cambiar Fusil con Lanzagranadas por Escopeta",
             "points": -15,
             "usesDefinition": "Escopeta",
-            "chooseOneKey": "a"
+            "requireChooseOneKey": "a"
           },
           {
             "name": "Cambiar Fusil con Lanzagranadas por Rifle de Precisión",
             "points": -10,
             "usesDefinition": "Rifle de Precisión",
-            "chooseOneKey": "a"
+            "requireChooseOneKey": "a"
           }
         ]
       },
