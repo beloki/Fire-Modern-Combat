@@ -297,7 +297,7 @@
                 "quantity": 1
               },
               {
-                "name": "Soldado Fusil y Lanzagranadas US Rangers",
+                "name": "Soldado Intercambiable US Rangers",
                 "points": 60,
                 "elementPropertyName": "soldados",
                 "quantity": 1
@@ -6799,36 +6799,73 @@
           {
             "name": "Lanzacohetes Ligero Desechable",
             "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Soldado Intercambiable US Rangers",
+        "points": 60,
+        "models": 1,
+        "autoAddOnly": true,
+        "limit": 1,
+        "training": 6,
+        "experience": -1,
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Cabo US Rangers"
+              },
+              {
+                "in": "US Rangers"
+              }
+            ]
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Lanzagranadas para Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Fusil con Lanzagranadas",
+            "points": 0,
+            "usesDefinition": "Escopeta",
+            "chooseOneKey": "a",
+            "includes": [
+              {
+                "name": "Fusil de Asalto",
+                "dataSource": "gear"
+              },
+              {
+                "name": "Lanzagranadas para Fusil de Asalto",
+                "dataSource": "gear"
+              }
+            ]
           },
           {
             "name": "Cambiar Fusil con Lanzagranadas por Escopeta",
             "points": -15,
             "usesDefinition": "Escopeta",
-            "chooseOneKey": "a",
-            "limits": [
-              {
-                "key": "escopeta",
-                "limit": 1,
-                "perParent": false
-              }
-            ]
+            "chooseOneKey": "a"
           },
           {
             "name": "Cambiar Fusil con Lanzagranadas por Rifle de Precisión",
-            "points": -15,
-            "remove": {
-              "name": "Lanzagranadas para Fusil de Asalto",
-              "property": "wargear"
-            },
+            "points": -10,
             "usesDefinition": "Rifle de Precisión",
-            "chooseOneKey": "a",
-            "limits": [
-              {
-                "key": "rifle francotirador",
-                "limit": 1,
-                "perParent": false
-              }
-            ]
+            "chooseOneKey": "a"
           }
         ]
       },
