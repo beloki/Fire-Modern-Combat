@@ -2405,20 +2405,6 @@
                 "name": "Soldado Fusil Alta Movilidad PLA",
                 "points": 35,
                 "elementPropertyName": "soldados"
-              },
-              {
-                "name": "Equipo Lanzacohetes Alta Movilidad PLA",
-                "points": 160,
-                "elementPropertyName": "suboficiales",
-                "requiredChildren": [
-                  {
-                    "elementPropertyName": "soldados",
-                    "name": "Cargador Lanzacohetes Alta Movilidad PLA",
-                    "quantity": 1,
-                    "points": 0,
-                    "lockedChildren": true
-                  }
-                ]
               }
             ]
           },
@@ -2441,6 +2427,20 @@
                 "name": "Soldado LMG Alta Movilidad PLA",
                 "points": 45,
                 "elementPropertyName": "soldados"
+              }
+            ]
+          },
+          {
+            "name": "Equipo Lanzacohetes Alta Movilidad PLA",
+            "points": 160,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "elementPropertyName": "soldados",
+                "name": "Cargador Lanzacohetes Alta Movilidad PLA",
+                "quantity": 1,
+                "points": 0,
+                "lockedChildren": true
               }
             ]
           }
@@ -2487,20 +2487,6 @@
                 "name": "Soldado Fusil Alta Movilidad PLA",
                 "points": 35,
                 "elementPropertyName": "soldados"
-              },
-              {
-                "name": "Equipo Lanzacohetes Alta Movilidad PLA",
-                "points": 160,
-                "elementPropertyName": "suboficiales",
-                "requiredChildren": [
-                  {
-                    "elementPropertyName": "soldados",
-                    "name": "Cargador Lanzacohetes Alta Movilidad PLA",
-                    "quantity": 1,
-                    "points": 0,
-                    "lockedChildren": true
-                  }
-                ]
               }
             ]
           },
@@ -2528,6 +2514,20 @@
                 "name": "Conductor Alta Movilidad PLA",
                 "points": 35,
                 "elementPropertyName": "soldados"
+              }
+            ]
+          },
+          {
+            "name": "Equipo Lanzacohetes Alta Movilidad PLA",
+            "points": 160,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "elementPropertyName": "soldados",
+                "name": "Cargador Lanzacohetes Alta Movilidad PLA",
+                "quantity": 1,
+                "points": 0,
+                "lockedChildren": true
               }
             ]
           }
@@ -2574,20 +2574,6 @@
                 "name": "Soldado Fusil Alfa Asalto Aéreo de Marina PLA",
                 "points": 45,
                 "elementPropertyName": "soldados"
-              },
-              {
-                "name": "Equipo Lanzacohetes Asalto Aéreo de Marina PLA",
-                "points": 180,
-                "elementPropertyName": "suboficiales",
-                "requiredChildren": [
-                  {
-                    "elementPropertyName": "soldados",
-                    "name": "Cargador Lanzacohetes Asalto Aéreo de Marina PLA",
-                    "quantity": 1,
-                    "points": 0,
-                    "lockedChildren": true
-                  }
-                ]
               }
             ]
           },
@@ -2617,6 +2603,20 @@
                 "elementPropertyName": "soldados"
               }
             ]
+          },
+          {
+            "name": "Equipo Lanzacohetes Asalto Aéreo de Marina PLA",
+            "points": 180,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "elementPropertyName": "soldados",
+                "name": "Cargador Lanzacohetes Asalto Aéreo de Marina PLA",
+                "quantity": 1,
+                "points": 0,
+                "lockedChildren": true
+              }
+            ]
           }
         ]
       },
@@ -2643,6 +2643,12 @@
             "increment": true,
             "max": 6
           }
+        ],
+        "requireOne": [
+          [
+            "Equipo Lanzacohetes Blindado Anfibio PLA",
+            "Equipo Lanzagranadas Automático Blindado Anfibio PLA"
+          ]
         ],
         "requiredChildren": [
           {
@@ -2671,13 +2677,7 @@
           {
             "name": "Cabo Blindado Anfibio PLA",
             "points": 60,
-            "elementPropertyName": "suboficiales",
-            "requireOne": [
-              [
-                "Equipo Lanzacohetes Blindado Anfibio PLA",
-                "Equipo Lanzagranadas Automático Blindado Anfibio PLA"
-              ]
-            ]
+            "elementPropertyName": "suboficiales"
           }
         ]
       },
@@ -2704,6 +2704,12 @@
             "increment": true,
             "max": 6
           }
+        ],
+        "requireOne": [
+          [
+            "Equipo Lanzacohetes Blindado Anfibio PLA",
+            "Equipo Lanzagranadas Automático Blindado Anfibio PLA"
+          ]
         ],
         "requiredChildren": [
           {
@@ -2744,12 +2750,6 @@
                 "points": 40,
                 "elementPropertyName": "soldados"
               }
-            ],
-            "requireOne": [
-              [
-                "Equipo Lanzacohetes Blindado Anfibio PLA",
-                "Equipo Lanzagranadas Automático Blindado Anfibio PLA"
-              ]
             ]
           }
         ]
@@ -8615,11 +8615,11 @@
         "factions": [
           {
             "name": "Blindados Pesados PLA Opción A (Vehículo)",
-            "suboficialTier": "Arma Apoyo"
+            "suboficialTier": "Mando Principal"
           },
-		  {
+          {
             "name": "Blindados Pesados PLA Opción B (Desmontados)",
-            "suboficialTier": "Arma Apoyo"
+            "suboficialTier": "Mando Principal"
           }
         ],
         "unitType": [
@@ -8642,11 +8642,11 @@
         "factions": [
           {
             "name": "Blindados Pesados PLA Opción A (Vehículo)",
-            "suboficialTier": "Arma Apoyo"
+            "suboficialTier": "Mando Principal"
           },
-		  {
+          {
             "name": "Blindados Pesados PLA Opción B (Desmontados)",
-            "suboficialTier": "Arma Apoyo"
+            "suboficialTier": "Mando Principal"
           }
         ],
         "unitType": [
@@ -8671,7 +8671,7 @@
             "name": "Blindados Pesados PLA Opción A (Vehículo)",
             "suboficialTier": "Arma Apoyo"
           },
-		  {
+          {
             "name": "Blindados Pesados PLA Opción B (Desmontados)",
             "suboficialTier": "Arma Apoyo"
           }
@@ -8694,11 +8694,11 @@
         "factions": [
           {
             "name": "Alta Movilidad PLA Opción A (Vehículo)",
-            "suboficialTier": "Arma Apoyo"
+            "suboficialTier": "Mando Principal"
           },
           {
             "name": "Alta Movilidad PLA Opción B (Desmontados)",
-            "suboficialTier": "Arma Apoyo"
+            "suboficialTier": "Mando Principal"
           }
         ],
         "unitType": [
@@ -8721,11 +8721,11 @@
         "factions": [
           {
             "name": "Alta Movilidad PLA Opción A (Vehículo)",
-            "suboficialTier": "Arma Apoyo"
+            "suboficialTier": "Mando Principal"
           },
           {
             "name": "Alta Movilidad PLA Opción B (Desmontados)",
-            "suboficialTier": "Arma Apoyo"
+            "suboficialTier": "Mando Principal"
           }
         ],
         "unitType": [
@@ -8840,11 +8840,11 @@
         "factions": [
           {
             "name": "Blindado Anfibio PLA Opción A (Vehículo)",
-            "suboficialTier": "Arma Apoyo"
+            "suboficialTier": "Mando Principal"
           },
-		  {
+          {
             "name": "Blindado Anfibio PLA Opción B (Desmontados)",
-            "suboficialTier": "Arma Apoyo"
+            "suboficialTier": "Mando Principal"
           }
         ],
         "unitType": [
@@ -8867,11 +8867,11 @@
         "factions": [
           {
             "name": "Blindado Anfibio PLA Opción A (Vehículo)",
-            "suboficialTier": "Arma Apoyo"
+            "suboficialTier": "Mando Principal"
           },
-		  {
+          {
             "name": "Blindado Anfibio PLA Opción B (Desmontados)",
-            "suboficialTier": "Arma Apoyo"
+            "suboficialTier": "Mando Principal"
           }
         ],
         "unitType": [
@@ -8896,7 +8896,7 @@
             "name": "Blindado Anfibio PLA Opción A (Vehículo)",
             "suboficialTier": "Arma Apoyo"
           },
-		  {
+          {
             "name": "Blindado Anfibio PLA Opción B (Desmontados)",
             "suboficialTier": "Arma Apoyo"
           }
@@ -8920,7 +8920,7 @@
             "name": "Blindados Pesados PLA Opción A (Vehículo)",
             "suboficialTier": "Arma Apoyo"
           },
-		  {
+          {
             "name": "Blindados Pesados PLA Opción B (Desmontados)",
             "suboficialTier": "Arma Apoyo"
           }
@@ -9048,7 +9048,7 @@
             "name": "Blindado Anfibio PLA Opción A (Vehículo)",
             "suboficialTier": "Arma Apoyo"
           },
-		  {
+          {
             "name": "Blindado Anfibio PLA Opción B (Desmontados)",
             "suboficialTier": "Arma Apoyo"
           }
@@ -9092,7 +9092,7 @@
             "name": "Blindados Pesados PLA Opción A (Vehículo)",
             "suboficialTier": "Arma Apoyo"
           },
-		  {
+          {
             "name": "Blindados Pesados PLA Opción B (Desmontados)",
             "suboficialTier": "Arma Apoyo"
           }
@@ -9208,7 +9208,7 @@
             "name": "Blindado Anfibio PLA Opción A (Vehículo)",
             "suboficialTier": "Arma Apoyo"
           },
-		  {
+          {
             "name": "Blindado Anfibio PLA Opción B (Desmontados)",
             "suboficialTier": "Arma Apoyo"
           }
@@ -9248,7 +9248,7 @@
             "name": "Blindados Pesados PLA Opción A (Vehículo)",
             "suboficialTier": "Arma Apoyo"
           },
-		  {
+          {
             "name": "Blindados Pesados PLA Opción B (Desmontados)",
             "suboficialTier": "Arma Apoyo"
           }
@@ -9370,7 +9370,7 @@
             "name": "Blindado Anfibio PLA Opción A (Vehículo)",
             "suboficialTier": "Arma Apoyo"
           },
-		  {
+          {
             "name": "Blindado Anfibio PLA Opción B (Desmontados)",
             "suboficialTier": "Arma Apoyo"
           }
@@ -9412,7 +9412,7 @@
             "name": "Blindado Anfibio PLA Opción A (Vehículo)",
             "suboficialTier": "Arma Apoyo"
           },
-		  {
+          {
             "name": "Blindado Anfibio PLA Opción B (Desmontados)",
             "suboficialTier": "Arma Apoyo"
           }
@@ -9454,7 +9454,7 @@
             "name": "Blindados Pesados PLA Opción A (Vehículo)",
             "suboficialTier": "Arma Apoyo"
           },
-		  {
+          {
             "name": "Blindados Pesados PLA Opción B (Desmontados)",
             "suboficialTier": "Arma Apoyo"
           }
@@ -9594,7 +9594,7 @@
             "name": "Blindado Anfibio PLA Opción A (Vehículo)",
             "suboficialTier": "Arma Apoyo"
           },
-		  {
+          {
             "name": "Blindado Anfibio PLA Opción B (Desmontados)",
             "suboficialTier": "Arma Apoyo"
           }
@@ -9642,7 +9642,7 @@
             "name": "Blindados Pesados PLA Opción A (Vehículo)",
             "suboficialTier": "Arma Apoyo"
           },
-		  {
+          {
             "name": "Blindados Pesados PLA Opción B (Desmontados)",
             "suboficialTier": "Arma Apoyo"
           }
@@ -9782,7 +9782,7 @@
             "name": "Blindado Anfibio PLA Opción A (Vehículo)",
             "suboficialTier": "Arma Apoyo"
           },
-		  {
+          {
             "name": "Blindado Anfibio PLA Opción B (Desmontados)",
             "suboficialTier": "Arma Apoyo"
           }
