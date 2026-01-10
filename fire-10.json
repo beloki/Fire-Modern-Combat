@@ -2536,7 +2536,7 @@
       {
         "name": "Asalto Aéreo de Marina PLA",
         "alignment": "China",
-        "pm": 6,
+        "pm": 7,
         "options": [
           {
             "name": "Minas",
@@ -2593,7 +2593,7 @@
                 "elementPropertyName": "soldados"
               },
               {
-                "name": "Tirador Designado Aéreo de Marina PLA",
+                "name": "Tirador Designado Asalto Aéreo de Marina PLA",
                 "points": 45,
                 "elementPropertyName": "soldados"
               },
@@ -2659,24 +2659,24 @@
             "requiredChildren": [
               {
                 "name": "Soldado Fusil Alfa Blindado Anfibio PLA",
-                "points": 45,
+                "points": 40,
                 "elementPropertyName": "soldados"
               },
               {
                 "name": "Tirador Designado Blindado Anfibio PLA",
-                "points": 45,
+                "points": 40,
                 "elementPropertyName": "soldados"
               },
               {
                 "name": "Soldado LMG Blindado Anfibio PLA",
-                "points": 55,
+                "points": 50,
                 "elementPropertyName": "soldados"
               }
             ]
           },
           {
             "name": "Cabo Blindado Anfibio PLA",
-            "points": 60,
+            "points": 55,
             "elementPropertyName": "suboficiales"
           }
         ]
@@ -16681,6 +16681,7 @@
       {
         "name": "Soldado Fusil Blindados Pesados PLA",
         "points": 40,
+		"limit": 4,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -16701,6 +16702,8 @@
       {
         "name": "Soldado Fusil Alfa Blindados Pesados PLA",
         "points": 40,
+		"autoAddOnly": true,
+		"limit": 1,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -16728,6 +16731,8 @@
       {
         "name": "Tirador Designado Blindados Pesados PLA",
         "points": 50,
+		"autoAddOnly": true,
+		"limit": 1,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -16748,6 +16753,8 @@
       {
         "name": "Soldado LMG Blindados Pesados PLA",
         "points": 50,
+		"autoAddOnly": true,
+		"limit": 2,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -16768,6 +16775,8 @@
       {
         "name": "Conductor Blindados Pesados PLA",
         "points": 40,
+		"autoAddOnly": true,
+		"limit": 1,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -16788,6 +16797,8 @@
       {
         "name": "Artillero Blindados Pesados PLA",
         "points": 40,
+		"autoAddOnly": true,
+		"limit": 1,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -16928,6 +16939,7 @@
       {
         "name": "Soldado Fusil Alta Movilidad PLA",
         "points": 35,
+		"limit": 6,
         "training": 6,
         "experience": 1,
         "factions": [
@@ -16948,6 +16960,8 @@
       {
         "name": "Soldado LMG Alta Movilidad PLA",
         "points": 45,
+		"autoAddOnly": true,
+		"limit": 1,
         "training": 6,
         "experience": 1,
         "factions": [
@@ -16968,6 +16982,7 @@
       {
         "name": "Soldado Fusil con Lanzagranadas Alta Movilidad PLA",
         "points": 45,
+		"limit": 1,
         "training": 6,
         "experience": 1,
         "factions": [
@@ -16989,6 +17004,8 @@
       {
         "name": "Conductor Alta Movilidad PLA",
         "points": 35,
+		"autoAddOnly": true,
+		"limit": 1,
         "training": 6,
         "experience": 1,
         "factions": [
@@ -17129,6 +17146,7 @@
       {
         "name": "Soldado Fusil Asalto Aéreo de Marina PLA",
         "points": 35,
+		"limit": 5,
         "training": 7,
         "experience": 0,
         "factions": [
@@ -17148,6 +17166,8 @@
       {
         "name": "Soldado Fusil Alfa Asalto Aéreo de Marina PLA",
         "points": 35,
+		"autoAddOnly": true,
+		"limit": 1,
         "training": 7,
         "experience": 0,
         "factions": [
@@ -17174,6 +17194,8 @@
       {
         "name": "Soldado Fusil con Lanzagranadas Asalto Aéreo de Marina PLA",
         "points": 45,
+		"autoAddOnly": true,
+		"limit": 1,
         "training": 7,
         "experience": 0,
         "factions": [
@@ -17194,6 +17216,8 @@
       {
         "name": "Soldado LMG Asalto Aéreo de Marina PLA",
         "points": 50,
+		"autoAddOnly": true,
+		"limit": 1,
         "training": 7,
         "experience": 0,
         "factions": [
@@ -17213,6 +17237,8 @@
       {
         "name": "Tirador Designado Asalto Aéreo de Marina PLA",
         "points": 45,
+		"autoAddOnly": true,
+		"limit": 1,
         "training": 7,
         "experience": 0,
         "factions": [
@@ -17346,6 +17372,7 @@
       {
         "name": "Soldado Fusil Blindado Anfibio PLA",
         "points": 40,
+		"limit": 3,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -17366,6 +17393,8 @@
       {
         "name": "Soldado Fusil Alfa Blindado Anfibio PLA",
         "points": 40,
+		"autoAddOnly": true,
+		"limit": 1,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -17393,6 +17422,8 @@
       {
         "name": "Soldado Fusil con Lanzagranadas Blindado Anfibio PLA",
         "points": 50,
+		"autoAddOnly": true,
+		"limit": 1,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -17414,6 +17445,8 @@
       {
         "name": "Soldado LMG Blindado Anfibio PLA",
         "points": 50,
+		"autoAddOnly": true,
+		"limit": 1,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -17434,6 +17467,8 @@
       {
         "name": "Tirador Designado Blindado Anfibio PLA",
         "points": 40,
+		"autoAddOnly": true,
+		"limit": 1,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -17454,6 +17489,8 @@
       {
         "name": "Conductor Blindado Anfibio PLA",
         "points": 40,
+		"autoAddOnly": true,
+		"limit": 1,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -17474,6 +17511,8 @@
       {
         "name": "Artillero Blindado Anfibio PLA",
         "points": 40,
+		"autoAddOnly": true,
+		"limit": 1,
         "training": 6,
         "experience": 0,
         "factions": [
