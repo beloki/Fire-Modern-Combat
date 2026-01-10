@@ -29,7 +29,7 @@
     },
     {
       "type": "url",
-      "text": "- FIRE! Modern Combat -",
+      "text": "- FIRE! Modern Combat - ",
       "url": "https://www.youtube.com/@firemoderncombat"
     }
   ],
@@ -298,6 +298,12 @@
                 "quantity": 1
               },
               {
+                "name": "Soldado US Rangers",
+                "points": 60,
+                "elementPropertyName": "soldados",
+                "quantity": 1
+              },
+              {
                 "name": "Soldado Fusil US Rangers",
                 "points": 50,
                 "elementPropertyName": "soldados",
@@ -342,6 +348,7 @@
       {
         "name": "US Army",
         "alignment": "EEUU",
+		"pm": 6,
         "options": [
           {
             "name": "Minas",
@@ -386,6 +393,12 @@
                 "elementPropertyName": "soldados"
               },
               {
+                "name": "Soldado US Army",
+                "points": 55,
+                "elementPropertyName": "soldados",
+                "quantity": 1
+              },
+              {
                 "name": "Soldado Fusil US Army",
                 "points": 45,
                 "elementPropertyName": "soldados"
@@ -426,6 +439,7 @@
       {
         "name": "US Marines",
         "alignment": "EEUU",
+		"pm": 6,
         "options": [
           {
             "name": "Minas",
@@ -482,6 +496,12 @@
                 "elementPropertyName": "soldados"
               },
               {
+                "name": "Soldado US Marines",
+                "points": 55,
+                "elementPropertyName": "soldados",
+                "quantity": 1
+              },
+              {
                 "name": "Soldado Fusil US Marines",
                 "points": 45,
                 "elementPropertyName": "soldados"
@@ -536,6 +556,7 @@
       },
       {
         "name": "US SOCOM",
+		"pm": 7,
         "alignment": "EEUU",
         "options": [
           {
@@ -580,6 +601,7 @@
       {
         "name": "British Army (2010)",
         "alignment": "Reino Unido",
+		"pm": 6,
         "options": [
           {
             "name": "Minas",
@@ -657,6 +679,7 @@
       {
         "name": "British Army (2018)",
         "alignment": "Reino Unido",
+		"pm": 6,
         "options": [
           {
             "name": "Minas",
@@ -738,6 +761,7 @@
       {
         "name": "Royal Marines / Paras / Gurkhas (2010)",
         "alignment": "Reino Unido",
+		"pm": 6,
         "options": [
           {
             "name": "Minas",
@@ -815,6 +839,7 @@
       {
         "name": "Royal Marines / Paras / Gurkhas (2018)",
         "alignment": "Reino Unido",
+		"pm": 6,
         "options": [
           {
             "name": "Minas",
@@ -896,6 +921,7 @@
       {
         "name": "SAS / SBS / SRR / SFSG",
         "alignment": "Reino Unido",
+		"pm": 7,
         "options": [
           {
             "name": "Minas",
@@ -939,6 +965,7 @@
       {
         "name": "Armée de Terre",
         "alignment": "Francia",
+		"pm": 6,
         "options": [
           {
             "name": "Minas",
@@ -1018,6 +1045,7 @@
       {
         "name": "Légion Étrangere",
         "alignment": "Francia",
+		"pm": 6,
         "options": [
           {
             "name": "Minas",
@@ -1097,6 +1125,7 @@
       {
         "name": "Ejército de Tierra",
         "alignment": "España",
+		"pm": 6,
         "options": [
           {
             "name": "Minas",
@@ -1169,6 +1198,7 @@
       {
         "name": "Legionarios / Cazadores de Montaña / Infantería de Marina",
         "alignment": "España",
+		"pm": 6,
         "options": [
           {
             "name": "Minas",
@@ -1241,6 +1271,7 @@
       {
         "name": "Insurgentes Tipo 1",
         "alignment": "Insurgencia",
+		"pm": 5,
         "options": [
           {
             "name": "Cohetes Extra",
@@ -1296,6 +1327,7 @@
       {
         "name": "Insurgentes Tipo 2",
         "alignment": "Insurgencia",
+		"pm": 5,
         "options": [
           {
             "name": "Cohetes Extra",
@@ -1351,6 +1383,7 @@
       {
         "name": "Insurgentes Tipo 3",
         "alignment": "Insurgencia",
+		"pm": 6,
         "options": [
           {
             "name": "Cohetes Extra",
@@ -1406,6 +1439,7 @@
       {
         "name": "Insurgentes Tipo 4",
         "alignment": "Insurgencia",
+		"pm": 6,
         "options": [
           {
             "name": "Cohetes Extra",
@@ -1461,6 +1495,7 @@
       {
         "name": "Insurgentes Tipo 5",
         "alignment": "Insurgencia",
+		"pm": 7,
         "options": [
           {
             "name": "Cohetes Extra",
@@ -1516,6 +1551,7 @@
       {
         "name": "Forze Armate Italiane",
         "alignment": "Italia",
+		"pm": 6,
         "options": [
           {
             "name": "Minas",
@@ -1593,6 +1629,7 @@
       {
         "name": "Bersaglieri / Alpini / Folgore",
         "alignment": "Italia",
+		"pm": 6,
         "options": [
           {
             "name": "Minas",
@@ -1670,6 +1707,7 @@
       {
         "name": "Australian Army",
         "alignment": "Australia",
+		"pm": 6,
         "options": [
           {
             "name": "Minas",
@@ -1742,6 +1780,7 @@
       {
         "name": "Special Operations Command (SOCOMD)",
         "alignment": "Australia",
+		"pm": 7,
         "options": [
           {
             "name": "Minas",
@@ -1884,6 +1923,7 @@
       {
         "name": "Sargento US Army",
         "points": 65,
+		"pm": 2,
         "training": 8,
         "experience": 0,
         "factions": [
@@ -1907,7 +1947,7 @@
       {
         "name": "Cabo US Army",
         "points": 60,
-        "limit": 2,
+        "limit": 1,
         "training": 7,
         "experience": 0,
         "factions": [
@@ -1931,6 +1971,7 @@
       {
         "name": "Sargento US Marines",
         "points": 65,
+		"pm": 2,
         "training": 8,
         "experience": 0,
         "factions": [
@@ -1957,6 +1998,7 @@
       {
         "name": "Cabo US Marines",
         "points": 60,
+		"pm": 1,
         "limit": 1,
         "training": 7,
         "experience": 0,
@@ -1984,6 +2026,7 @@
       {
         "name": "Sargento US SOCOM",
         "points": 75,
+		"pm": 2,
         "training": 9,
         "experience": -1,
         "factions": [
@@ -2012,6 +2055,7 @@
       {
         "name": "Cabo US SOCOM",
         "points": 70,
+		"pm": 1,
         "training": 8,
         "experience": -1,
         "factions": [
@@ -2714,6 +2758,7 @@
       {
         "name": "Sargento British Army",
         "points": 60,
+		"pm": 2,
         "training": 8,
         "experience": 0,
         "factions": [
@@ -2740,6 +2785,7 @@
       {
         "name": "Cabo British Army",
         "points": 55,
+		"pm": 1,
         "training": 7,
         "experience": 0,
         "factions": [
@@ -2766,6 +2812,7 @@
       {
         "name": "Sargento Royal Marines / Paras / Gurkhas",
         "points": 65,
+		"pm": 2,
         "training": 8,
         "experience": -1,
         "factions": [
@@ -2792,6 +2839,7 @@
       {
         "name": "Cabo Royal Marines / Paras / Gurkhas",
         "points": 60,
+		"pm": 1,
         "training": 7,
         "experience": -1,
         "factions": [
@@ -2818,6 +2866,7 @@
       {
         "name": "Sargento SAS / SBS / SRR / SFSG",
         "points": 75,
+		"pm": 2,
         "training": 9,
         "experience": -1,
         "factions": [
@@ -2840,6 +2889,7 @@
       {
         "name": "Cabo SAS / SBS / SRR / SFSG",
         "points": 70,
+		"pm": 1,
         "training": 8,
         "experience": -1,
         "factions": [
@@ -3450,6 +3500,7 @@
       {
         "name": "Sargento Armée de Terre",
         "points": 60,
+		"pm": 2,
         "training": 8,
         "experience": 0,
         "factions": [
@@ -3477,6 +3528,7 @@
       {
         "name": "Cabo Armée de Terre",
         "points": 55,
+		"pm": 1,
         "limit": 2,
         "training": 7,
         "experience": 0,
@@ -3505,6 +3557,7 @@
       {
         "name": "Sargento Légion Étrangere",
         "points": 60,
+		"pm": 2,
         "training": 8,
         "experience": -1,
         "factions": [
@@ -3532,6 +3585,7 @@
       {
         "name": "Cabo Légion Étrangere",
         "points": 55,
+		"pm": 1,
         "limit": 2,
         "training": 7,
         "experience": -1,
@@ -3958,6 +4012,7 @@
       {
         "name": "Sargento Ejército de Tierra",
         "points": 60,
+		"pm": 2,
         "training": 8,
         "experience": 0,
         "factions": [
@@ -3980,6 +4035,7 @@
       {
         "name": "Cabo Ejército de Tierra",
         "points": 55,
+		"pm": 1,
         "limit": 2,
         "training": 7,
         "experience": 0,
@@ -4003,6 +4059,7 @@
       {
         "name": "Sargento Legionarios / Cazadores de Montaña / Infantería de Marina",
         "points": 60,
+		"pm": 2,
         "training": 8,
         "experience": -1,
         "factions": [
@@ -4030,6 +4087,7 @@
       {
         "name": "Cabo Legionarios / Cazadores de Montaña / Infantería de Marina",
         "points": 55,
+		"pm": 1,
         "limit": 2,
         "training": 7,
         "experience": -1,
@@ -4436,6 +4494,7 @@
       {
         "name": "Jefe Insurgentes Tipo 1",
         "points": 55,
+		"pm": 2,
         "training": 7,
         "experience": 0,
         "factions": [
@@ -4458,6 +4517,7 @@
       {
         "name": "Ayudante Insurgentes Tipo 1",
         "points": 50,
+		"pm": 1,
         "unlimited": true,
         "training": 6,
         "experience": 0,
@@ -4481,6 +4541,7 @@
       {
         "name": "Jefe Insurgentes Tipo 2",
         "points": 55,
+		"pm": 2,
         "training": 7,
         "experience": 0,
         "factions": [
@@ -4503,6 +4564,7 @@
       {
         "name": "Ayudante Insurgentes Tipo 2",
         "points": 50,
+		"pm": 1,
         "unlimited": true,
         "training": 6,
         "experience": 0,
@@ -4526,6 +4588,7 @@
       {
         "name": "Jefe Insurgentes Tipo 3",
         "points": 60,
+		"pm": 2,
         "training": 8,
         "experience": -1,
         "factions": [
@@ -4548,6 +4611,7 @@
       {
         "name": "Ayudante Insurgentes Tipo 3",
         "points": 55,
+		"pm": 1,
         "unlimited": true,
         "training": 7,
         "experience": 0,
@@ -4571,6 +4635,7 @@
       {
         "name": "Jefe Insurgentes Tipo 4",
         "points": 65,
+		"pm": 2,
         "training": 8,
         "experience": -1,
         "factions": [
@@ -4593,6 +4658,7 @@
       {
         "name": "Ayudante Insurgentes Tipo 4",
         "points": 60,
+		"pm": 1,
         "unlimited": true,
         "training": 7,
         "experience": -1,
@@ -4616,6 +4682,7 @@
       {
         "name": "Jefe Insurgentes Tipo 5",
         "points": 65,
+		"pm": 2,
         "training": 9,
         "experience": 0,
         "factions": [
@@ -4643,6 +4710,7 @@
       {
         "name": "Ayudante Insurgentes Tipo 5",
         "points": 60,
+		"pm": 1,
         "unlimited": true,
         "training": 8,
         "experience": 0,
@@ -5813,6 +5881,7 @@
       {
         "name": "Sargento Forze Armate Italiane",
         "points": 65,
+		"pm": 2,
         "training": 8,
         "experience": 0,
         "factions": [
@@ -5836,6 +5905,7 @@
       {
         "name": "Cabo Forze Armate Italiane",
         "points": 60,
+		"pm": 1,
         "training": 7,
         "experience": 0,
         "factions": [
@@ -5882,6 +5952,7 @@
       {
         "name": "Sargento Bersaglieri / Alpini / Folgore",
         "points": 70,
+		"pm": 2,
         "training": 8,
         "experience": -1,
         "factions": [
@@ -5905,6 +5976,7 @@
       {
         "name": "Cabo Bersaglieri / Alpini / Folgore",
         "points": 65,
+		"pm": 1,
         "training": 7,
         "experience": -1,
         "factions": [
@@ -6267,6 +6339,7 @@
       {
         "name": "Sargento Australian Army",
         "points": 65,
+		"pm": 2,
         "training": 8,
         "experience": 0,
         "factions": [
@@ -6289,6 +6362,7 @@
       {
         "name": "Cabo Australian Army",
         "points": 60,
+		"pm": 1,
         "training": 7,
         "experience": 0,
         "factions": [
@@ -6332,6 +6406,7 @@
       {
         "name": "Sargento Special Operations Command (SOCOMD)",
         "points": 75,
+		"pm": 2,
         "training": 9,
         "experience": 0,
         "factions": [
@@ -6354,6 +6429,7 @@
       {
         "name": "Cabo Special Operations Command (SOCOMD)",
         "points": 70,
+		"pm": 1,
         "training": 8,
         "experience": 0,
         "factions": [
@@ -6752,8 +6828,8 @@
       {
         "name": "Soldado Fusil y Lanzagranadas US Rangers",
         "points": 60,
-        "limit": 2,
-        "max": 2,
+        "limit": 1,
+        "autoAddOnly": true,
         "training": 6,
         "experience": -1,
         "factions": [],
@@ -6767,18 +6843,6 @@
                 "in": "US Rangers"
               }
             ]
-          }
-        ],
-        "limits": [
-          {
-            "key": "opcionAlfa",
-            "limit": 1,
-            "perParent": true
-          },
-          {
-            "key": "lanzagranadas",
-            "limit": 2,
-            "perParent": false
           }
         ],
         "unitType": [
@@ -6800,8 +6864,74 @@
         ]
       },
       {
+        "name": "Soldado US Rangers",
+        "points": 60,
+        "autoAddOnly": true,
+        "limit": 1,
+        "training": 6,
+        "experience": -1,
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Cabo US Rangers"
+              },
+              {
+                "in": "US Rangers"
+              }
+            ]
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Lanzagranadas para Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Fusil con Lanzagranadas",
+            "points": 0,
+            "requireChooseOneKey": "a",
+            "includes": [
+              {
+                "name": "Fusil de Asalto",
+                "dataSource": "gear"
+              },
+              {
+                "name": "Lanzagranadas para Fusil de Asalto",
+                "dataSource": "gear"
+              }
+            ]
+          },
+          {
+            "name": "Cambiar Fusil con Lanzagranadas por Escopeta",
+            "points": -15,
+            "usesDefinition": "Escopeta",
+            "requireChooseOneKey": "a"
+          },
+          {
+            "name": "Cambiar Fusil con Lanzagranadas por Rifle de Precisión",
+            "points": -10,
+            "usesDefinition": "Rifle de Precisión",
+            "requireChooseOneKey": "a"
+          }
+        ]
+      },
+      {
         "name": "Soldado Fusil US Rangers",
         "points": 50,
+		"limit": 5,
         "training": 6,
         "experience": -1,
         "factions": [
@@ -6827,6 +6957,7 @@
       {
         "name": "Soldado Escopeta US Rangers",
         "points": 45,
+        "autoAddOnly": true,
         "limit": 1,
         "training": 6,
         "experience": -1,
@@ -6841,13 +6972,6 @@
                 "in": "US Rangers"
               }
             ]
-          }
-        ],
-        "limits": [
-          {
-            "key": "opcionAlfa",
-            "limit": 1,
-            "perParent": true
           }
         ],
         "unitType": [
@@ -6870,6 +6994,7 @@
       {
         "name": "Tirador Designado US Rangers",
         "points": 50,
+        "autoAddOnly": true,
         "limit": 1,
         "training": 6,
         "experience": -1,
@@ -6884,13 +7009,6 @@
                 "in": "US Rangers"
               }
             ]
-          }
-        ],
-        "limits": [
-          {
-            "key": "opcionAlfa",
-            "limit": 1,
-            "perParent": true
           }
         ],
         "unitType": [
@@ -6946,7 +7064,7 @@
         "name": "Soldado Fusil con Lanzagranadas US Army",
         "points": 55,
         "autoAddOnly": true,
-        "limit": 2,
+        "limit": 1,
         "training": 6,
         "experience": 0,
         "factions": [],
@@ -6960,13 +7078,6 @@
                 "in": "US Army"
               }
             ]
-          }
-        ],
-        "limits": [
-          {
-            "key": "opcionAlfa",
-            "limit": 1,
-            "perParent": true
           }
         ],
         "unitType": [
@@ -6988,8 +7099,74 @@
         ]
       },
       {
+        "name": "Soldado US Army",
+        "points": 55,
+        "autoAddOnly": true,
+        "limit": 1,
+        "training": 6,
+        "experience": 0,
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Cabo US Army"
+              },
+              {
+                "in": "US Army"
+              }
+            ]
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Lanzagranadas para Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Fusil con Lanzagranadas",
+            "points": 0,
+            "requireChooseOneKey": "a",
+            "includes": [
+              {
+                "name": "Fusil de Asalto",
+                "dataSource": "gear"
+              },
+              {
+                "name": "Lanzagranadas para Fusil de Asalto",
+                "dataSource": "gear"
+              }
+            ]
+          },
+          {
+            "name": "Cambiar Fusil con Lanzagranadas por Escopeta",
+            "points": -15,
+            "usesDefinition": "Escopeta",
+            "requireChooseOneKey": "a"
+          },
+          {
+            "name": "Cambiar Fusil con Lanzagranadas por Rifle de Precisión",
+            "points": -10,
+            "usesDefinition": "Rifle de Precisión",
+            "requireChooseOneKey": "a"
+          }
+        ]
+      },
+      {
         "name": "Soldado Fusil US Army",
         "points": 45,
+		"limit": 5,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -7015,6 +7192,7 @@
       {
         "name": "Soldado Escopeta US Army",
         "points": 40,
+        "autoAddOnly": true,
         "limit": 1,
         "training": 6,
         "experience": 0,
@@ -7029,13 +7207,6 @@
                 "in": "US Army"
               }
             ]
-          }
-        ],
-        "limits": [
-          {
-            "key": "opcionAlfa",
-            "limit": 1,
-            "perParent": true
           }
         ],
         "unitType": [
@@ -7058,6 +7229,7 @@
       {
         "name": "Tirador Designado US Army",
         "points": 45,
+        "autoAddOnly": true,
         "limit": 1,
         "training": 6,
         "experience": 0,
@@ -7072,13 +7244,6 @@
                 "in": "US Army"
               }
             ]
-          }
-        ],
-        "limits": [
-          {
-            "key": "opcionAlfa",
-            "limit": 1,
-            "perParent": true
           }
         ],
         "unitType": [
@@ -7101,7 +7266,8 @@
       {
         "name": "Soldado Fusil con Lanzagranadas US Marines",
         "points": 55,
-        "limit": 3,
+        "autoAddOnly": true,
+        "limit": 2,
         "training": 6,
         "experience": 0,
         "factions": [],
@@ -7115,13 +7281,6 @@
                 "in": "US Marines"
               }
             ]
-          }
-        ],
-        "limits": [
-          {
-            "key": "opcionAlfa",
-            "limit": 1,
-            "perParent": true
           }
         ],
         "unitType": [
@@ -7143,8 +7302,74 @@
         ]
       },
       {
+        "name": "Soldado US Marines",
+        "points": 55,
+        "autoAddOnly": true,
+        "limit": 1,
+        "training": 6,
+        "experience": 0,
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Cabo US Marines"
+              },
+              {
+                "in": "US Marines"
+              }
+            ]
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Lanzagranadas para Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Fusil con Lanzagranadas",
+            "points": 0,
+            "requireChooseOneKey": "a",
+            "includes": [
+              {
+                "name": "Fusil de Asalto",
+                "dataSource": "gear"
+              },
+              {
+                "name": "Lanzagranadas para Fusil de Asalto",
+                "dataSource": "gear"
+              }
+            ]
+          },
+          {
+            "name": "Cambiar Fusil con Lanzagranadas por Escopeta",
+            "points": -15,
+            "usesDefinition": "Escopeta",
+            "requireChooseOneKey": "a"
+          },
+          {
+            "name": "Cambiar Fusil con Lanzagranadas por Rifle de Precisión",
+            "points": -10,
+            "usesDefinition": "Rifle de Precisión",
+            "requireChooseOneKey": "a"
+          }
+        ]
+      },
+      {
         "name": "Soldado Fusil US Marines",
         "points": 45,
+		"limit": 8,
         "autoAddOnly": true,
         "training": 6,
         "experience": 0,
@@ -7171,6 +7396,7 @@
       {
         "name": "Soldado Escopeta US Marines",
         "points": 40,
+        "autoAddOnly": true,
         "limit": 1,
         "training": 6,
         "experience": 0,
@@ -7185,13 +7411,6 @@
                 "in": "US Marines"
               }
             ]
-          }
-        ],
-        "limits": [
-          {
-            "key": "opcionAlfa",
-            "limit": 1,
-            "perParent": true
           }
         ],
         "unitType": [
@@ -7214,6 +7433,7 @@
       {
         "name": "Tirador Designado US Marines",
         "points": 45,
+        "autoAddOnly": true,
         "limit": 1,
         "training": 6,
         "experience": 0,
@@ -7228,13 +7448,6 @@
                 "in": "US Marines"
               }
             ]
-          }
-        ],
-        "limits": [
-          {
-            "key": "opcionAlfa",
-            "limit": 1,
-            "perParent": true
           }
         ],
         "unitType": [
