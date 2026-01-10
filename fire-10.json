@@ -2207,6 +2207,552 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Blindados Pesados PLA Opción A (Vehículo)",
+        "alignment": "China",
+        "pm": 6,
+        "options": [
+          {
+            "name": "Minas",
+            "points": 10,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Granada de Fragmentación",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Aturdidora",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Lanzagranadas (Fusil)",
+            "points": 5,
+            "increment": true,
+            "max": 6
+          }
+        ],
+        "requiredChildren": [
+          {
+            "name": "Sargento Blindados Pesados PLA",
+            "points": 60,
+            "mustBeLeader": true,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil Alfa Blindados Pesados PLA",
+                "points": 40,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Tirador Designado Blindados Pesados PLA",
+                "points": 40,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado LMG Blindados Pesados PLA",
+                "points": 50,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          },
+          {
+            "name": "Cabo Blindados Pesados PLA",
+            "points": 55,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil Blindados Pesados PLA",
+                "points": 40,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado LMG Blindados Pesados PLA",
+                "points": 50,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Blindados Pesados PLA Opción B (Desmontados)",
+        "alignment": "China",
+        "pm": 6,
+        "options": [
+          {
+            "name": "Minas",
+            "points": 10,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Granada de Fragmentación",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Aturdidora",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Lanzagranadas (Fusil)",
+            "points": 5,
+            "increment": true,
+            "max": 6
+          }
+        ],
+        "requiredChildren": [
+          {
+            "name": "Sargento Blindados Pesados PLA",
+            "points": 60,
+            "mustBeLeader": true,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil Alfa Blindados Pesados PLA",
+                "points": 40,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Tirador Designado Blindados Pesados PLA",
+                "points": 40,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado LMG Blindados Pesados PLA",
+                "points": 50,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Conductor Blindados Pesados PLA",
+                "points": 40,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          },
+          {
+            "name": "Cabo Blindados Pesados PLA",
+            "points": 55,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil Blindados Pesados PLA",
+                "points": 40,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado LMG Blindados Pesados PLA",
+                "points": 50,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Artillero Blindados Pesados PLA",
+                "points": 40,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Alta Movilidad PLA Opción A (Vehículo)",
+        "alignment": "China",
+        "pm": 6,
+        "options": [
+          {
+            "name": "Minas",
+            "points": 10,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Granada de Fragmentación",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Aturdidora",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Lanzagranadas (Fusil)",
+            "points": 5,
+            "increment": true,
+            "max": 6
+          }
+        ],
+        "requiredChildren": [
+          {
+            "name": "Sargento Alta Movilidad PLA",
+            "points": 55,
+            "mustBeLeader": true,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil Alta Movilidad PLA",
+                "points": 35,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Equipo Lanzacohetes Alta Movilidad PLA",
+                "points": 160,
+                "elementPropertyName": "suboficiales",
+                "requiredChildren": [
+                  {
+                    "elementPropertyName": "soldados",
+                    "name": "Cargador Lanzacohetes Alta Movilidad PLA",
+                    "quantity": 1,
+                    "points": 0,
+                    "lockedChildren": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Cabo Alta Movilidad PLA",
+            "points": 50,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil Alta Movilidad PLA",
+                "points": 35,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil Alta Movilidad PLA",
+                "points": 35,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado LMG Alta Movilidad PLA",
+                "points": 45,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Alta Movilidad PLA Opción B (Desmontados)",
+        "alignment": "China",
+        "pm": 6,
+        "options": [
+          {
+            "name": "Minas",
+            "points": 10,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Granada de Fragmentación",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Aturdidora",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Lanzagranadas (Fusil)",
+            "points": 5,
+            "increment": true,
+            "max": 6
+          }
+        ],
+        "requiredChildren": [
+          {
+            "name": "Sargento Alta Movilidad PLA",
+            "points": 55,
+            "mustBeLeader": true,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil Alta Movilidad PLA",
+                "points": 35,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Equipo Lanzacohetes Alta Movilidad PLA",
+                "points": 160,
+                "elementPropertyName": "suboficiales",
+                "requiredChildren": [
+                  {
+                    "elementPropertyName": "soldados",
+                    "name": "Cargador Lanzacohetes Alta Movilidad PLA",
+                    "quantity": 1,
+                    "points": 0,
+                    "lockedChildren": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Cabo Alta Movilidad PLA",
+            "points": 50,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil Alta Movilidad PLA",
+                "points": 35,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil Alta Movilidad PLA",
+                "points": 35,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado LMG Alta Movilidad PLA",
+                "points": 45,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Conductor Alta Movilidad PLA",
+                "points": 35,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Asalto Aéreo de Marina PLA",
+        "alignment": "China",
+        "pm": 6,
+        "options": [
+          {
+            "name": "Minas",
+            "points": 10,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Granada de Fragmentación",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Aturdidora",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Lanzagranadas (Fusil)",
+            "points": 5,
+            "increment": true,
+            "max": 6
+          }
+        ],
+        "requiredChildren": [
+          {
+            "name": "Sargento Asalto Aéreo de Marina PLA",
+            "points": 65,
+            "mustBeLeader": true,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil Alfa Asalto Aéreo de Marina PLA",
+                "points": 45,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Equipo Lanzacohetes Asalto Aéreo de Marina PLA",
+                "points": 180,
+                "elementPropertyName": "suboficiales",
+                "requiredChildren": [
+                  {
+                    "elementPropertyName": "soldados",
+                    "name": "Cargador Lanzacohetes Asalto Aéreo de Marina PLA",
+                    "quantity": 1,
+                    "points": 0,
+                    "lockedChildren": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Cabo Asalto Aéreo de Marina PLA",
+            "points": 60,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil Asalto Aéreo de Marina PLA",
+                "points": 45,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil Asalto Aéreo de Marina PLA",
+                "points": 45,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Tirador Designado Aéreo de Marina PLA",
+                "points": 45,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado LMG Asalto Aéreo de Marina PLA",
+                "points": 55,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Blindado Anfibio PLA Opción A (Vehículo)",
+        "alignment": "China",
+        "pm": 6,
+        "options": [
+          {
+            "name": "Granada de Fragmentación",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Aturdidora",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Lanzagranadas (Fusil)",
+            "points": 5,
+            "increment": true,
+            "max": 6
+          }
+        ],
+        "requiredChildren": [
+          {
+            "name": "Sargento Blindado Anfibio PLA",
+            "points": 60,
+            "mustBeLeader": true,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil Alfa Blindado Anfibio PLA",
+                "points": 45,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Tirador Designado Blindado Anfibio PLA",
+                "points": 45,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado LMG Blindado Anfibio PLA",
+                "points": 55,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          },
+          {
+            "name": "Cabo Blindado Anfibio PLA",
+            "points": 60,
+            "elementPropertyName": "suboficiales",
+            "requireOne": [
+              [
+                "Equipo Lanzacohetes Blindado Anfibio PLA",
+                "Equipo Lanzagranadas Automático Blindado Anfibio PLA"
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Blindado Anfibio PLA Opción B (Desmontados)",
+        "alignment": "China",
+        "pm": 6,
+        "options": [
+          {
+            "name": "Granada de Fragmentación",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Aturdidora",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Lanzagranadas (Fusil)",
+            "points": 5,
+            "increment": true,
+            "max": 6
+          }
+        ],
+        "requiredChildren": [
+          {
+            "name": "Sargento Blindado Anfibio PLA",
+            "points": 60,
+            "mustBeLeader": true,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil Alfa Blindado Anfibio PLA",
+                "points": 40,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Tirador Designado Blindado Anfibio PLA",
+                "points": 40,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado LMG Blindado Anfibio PLA",
+                "points": 50,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Conductor Blindado Anfibio PLA",
+                "points": 40,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          },
+          {
+            "name": "Cabo Blindado Anfibio PLA",
+            "points": 55,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Artillero Blindado Anfibio PLA",
+                "points": 40,
+                "elementPropertyName": "soldados"
+              }
+            ],
+            "requireOne": [
+              [
+                "Equipo Lanzacohetes Blindado Anfibio PLA",
+                "Equipo Lanzagranadas Automático Blindado Anfibio PLA"
+              ]
+            ]
+          }
+        ]
       }
     ],
     "suboficialTiers": [
@@ -8054,6 +8600,1220 @@
           {
             "elementPropertyName": "soldados",
             "name": "Artillero Kommando Spezialkräfte (KSK)",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Sargento Blindados Pesados PLA",
+        "points": 60,
+        "pm": 2,
+        "training": 8,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Blindados Pesados PLA Opción A (Vehículo)",
+            "suboficialTier": "Arma Apoyo"
+          },
+		  {
+            "name": "Blindados Pesados PLA Opción B (Desmontados)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cabo Blindados Pesados PLA",
+        "points": 55,
+        "pm": 1,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Blindados Pesados PLA Opción A (Vehículo)",
+            "suboficialTier": "Arma Apoyo"
+          },
+		  {
+            "name": "Blindados Pesados PLA Opción B (Desmontados)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Suboficial Blindados Pesados PLA",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 8,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Blindados Pesados PLA Opción A (Vehículo)",
+            "suboficialTier": "Arma Apoyo"
+          },
+		  {
+            "name": "Blindados Pesados PLA Opción B (Desmontados)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Sargento Alta Movilidad PLA",
+        "points": 55,
+        "pm": 2,
+        "training": 8,
+        "experience": 1,
+        "factions": [
+          {
+            "name": "Alta Movilidad PLA Opción A (Vehículo)",
+            "suboficialTier": "Arma Apoyo"
+          },
+          {
+            "name": "Alta Movilidad PLA Opción B (Desmontados)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cabo Alta Movilidad PLA",
+        "points": 50,
+        "pm": 1,
+        "training": 7,
+        "experience": 1,
+        "factions": [
+          {
+            "name": "Alta Movilidad PLA Opción A (Vehículo)",
+            "suboficialTier": "Arma Apoyo"
+          },
+          {
+            "name": "Alta Movilidad PLA Opción B (Desmontados)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Suboficial Alta Movilidad PLA",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 8,
+        "experience": 1,
+        "factions": [
+          {
+            "name": "Alta Movilidad PLA Opción A (Vehículo)",
+            "suboficialTier": "Arma Apoyo"
+          },
+          {
+            "name": "Alta Movilidad PLA Opción B (Desmontados)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Sargento Asalto Aéreo de Marina PLA",
+        "points": 65,
+        "pm": 2,
+        "training": 9,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Asalto Aéreo de Marina PLA",
+            "suboficialTier": "Mando Principal"
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cabo Asalto Aéreo de Marina PLA",
+        "points": 60,
+        "pm": 1,
+        "training": 8,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Asalto Aéreo de Marina PLA",
+            "suboficialTier": "Mando Secundario"
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Suboficial Asalto Aéreo de Marina PLA",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 9,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Asalto Aéreo de Marina PLA",
+            "suboficialTier": "Mando Apoyo"
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Sargento Blindado Anfibio PLA",
+        "points": 60,
+        "pm": 2,
+        "training": 8,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Blindado Anfibio PLA Opción A (Vehículo)",
+            "suboficialTier": "Arma Apoyo"
+          },
+		  {
+            "name": "Blindado Anfibio PLA Opción B (Desmontados)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cabo Blindado Anfibio PLA",
+        "points": 55,
+        "pm": 1,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Blindado Anfibio PLA Opción A (Vehículo)",
+            "suboficialTier": "Arma Apoyo"
+          },
+		  {
+            "name": "Blindado Anfibio PLA Opción B (Desmontados)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Suboficial Blindado Anfibio PLA",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 8,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Blindado Anfibio PLA Opción A (Vehículo)",
+            "suboficialTier": "Arma Apoyo"
+          },
+		  {
+            "name": "Blindado Anfibio PLA Opción B (Desmontados)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Ametralladora Media (MMG) Blindados Pesados PLA",
+        "points": 90,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Blindados Pesados PLA Opción A (Vehículo)",
+            "suboficialTier": "Arma Apoyo"
+          },
+		  {
+            "name": "Blindados Pesados PLA Opción B (Desmontados)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "MMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Blindados Pesados PLA"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Blindados Pesados PLA",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Ametralladora Media (MMG) Alta Movilidad PLA",
+        "points": 80,
+        "training": 0,
+        "experience": 1,
+        "factions": [
+          {
+            "name": "Alta Movilidad PLA Opción A (Vehículo)",
+            "suboficialTier": "Arma Apoyo"
+          },
+          {
+            "name": "Alta Movilidad PLA Opción B (Desmontados)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "MMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Alta Movilidad PLA"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Alta Movilidad PLA",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Ametralladora Media (MMG) Asalto Aéreo de Marina PLA",
+        "points": 100,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Asalto Aéreo de Marina PLA",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "MMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Asalto Aéreo de Marina PLA"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Asalto Aéreo de Marina PLA",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Ametralladora Media (MMG) Blindado Anfibio PLA",
+        "points": 90,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Blindado Anfibio PLA Opción A (Vehículo)",
+            "suboficialTier": "Arma Apoyo"
+          },
+		  {
+            "name": "Blindado Anfibio PLA Opción B (Desmontados)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "MMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Blindado Anfibio PLA"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Blindado Anfibio PLA",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Francotiradores Blindados Pesados PLA",
+        "points": 120,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Blindados Pesados PLA Opción A (Vehículo)",
+            "suboficialTier": "Arma Apoyo"
+          },
+		  {
+            "name": "Blindados Pesados PLA Opción B (Desmontados)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [],
+        "wargear": [],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Francotirador Blindados Pesados PLA"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Observador Blindados Pesados PLA",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Francotiradores Alta Movilidad PLA",
+        "points": 110,
+        "training": 0,
+        "experience": 1,
+        "factions": [
+          {
+            "name": "Alta Movilidad PLA Opción A (Vehículo)",
+            "suboficialTier": "Arma Apoyo"
+          },
+          {
+            "name": "Alta Movilidad PLA Opción B (Desmontados)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [],
+        "wargear": [],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Francotirador Alta Movilidad PLA"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Observador Alta Movilidad PLA",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Francotiradores Asalto Aéreo de Marina PLA",
+        "points": 130,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Asalto Aéreo de Marina PLA",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [],
+        "wargear": [],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Francotirador Asalto Aéreo de Marina PLA"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Observador Asalto Aéreo de Marina PLA",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Francotiradores Blindado Anfibio PLA",
+        "points": 120,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Blindado Anfibio PLA Opción A (Vehículo)",
+            "suboficialTier": "Arma Apoyo"
+          },
+		  {
+            "name": "Blindado Anfibio PLA Opción B (Desmontados)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [],
+        "wargear": [],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Francotirador Blindado Anfibio PLA"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Observador Blindado Anfibio PLA",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Lanzacohetes Blindados Pesados PLA",
+        "points": 170,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Blindados Pesados PLA Opción A (Vehículo)",
+            "suboficialTier": "Arma Apoyo"
+          },
+		  {
+            "name": "Blindados Pesados PLA Opción B (Desmontados)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [],
+        "wargear": [
+          "Lanzacohetes Pesado (3 x Cohetes)"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Lanzacohetes Blindados Pesados PLA"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Lanzacohetes Blindados Pesados PLA",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Lanzacohetes Alta Movilidad PLA",
+        "points": 160,
+        "training": 0,
+        "experience": 1,
+        "factions": [
+          {
+            "name": "Alta Movilidad PLA Opción A (Vehículo)",
+            "suboficialTier": "Arma Apoyo"
+          },
+          {
+            "name": "Alta Movilidad PLA Opción B (Desmontados)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [],
+        "wargear": [
+          "Lanzacohetes Pesado (3 x Cohetes)"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Lanzacohetes Alta Movilidad PLA"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Lanzacohetes Alta Movilidad PLA",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Lanzacohetes Asalto Aéreo de Marina PLA",
+        "points": 180,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Asalto Aéreo de Marina PLA",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [],
+        "wargear": [
+          "Lanzacohetes Pesado (3 x Cohetes)"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Lanzacohetes Asalto Aéreo de Marina PLA"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Lanzacohetes Asalto Aéreo de Marina PLA",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Lanzacohetes Blindado Anfibio PLA",
+        "points": 170,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Blindado Anfibio PLA Opción A (Vehículo)",
+            "suboficialTier": "Arma Apoyo"
+          },
+		  {
+            "name": "Blindado Anfibio PLA Opción B (Desmontados)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [],
+        "wargear": [
+          "Lanzacohetes Pesado (3 x Cohetes)"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Lanzacohetes Blindado Anfibio PLA"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Lanzacohetes Blindado Anfibio PLA",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Lanzagranadas Automático Blindado Anfibio PLA",
+        "points": 170,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Blindado Anfibio PLA Opción A (Vehículo)",
+            "suboficialTier": "Arma Apoyo"
+          },
+		  {
+            "name": "Blindado Anfibio PLA Opción B (Desmontados)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [],
+        "wargear": [
+          "Lanzagranadas automático 40 mm"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Blindado Anfibio PLA"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Blindado Anfibio PLA",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Ligero Blindados Pesados PLA",
+        "points": 120,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Blindados Pesados PLA Opción A (Vehículo)",
+            "suboficialTier": "Arma Apoyo"
+          },
+		  {
+            "name": "Blindados Pesados PLA Opción B (Desmontados)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Ligero"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Blindados Pesados PLA"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Blindados Pesados PLA",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Blindados Pesados PLA",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Ligero Alta Movilidad PLA",
+        "points": 105,
+        "training": 0,
+        "experience": 1,
+        "factions": [
+          {
+            "name": "Alta Movilidad PLA Opción A (Vehículo)",
+            "suboficialTier": "Arma Apoyo"
+          },
+          {
+            "name": "Alta Movilidad PLA Opción B (Desmontados)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Ligero"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Alta Movilidad PLA"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Alta Movilidad PLA",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Alta Movilidad PLA",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Ligero Asalto Aéreo de Marina PLA",
+        "points": 135,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Asalto Aéreo de Marina PLA",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Ligero"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Asalto Aéreo de Marina PLA"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Asalto Aéreo de Marina PLA",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Asalto Aéreo de Marina PLA",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Ligero Blindado Anfibio PLA",
+        "points": 120,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Blindado Anfibio PLA Opción A (Vehículo)",
+            "suboficialTier": "Arma Apoyo"
+          },
+		  {
+            "name": "Blindado Anfibio PLA Opción B (Desmontados)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Ligero"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Blindado Anfibio PLA"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Blindado Anfibio PLA",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Blindado Anfibio PLA",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Medio Blindados Pesados PLA",
+        "points": 130,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Blindados Pesados PLA Opción A (Vehículo)",
+            "suboficialTier": "Arma Apoyo"
+          },
+		  {
+            "name": "Blindados Pesados PLA Opción B (Desmontados)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Medio"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Blindados Pesados PLA"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Blindados Pesados PLA",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Blindados Pesados PLA",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Medio Alta Movilidad PLA",
+        "points": 115,
+        "training": 0,
+        "experience": 1,
+        "factions": [
+          {
+            "name": "Alta Movilidad PLA Opción A (Vehículo)",
+            "suboficialTier": "Arma Apoyo"
+          },
+          {
+            "name": "Alta Movilidad PLA Opción B (Desmontados)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Medio"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Alta Movilidad PLA"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Alta Movilidad PLA",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Alta Movilidad PLA",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Medio Asalto Aéreo de Marina PLA",
+        "points": 145,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Asalto Aéreo de Marina PLA",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Medio"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Asalto Aéreo de Marina PLA"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Asalto Aéreo de Marina PLA",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Asalto Aéreo de Marina PLA",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Medio Blindado Anfibio PLA",
+        "points": 130,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Blindado Anfibio PLA Opción A (Vehículo)",
+            "suboficialTier": "Arma Apoyo"
+          },
+		  {
+            "name": "Blindado Anfibio PLA Opción B (Desmontados)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Medio"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Blindado Anfibio PLA"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Blindado Anfibio PLA",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Blindado Anfibio PLA",
             "quantity": 1,
             "points": 0,
             "lockedChildren": true
@@ -14208,7 +15968,7 @@
         "limit": 1,
         "autoAddOnly": true,
         "training": 6,
-        "experience": 0,
+        "experience": -1,
         "factions": [
           "Fallschirmjäger / Gebirgsjäger"
         ],
@@ -14235,7 +15995,7 @@
         "limit": 1,
         "autoAddOnly": true,
         "training": 6,
-        "experience": 0,
+        "experience": -1,
         "factions": [
           "Fallschirmjäger / Gebirgsjäger"
         ],
@@ -14494,7 +16254,7 @@
         "points": 0,
         "limit": 1,
         "autoAddOnly": true,
-        "training": 6,
+        "training": 7,
         "experience": 0,
         "factions": [
           "Kommando Spezialkräfte (KSK)"
@@ -14521,7 +16281,7 @@
         "points": 0,
         "limit": 1,
         "autoAddOnly": true,
-        "training": 6,
+        "training": 7,
         "experience": 0,
         "factions": [
           "Kommando Spezialkräfte (KSK)"
@@ -14915,6 +16675,939 @@
         "wargear": [
           "Fusil de Asalto",
           "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Soldado Fusil Blindados Pesados PLA",
+        "points": 40,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Blindados Pesados PLA Opción A (Vehículo)",
+          "Blindados Pesados PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Soldado Fusil Alfa Blindados Pesados PLA",
+        "points": 40,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Blindados Pesados PLA Opción A (Vehículo)",
+          "Blindados Pesados PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": [
+          {
+            "name": "Cambiar Fusil por Fusil con Lanzagranadas",
+            "points": 10,
+            "usesDefinition": "Lanzagranadas para Fusil de Asalto",
+            "chooseOneKey": "a"
+          }
+        ]
+      },
+      {
+        "name": "Tirador Designado Blindados Pesados PLA",
+        "points": 50,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Blindados Pesados PLA Opción A (Vehículo)",
+          "Blindados Pesados PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión"
+        ],
+        "options": []
+      },
+      {
+        "name": "Soldado LMG Blindados Pesados PLA",
+        "points": 50,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Blindados Pesados PLA Opción A (Vehículo)",
+          "Blindados Pesados PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "LMG"
+        ],
+        "options": []
+      },
+      {
+        "name": "Conductor Blindados Pesados PLA",
+        "points": 40,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Blindados Pesados PLA Opción A (Vehículo)",
+          "Blindados Pesados PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Artillero Blindados Pesados PLA",
+        "points": 40,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Blindados Pesados PLA Opción A (Vehículo)",
+          "Blindados Pesados PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Tirador Blindados Pesados PLA",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Blindados Pesados PLA Opción A (Vehículo)",
+          "Blindados Pesados PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Cargador Blindados Pesados PLA",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Blindados Pesados PLA Opción A (Vehículo)",
+          "Blindados Pesados PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Francotirador Blindados Pesados PLA",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Blindados Pesados PLA Opción A (Vehículo)",
+          "Blindados Pesados PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión"
+        ],
+        "options": []
+      },
+      {
+        "name": "Observador Blindados Pesados PLA",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Blindados Pesados PLA Opción A (Vehículo)",
+          "Blindados Pesados PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Tirador Lanzacohetes Blindados Pesados PLA",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Blindados Pesados PLA Opción A (Vehículo)",
+          "Blindados Pesados PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Lanzacohetes Pesado (3 x Cohetes)"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cargador Lanzacohetes Blindados Pesados PLA",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Blindados Pesados PLA Opción A (Vehículo)",
+          "Blindados Pesados PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Soldado Fusil Alta Movilidad PLA",
+        "points": 35,
+        "training": 6,
+        "experience": 1,
+        "factions": [
+          "Alta Movilidad PLA Opción A (Vehículo)",
+          "Alta Movilidad PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Soldado LMG Alta Movilidad PLA",
+        "points": 45,
+        "training": 6,
+        "experience": 1,
+        "factions": [
+          "Alta Movilidad PLA Opción A (Vehículo)",
+          "Alta Movilidad PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "LMG"
+        ],
+        "options": []
+      },
+      {
+        "name": "Soldado Fusil con Lanzagranadas Alta Movilidad PLA",
+        "points": 45,
+        "training": 6,
+        "experience": 1,
+        "factions": [
+          "Alta Movilidad PLA Opción A (Vehículo)",
+          "Alta Movilidad PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Lanzagranadas para Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Conductor Alta Movilidad PLA",
+        "points": 35,
+        "training": 6,
+        "experience": 1,
+        "factions": [
+          "Alta Movilidad PLA Opción A (Vehículo)",
+          "Alta Movilidad PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Tirador Alta Movilidad PLA",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 1,
+        "factions": [
+          "Alta Movilidad PLA Opción A (Vehículo)",
+          "Alta Movilidad PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Cargador Alta Movilidad PLA",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 1,
+        "factions": [
+          "Alta Movilidad PLA Opción A (Vehículo)",
+          "Alta Movilidad PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Francotirador Alta Movilidad PLA",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 1,
+        "factions": [
+          "Alta Movilidad PLA Opción A (Vehículo)",
+          "Alta Movilidad PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión"
+        ],
+        "options": []
+      },
+      {
+        "name": "Observador Alta Movilidad PLA",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 1,
+        "factions": [
+          "Alta Movilidad PLA Opción A (Vehículo)",
+          "Alta Movilidad PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Tirador Lanzacohetes Alta Movilidad PLA",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 1,
+        "factions": [
+          "Alta Movilidad PLA Opción A (Vehículo)",
+          "Alta Movilidad PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Lanzacohetes Pesado (3 x Cohetes)"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cargador Lanzacohetes Alta Movilidad PLA",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 1,
+        "factions": [
+          "Alta Movilidad PLA Opción A (Vehículo)",
+          "Alta Movilidad PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Soldado Fusil Asalto Aéreo de Marina PLA",
+        "points": 35,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Asalto Aéreo de Marina PLA"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Soldado Fusil Alfa Asalto Aéreo de Marina PLA",
+        "points": 35,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Asalto Aéreo de Marina PLA"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": [
+          {
+            "name": "Cambiar Fusil por Fusil con Lanzagranadas",
+            "points": 10,
+            "usesDefinition": "Lanzagranadas para Fusil de Asalto",
+            "chooseOneKey": "a"
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil con Lanzagranadas Asalto Aéreo de Marina PLA",
+        "points": 45,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Asalto Aéreo de Marina PLA"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Lanzagranadas para Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Soldado LMG Asalto Aéreo de Marina PLA",
+        "points": 50,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Asalto Aéreo de Marina PLA"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "LMG"
+        ],
+        "options": []
+      },
+      {
+        "name": "Tirador Designado Asalto Aéreo de Marina PLA",
+        "points": 45,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Asalto Aéreo de Marina PLA"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión"
+        ],
+        "options": []
+      },
+      {
+        "name": "Tirador Asalto Aéreo de Marina PLA",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Asalto Aéreo de Marina PLA"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Cargador Asalto Aéreo de Marina PLA",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Asalto Aéreo de Marina PLA"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Francotirador Asalto Aéreo de Marina PLA",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Asalto Aéreo de Marina PLA"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión"
+        ],
+        "options": []
+      },
+      {
+        "name": "Observador Asalto Aéreo de Marina PLA",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Asalto Aéreo de Marina PLA"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Tirador Lanzacohetes Asalto Aéreo de Marina PLA",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Asalto Aéreo de Marina PLA"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Lanzacohetes Pesado (3 x Cohetes)"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cargador Lanzacohetes Asalto Aéreo de Marina PLA",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Asalto Aéreo de Marina PLA"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Soldado Fusil Blindado Anfibio PLA",
+        "points": 40,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Blindado Anfibio PLA Opción A (Vehículo)",
+          "Blindado Anfibio PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Soldado Fusil Alfa Blindado Anfibio PLA",
+        "points": 40,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Blindado Anfibio PLA Opción A (Vehículo)",
+          "Blindado Anfibio PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": [
+          {
+            "name": "Cambiar Fusil por Fusil con Lanzagranadas",
+            "points": 10,
+            "usesDefinition": "Lanzagranadas para Fusil de Asalto",
+            "chooseOneKey": "a"
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil con Lanzagranadas Blindado Anfibio PLA",
+        "points": 50,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Blindado Anfibio PLA Opción A (Vehículo)",
+          "Blindado Anfibio PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Lanzagranadas para Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Soldado LMG Blindado Anfibio PLA",
+        "points": 50,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Blindado Anfibio PLA Opción A (Vehículo)",
+          "Blindado Anfibio PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "LMG"
+        ],
+        "options": []
+      },
+      {
+        "name": "Tirador Designado Blindado Anfibio PLA",
+        "points": 40,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Blindado Anfibio PLA Opción A (Vehículo)",
+          "Blindado Anfibio PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión"
+        ],
+        "options": []
+      },
+      {
+        "name": "Conductor Blindado Anfibio PLA",
+        "points": 40,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Blindado Anfibio PLA Opción A (Vehículo)",
+          "Blindado Anfibio PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Artillero Blindado Anfibio PLA",
+        "points": 40,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Blindado Anfibio PLA Opción A (Vehículo)",
+          "Blindado Anfibio PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Tirador Blindado Anfibio PLA",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Blindado Anfibio PLA Opción A (Vehículo)",
+          "Blindado Anfibio PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Cargador Blindado Anfibio PLA",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Blindado Anfibio PLA Opción A (Vehículo)",
+          "Blindado Anfibio PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Francotirador Blindado Anfibio PLA",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Blindado Anfibio PLA Opción A (Vehículo)",
+          "Blindado Anfibio PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión"
+        ],
+        "options": []
+      },
+      {
+        "name": "Observador Blindado Anfibio PLA",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Blindado Anfibio PLA Opción A (Vehículo)",
+          "Blindado Anfibio PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Tirador Lanzacohetes Blindado Anfibio PLA",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Blindado Anfibio PLA Opción A (Vehículo)",
+          "Blindado Anfibio PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Lanzacohetes Pesado (3 x Cohetes)"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cargador Lanzacohetes Blindado Anfibio PLA",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Blindado Anfibio PLA Opción A (Vehículo)",
+          "Blindado Anfibio PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
         ],
         "options": []
       }
