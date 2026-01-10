@@ -298,7 +298,7 @@
                 "quantity": 1
               },
               {
-                "name": "Soldado US Rangers",
+                "name": "Soldado Fusil con Lanzagranadas Alfa US Rangers",
                 "points": 60,
                 "elementPropertyName": "soldados",
                 "quantity": 1
@@ -323,7 +323,7 @@
                 "quantity": 1
               },
               {
-                "name": "Soldado Fusil y Lanzagranadas US Rangers",
+                "name": "Soldado Fusil con Lanzagranadas US Rangers",
                 "points": 60,
                 "elementPropertyName": "soldados",
                 "quantity": 1
@@ -336,13 +336,6 @@
               }
             ]
           }
-        ],
-        "requireOne": [
-          [
-            "Soldado Fusil y Lanzagranadas US Rangers",
-            "Soldado Escopeta US Rangers",
-            "Tirador Designado US Rangers"
-          ]
         ]
       },
       {
@@ -393,7 +386,7 @@
                 "elementPropertyName": "soldados"
               },
               {
-                "name": "Soldado US Army",
+                "name": "Soldado Fusil con Lanzagranadas Alfa US Army",
                 "points": 55,
                 "elementPropertyName": "soldados",
                 "quantity": 1
@@ -496,7 +489,7 @@
                 "elementPropertyName": "soldados"
               },
               {
-                "name": "Soldado US Marines",
+                "name": "Soldado Fusil con Lanzagranadas Alfa US Marines",
                 "points": 55,
                 "elementPropertyName": "soldados",
                 "quantity": 1
@@ -1170,7 +1163,7 @@
                 "elementPropertyName": "soldados"
               },
               {
-                "name": "Soldado Alfa Ejército de Tierra",
+                "name": "Soldado Fusil Alfa Ejército de Tierra",
                 "points": 40,
                 "elementPropertyName": "soldados",
                 "quantity": 1
@@ -1193,7 +1186,7 @@
                 "elementPropertyName": "soldados"
               },
               {
-                "name": "Soldado Beta Ejército de Tierra",
+                "name": "Soldado Fusil Beta Ejército de Tierra",
                 "points": 40,
                 "elementPropertyName": "soldados",
                 "quantity": 1
@@ -1255,6 +1248,12 @@
                 "elementPropertyName": "soldados"
               },
               {
+                "name": "Soldado Fusil Alfa Legionarios / Cazadores de Montaña / Infantería de Marina",
+                "points": 40,
+                "elementPropertyName": "soldados",
+                "quantity": 1
+              },
+              {
                 "name": "Soldado Fusil Legionarios / Cazadores de Montaña / Infantería de Marina",
                 "points": 45,
                 "elementPropertyName": "soldados"
@@ -1270,6 +1269,12 @@
                 "name": "Soldado LMG Legionarios / Cazadores de Montaña / Infantería de Marina",
                 "points": 55,
                 "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil Beta Legionarios / Cazadores de Montaña / Infantería de Marina",
+                "points": 40,
+                "elementPropertyName": "soldados",
+                "quantity": 1
               },
               {
                 "name": "Soldado Fusil Legionarios / Cazadores de Montaña / Infantería de Marina",
@@ -6839,7 +6844,7 @@
         ]
       },
       {
-        "name": "Soldado Fusil y Lanzagranadas US Rangers",
+        "name": "Soldado Fusil con Lanzagranadas US Rangers",
         "points": 60,
         "limit": 1,
         "autoAddOnly": true,
@@ -6877,7 +6882,7 @@
         ]
       },
       {
-        "name": "Soldado US Rangers",
+        "name": "Soldado Fusil con Lanzagranadas Alfa US Rangers",
         "points": 60,
         "autoAddOnly": true,
         "limit": 1,
@@ -7097,7 +7102,7 @@
         ]
       },
       {
-        "name": "Soldado US Army",
+        "name": "Soldado Fusil con Lanzagranadas Alfa US Army",
         "points": 55,
         "autoAddOnly": true,
         "limit": 1,
@@ -7285,7 +7290,7 @@
         ]
       },
       {
-        "name": "Soldado US Marines",
+        "name": "Soldado Fusil con Lanzagranadas Alfa US Marines",
         "points": 55,
         "autoAddOnly": true,
         "limit": 1,
@@ -9658,7 +9663,7 @@
         ]
       },
       {
-        "name": "Soldado Alfa Ejército de Tierra",
+        "name": "Soldado Fusil Alfa Ejército de Tierra",
         "points": 40,
         "autoAddOnly": true,
         "limit": 1,
@@ -9700,7 +9705,7 @@
         ]
       },
       {
-        "name": "Soldado Beta Ejército de Tierra",
+        "name": "Soldado Fusil Beta Ejército de Tierra",
         "points": 40,
         "autoAddOnly": true,
         "limit": 1,
@@ -9876,7 +9881,7 @@
         ]
       },
       {
-        "name": "Soldado Intercambiable Alfa Legionarios / Cazadores de Montaña / Infantería de Marina",
+        "name": "Soldado Fusil Alfa Legionarios / Cazadores de Montaña / Infantería de Marina",
         "points": 45,
         "autoAddOnly": true,
         "limit": 1,
@@ -9918,7 +9923,7 @@
         ]
       },
       {
-        "name": "Soldado Intercambiable Beta Legionarios / Cazadores de Montaña / Infantería de Marina",
+        "name": "Soldado Fusil Beta Legionarios / Cazadores de Montaña / Infantería de Marina",
         "points": 45,
         "autoAddOnly": true,
         "limit": 1,
