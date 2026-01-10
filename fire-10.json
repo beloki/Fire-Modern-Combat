@@ -1249,7 +1249,7 @@
               },
               {
                 "name": "Soldado Fusil Alfa Legionarios / Cazadores de Montaña / Infantería de Marina",
-                "points": 40,
+                "points": 45,
                 "elementPropertyName": "soldados",
                 "quantity": 1
               },
@@ -1272,7 +1272,7 @@
               },
               {
                 "name": "Soldado Fusil Beta Legionarios / Cazadores de Montaña / Infantería de Marina",
-                "points": 40,
+                "points": 45,
                 "elementPropertyName": "soldados",
                 "quantity": 1
               },
