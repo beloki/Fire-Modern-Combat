@@ -1150,11 +1150,6 @@
             "points": 5,
             "increment": true,
             "max": 6
-          },
-          {
-            "name": "Chaleco Antibalas",
-            "points": 5,
-            "perModel": true
           }
         ],
         "requiredChildren": [
