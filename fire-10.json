@@ -1871,6 +1871,321 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Panzergrenadiers Opción A (Vehículo)",
+        "alignment": "Alemania",
+        "pm": 6,
+        "options": [
+          {
+            "name": "Minas",
+            "points": 10,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Granada de Fragmentación",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Aturdidora",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Lanzagranadas (Fusil)",
+            "points": 5,
+            "increment": true,
+            "max": 6
+          }
+        ],
+        "requiredChildren": [
+          {
+            "name": "Sargento Panzergrenadiers",
+            "points": 65,
+            "mustBeLeader": true,
+            "elementPropertyName": "suboficiales"
+          },
+          {
+            "name": "Cabo Panzergrenadiers",
+            "points": 60,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil Panzergrenadiers",
+                "points": 45,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado LMG Panzergrenadiers",
+                "points": 55,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil con Lanzagranadas Panzergrenadiers",
+                "points": 55,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil con Lanzacohetes Panzergrenadiers",
+                "points": 70,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Panzergrenadiers Opción B (Desmontados)",
+        "alignment": "Alemania",
+        "pm": 6,
+        "options": [
+          {
+            "name": "Minas",
+            "points": 10,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Granada de Fragmentación",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Aturdidora",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Lanzagranadas (Fusil)",
+            "points": 5,
+            "increment": true,
+            "max": 6
+          }
+        ],
+        "requiredChildren": [
+          {
+            "name": "Sargento Panzergrenadiers",
+            "points": 65,
+            "mustBeLeader": true,
+            "elementPropertyName": "suboficiales"
+          },
+          {
+            "name": "Cabo Panzergrenadiers",
+            "points": 60,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil Panzergrenadiers",
+                "points": 45,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado LMG Panzergrenadiers",
+                "points": 55,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil con Lanzagranadas Panzergrenadiers",
+                "points": 55,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil con Lanzacohetes Panzergrenadiers",
+                "points": 70,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          },
+          {
+            "name": "Cabo Panzergrenadiers",
+            "points": 60,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Conductor Panzergrenadiers",
+                "points": 45,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Artillero Panzergrenadiers",
+                "points": 45,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Fallschirmjäger / Gebirgsjäger",
+        "alignment": "Alemania",
+        "pm": 6,
+        "options": [
+          {
+            "name": "Minas",
+            "points": 10,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Granada de Fragmentación",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Aturdidora",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Lanzagranadas (Fusil)",
+            "points": 5,
+            "increment": true,
+            "max": 6
+          }
+        ],
+        "requiredChildren": [
+          {
+            "name": "Sargento Fallschirmjäger / Gebirgsjäger",
+            "points": 70,
+            "mustBeLeader": true,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil Alfa Fallschirmjäger / Gebirgsjäger",
+                "points": 50,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado LMG Fallschirmjäger / Gebirgsjäger",
+                "points": 60,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil con Lanzagranadas Fallschirmjäger / Gebirgsjäger",
+                "points": 60,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil con Lanzacohetes Fallschirmjäger / Gebirgsjäger",
+                "points": 75,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          },
+          {
+            "name": "Cabo Fallschirmjäger / Gebirgsjäger",
+            "points": 65,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Tirador Designado Fallschirmjäger / Gebirgsjäger",
+                "points": 50,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado LMG Fallschirmjäger / Gebirgsjäger",
+                "points": 60,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil con Lanzagranadas Fallschirmjäger / Gebirgsjäger",
+                "points": 60,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil con Lanzacohetes Fallschirmjäger / Gebirgsjäger",
+                "points": 75,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kommando Spezialkräfte (KSK)",
+        "alignment": "Alemania",
+        "pm": 6,
+        "options": [
+          {
+            "name": "Minas",
+            "points": 10,
+            "increment": true,
+            "max": 2
+          },
+          {
+            "name": "Granada de Fragmentación",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Aturdidora",
+            "points": 5,
+            "increment": true,
+            "max": 3
+          },
+          {
+            "name": "Granada Lanzagranadas (Fusil)",
+            "points": 5,
+            "increment": true,
+            "max": 6
+          }
+        ],
+        "requiredChildren": [
+          {
+            "name": "Sargento Kommando Spezialkräfte (KSK)",
+            "points": 70,
+            "mustBeLeader": true,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil Alfa Kommando Spezialkräfte (KSK)",
+                "points": 50,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil con Lanzagranadas Kommando Spezialkräfte (KSK)",
+                "points": 60,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado LMG Kommando Spezialkräfte (KSK)",
+                "points": 60,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          },
+          {
+            "name": "Cabo Kommando Spezialkräfte (KSK)",
+            "points": 65,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "name": "Soldado Fusil Beta Kommando Spezialkräfte (KSK)",
+                "points": 50,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Fusil con Lanzagranadas Kommando Spezialkräfte (KSK)",
+                "points": 60,
+                "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Tirador Designado Kommando Spezialkräfte (KSK)",
+                "points": 50,
+                "elementPropertyName": "soldados"
+              }
+            ]
+          }
+        ]
       }
     ],
     "suboficialTiers": [
@@ -6798,6 +7113,693 @@
           {
             "elementPropertyName": "soldados",
             "name": "Cargador Special Operations Command (SOCOMD)",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Sargento Panzergrenadiers",
+        "points": 65,
+        "pm": 2,
+        "training": 8,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Panzergrenadiers",
+            "suboficialTier": "Mando Principal"
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cabo Panzergrenadiers",
+        "points": 60,
+        "pm": 21,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Panzergrenadiers",
+            "suboficialTier": "Mando Secundario"
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Suboficial Panzergrenadiers",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 8,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Panzergrenadiers",
+            "suboficialTier": "Mando Apoyo"
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Sargento Fallschirmjäger / Gebirgsjäger",
+        "points": 70,
+        "pm": 2,
+        "training": 8,
+        "experience": -1,
+        "factions": [
+          {
+            "name": "Fallschirmjäger / Gebirgsjäger",
+            "suboficialTier": "Mando Principal"
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cabo Fallschirmjäger / Gebirgsjäger",
+        "points": 65,
+        "pm": 1,
+        "training": 7,
+        "experience": -1,
+        "factions": [
+          {
+            "name": "Fallschirmjäger / Gebirgsjäger",
+            "suboficialTier": "Mando Secundario"
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Suboficial Fallschirmjäger / Gebirgsjäger",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 8,
+        "experience": -1,
+        "factions": [
+          {
+            "name": "Fallschirmjäger / Gebirgsjäger",
+            "suboficialTier": "Mando Apoyo"
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Sargento Kommando Spezialkräfte (KSK)",
+        "points": 70,
+        "pm": 2,
+        "training": 9,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Kommando Spezialkräfte (KSK)",
+            "suboficialTier": "Mando Principal"
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cabo Kommando Spezialkräfte (KSK)",
+        "points": 65,
+        "pm": 1,
+        "training": 8,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Kommando Spezialkräfte (KSK)",
+            "suboficialTier": "Mando Secundario"
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Suboficial Kommando Spezialkräfte (KSK)",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 9,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Kommando Spezialkräfte (KSK)",
+            "suboficialTier": "Mando Apoyo"
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Ametralladora Media (MMG) Panzergrenadiers",
+        "points": 100,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Panzergrenadiers",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "MMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Panzergrenadiers"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Panzergrenadiers",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Ametralladora Media (MMG) Fallschirmjäger / Gebirgsjäger",
+        "points": 110,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Fallschirmjäger / Gebirgsjäger",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "MMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Fallschirmjäger / Gebirgsjäger"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Fallschirmjäger / Gebirgsjäger",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Ametralladora Media (MMG) Kommando Spezialkräfte (KSK)",
+        "points": 110,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Kommando Spezialkräfte (KSK)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "MMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Kommando Spezialkräfte (KSK)"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Kommando Spezialkräfte (KSK)",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Lanzacohetes Panzergrenadiers",
+        "points": 180,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Panzergrenadiers",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [],
+        "wargear": [
+          "Lanzacohetes Pesado (3 x Cohetes)"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Lanzacohetes Panzergrenadiers"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Lanzacohetes Panzergrenadiers",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Lanzacohetes Fallschirmjäger / Gebirgsjäger",
+        "points": 190,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Fallschirmjäger / Gebirgsjäger",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [],
+        "wargear": [
+          "Lanzacohetes Pesado (3 x Cohetes)"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Lanzacohetes Fallschirmjäger / Gebirgsjäger"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Lanzacohetes Fallschirmjäger / Gebirgsjäger",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Lanzacohetes Kommando Spezialkräfte (KSK)",
+        "points": 190,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Kommando Spezialkräfte (KSK)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [],
+        "wargear": [
+          "Lanzacohetes Pesado (3 x Cohetes)"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Tirador Lanzacohetes Kommando Spezialkräfte (KSK)"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Lanzacohetes Kommando Spezialkräfte (KSK)",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Francotiradores Panzergrenadiers",
+        "points": 130,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Panzergrenadiers",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [],
+        "wargear": [],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Francotirador Panzergrenadiers"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Observador Panzergrenadiers",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Francotiradores Fallschirmjäger / Gebirgsjäger",
+        "points": 140,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Fallschirmjäger / Gebirgsjäger",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [],
+        "wargear": [],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Francotirador Fallschirmjäger / Gebirgsjäger"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Observador Fallschirmjäger / Gebirgsjäger",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Equipo Francotiradores Kommando Spezialkräfte (KSK)",
+        "points": 140,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Kommando Spezialkräfte (KSK)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [],
+        "wargear": [],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Francotirador Kommando Spezialkräfte (KSK)"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Observador Kommando Spezialkräfte (KSK)",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Ligero Panzergrenadiers",
+        "points": 135,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Panzergrenadiers",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Ligero"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Panzergrenadiers"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Panzergrenadiers",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Panzergrenadiers",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Ligero Fallschirmjäger / Gebirgsjäger",
+        "points": 150,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Fallschirmjäger / Gebirgsjäger",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Ligero"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Fallschirmjäger / Gebirgsjäger"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Fallschirmjäger / Gebirgsjäger",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Fallschirmjäger / Gebirgsjäger",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Mortero Ligero Kommando Spezialkräfte (KSK)",
+        "points": 150,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Kommando Spezialkräfte (KSK)",
+            "suboficialTier": "Arma Apoyo"
+          }
+        ],
+        "unitType": [
+          "Arma Apoyo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Mortero Ligero"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "suboficiales",
+            "name": "Suboficial Kommando Spezialkräfte (KSK)"
+          }
+        ],
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Tirador Kommando Spezialkräfte (KSK)",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          },
+          {
+            "elementPropertyName": "soldados",
+            "name": "Cargador Kommando Spezialkräfte (KSK)",
             "quantity": 1,
             "points": 0,
             "lockedChildren": true
@@ -12586,6 +13588,960 @@
             "points": 5
           }
         ]
+      },
+      {
+        "name": "Soldado Fusil Panzergrenadiers",
+        "points": 45,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Panzergrenadiers"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Soldado LMG Panzergrenadiers",
+        "points": 55,
+        "limit": 2,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Panzergrenadiers"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "LMG",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil con Lanzagranadas Panzergrenadiers",
+        "points": 55,
+        "limit": 2,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Panzergrenadiers"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Lanzagranadas para Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil y Lanzacohetes Panzergrenadiers",
+        "points": 70,
+        "limit": 2,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Panzergrenadiers"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Lanzacohetes Ligero Desechable",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Tirador Designado Panzergrenadiers",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Panzergrenadiers"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Conductor Panzergrenadiers",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Panzergrenadiers"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Artillero Panzergrenadiers",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Panzergrenadiers"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil Fallschirmjäger / Gebirgsjäger",
+        "points": 50,
+        "limit": 3,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Fallschirmjäger / Gebirgsjäger"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil Alfa Fallschirmjäger / Gebirgsjäger",
+        "points": 50,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Kommando Spezialkräfte (KSK)"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Miras tácticas",
+            "points": 5
+          },
+          {
+            "name": "Cambiar por Tirador Designado",
+            "points": 0,
+            "usesDefinition": "Rifle de Precisión",
+            "chooseOneKey": "a"
+          }
+        ]
+      },
+      {
+        "name": "Soldado LMG Fallschirmjäger / Gebirgsjäger",
+        "points": 60,
+        "limit": 2,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Fallschirmjäger / Gebirgsjäger"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "LMG",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil con Lanzagranadas Fallschirmjäger / Gebirgsjäger",
+        "points": 60,
+        "limit": 2,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Fallschirmjäger / Gebirgsjäger"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Lanzagranadas para Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil y Lanzacohetes Fallschirmjäger / Gebirgsjäger",
+        "points": 75,
+        "limit": 2,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Fallschirmjäger / Gebirgsjäger"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Lanzacohetes Ligero Desechable",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Tirador Designado Fallschirmjäger / Gebirgsjäger",
+        "points": 50,
+        "limit": 2,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Fallschirmjäger / Gebirgsjäger"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil Kommando Spezialkräfte (KSK)",
+        "points": 50,
+        "limit": 3,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Kommando Spezialkräfte (KSK)"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Miras tácticas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil Alfa Kommando Spezialkräfte (KSK)",
+        "points": 50,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Kommando Spezialkräfte (KSK)"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Miras tácticas",
+            "points": 5
+          },
+          {
+            "name": "Cambiar por Tirador Designado",
+            "points": 0,
+            "usesDefinition": "Rifle de Precisión",
+            "chooseOneKey": "a"
+          },
+          {
+            "name": "Cambiar Fusil por SMG",
+            "points": -5,
+            "usesDefinition": "SMG",
+            "chooseOneKey": "a"
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil Beta Kommando Spezialkräfte (KSK)",
+        "points": 50,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Kommando Spezialkräfte (KSK)"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Miras tácticas",
+            "points": 5
+          },
+          {
+            "name": "Cambiar Fusil por LMG",
+            "points": 10,
+            "usesDefinition": "LMG",
+            "chooseOneKey": "a"
+          },
+          {
+            "name": "Cambiar Fusil por SMG",
+            "points": -5,
+            "usesDefinition": "SMG",
+            "chooseOneKey": "a"
+          }
+        ]
+      },
+      {
+        "name": "Soldado LMG Kommando Spezialkräfte (KSK)",
+        "points": 60,
+        "limit": 2,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Kommando Spezialkräfte (KSK)"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "LMG",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil con Lanzagranadas Kommando Spezialkräfte (KSK)",
+        "points": 60,
+        "limit": 2,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Kommando Spezialkräfte (KSK)"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Lanzagranadas para Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Miras tácticas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Soldado SMG Kommando Spezialkräfte (KSK)",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Kommando Spezialkräfte (KSK)"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "SMG",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Miras tácticas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Tirador Designado Kommando Spezialkräfte (KSK)",
+        "points": 50,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Kommando Spezialkräfte (KSK)"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión",
+          "Chaleco Antibalas"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Tirador Panzergrenadiers",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Panzergrenadiers"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cargador Panzergrenadiers",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Panzergrenadiers"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Francotirador Panzergrenadiers",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Panzergrenadiers"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Observador Panzergrenadiers",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Panzergrenadiers"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Tirador Lanzacohetes Panzergrenadiers",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Panzergrenadiers"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Lanzacohetes Pesado (3 x Cohetes)",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cargador Lanzacohetes Panzergrenadiers",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Panzergrenadiers"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Tirador Fallschirmjäger / Gebirgsjäger",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Fallschirmjäger / Gebirgsjäger"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cargador Fallschirmjäger / Gebirgsjäger",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Fallschirmjäger / Gebirgsjäger"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Francotirador Fallschirmjäger / Gebirgsjäger",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Fallschirmjäger / Gebirgsjäger"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Observador Fallschirmjäger / Gebirgsjäger",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Fallschirmjäger / Gebirgsjäger"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Tirador Lanzacohetes Fallschirmjäger / Gebirgsjäger",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Fallschirmjäger / Gebirgsjäger"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Lanzacohetes Pesado (3 x Cohetes)",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cargador Lanzacohetes Fallschirmjäger / Gebirgsjäger",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Fallschirmjäger / Gebirgsjäger"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Tirador Kommando Spezialkräfte (KSK)",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Kommando Spezialkräfte (KSK)"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cargador Kommando Spezialkräfte (KSK)",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Kommando Spezialkräfte (KSK)"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Francotirador Kommando Spezialkräfte (KSK)",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Kommando Spezialkräfte (KSK)"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Rifle de Precisión",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Observador Kommando Spezialkräfte (KSK)",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Kommando Spezialkräfte (KSK)"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Tirador Lanzacohetes Kommando Spezialkräfte (KSK)",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Kommando Spezialkräfte (KSK)"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Lanzacohetes Pesado (3 x Cohetes)",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Cargador Lanzacohetes Kommando Spezialkräfte (KSK)",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Kommando Spezialkräfte (KSK)"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": []
       }
     ],
     "gear": [
