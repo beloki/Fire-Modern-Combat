@@ -149,7 +149,7 @@
         {
           "propertyName": "suboficiales",
           "dataSource": "suboficiales",
-          "label": "Escuadras",
+          "label": "Escuadra",
           "type": "main",
           "tierProperty": "suboficialTier",
           "tierData": "suboficialTiers",
@@ -188,8 +188,9 @@
               "singleKey": "soldado",
               "dataSource": "soldados",
               "propertyName": "soldados",
-              "label": "Soldados",
+              "label": "Soldado",
               "type": "list",
+			  "disallowIncrement": true,
               "children": [
                 {
                   "propertyName": "options",
@@ -12342,4 +12343,3 @@
     "armyBonuses": []
   }
 }
-
