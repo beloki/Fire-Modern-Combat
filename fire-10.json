@@ -1170,6 +1170,13 @@
                 "elementPropertyName": "soldados"
               },
               {
+                "name": "Soldado Ejército de Tierra",
+                "points": 40,
+                "elementPropertyName": "soldados",
+                "usesDefinition": "Soldado Intercambiable Alfa Ejército de Tierra",
+                "quantity": 1
+              },
+              {
                 "name": "Soldado Fusil Ejército de Tierra",
                 "points": 40,
                 "elementPropertyName": "soldados"
@@ -1185,6 +1192,13 @@
                 "name": "Soldado LMG Ejército de Tierra",
                 "points": 50,
                 "elementPropertyName": "soldados"
+              },
+              {
+                "name": "Soldado Ejército de Tierra",
+                "points": 40,
+                "elementPropertyName": "soldados",
+                "usesDefinition": "Soldado Intercambiable Beta Ejército de Tierra",
+                "quantity": 1
               },
               {
                 "name": "Soldado Fusil Ejército de Tierra",
