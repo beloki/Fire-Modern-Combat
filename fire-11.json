@@ -297,7 +297,7 @@
                 "quantity": 1
               },
               {
-                "name": "Soldado Intercambiable US Rangers",
+                "name": "Soldado US Rangers",
                 "points": 60,
                 "elementPropertyName": "soldados",
                 "quantity": 1
@@ -6803,7 +6803,7 @@
         ]
       },
       {
-        "name": "Soldado Intercambiable US Rangers",
+        "name": "Soldado US Rangers",
         "points": 60,
         "models": 1,
         "autoAddOnly": true,
