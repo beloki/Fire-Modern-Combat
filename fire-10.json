@@ -1930,7 +1930,7 @@
                 "elementPropertyName": "soldados"
               },
               {
-                "name": "Soldado Fusil con Lanzacohetes Panzergrenadiers",
+                "name": "Soldado Fusil y Lanzacohetes Panzergrenadiers",
                 "points": 70,
                 "elementPropertyName": "soldados"
               }
@@ -1996,7 +1996,7 @@
                 "elementPropertyName": "soldados"
               },
               {
-                "name": "Soldado Fusil con Lanzacohetes Panzergrenadiers",
+                "name": "Soldado Fusil y Lanzacohetes Panzergrenadiers",
                 "points": 70,
                 "elementPropertyName": "soldados"
               }
@@ -2074,7 +2074,7 @@
                 "elementPropertyName": "soldados"
               },
               {
-                "name": "Soldado Fusil con Lanzacohetes Fallschirmjäger / Gebirgsjäger",
+                "name": "Soldado Fusil y Lanzacohetes Fallschirmjäger / Gebirgsjäger",
                 "points": 75,
                 "elementPropertyName": "soldados"
               }
@@ -2101,7 +2101,7 @@
                 "elementPropertyName": "soldados"
               },
               {
-                "name": "Soldado Fusil con Lanzacohetes Fallschirmjäger / Gebirgsjäger",
+                "name": "Soldado Fusil y Lanzacohetes Fallschirmjäger / Gebirgsjäger",
                 "points": 75,
                 "elementPropertyName": "soldados"
               }
@@ -7127,7 +7127,11 @@
         "experience": 0,
         "factions": [
           {
-            "name": "Panzergrenadiers",
+            "name": "Panzergrenadiers Opción A (Vehículo)",
+            "suboficialTier": "Mando Principal"
+          },
+          {
+            "name": "Panzergrenadiers Opción B (Desmontados)",
             "suboficialTier": "Mando Principal"
           }
         ],
@@ -7151,8 +7155,12 @@
         "experience": 0,
         "factions": [
           {
-            "name": "Panzergrenadiers",
-            "suboficialTier": "Mando Secundario"
+            "name": "Panzergrenadiers Opción A (Vehículo)",
+            "suboficialTier": "Mando Principal"
+          },
+          {
+            "name": "Panzergrenadiers Opción B (Desmontados)",
+            "suboficialTier": "Mando Principal"
           }
         ],
         "unitType": [
@@ -7175,8 +7183,12 @@
         "experience": 0,
         "factions": [
           {
-            "name": "Panzergrenadiers",
-            "suboficialTier": "Mando Apoyo"
+            "name": "Panzergrenadiers Opción A (Vehículo)",
+            "suboficialTier": "Mando Principal"
+          },
+          {
+            "name": "Panzergrenadiers Opción B (Desmontados)",
+            "suboficialTier": "Mando Principal"
           }
         ],
         "unitType": [
@@ -7339,8 +7351,12 @@
         "experience": 0,
         "factions": [
           {
-            "name": "Panzergrenadiers",
-            "suboficialTier": "Arma Apoyo"
+            "name": "Panzergrenadiers Opción A (Vehículo)",
+            "suboficialTier": "Mando Principal"
+          },
+          {
+            "name": "Panzergrenadiers Opción B (Desmontados)",
+            "suboficialTier": "Mando Principal"
           }
         ],
         "unitType": [
@@ -7459,8 +7475,12 @@
         "experience": 0,
         "factions": [
           {
-            "name": "Panzergrenadiers",
-            "suboficialTier": "Arma Apoyo"
+            "name": "Panzergrenadiers Opción A (Vehículo)",
+            "suboficialTier": "Mando Principal"
+          },
+          {
+            "name": "Panzergrenadiers Opción B (Desmontados)",
+            "suboficialTier": "Mando Principal"
           }
         ],
         "unitType": [
@@ -7573,8 +7593,12 @@
         "experience": 0,
         "factions": [
           {
-            "name": "Panzergrenadiers",
-            "suboficialTier": "Arma Apoyo"
+            "name": "Panzergrenadiers Opción A (Vehículo)",
+            "suboficialTier": "Mando Principal"
+          },
+          {
+            "name": "Panzergrenadiers Opción B (Desmontados)",
+            "suboficialTier": "Mando Principal"
           }
         ],
         "unitType": [
@@ -7681,8 +7705,12 @@
         "experience": 0,
         "factions": [
           {
-            "name": "Panzergrenadiers",
-            "suboficialTier": "Arma Apoyo"
+            "name": "Panzergrenadiers Opción A (Vehículo)",
+            "suboficialTier": "Mando Principal"
+          },
+          {
+            "name": "Panzergrenadiers Opción B (Desmontados)",
+            "suboficialTier": "Mando Principal"
           }
         ],
         "unitType": [
@@ -13595,7 +13623,8 @@
         "training": 6,
         "experience": 0,
         "factions": [
-          "Panzergrenadiers"
+          "Panzergrenadiers Opción A (Vehículo)",
+          "Panzergrenadiers Opción B (Desmontados)"
         ],
         "unitType": [
           "Infantería"
@@ -13622,7 +13651,8 @@
         "training": 6,
         "experience": 0,
         "factions": [
-          "Panzergrenadiers"
+          "Panzergrenadiers Opción A (Vehículo)",
+          "Panzergrenadiers Opción B (Desmontados)"
         ],
         "unitType": [
           "Infantería"
@@ -13649,7 +13679,8 @@
         "training": 6,
         "experience": 0,
         "factions": [
-          "Panzergrenadiers"
+          "Panzergrenadiers Opción A (Vehículo)",
+          "Panzergrenadiers Opción B (Desmontados)"
         ],
         "unitType": [
           "Infantería"
@@ -13677,7 +13708,8 @@
         "training": 6,
         "experience": 0,
         "factions": [
-          "Panzergrenadiers"
+          "Panzergrenadiers Opción A (Vehículo)",
+          "Panzergrenadiers Opción B (Desmontados)"
         ],
         "unitType": [
           "Infantería"
@@ -13700,7 +13732,8 @@
         "training": 6,
         "experience": 0,
         "factions": [
-          "Panzergrenadiers"
+          "Panzergrenadiers Opción A (Vehículo)",
+          "Panzergrenadiers Opción B (Desmontados)"
         ],
         "unitType": [
           "Infantería"
@@ -13727,7 +13760,8 @@
         "training": 6,
         "experience": 0,
         "factions": [
-          "Panzergrenadiers"
+          "Panzergrenadiers Opción A (Vehículo)",
+          "Panzergrenadiers Opción B (Desmontados)"
         ],
         "unitType": [
           "Infantry"
@@ -13754,7 +13788,8 @@
         "training": 6,
         "experience": 0,
         "factions": [
-          "Panzergrenadiers"
+          "Panzergrenadiers Opción A (Vehículo)",
+          "Panzergrenadiers Opción B (Desmontados)"
         ],
         "unitType": [
           "Infantry"
@@ -13807,7 +13842,7 @@
         "training": 7,
         "experience": 0,
         "factions": [
-          "Kommando Spezialkräfte (KSK)"
+          "Fallschirmjäger / Gebirgsjäger"
         ],
         "unitType": [
           "Infantería"
@@ -14181,7 +14216,8 @@
         "training": 6,
         "experience": 0,
         "factions": [
-          "Panzergrenadiers"
+          "Panzergrenadiers Opción A (Vehículo)",
+          "Panzergrenadiers Opción B (Desmontados)"
         ],
         "unitType": [
           "Infantería"
@@ -14201,7 +14237,8 @@
         "training": 6,
         "experience": 0,
         "factions": [
-          "Panzergrenadiers"
+          "Panzergrenadiers Opción A (Vehículo)",
+          "Panzergrenadiers Opción B (Desmontados)"
         ],
         "unitType": [
           "Infantería"
@@ -14221,7 +14258,8 @@
         "training": 6,
         "experience": 0,
         "factions": [
-          "Panzergrenadiers"
+          "Panzergrenadiers Opción A (Vehículo)",
+          "Panzergrenadiers Opción B (Desmontados)"
         ],
         "unitType": [
           "Infantería"
@@ -14242,7 +14280,8 @@
         "training": 6,
         "experience": 0,
         "factions": [
-          "Panzergrenadiers"
+          "Panzergrenadiers Opción A (Vehículo)",
+          "Panzergrenadiers Opción B (Desmontados)"
         ],
         "unitType": [
           "Infantería"
@@ -14262,7 +14301,8 @@
         "training": 6,
         "experience": 0,
         "factions": [
-          "Panzergrenadiers"
+          "Panzergrenadiers Opción A (Vehículo)",
+          "Panzergrenadiers Opción B (Desmontados)"
         ],
         "unitType": [
           "Infantería"
@@ -14283,7 +14323,8 @@
         "training": 6,
         "experience": 0,
         "factions": [
-          "Panzergrenadiers"
+          "Panzergrenadiers Opción A (Vehículo)",
+          "Panzergrenadiers Opción B (Desmontados)"
         ],
         "unitType": [
           "Infantería"
