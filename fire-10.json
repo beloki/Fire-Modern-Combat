@@ -1947,6 +1947,7 @@
       {
         "name": "Cabo US Army",
         "points": 60,
+		"pm": 1,
         "limit": 1,
         "training": 7,
         "experience": 0,
@@ -6900,31 +6901,16 @@
             "points": 25
           },
           {
-            "name": "Fusil con Lanzagranadas",
-            "points": 0,
-            "requireChooseOneKey": "a",
-            "includes": [
-              {
-                "name": "Fusil de Asalto",
-                "dataSource": "gear"
-              },
-              {
-                "name": "Lanzagranadas para Fusil de Asalto",
-                "dataSource": "gear"
-              }
-            ]
-          },
-          {
             "name": "Cambiar Fusil con Lanzagranadas por Escopeta",
             "points": -15,
             "usesDefinition": "Escopeta",
-            "requireChooseOneKey": "a"
+            "chooseOneKey": "a"
           },
           {
             "name": "Cambiar Fusil con Lanzagranadas por Rifle de Precisión",
             "points": -10,
             "usesDefinition": "Rifle de Precisión",
-            "requireChooseOneKey": "a"
+            "chooseOneKey": "a"
           }
         ]
       },
@@ -7135,31 +7121,16 @@
             "points": 25
           },
           {
-            "name": "Fusil con Lanzagranadas",
-            "points": 0,
-            "requireChooseOneKey": "a",
-            "includes": [
-              {
-                "name": "Fusil de Asalto",
-                "dataSource": "gear"
-              },
-              {
-                "name": "Lanzagranadas para Fusil de Asalto",
-                "dataSource": "gear"
-              }
-            ]
-          },
-          {
             "name": "Cambiar Fusil con Lanzagranadas por Escopeta",
             "points": -15,
             "usesDefinition": "Escopeta",
-            "requireChooseOneKey": "a"
+            "chooseOneKey": "a"
           },
           {
             "name": "Cambiar Fusil con Lanzagranadas por Rifle de Precisión",
             "points": -10,
             "usesDefinition": "Rifle de Precisión",
-            "requireChooseOneKey": "a"
+            "chooseOneKey": "a"
           }
         ]
       },
@@ -7340,7 +7311,7 @@
           {
             "name": "Fusil con Lanzagranadas",
             "points": 0,
-            "requireChooseOneKey": "a",
+            "chooseOneKey": "a",
             "includes": [
               {
                 "name": "Fusil de Asalto",
@@ -7356,13 +7327,13 @@
             "name": "Cambiar Fusil con Lanzagranadas por Escopeta",
             "points": -15,
             "usesDefinition": "Escopeta",
-            "requireChooseOneKey": "a"
+            "chooseOneKey": "a"
           },
           {
             "name": "Cambiar Fusil con Lanzagranadas por Rifle de Precisión",
             "points": -10,
             "usesDefinition": "Rifle de Precisión",
-            "requireChooseOneKey": "a"
+            "chooseOneKey": "a"
           }
         ]
       },
@@ -9625,7 +9596,8 @@
       {
         "name": "Soldado Fusil con Lanzagranadas Ejército de Tierra",
         "points": 50,
-        "limit": 2,
+        "autoAddOnly": true,
+        "limit": 1,
         "training": 6,
         "experience": 0,
         "factions": [],
@@ -9674,8 +9646,93 @@
         ]
       },
       {
+        "name": "Soldado Intercambiable Alfa Ejército de Tierra",
+        "points": 40,
+        "autoAddOnly": true,
+        "limit": 1,
+        "training": 6,
+        "experience": 0,
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Cabo Ejército de Tierra"
+              },
+              {
+                "in": "Ejército de Tierra"
+              }
+            ]
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Cambiar Fusil por LMG",
+            "points": 10,
+            "usesDefinition": "LMG",
+            "chooseOneKey": "a"
+          }
+        ]
+      },
+      {
+        "name": "Soldado Intercambiable Beta Ejército de Tierra",
+        "points": 40,
+        "autoAddOnly": true,
+        "limit": 1,
+        "training": 6,
+        "experience": 0,
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Cabo Ejército de Tierra"
+              },
+              {
+                "in": "Ejército de Tierra"
+              }
+            ]
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Cambiar Fusil por Fusil con Lanzagranadas",
+            "points": 10,
+            "usesDefinition": "Lanzagranadas para Fusil de Asalto",
+            "chooseOneKey": "a"
+          }
+        ]
+      },
+      {
         "name": "Soldado Fusil Ejército de Tierra",
         "points": 40,
+		"limit": 7,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -9807,8 +9864,93 @@
         ]
       },
       {
+        "name": "Soldado Intercambiable Alfa Legionarios / Cazadores de Montaña / Infantería de Marina",
+        "points": 45,
+        "autoAddOnly": true,
+        "limit": 1,
+        "training": 6,
+        "experience": -1,
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Cabo Legionarios / Cazadores de Montaña / Infantería de Marina"
+              },
+              {
+                "in": "Legionarios / Cazadores de Montaña / Infantería de Marina"
+              }
+            ]
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Cambiar Fusil por LMG",
+            "points": 10,
+            "usesDefinition": "LMG",
+            "chooseOneKey": "a"
+          }
+        ]
+      },
+      {
+        "name": "Soldado Intercambiable Beta Legionarios / Cazadores de Montaña / Infantería de Marina",
+        "points": 45,
+        "autoAddOnly": true,
+        "limit": 1,
+        "training": 6,
+        "experience": -1,
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Cabo Legionarios / Cazadores de Montaña / Infantería de Marina"
+              },
+              {
+                "in": "Legionarios / Cazadores de Montaña / Infantería de Marina"
+              }
+            ]
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Cambiar Fusil por Fusil con Lanzagranadas",
+            "points": 10,
+            "usesDefinition": "Lanzagranadas para Fusil de Asalto",
+            "chooseOneKey": "a"
+          }
+        ]
+      },
+      {
         "name": "Soldado Fusil Legionarios / Cazadores de Montaña / Infantería de Marina",
         "points": 45,
+		"limit": 7,
         "training": 6,
         "experience": -1,
         "factions": [
