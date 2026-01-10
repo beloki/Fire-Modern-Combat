@@ -190,7 +190,7 @@
               "propertyName": "soldados",
               "label": "Soldado",
               "type": "list",
-			  "disallowIncrement": true,
+              "disallowIncrement": true,
               "children": [
                 {
                   "propertyName": "options",
@@ -252,7 +252,7 @@
       {
         "name": "US Rangers",
         "alignment": "EEUU",
-		"pm": 6,
+        "pm": 6,
         "options": [
           {
             "name": "Minas",
@@ -348,7 +348,7 @@
       {
         "name": "US Army",
         "alignment": "EEUU",
-		"pm": 6,
+        "pm": 6,
         "options": [
           {
             "name": "Minas",
@@ -439,7 +439,7 @@
       {
         "name": "US Marines",
         "alignment": "EEUU",
-		"pm": 6,
+        "pm": 6,
         "options": [
           {
             "name": "Minas",
@@ -556,7 +556,7 @@
       },
       {
         "name": "US SOCOM",
-		"pm": 7,
+        "pm": 7,
         "alignment": "EEUU",
         "options": [
           {
@@ -601,7 +601,7 @@
       {
         "name": "British Army (2010)",
         "alignment": "Reino Unido",
-		"pm": 6,
+        "pm": 6,
         "options": [
           {
             "name": "Minas",
@@ -679,7 +679,7 @@
       {
         "name": "British Army (2018)",
         "alignment": "Reino Unido",
-		"pm": 6,
+        "pm": 6,
         "options": [
           {
             "name": "Minas",
@@ -761,7 +761,7 @@
       {
         "name": "Royal Marines / Paras / Gurkhas (2010)",
         "alignment": "Reino Unido",
-		"pm": 6,
+        "pm": 6,
         "options": [
           {
             "name": "Minas",
@@ -839,7 +839,7 @@
       {
         "name": "Royal Marines / Paras / Gurkhas (2018)",
         "alignment": "Reino Unido",
-		"pm": 6,
+        "pm": 6,
         "options": [
           {
             "name": "Minas",
@@ -921,7 +921,7 @@
       {
         "name": "SAS / SBS / SRR / SFSG",
         "alignment": "Reino Unido",
-		"pm": 7,
+        "pm": 7,
         "options": [
           {
             "name": "Minas",
@@ -965,7 +965,7 @@
       {
         "name": "Armée de Terre",
         "alignment": "Francia",
-		"pm": 6,
+        "pm": 6,
         "options": [
           {
             "name": "Minas",
@@ -1045,7 +1045,7 @@
       {
         "name": "Légion Étrangere",
         "alignment": "Francia",
-		"pm": 6,
+        "pm": 6,
         "options": [
           {
             "name": "Minas",
@@ -1125,7 +1125,7 @@
       {
         "name": "Ejército de Tierra",
         "alignment": "España",
-		"pm": 6,
+        "pm": 6,
         "options": [
           {
             "name": "Minas",
@@ -1150,6 +1150,11 @@
             "points": 5,
             "increment": true,
             "max": 6
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5,
+            "perModel": true
           }
         ],
         "requiredChildren": [
@@ -1210,7 +1215,7 @@
       {
         "name": "Legionarios / Cazadores de Montaña / Infantería de Marina",
         "alignment": "España",
-		"pm": 6,
+        "pm": 6,
         "options": [
           {
             "name": "Minas",
@@ -1283,7 +1288,7 @@
       {
         "name": "Insurgentes Tipo 1",
         "alignment": "Insurgencia",
-		"pm": 5,
+        "pm": 5,
         "options": [
           {
             "name": "Cohetes Extra",
@@ -1339,7 +1344,7 @@
       {
         "name": "Insurgentes Tipo 2",
         "alignment": "Insurgencia",
-		"pm": 5,
+        "pm": 5,
         "options": [
           {
             "name": "Cohetes Extra",
@@ -1395,7 +1400,7 @@
       {
         "name": "Insurgentes Tipo 3",
         "alignment": "Insurgencia",
-		"pm": 6,
+        "pm": 6,
         "options": [
           {
             "name": "Cohetes Extra",
@@ -1451,7 +1456,7 @@
       {
         "name": "Insurgentes Tipo 4",
         "alignment": "Insurgencia",
-		"pm": 6,
+        "pm": 6,
         "options": [
           {
             "name": "Cohetes Extra",
@@ -1507,7 +1512,7 @@
       {
         "name": "Insurgentes Tipo 5",
         "alignment": "Insurgencia",
-		"pm": 7,
+        "pm": 7,
         "options": [
           {
             "name": "Cohetes Extra",
@@ -1563,7 +1568,7 @@
       {
         "name": "Forze Armate Italiane",
         "alignment": "Italia",
-		"pm": 6,
+        "pm": 6,
         "options": [
           {
             "name": "Minas",
@@ -1641,7 +1646,7 @@
       {
         "name": "Bersaglieri / Alpini / Folgore",
         "alignment": "Italia",
-		"pm": 6,
+        "pm": 6,
         "options": [
           {
             "name": "Minas",
@@ -1719,7 +1724,7 @@
       {
         "name": "Australian Army",
         "alignment": "Australia",
-		"pm": 6,
+        "pm": 6,
         "options": [
           {
             "name": "Minas",
@@ -1792,7 +1797,7 @@
       {
         "name": "Special Operations Command (SOCOMD)",
         "alignment": "Australia",
-		"pm": 7,
+        "pm": 7,
         "options": [
           {
             "name": "Minas",
@@ -1886,7 +1891,7 @@
       {
         "name": "Sargento US Rangers",
         "points": 70,
-		"pm": 2,
+        "pm": 2,
         "training": 8,
         "experience": -1,
         "factions": [
@@ -1910,7 +1915,7 @@
       {
         "name": "Cabo US Rangers",
         "points": 65,
-		"pm": 1,
+        "pm": 1,
         "limit": 2,
         "training": 7,
         "experience": -1,
@@ -1935,7 +1940,7 @@
       {
         "name": "Sargento US Army",
         "points": 65,
-		"pm": 2,
+        "pm": 2,
         "training": 8,
         "experience": 0,
         "factions": [
@@ -1959,7 +1964,7 @@
       {
         "name": "Cabo US Army",
         "points": 60,
-		"pm": 1,
+        "pm": 1,
         "limit": 1,
         "training": 7,
         "experience": 0,
@@ -1984,7 +1989,7 @@
       {
         "name": "Sargento US Marines",
         "points": 65,
-		"pm": 2,
+        "pm": 2,
         "training": 8,
         "experience": 0,
         "factions": [
@@ -2011,7 +2016,7 @@
       {
         "name": "Cabo US Marines",
         "points": 60,
-		"pm": 1,
+        "pm": 1,
         "limit": 1,
         "training": 7,
         "experience": 0,
@@ -2039,7 +2044,7 @@
       {
         "name": "Sargento US SOCOM",
         "points": 75,
-		"pm": 2,
+        "pm": 2,
         "training": 9,
         "experience": -1,
         "factions": [
@@ -2068,7 +2073,7 @@
       {
         "name": "Cabo US SOCOM",
         "points": 70,
-		"pm": 1,
+        "pm": 1,
         "training": 8,
         "experience": -1,
         "factions": [
@@ -2771,7 +2776,7 @@
       {
         "name": "Sargento British Army",
         "points": 60,
-		"pm": 2,
+        "pm": 2,
         "training": 8,
         "experience": 0,
         "factions": [
@@ -2798,7 +2803,7 @@
       {
         "name": "Cabo British Army",
         "points": 55,
-		"pm": 1,
+        "pm": 1,
         "training": 7,
         "experience": 0,
         "factions": [
@@ -2825,7 +2830,7 @@
       {
         "name": "Sargento Royal Marines / Paras / Gurkhas",
         "points": 65,
-		"pm": 2,
+        "pm": 2,
         "training": 8,
         "experience": -1,
         "factions": [
@@ -2852,7 +2857,7 @@
       {
         "name": "Cabo Royal Marines / Paras / Gurkhas",
         "points": 60,
-		"pm": 1,
+        "pm": 1,
         "training": 7,
         "experience": -1,
         "factions": [
@@ -2879,7 +2884,7 @@
       {
         "name": "Sargento SAS / SBS / SRR / SFSG",
         "points": 75,
-		"pm": 2,
+        "pm": 2,
         "training": 9,
         "experience": -1,
         "factions": [
@@ -2902,7 +2907,7 @@
       {
         "name": "Cabo SAS / SBS / SRR / SFSG",
         "points": 70,
-		"pm": 1,
+        "pm": 1,
         "training": 8,
         "experience": -1,
         "factions": [
@@ -3513,7 +3518,7 @@
       {
         "name": "Sargento Armée de Terre",
         "points": 60,
-		"pm": 2,
+        "pm": 2,
         "training": 8,
         "experience": 0,
         "factions": [
@@ -3541,7 +3546,7 @@
       {
         "name": "Cabo Armée de Terre",
         "points": 55,
-		"pm": 1,
+        "pm": 1,
         "limit": 2,
         "training": 7,
         "experience": 0,
@@ -3570,7 +3575,7 @@
       {
         "name": "Sargento Légion Étrangere",
         "points": 60,
-		"pm": 2,
+        "pm": 2,
         "training": 8,
         "experience": -1,
         "factions": [
@@ -3598,7 +3603,7 @@
       {
         "name": "Cabo Légion Étrangere",
         "points": 55,
-		"pm": 1,
+        "pm": 1,
         "limit": 2,
         "training": 7,
         "experience": -1,
@@ -4025,7 +4030,7 @@
       {
         "name": "Sargento Ejército de Tierra",
         "points": 60,
-		"pm": 2,
+        "pm": 2,
         "training": 8,
         "experience": 0,
         "factions": [
@@ -4048,7 +4053,7 @@
       {
         "name": "Cabo Ejército de Tierra",
         "points": 55,
-		"pm": 1,
+        "pm": 1,
         "limit": 2,
         "training": 7,
         "experience": 0,
@@ -4072,7 +4077,7 @@
       {
         "name": "Sargento Legionarios / Cazadores de Montaña / Infantería de Marina",
         "points": 60,
-		"pm": 2,
+        "pm": 2,
         "training": 8,
         "experience": -1,
         "factions": [
@@ -4100,7 +4105,7 @@
       {
         "name": "Cabo Legionarios / Cazadores de Montaña / Infantería de Marina",
         "points": 55,
-		"pm": 1,
+        "pm": 1,
         "limit": 2,
         "training": 7,
         "experience": -1,
@@ -4507,7 +4512,7 @@
       {
         "name": "Jefe Insurgentes Tipo 1",
         "points": 55,
-		"pm": 2,
+        "pm": 2,
         "training": 7,
         "experience": 0,
         "factions": [
@@ -4530,7 +4535,7 @@
       {
         "name": "Ayudante Insurgentes Tipo 1",
         "points": 50,
-		"pm": 1,
+        "pm": 1,
         "unlimited": true,
         "training": 6,
         "experience": 0,
@@ -4554,7 +4559,7 @@
       {
         "name": "Jefe Insurgentes Tipo 2",
         "points": 55,
-		"pm": 2,
+        "pm": 2,
         "training": 7,
         "experience": 0,
         "factions": [
@@ -4577,7 +4582,7 @@
       {
         "name": "Ayudante Insurgentes Tipo 2",
         "points": 50,
-		"pm": 1,
+        "pm": 1,
         "unlimited": true,
         "training": 6,
         "experience": 0,
@@ -4601,7 +4606,7 @@
       {
         "name": "Jefe Insurgentes Tipo 3",
         "points": 60,
-		"pm": 2,
+        "pm": 2,
         "training": 8,
         "experience": -1,
         "factions": [
@@ -4624,7 +4629,7 @@
       {
         "name": "Ayudante Insurgentes Tipo 3",
         "points": 55,
-		"pm": 1,
+        "pm": 1,
         "unlimited": true,
         "training": 7,
         "experience": 0,
@@ -4648,7 +4653,7 @@
       {
         "name": "Jefe Insurgentes Tipo 4",
         "points": 65,
-		"pm": 2,
+        "pm": 2,
         "training": 8,
         "experience": -1,
         "factions": [
@@ -4671,7 +4676,7 @@
       {
         "name": "Ayudante Insurgentes Tipo 4",
         "points": 60,
-		"pm": 1,
+        "pm": 1,
         "unlimited": true,
         "training": 7,
         "experience": -1,
@@ -4695,7 +4700,7 @@
       {
         "name": "Jefe Insurgentes Tipo 5",
         "points": 65,
-		"pm": 2,
+        "pm": 2,
         "training": 9,
         "experience": 0,
         "factions": [
@@ -4723,7 +4728,7 @@
       {
         "name": "Ayudante Insurgentes Tipo 5",
         "points": 60,
-		"pm": 1,
+        "pm": 1,
         "unlimited": true,
         "training": 8,
         "experience": 0,
@@ -5894,7 +5899,7 @@
       {
         "name": "Sargento Forze Armate Italiane",
         "points": 65,
-		"pm": 2,
+        "pm": 2,
         "training": 8,
         "experience": 0,
         "factions": [
@@ -5918,7 +5923,7 @@
       {
         "name": "Cabo Forze Armate Italiane",
         "points": 60,
-		"pm": 1,
+        "pm": 1,
         "training": 7,
         "experience": 0,
         "factions": [
@@ -5965,7 +5970,7 @@
       {
         "name": "Sargento Bersaglieri / Alpini / Folgore",
         "points": 70,
-		"pm": 2,
+        "pm": 2,
         "training": 8,
         "experience": -1,
         "factions": [
@@ -5989,7 +5994,7 @@
       {
         "name": "Cabo Bersaglieri / Alpini / Folgore",
         "points": 65,
-		"pm": 1,
+        "pm": 1,
         "training": 7,
         "experience": -1,
         "factions": [
@@ -6352,7 +6357,7 @@
       {
         "name": "Sargento Australian Army",
         "points": 65,
-		"pm": 2,
+        "pm": 2,
         "training": 8,
         "experience": 0,
         "factions": [
@@ -6375,7 +6380,7 @@
       {
         "name": "Cabo Australian Army",
         "points": 60,
-		"pm": 1,
+        "pm": 1,
         "training": 7,
         "experience": 0,
         "factions": [
@@ -6419,7 +6424,7 @@
       {
         "name": "Sargento Special Operations Command (SOCOMD)",
         "points": 75,
-		"pm": 2,
+        "pm": 2,
         "training": 9,
         "experience": 0,
         "factions": [
@@ -6442,7 +6447,7 @@
       {
         "name": "Cabo Special Operations Command (SOCOMD)",
         "points": 70,
-		"pm": 1,
+        "pm": 1,
         "training": 8,
         "experience": 0,
         "factions": [
@@ -6929,7 +6934,7 @@
       {
         "name": "Soldado Fusil US Rangers",
         "points": 50,
-		"limit": 5,
+        "limit": 5,
         "training": 6,
         "experience": -1,
         "factions": [
@@ -7149,7 +7154,7 @@
       {
         "name": "Soldado Fusil US Army",
         "points": 45,
-		"limit": 5,
+        "limit": 5,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -7352,7 +7357,7 @@
       {
         "name": "Soldado Fusil US Marines",
         "points": 45,
-		"limit": 8,
+        "limit": 8,
         "autoAddOnly": true,
         "training": 6,
         "experience": 0,
@@ -9744,7 +9749,7 @@
       {
         "name": "Soldado Fusil Ejército de Tierra",
         "points": 40,
-		"limit": 7,
+        "limit": 7,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -9962,7 +9967,7 @@
       {
         "name": "Soldado Fusil Legionarios / Cazadores de Montaña / Infantería de Marina",
         "points": 45,
-		"limit": 7,
+        "limit": 7,
         "training": 6,
         "experience": -1,
         "factions": [
@@ -12109,7 +12114,7 @@
       {
         "name": "Soldado Fusil Special Operations Command (SOCOMD)",
         "points": 45,
-		"limit": 3,
+        "limit": 3,
         "training": 7,
         "experience": 0,
         "factions": [],
@@ -12235,8 +12240,8 @@
         "name": "Tirador Designado Special Operations Command (SOCOMD)",
         "points": 50,
         "limit": 1,
-		"unlimited": false,
-		"increment": false,
+        "unlimited": false,
+        "increment": false,
         "max": 1,
         "training": 7,
         "experience": 0,
@@ -12260,7 +12265,7 @@
             "perParent": true
           }
         ],
-		"localLimit": 1,
+        "localLimit": 1,
         "unitType": [
           "Infantería"
         ],
