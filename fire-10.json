@@ -1173,7 +1173,6 @@
                 "name": "Soldado Alfa Ejército de Tierra",
                 "points": 40,
                 "elementPropertyName": "soldados",
-                "usesDefinition": "Soldado Intercambiable Alfa Ejército de Tierra",
                 "quantity": 1
               },
               {
@@ -1197,7 +1196,6 @@
                 "name": "Soldado Beta Ejército de Tierra",
                 "points": 40,
                 "elementPropertyName": "soldados",
-                "usesDefinition": "Soldado Intercambiable Beta Ejército de Tierra",
                 "quantity": 1
               },
               {
@@ -9660,7 +9658,7 @@
         ]
       },
       {
-        "name": "Soldado Intercambiable Alfa Ejército de Tierra",
+        "name": "Soldado Alfa Ejército de Tierra",
         "points": 40,
         "autoAddOnly": true,
         "limit": 1,
@@ -9702,7 +9700,7 @@
         ]
       },
       {
-        "name": "Soldado Intercambiable Beta Ejército de Tierra",
+        "name": "Soldado Beta Ejército de Tierra",
         "points": 40,
         "autoAddOnly": true,
         "limit": 1,
