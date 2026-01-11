@@ -3847,7 +3847,7 @@
       },
       {
         "name": "Humvee (Vehículo Reforzado) US SOCOM",
-        "points": 150,
+        "points": 170,
         "training": 0,
         "experience": 0,
         "factions": [
@@ -3896,7 +3896,7 @@
       },
       {
         "name": "Cougar (MRAP) US Army",
-        "points": 150,
+        "points": 200,
         "training": 0,
         "experience": 0,
         "factions": [
@@ -3936,7 +3936,7 @@
       },
       {
         "name": "Cougar (MRAP) US Rangers",
-        "points": 160,
+        "points": 210,
         "training": 0,
         "experience": 0,
         "factions": [
@@ -4105,7 +4105,7 @@
       },
       {
         "name": "Stryker (Blindado) US Rangers",
-        "points": 235,
+        "points": 230,
         "training": 0,
         "experience": 0,
         "factions": [
