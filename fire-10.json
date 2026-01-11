@@ -9865,6 +9865,11 @@
             "suboficialTier": "Vehículo"
           }
         ],
+		"limits": [
+          {
+            "key": "vehiculo"
+          }
+        ],
         "unitType": [
           "Vehículo"
         ],
@@ -9903,6 +9908,11 @@
           {
             "name": "Blindados Pesados PLA Opción A (Vehículo)",
             "suboficialTier": "Vehículo"
+          }
+        ],
+		"limits": [
+          {
+            "key": "vehiculo"
           }
         ],
         "unitType": [
@@ -17303,6 +17313,32 @@
         "factions": [
           "Alta Movilidad PLA Opción A (Vehículo)",
           "Alta Movilidad PLA Opción B (Desmontados)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
+      },
+      {
+        "name": "Artillero Alta Movilidad PLA",
+        "points": 35,
+        "autoAddOnly": true,
+        "limit": 1,
+        "training": 6,
+        "experience": 1,
+        "factions": [
+          "Alta Movilidad PLA Opción A (Vehículo)"
         ],
         "unitType": [
           "Infantry"
