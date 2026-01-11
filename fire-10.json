@@ -3748,6 +3748,580 @@
         ]
       },
       {
+        "name": "Humvee (Vehículo Reforzado) US Rangers",
+        "points": 160,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "US Rangers",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": [
+          {
+            "name": "Lanzagranadas Automático 40mm",
+            "points": 0,
+            "requireChooseOneKey": "a"
+          },
+          {
+            "name": "HMG",
+            "points": 30,
+            "requireChooseOneKey": "a"
+          }
+        ],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor US Rangers"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero US Rangers",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Humvee (Vehículo Reforzado) US Marines",
+        "points": 150,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "US Marines",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": [
+          {
+            "name": "Lanzagranadas Automático 40mm",
+            "points": 0,
+            "requireChooseOneKey": "a"
+          },
+          {
+            "name": "HMG",
+            "points": 30,
+            "requireChooseOneKey": "a"
+          }
+        ],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor US Marines"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero US Marines",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Humvee (Vehículo Reforzado) US SOCOM",
+        "points": 150,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "US SOCOM",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": [
+          {
+            "name": "Lanzagranadas Automático 40mm",
+            "points": 0,
+            "requireChooseOneKey": "a"
+          },
+          {
+            "name": "HMG",
+            "points": 30,
+            "requireChooseOneKey": "a"
+          }
+        ],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor US SOCOM"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero US SOCOM",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Cougar (MRAP) US Army",
+        "points": 150,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "US Army",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor US Army"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero US Army",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Cougar (MRAP) US Rangers",
+        "points": 160,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "US Rangers",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor US Rangers"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero US Rangers",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Cougar (MRAP) US Marines",
+        "points": 200,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "US Marines",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor US Marines"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero US Marines",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Cougar (MRAP) US SOCOM",
+        "points": 220,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "US SOCOM",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor US SOCOM"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero US SOCOM",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Stryker (Blindado) US Army",
+        "points": 220,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "US Army",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": [
+          {
+            "name": "Cañón (Vehículo)",
+            "points": 0,
+            "requireChooseOneKey": "a"
+          },
+          {
+            "name": "HMG",
+            "points": 0,
+            "requireChooseOneKey": "a"
+          }
+        ],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor US Army"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero US Army",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Stryker (Blindado) US Rangers",
+        "points": 235,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "US Rangers",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": [
+          {
+            "name": "Cañón (Vehículo)",
+            "points": 0,
+            "requireChooseOneKey": "a"
+          },
+          {
+            "name": "HMG",
+            "points": 0,
+            "requireChooseOneKey": "a"
+          }
+        ],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor US Rangers"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero US Rangers",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Stryker (Blindado) US Marines",
+        "points": 220,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "US Marines",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": [
+          {
+            "name": "Cañón (Vehículo)",
+            "points": 0,
+            "requireChooseOneKey": "a"
+          },
+          {
+            "name": "HMG",
+            "points": 0,
+            "requireChooseOneKey": "a"
+          }
+        ],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor US Marines"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero US Marines",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Bradley (VCI) US Army",
+        "points": 225,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "US Army",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Cañón (Vehículo)"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor US Army"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero US Army",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Bradley (VCI) US Rangers",
+        "points": 235,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "US Rangers",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Cañón (Vehículo)"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor US Rangers"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero US Rangers",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Bradley (VCI) US Marines",
+        "points": 225,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "US Marines",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Cañón (Vehículo)"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor US Marines"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero US Marines",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
         "name": "Sargento British Army",
         "points": 60,
         "pm": 2,
