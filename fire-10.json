@@ -8797,10 +8797,9 @@
         "baseSize": [
           "60mm"
         ],
-        "wargear": [
-          "Fusil de Asalto"
+        "wargear": ["Fusil de Asalto"],
+        "options": [
         ],
-        "options": [],
         "includes": [
           {
             "dataSource": "soldados",
@@ -8837,10 +8836,9 @@
         "baseSize": [
           "60mm"
         ],
-        "wargear": [
-          "Fusil de Asalto"
+        "wargear": ["Fusil de Asalto"],
+        "options": [
         ],
-        "options": [],
         "includes": [
           {
             "dataSource": "soldados",
@@ -8877,10 +8875,9 @@
         "baseSize": [
           "60mm"
         ],
-        "wargear": [
-          "Fusil de Asalto"
+        "wargear": ["Fusil de Asalto"],
+        "options": [
         ],
-        "options": [],
         "includes": [
           {
             "dataSource": "soldados",
@@ -8917,10 +8914,9 @@
         "baseSize": [
           "60mm"
         ],
-        "wargear": [
-          "Fusil de Asalto"
+        "wargear": ["Fusil de Asalto"],
+        "options": [
         ],
-        "options": [],
         "includes": [
           {
             "dataSource": "soldados",
@@ -8957,10 +8953,9 @@
         "baseSize": [
           "60mm"
         ],
-        "wargear": [
-          "HMG"
+        "wargear": ["HMG"],
+        "options": [
         ],
-        "options": [],
         "includes": [
           {
             "dataSource": "soldados",
@@ -8997,10 +8992,9 @@
         "baseSize": [
           "60mm"
         ],
-        "wargear": [
-          "HMG"
+        "wargear": ["HMG"],
+        "options": [
         ],
-        "options": [],
         "includes": [
           {
             "dataSource": "soldados",
@@ -9037,10 +9031,9 @@
         "baseSize": [
           "60mm"
         ],
-        "wargear": [
-          "HMG"
+        "wargear": ["HMG"],
+        "options": [
         ],
-        "options": [],
         "includes": [
           {
             "dataSource": "soldados",
@@ -9077,10 +9070,9 @@
         "baseSize": [
           "60mm"
         ],
-        "wargear": [
-          "HMG"
+        "wargear": ["HMG"],
+        "options": [
         ],
-        "options": [],
         "includes": [
           {
             "dataSource": "soldados",
@@ -9117,10 +9109,9 @@
         "baseSize": [
           "60mm"
         ],
-        "wargear": [
-          "HMG"
+        "wargear": ["HMG"],
+        "options": [
         ],
-        "options": [],
         "includes": [
           {
             "dataSource": "soldados",
@@ -9157,10 +9148,9 @@
         "baseSize": [
           "60mm"
         ],
-        "wargear": [
-          "HMG"
+        "wargear": ["HMG"],
+        "options": [
         ],
-        "options": [],
         "includes": [
           {
             "dataSource": "soldados",
@@ -9182,7 +9172,7 @@
       },
       {
         "name": "Blindado con ruedas Tipo 4",
-        "points": 230,
+        "points": 023,
         "training": 0,
         "experience": 0,
         "factions": [
@@ -9197,10 +9187,9 @@
         "baseSize": [
           "60mm"
         ],
-        "wargear": [
-          "HMG"
+        "wargear": ["HMG"],
+        "options": [
         ],
-        "options": [],
         "includes": [
           {
             "dataSource": "soldados",
@@ -9237,10 +9226,9 @@
         "baseSize": [
           "60mm"
         ],
-        "wargear": [
-          "HMG"
+        "wargear": ["HMG"],
+        "options": [
         ],
-        "options": [],
         "includes": [
           {
             "dataSource": "soldados",
@@ -9712,6 +9700,326 @@
           {
             "elementPropertyName": "soldados",
             "name": "Cargador Bersaglieri / Alpini / Folgore",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "IVECO LMV (Vehículo Reforzado) Forze Armate Italiane",
+        "points": 180,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Forze Armate Italiane",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Forze Armate Italiane"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Forze Armate Italiane",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "IVECO LMV (Vehículo Reforzado) Bersaglieri / Alpini / Folgore",
+        "points": 190,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Bersaglieri / Alpini / Folgore",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Bersaglieri / Alpini / Folgore"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Bersaglieri / Alpini / Folgore",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "ORSO 4x4 (MRAP) Forze Armate Italiane",
+        "points": 200,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Forze Armate Italiane",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Forze Armate Italiane"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Forze Armate Italiane",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "ORSO 4x4 (MRAP) Bersaglieri / Alpini / Folgore",
+        "points": 210,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Bersaglieri / Alpini / Folgore",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Bersaglieri / Alpini / Folgore"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Bersaglieri / Alpini / Folgore",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "VMB Freccia (Blindado) Forze Armate Italiane",
+        "points": 220,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Forze Armate Italiane",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Forze Armate Italiane"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Forze Armate Italiane",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "VMB Freccia (Blindado) Bersaglieri / Alpini / Folgore",
+        "points": 230,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Bersaglieri / Alpini / Folgore",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Bersaglieri / Alpini / Folgore"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Bersaglieri / Alpini / Folgore",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "VCC (VCI) Forze Armate Italiane",
+        "points": 225,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Forze Armate Italiane",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Cañón (Vehículo)"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Forze Armate Italiane"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Forze Armate Italiane",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "VCC (VCI) Bersaglieri / Alpini / Folgore",
+        "points": 235,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Bersaglieri / Alpini / Folgore",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Cañón (Vehículo)"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Bersaglieri / Alpini / Folgore"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Bersaglieri / Alpini / Folgore",
             "quantity": 1,
             "points": 0,
             "lockedChildren": true
@@ -17619,7 +17927,7 @@
         "limit": 1,
         "autoAddOnly": true,
         "training": 5,
-        "experience": 1,
+        "experience": 0,
         "factions": [
           "Insurgentes Tipo 2"
         ],
@@ -17640,7 +17948,7 @@
         "limit": 1,
         "autoAddOnly": true,
         "training": 5,
-        "experience": 1,
+        "experience": 0,
         "factions": [
           "Insurgentes Tipo 2"
         ],
@@ -17660,8 +17968,8 @@
         "points": 45,
         "limit": 1,
         "autoAddOnly": true,
-        "training": 5,
-        "experience": 1,
+        "training": 6,
+        "experience": 0,
         "factions": [
           "Insurgentes Tipo 3"
         ],
@@ -17681,8 +17989,8 @@
         "points": 45,
         "limit": 1,
         "autoAddOnly": true,
-        "training": 5,
-        "experience": 1,
+        "training": 6,
+        "experience": 0,
         "factions": [
           "Insurgentes Tipo 3"
         ],
@@ -17702,8 +18010,8 @@
         "points": 45,
         "limit": 1,
         "autoAddOnly": true,
-        "training": 5,
-        "experience": 1,
+        "training": 6,
+        "experience": -1,
         "factions": [
           "Insurgentes Tipo 4"
         ],
@@ -17723,8 +18031,8 @@
         "points": 45,
         "limit": 1,
         "autoAddOnly": true,
-        "training": 5,
-        "experience": 1,
+        "training": 6,
+        "experience": -1,
         "factions": [
           "Insurgentes Tipo 4"
         ],
@@ -17744,8 +18052,8 @@
         "points": 45,
         "limit": 1,
         "autoAddOnly": true,
-        "training": 5,
-        "experience": 1,
+        "training": 7,
+        "experience": 0,
         "factions": [
           "Insurgentes Tipo 5"
         ],
@@ -17765,8 +18073,8 @@
         "points": 45,
         "limit": 1,
         "autoAddOnly": true,
-        "training": 5,
-        "experience": 1,
+        "training": 7,
+        "experience": 0,
         "factions": [
           "Insurgentes Tipo 5"
         ],
@@ -18272,6 +18580,90 @@
         "wargear": [
           "Fusil de Asalto",
           "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Conductor Forze Armate Italiane",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Forze Armate Italiane"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Artillero Forze Armate Italiane",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Forze Armate Italiane"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Conductor Bersaglieri / Alpini / Folgore",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Bersaglieri / Alpini / Folgore"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Artillero Bersaglieri / Alpini / Folgore",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Bersaglieri / Alpini / Folgore"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
         ],
         "options": []
       },
