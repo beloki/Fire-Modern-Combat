@@ -1844,6 +1844,11 @@
             "elementPropertyName": "suboficiales",
             "requiredChildren": [
               {
+                "name": "Soldado Fusil Alfa Special Operations Command (SOCOMD)",
+                "points": 55,
+                "elementPropertyName": "soldados"
+              },
+              {
                 "name": "Soldado Fusil con Lanzagranadas Special Operations Command (SOCOMD)",
                 "points": 55,
                 "elementPropertyName": "soldados"
@@ -2376,10 +2381,10 @@
         "pm": 6,
         "options": [
           {
-            "name": "Minas",
-            "points": 10,
+            "name": "Cohetes Extra",
+            "points": 20,
             "increment": true,
-            "max": 2
+            "max": 1
           },
           {
             "name": "Granada de Fragmentación",
@@ -9865,7 +9870,7 @@
             "suboficialTier": "Vehículo"
           }
         ],
-		"limits": [
+        "limits": [
           {
             "key": "vehiculo"
           }
@@ -9910,7 +9915,7 @@
             "suboficialTier": "Vehículo"
           }
         ],
-		"limits": [
+        "limits": [
           {
             "key": "vehiculo"
           }
@@ -10134,20 +10139,20 @@
         ],
         "options": [
           {
-            "name": "Lanzacohetes Ligero Desechable",
-            "points": 25
-          },
-          {
             "name": "Cambiar Fusil con Lanzagranadas por Escopeta",
             "points": -15,
             "usesDefinition": "Escopeta",
             "chooseOneKey": "a"
           },
           {
-            "name": "Cambiar Fusil con Lanzagranadas por Rifle de Precisión",
+            "name": "Cambiar por Tirador Designado",
             "points": -10,
             "usesDefinition": "Rifle de Precisión",
             "chooseOneKey": "a"
+          },
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
           }
         ]
       },
@@ -10354,20 +10359,20 @@
         ],
         "options": [
           {
-            "name": "Lanzacohetes Ligero Desechable",
-            "points": 25
-          },
-          {
             "name": "Cambiar Fusil con Lanzagranadas por Escopeta",
             "points": -15,
             "usesDefinition": "Escopeta",
             "chooseOneKey": "a"
           },
           {
-            "name": "Cambiar Fusil con Lanzagranadas por Rifle de Precisión",
+            "name": "Cambiar por Tirador Designado",
             "points": -10,
             "usesDefinition": "Rifle de Precisión",
             "chooseOneKey": "a"
+          },
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
           }
         ]
       },
@@ -10542,35 +10547,20 @@
         ],
         "options": [
           {
-            "name": "Lanzacohetes Ligero Desechable",
-            "points": 25
-          },
-          {
-            "name": "Fusil con Lanzagranadas",
-            "points": 0,
-            "chooseOneKey": "a",
-            "includes": [
-              {
-                "name": "Fusil de Asalto",
-                "dataSource": "gear"
-              },
-              {
-                "name": "Lanzagranadas para Fusil de Asalto",
-                "dataSource": "gear"
-              }
-            ]
-          },
-          {
             "name": "Cambiar Fusil con Lanzagranadas por Escopeta",
             "points": -15,
             "usesDefinition": "Escopeta",
             "chooseOneKey": "a"
           },
           {
-            "name": "Cambiar Fusil con Lanzagranadas por Rifle de Precisión",
+            "name": "Cambiar por Tirador Designado",
             "points": -10,
             "usesDefinition": "Rifle de Precisión",
             "chooseOneKey": "a"
+          },
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
           }
         ]
       },
@@ -12913,14 +12903,14 @@
         ],
         "options": [
           {
-            "name": "Lanzacohetes Ligero Desechable",
-            "points": 25
-          },
-          {
             "name": "Cambiar Fusil por LMG",
             "points": 10,
             "usesDefinition": "LMG",
             "chooseOneKey": "a"
+          },
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
           }
         ]
       },
@@ -12955,14 +12945,14 @@
         ],
         "options": [
           {
-            "name": "Lanzacohetes Ligero Desechable",
-            "points": 25
-          },
-          {
             "name": "Cambiar Fusil por Fusil con Lanzagranadas",
             "points": 10,
             "usesDefinition": "Lanzagranadas para Fusil de Asalto",
             "chooseOneKey": "a"
+          },
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
           }
         ]
       },
@@ -13131,14 +13121,14 @@
         ],
         "options": [
           {
-            "name": "Lanzacohetes Ligero Desechable",
-            "points": 25
-          },
-          {
             "name": "Cambiar Fusil por LMG",
             "points": 10,
             "usesDefinition": "LMG",
             "chooseOneKey": "a"
+          },
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
           }
         ]
       },
@@ -13173,14 +13163,14 @@
         ],
         "options": [
           {
-            "name": "Lanzacohetes Ligero Desechable",
-            "points": 25
-          },
-          {
             "name": "Cambiar Fusil por Fusil con Lanzagranadas",
             "points": 10,
             "usesDefinition": "Lanzagranadas para Fusil de Asalto",
             "chooseOneKey": "a"
+          },
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
           }
         ]
       },
@@ -15334,7 +15324,8 @@
       {
         "name": "Soldado Fusil Special Operations Command (SOCOMD)",
         "points": 45,
-        "limit": 3,
+        "autoAddOnly": true,
+        "limit": 2,
         "training": 7,
         "experience": 0,
         "factions": [],
@@ -15367,6 +15358,60 @@
           "Fusil de Asalto"
         ],
         "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          },
+          {
+            "name": "Miras tácticas",
+            "points": 5
+          }
+        ]
+      },
+      {
+        "name": "Soldado Fusil Alfa Special Operations Command (SOCOMD)",
+        "points": 45,
+        "autoAddOnly": true,
+        "limit": 1,
+        "training": 7,
+        "experience": 0,
+        "factions": [],
+        "availableIn": [
+          {
+            "all": [
+              {
+                "in": "Cabo Special Operations Command (SOCOMD)"
+              },
+              {
+                "in": "Special Operations Command (SOCOMD)"
+              }
+            ]
+          }
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": [
+          {
+            "name": "Cambiar por Tirador Designado",
+            "points": 0,
+            "usesDefinition": "Rifle de Precisión",
+            "chooseOneKey": "a"
+          },
           {
             "name": "Lanzacohetes Ligero Desechable",
             "points": 25
@@ -15460,9 +15505,7 @@
         "name": "Tirador Designado Special Operations Command (SOCOMD)",
         "points": 50,
         "limit": 1,
-        "unlimited": false,
-        "increment": false,
-        "max": 1,
+        "autoAddOnly": true,
         "training": 7,
         "experience": 0,
         "factions": [],
@@ -15573,7 +15616,12 @@
           "60mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Cargador Australian Army",
@@ -15591,7 +15639,12 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Francotirador Australian Army",
@@ -15611,7 +15664,12 @@
         "wargear": [
           "Rifle de Precisión"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Observador Australian Army",
@@ -15629,7 +15687,12 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Tirador Lanzacohetes Australian Army",
@@ -15652,7 +15715,7 @@
         ],
         "options": [
           {
-            "name": "Miras tácticas",
+            "name": "Chaleco Antibalas",
             "points": 5
           }
         ]
@@ -15677,7 +15740,7 @@
         ],
         "options": [
           {
-            "name": "Miras tácticas",
+            "name": "Chaleco Antibalas",
             "points": 5
           }
         ]
@@ -15698,7 +15761,12 @@
           "60mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Cargador Special Operations Command (SOCOMD)",
@@ -15716,7 +15784,12 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Francotirador Special Operations Command (SOCOMD)",
@@ -15736,7 +15809,12 @@
         "wargear": [
           "Rifle de Precisión"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Observador Special Operations Command (SOCOMD)",
@@ -15754,7 +15832,12 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Tirador Lanzacohetes Special Operations Command (SOCOMD)",
@@ -15776,6 +15859,10 @@
           "Lanzacohetes Pesado (3 x Cohetes)"
         ],
         "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          },
           {
             "name": "Miras tácticas",
             "points": 5
@@ -15801,6 +15888,10 @@
           "Fusil de Asalto"
         ],
         "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          },
           {
             "name": "Miras tácticas",
             "points": 5
@@ -15918,7 +16009,6 @@
         "name": "Tirador Designado Panzergrenadiers",
         "points": 45,
         "limit": 1,
-        "autoAddOnly": true,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -16046,18 +16136,14 @@
         ],
         "options": [
           {
-            "name": "Lanzacohetes Ligero Desechable",
-            "points": 25
-          },
-          {
-            "name": "Miras tácticas",
-            "points": 5
-          },
-          {
             "name": "Cambiar por Tirador Designado",
             "points": 0,
             "usesDefinition": "Rifle de Precisión",
             "chooseOneKey": "a"
+          },
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
           }
         ]
       },
@@ -16272,14 +16358,6 @@
         ],
         "options": [
           {
-            "name": "Lanzacohetes Ligero Desechable",
-            "points": 25
-          },
-          {
-            "name": "Miras tácticas",
-            "points": 5
-          },
-          {
             "name": "Cambiar por Tirador Designado",
             "points": 0,
             "usesDefinition": "Rifle de Precisión",
@@ -16290,6 +16368,14 @@
             "points": -5,
             "usesDefinition": "SMG",
             "chooseOneKey": "a"
+          },
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Miras tácticas",
+            "points": 5
           }
         ]
       },
@@ -16315,14 +16401,6 @@
         ],
         "options": [
           {
-            "name": "Lanzacohetes Ligero Desechable",
-            "points": 25
-          },
-          {
-            "name": "Miras tácticas",
-            "points": 5
-          },
-          {
             "name": "Cambiar Fusil por LMG",
             "points": 10,
             "usesDefinition": "LMG",
@@ -16333,6 +16411,14 @@
             "points": -5,
             "usesDefinition": "SMG",
             "chooseOneKey": "a"
+          },
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Miras tácticas",
+            "points": 5
           }
         ]
       },
@@ -16473,12 +16559,7 @@
           "Fusil de Asalto",
           "Chaleco Antibalas"
         ],
-        "options": [
-          {
-            "name": "Lanzacohetes Ligero Desechable",
-            "points": 25
-          }
-        ]
+        "options": []
       },
       {
         "name": "Artillero Kommando Spezialkräfte (KSK)",
@@ -16500,12 +16581,7 @@
           "Fusil de Asalto",
           "Chaleco Antibalas"
         ],
-        "options": [
-          {
-            "name": "Lanzacohetes Ligero Desechable",
-            "points": 25
-          }
-        ]
+        "options": []
       },
       {
         "name": "Tirador Panzergrenadiers",
@@ -17244,7 +17320,7 @@
         ],
         "options": [
           {
-            "name": "Lanzacohetes Ligero Desechable",
+            "name": "Lanzacohetes Ligero Recargable",
             "points": 25
           }
         ]
@@ -17271,7 +17347,7 @@
         ],
         "options": [
           {
-            "name": "Lanzacohetes Ligero Desechable",
+            "name": "Lanzacohetes Ligero Recargable",
             "points": 25
           }
         ]
@@ -17298,7 +17374,7 @@
         ],
         "options": [
           {
-            "name": "Lanzacohetes Ligero Desechable",
+            "name": "Lanzacohetes Ligero Recargable",
             "points": 25
           }
         ]
@@ -17325,7 +17401,7 @@
         ],
         "options": [
           {
-            "name": "Lanzacohetes Ligero Desechable",
+            "name": "Lanzacohetes Ligero Recargable",
             "points": 25
           }
         ]
@@ -17351,7 +17427,7 @@
         ],
         "options": [
           {
-            "name": "Lanzacohetes Ligero Desechable",
+            "name": "Lanzacohetes Ligero Recargable",
             "points": 25
           }
         ]
