@@ -6094,7 +6094,7 @@
         "experience": 0,
         "factions": [
           {
-            "name": "Légion Étrangeree",
+            "name": "Légion Étrangere",
             "suboficialTier": "Vehículo"
           }
         ],
@@ -6174,7 +6174,7 @@
         "experience": 0,
         "factions": [
           {
-            "name": "Légion Étrangeree",
+            "name": "Légion Étrangere",
             "suboficialTier": "Vehículo"
           }
         ],
@@ -6254,7 +6254,7 @@
         "experience": 0,
         "factions": [
           {
-            "name": "Légion Étrangeree",
+            "name": "Légion Étrangere",
             "suboficialTier": "Vehículo"
           }
         ],
@@ -6305,7 +6305,7 @@
           "60mm"
         ],
         "wargear": [
-          "HMG"
+          "Cañón (Vehículo)"
         ],
         "options": [],
         "includes": [
@@ -6334,7 +6334,7 @@
         "experience": 0,
         "factions": [
           {
-            "name": "Légion Étrangeree",
+            "name": "Légion Étrangere",
             "suboficialTier": "Vehículo"
           }
         ],
@@ -6345,7 +6345,7 @@
           "60mm"
         ],
         "wargear": [
-          "HMG"
+          "Cañón (Vehículo)"
         ],
         "options": [],
         "includes": [
@@ -6843,6 +6843,326 @@
           {
             "elementPropertyName": "soldados",
             "name": "Cargador Legionarios / Cazadores de Montaña / Infantería de Marina",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Vamtac (Vehículo Reforzado) Ejército de Tierra",
+        "points": 180,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Ejército de Tierra",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Ejército de Tierra"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Ejército de Tierra",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Vamtac (Vehículo Reforzado) Legionarios / Cazadores de Montaña / Infantería de Marina",
+        "points": 190,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Legionarios / Cazadores de Montaña / Infantería de Marina",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Legionarios / Cazadores de Montaña / Infantería de Marina"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Legionarios / Cazadores de Montaña / Infantería de Marina",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "RG-31 (MRAP) Ejército de Tierra",
+        "points": 200,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Ejército de Tierra",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Ejército de Tierra"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Ejército de Tierra",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "RG-31 (MRAP) Legionarios / Cazadores de Montaña / Infantería de Marina",
+        "points": 210,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Legionarios / Cazadores de Montaña / Infantería de Marina",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Legionarios / Cazadores de Montaña / Infantería de Marina"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Legionarios / Cazadores de Montaña / Infantería de Marina",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "BRM-600 (Blindado) Ejército de Tierra",
+        "points": 220,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Ejército de Tierra",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Ejército de Tierra"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Ejército de Tierra",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "BRM-600 (Blindado) Legionarios / Cazadores de Montaña / Infantería de Marina",
+        "points": 230,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Legionarios / Cazadores de Montaña / Infantería de Marina",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Legionarios / Cazadores de Montaña / Infantería de Marina"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Legionarios / Cazadores de Montaña / Infantería de Marina",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Pizarro (VCI) Ejército de Tierra",
+        "points": 225,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Ejército de Tierra",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Cañón (Vehículo)"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Ejército de Tierra"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Ejército de Tierra",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Pizarro (VCI) Legionarios / Cazadores de Montaña / Infantería de Marina",
+        "points": 235,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Legionarios / Cazadores de Montaña / Infantería de Marina",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Cañón (Vehículo)"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Legionarios / Cazadores de Montaña / Infantería de Marina"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Legionarios / Cazadores de Montaña / Infantería de Marina",
             "quantity": 1,
             "points": 0,
             "lockedChildren": true
@@ -15021,6 +15341,90 @@
             "points": 5
           }
         ]
+      },
+      {
+        "name": "Conductor Ejército de Tierra",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Ejército de Tierra"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Artillero Ejército de Tierra",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Ejército de Tierra"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Conductor Legionarios / Cazadores de Montaña / Infantería de Marina",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Legionarios / Cazadores de Montaña / Infantería de Marina"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Artillero Legionarios / Cazadores de Montaña / Infantería de Marina",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Legionarios / Cazadores de Montaña / Infantería de Marina"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
       },
       {
         "name": "Tirador Ejército de Tierra",
