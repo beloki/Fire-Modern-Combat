@@ -19247,7 +19247,7 @@
           "25mm"
         ],
         "wargear": [
-          "SMG"
+          "Subfusil (SMG)"
         ],
         "options": [
           {
@@ -20114,7 +20114,7 @@
           {
             "name": "Cambiar Fusil por SMG",
             "points": -5,
-            "usesDefinition": "SMG",
+            "usesDefinition": "Subfusil (SMG)",
             "chooseOneKey": "a"
           },
           {
@@ -20157,7 +20157,7 @@
           {
             "name": "Cambiar Fusil por SMG",
             "points": -5,
-            "usesDefinition": "SMG",
+            "usesDefinition": "Subfusil (SMG)",
             "chooseOneKey": "a"
           },
           {
@@ -20246,7 +20246,7 @@
           "25mm"
         ],
         "wargear": [
-          "SMG",
+          "Subfusil (SMG)",
           "Chaleco Antibalas"
         ],
         "options": [
