@@ -5074,7 +5074,7 @@
             "suboficialTier": "Vehículo"
           },
           {
-            "name": "British Army (2010)",
+            "name": "British Army (2018)",
             "suboficialTier": "Vehículo"
           }
         ],
@@ -5202,7 +5202,7 @@
             "suboficialTier": "Vehículo"
           },
           {
-            "name": "British Army (2010)",
+            "name": "British Army (2018)",
             "suboficialTier": "Vehículo"
           }
         ],
@@ -5330,7 +5330,7 @@
             "suboficialTier": "Vehículo"
           },
           {
-            "name": "British Army (2010)",
+            "name": "British Army (2018)",
             "suboficialTier": "Vehículo"
           }
         ],
@@ -5458,7 +5458,7 @@
             "suboficialTier": "Vehículo"
           },
           {
-            "name": "British Army (2010)",
+            "name": "British Army (2018)",
             "suboficialTier": "Vehículo"
           }
         ],
@@ -6041,6 +6041,326 @@
           {
             "elementPropertyName": "soldados",
             "name": "Cargador Légion Étrangere",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Serval (Vehículo Reforzado) Armée de Terre",
+        "points": 180,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Armée de Terre",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Armée de Terre"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Armée de Terre",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Serval (Vehículo Reforzado) Légion Étrangere",
+        "points": 190,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Légion Étrangeree",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Légion Étrangere"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Légion Étrangere",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Griffon (MRAP) Armée de Terre",
+        "points": 200,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Armée de Terre",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Armée de Terre"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Armée de Terre",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Griffon (MRAP) Légion Étrangere",
+        "points": 210,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Légion Étrangeree",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Légion Étrangere"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Légion Étrangere",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "VAB (Blindado) Armée de Terre",
+        "points": 220,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Armée de Terre",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Armée de Terre"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Armée de Terre",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "VAB (Blindado) Légion Étrangere",
+        "points": 230,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Légion Étrangeree",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Légion Étrangere"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Légion Étrangere",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "VBCI (VCI) Armée de Terre",
+        "points": 225,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Armée de Terre",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Armée de Terre"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Armée de Terre",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "VBCI (VCI) Légion Étrangere",
+        "points": 235,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Légion Étrangeree",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Légion Étrangere"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Légion Étrangere",
             "quantity": 1,
             "points": 0,
             "lockedChildren": true
@@ -11360,7 +11680,7 @@
         "limit": 1,
         "autoAddOnly": true,
         "training": 6,
-        "experience": 0,
+        "experience": -1,
         "factions": [
           "US Rangers"
         ],
@@ -11382,7 +11702,7 @@
         "limit": 1,
         "autoAddOnly": true,
         "training": 6,
-        "experience": 0,
+        "experience": -1,
         "factions": [
           "US Rangers"
         ],
@@ -12092,8 +12412,8 @@
         "points": 45,
         "limit": 1,
         "autoAddOnly": true,
-        "training": 6,
-        "experience": 0,
+        "training": 7,
+        "experience": -1,
         "factions": [
           "US SOCOM"
         ],
@@ -12114,8 +12434,8 @@
         "points": 45,
         "limit": 1,
         "autoAddOnly": true,
-        "training": 6,
-        "experience": 0,
+        "training": 7,
+        "experience": -1,
         "factions": [
           "US SOCOM"
         ],
@@ -13952,6 +14272,90 @@
             "points": 5
           }
         ]
+      },
+      {
+        "name": "Conductor Armée de Terre",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Armée de Terre"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Artillero Armée de Terre",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Armée de Terre"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Conductor Légion Étrangere",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Légion Étrangere"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Artillero Légion Étrangere",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Légion Étrangere"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
       },
       {
         "name": "Tirador Armée de Terre",
