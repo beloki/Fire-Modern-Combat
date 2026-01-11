@@ -8797,9 +8797,10 @@
         "baseSize": [
           "60mm"
         ],
-        "wargear": ["Fusil de Asalto"],
-        "options": [
+        "wargear": [
+          "Fusil de Asalto"
         ],
+        "options": [],
         "includes": [
           {
             "dataSource": "soldados",
@@ -8836,9 +8837,10 @@
         "baseSize": [
           "60mm"
         ],
-        "wargear": ["Fusil de Asalto"],
-        "options": [
+        "wargear": [
+          "Fusil de Asalto"
         ],
+        "options": [],
         "includes": [
           {
             "dataSource": "soldados",
@@ -8875,9 +8877,10 @@
         "baseSize": [
           "60mm"
         ],
-        "wargear": ["Fusil de Asalto"],
-        "options": [
+        "wargear": [
+          "Fusil de Asalto"
         ],
+        "options": [],
         "includes": [
           {
             "dataSource": "soldados",
@@ -8914,9 +8917,10 @@
         "baseSize": [
           "60mm"
         ],
-        "wargear": ["Fusil de Asalto"],
-        "options": [
+        "wargear": [
+          "Fusil de Asalto"
         ],
+        "options": [],
         "includes": [
           {
             "dataSource": "soldados",
@@ -8953,9 +8957,10 @@
         "baseSize": [
           "60mm"
         ],
-        "wargear": ["HMG"],
-        "options": [
+        "wargear": [
+          "HMG"
         ],
+        "options": [],
         "includes": [
           {
             "dataSource": "soldados",
@@ -8992,9 +8997,10 @@
         "baseSize": [
           "60mm"
         ],
-        "wargear": ["HMG"],
-        "options": [
+        "wargear": [
+          "HMG"
         ],
+        "options": [],
         "includes": [
           {
             "dataSource": "soldados",
@@ -9031,9 +9037,10 @@
         "baseSize": [
           "60mm"
         ],
-        "wargear": ["HMG"],
-        "options": [
+        "wargear": [
+          "HMG"
         ],
+        "options": [],
         "includes": [
           {
             "dataSource": "soldados",
@@ -9070,9 +9077,10 @@
         "baseSize": [
           "60mm"
         ],
-        "wargear": ["HMG"],
-        "options": [
+        "wargear": [
+          "HMG"
         ],
+        "options": [],
         "includes": [
           {
             "dataSource": "soldados",
@@ -9109,9 +9117,10 @@
         "baseSize": [
           "60mm"
         ],
-        "wargear": ["HMG"],
-        "options": [
+        "wargear": [
+          "HMG"
         ],
+        "options": [],
         "includes": [
           {
             "dataSource": "soldados",
@@ -9148,9 +9157,10 @@
         "baseSize": [
           "60mm"
         ],
-        "wargear": ["HMG"],
-        "options": [
+        "wargear": [
+          "HMG"
         ],
+        "options": [],
         "includes": [
           {
             "dataSource": "soldados",
@@ -9187,9 +9197,10 @@
         "baseSize": [
           "60mm"
         ],
-        "wargear": ["HMG"],
-        "options": [
+        "wargear": [
+          "HMG"
         ],
+        "options": [],
         "includes": [
           {
             "dataSource": "soldados",
@@ -9226,9 +9237,10 @@
         "baseSize": [
           "60mm"
         ],
-        "wargear": ["HMG"],
-        "options": [
+        "wargear": [
+          "HMG"
         ],
+        "options": [],
         "includes": [
           {
             "dataSource": "soldados",
@@ -10470,6 +10482,206 @@
           {
             "elementPropertyName": "soldados",
             "name": "Cargador Special Operations Command (SOCOMD)",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "G-Wagon (Vehículo Civil) Australian Army",
+        "points": 160,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Australian Army",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Australian Army"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Australian Army",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "G-Wagon (Vehículo Civil) Special Operations Command (SOCOMD)",
+        "points": 170,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Special Operations Command (SOCOMD)",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Special Operations Command (SOCOMD)"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Special Operations Command (SOCOMD)",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "ASLAV (Blindado) Australian Army",
+        "points": 220,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Australian Army",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Australian Army"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Australian Army",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Bushmaster (MRAP) Australian Army",
+        "points": 200,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Australian Army",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Australian Army"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Australian Army",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Bushmaster (MRAP) Special Operations Command (SOCOMD)",
+        "points": 210,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Special Operations Command (SOCOMD)",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Special Operations Command (SOCOMD)"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Special Operations Command (SOCOMD)",
             "quantity": 1,
             "points": 0,
             "lockedChildren": true
@@ -19414,6 +19626,86 @@
             "points": 5
           }
         ]
+      },
+      {
+        "name": "Conductor Australian Army",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Australian Army"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Artillero Australian Army",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Australian Army"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [],
+        "options": []
+      },
+      {
+        "name": "Conductor Special Operations Command (SOCOMD)",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Special Operations Command (SOCOMD)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Artillero Special Operations Command (SOCOMD)",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 7,
+        "experience": 0,
+        "factions": [
+          "Special Operations Command (SOCOMD)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
       },
       {
         "name": "Soldado Fusil Panzergrenadiers",
