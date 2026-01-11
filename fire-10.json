@@ -2279,6 +2279,12 @@
               }
             ]
           }
+        ],
+        "requireOne": [
+          [
+            "ZSL-10 (Blindado) Blindados Pesados PLA",
+            "ZBD-86A (VCI) Blindados Pesados PLA"
+          ]
         ]
       },
       {
@@ -2438,6 +2444,20 @@
               {
                 "elementPropertyName": "soldados",
                 "name": "Cargador Lanzacohetes Alta Movilidad PLA",
+                "quantity": 1,
+                "points": 0,
+                "lockedChildren": true
+              }
+            ]
+          },
+          {
+            "name": "CSK141 (Vehículo Reforzado) Alta Movilidad PLA",
+            "points": 170,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "elementPropertyName": "soldados",
+                "name": "Artillero Alta Movilidad PLA",
                 "quantity": 1,
                 "points": 0,
                 "lockedChildren": true
@@ -2678,6 +2698,20 @@
             "name": "Cabo Blindado Anfibio PLA",
             "points": 55,
             "elementPropertyName": "suboficiales"
+          },
+          {
+            "name": "ZTD-05 (VCI) Blindado Anfibio PLA",
+            "points": 225,
+            "elementPropertyName": "suboficiales",
+            "requiredChildren": [
+              {
+                "elementPropertyName": "soldados",
+                "name": "Artillero Blindado Anfibio PLA",
+                "quantity": 1,
+                "points": 0,
+                "lockedChildren": true
+              }
+            ]
           }
         ]
       },
@@ -9819,6 +9853,166 @@
             "lockedChildren": true
           }
         ]
+      },
+      {
+        "name": "ZSL-10 (Blindado) Blindados Pesados PLA",
+        "points": 220,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Blindados Pesados PLA Opción A (Vehículo)",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Blindados Pesados PLA"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Blindados Pesados PLA",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "ZBD-86A (VCI) Blindados Pesados PLA",
+        "points": 225,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Blindados Pesados PLA Opción A (Vehículo)",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Cañón (Vehículo)"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Blindados Pesados PLA"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Blindados Pesados PLA",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "CSK141 (Vehículo Reforzado) Alta Movilidad PLA",
+        "points": 170,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Alta Movilidad PLA Opción A (Vehículo)",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Alta Movilidad PLA"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Alta Movilidad PLA",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "ZTD-05 (VCI) Blindado Anfibio PLA",
+        "points": 225,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Blindado Anfibio PLA Opción A (Vehículo)",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Cañón (Vehículo)"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Blindado Anfibio PLA"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Blindado Anfibio PLA",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
       }
     ],
     "soldados": [
@@ -16681,7 +16875,7 @@
       {
         "name": "Soldado Fusil Blindados Pesados PLA",
         "points": 40,
-		"limit": 4,
+        "limit": 4,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -16697,13 +16891,22 @@
         "wargear": [
           "Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Soldado Fusil Alfa Blindados Pesados PLA",
         "points": 40,
-		"autoAddOnly": true,
-		"limit": 1,
+        "autoAddOnly": true,
+        "limit": 1,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -16725,14 +16928,22 @@
             "points": 10,
             "usesDefinition": "Lanzagranadas para Fusil de Asalto",
             "chooseOneKey": "a"
+          },
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
           }
         ]
       },
       {
         "name": "Tirador Designado Blindados Pesados PLA",
         "points": 50,
-		"autoAddOnly": true,
-		"limit": 1,
+        "autoAddOnly": true,
+        "limit": 1,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -16748,13 +16959,22 @@
         "wargear": [
           "Rifle de Precisión"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Soldado LMG Blindados Pesados PLA",
         "points": 50,
-		"autoAddOnly": true,
-		"limit": 2,
+        "autoAddOnly": true,
+        "limit": 2,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -16770,13 +16990,22 @@
         "wargear": [
           "LMG"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Conductor Blindados Pesados PLA",
         "points": 40,
-		"autoAddOnly": true,
-		"limit": 1,
+        "autoAddOnly": true,
+        "limit": 1,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -16792,13 +17021,22 @@
         "wargear": [
           "Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Artillero Blindados Pesados PLA",
         "points": 40,
-		"autoAddOnly": true,
-		"limit": 1,
+        "autoAddOnly": true,
+        "limit": 1,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -16814,7 +17052,16 @@
         "wargear": [
           "Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Tirador Blindados Pesados PLA",
@@ -16833,7 +17080,12 @@
           "60mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Cargador Blindados Pesados PLA",
@@ -16852,7 +17104,12 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Francotirador Blindados Pesados PLA",
@@ -16873,7 +17130,12 @@
         "wargear": [
           "Rifle de Precisión"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Observador Blindados Pesados PLA",
@@ -16892,7 +17154,12 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Tirador Lanzacohetes Blindados Pesados PLA",
@@ -16913,7 +17180,12 @@
         "wargear": [
           "Lanzacohetes Pesado (3 x Cohetes)"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Cargador Lanzacohetes Blindados Pesados PLA",
@@ -16934,12 +17206,17 @@
         "wargear": [
           "Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Soldado Fusil Alta Movilidad PLA",
         "points": 35,
-		"limit": 6,
+        "limit": 6,
         "training": 6,
         "experience": 1,
         "factions": [
@@ -16955,13 +17232,18 @@
         "wargear": [
           "Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
       },
       {
         "name": "Soldado LMG Alta Movilidad PLA",
         "points": 45,
-		"autoAddOnly": true,
-		"limit": 1,
+        "autoAddOnly": true,
+        "limit": 1,
         "training": 6,
         "experience": 1,
         "factions": [
@@ -16977,12 +17259,17 @@
         "wargear": [
           "LMG"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
       },
       {
         "name": "Soldado Fusil con Lanzagranadas Alta Movilidad PLA",
         "points": 45,
-		"limit": 1,
+        "limit": 1,
         "training": 6,
         "experience": 1,
         "factions": [
@@ -16999,13 +17286,18 @@
           "Fusil de Asalto",
           "Lanzagranadas para Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
       },
       {
         "name": "Conductor Alta Movilidad PLA",
         "points": 35,
-		"autoAddOnly": true,
-		"limit": 1,
+        "autoAddOnly": true,
+        "limit": 1,
         "training": 6,
         "experience": 1,
         "factions": [
@@ -17021,7 +17313,12 @@
         "wargear": [
           "Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
       },
       {
         "name": "Tirador Alta Movilidad PLA",
@@ -17146,7 +17443,7 @@
       {
         "name": "Soldado Fusil Asalto Aéreo de Marina PLA",
         "points": 35,
-		"limit": 5,
+        "limit": 5,
         "training": 7,
         "experience": 0,
         "factions": [
@@ -17161,13 +17458,22 @@
         "wargear": [
           "Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Soldado Fusil Alfa Asalto Aéreo de Marina PLA",
         "points": 35,
-		"autoAddOnly": true,
-		"limit": 1,
+        "autoAddOnly": true,
+        "limit": 1,
         "training": 7,
         "experience": 0,
         "factions": [
@@ -17188,14 +17494,22 @@
             "points": 10,
             "usesDefinition": "Lanzagranadas para Fusil de Asalto",
             "chooseOneKey": "a"
+          },
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
           }
         ]
       },
       {
         "name": "Soldado Fusil con Lanzagranadas Asalto Aéreo de Marina PLA",
         "points": 45,
-		"autoAddOnly": true,
-		"limit": 1,
+        "autoAddOnly": true,
+        "limit": 1,
         "training": 7,
         "experience": 0,
         "factions": [
@@ -17211,13 +17525,22 @@
           "Fusil de Asalto",
           "Lanzagranadas para Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Soldado LMG Asalto Aéreo de Marina PLA",
         "points": 50,
-		"autoAddOnly": true,
-		"limit": 1,
+        "autoAddOnly": true,
+        "limit": 1,
         "training": 7,
         "experience": 0,
         "factions": [
@@ -17232,13 +17555,22 @@
         "wargear": [
           "LMG"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Tirador Designado Asalto Aéreo de Marina PLA",
         "points": 45,
-		"autoAddOnly": true,
-		"limit": 1,
+        "autoAddOnly": true,
+        "limit": 1,
         "training": 7,
         "experience": 0,
         "factions": [
@@ -17253,7 +17585,16 @@
         "wargear": [
           "Rifle de Precisión"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Tirador Asalto Aéreo de Marina PLA",
@@ -17271,7 +17612,12 @@
           "60mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Cargador Asalto Aéreo de Marina PLA",
@@ -17289,7 +17635,12 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Francotirador Asalto Aéreo de Marina PLA",
@@ -17309,7 +17660,12 @@
         "wargear": [
           "Rifle de Precisión"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Observador Asalto Aéreo de Marina PLA",
@@ -17327,7 +17683,12 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Tirador Lanzacohetes Asalto Aéreo de Marina PLA",
@@ -17347,7 +17708,12 @@
         "wargear": [
           "Lanzacohetes Pesado (3 x Cohetes)"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Cargador Lanzacohetes Asalto Aéreo de Marina PLA",
@@ -17367,12 +17733,17 @@
         "wargear": [
           "Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Soldado Fusil Blindado Anfibio PLA",
         "points": 40,
-		"limit": 3,
+        "limit": 3,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -17388,13 +17759,18 @@
         "wargear": [
           "Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
       },
       {
         "name": "Soldado Fusil Alfa Blindado Anfibio PLA",
         "points": 40,
-		"autoAddOnly": true,
-		"limit": 1,
+        "autoAddOnly": true,
+        "limit": 1,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -17416,14 +17792,18 @@
             "points": 10,
             "usesDefinition": "Lanzagranadas para Fusil de Asalto",
             "chooseOneKey": "a"
+          },
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
           }
         ]
       },
       {
         "name": "Soldado Fusil con Lanzagranadas Blindado Anfibio PLA",
         "points": 50,
-		"autoAddOnly": true,
-		"limit": 1,
+        "autoAddOnly": true,
+        "limit": 1,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -17440,13 +17820,18 @@
           "Fusil de Asalto",
           "Lanzagranadas para Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
       },
       {
         "name": "Soldado LMG Blindado Anfibio PLA",
         "points": 50,
-		"autoAddOnly": true,
-		"limit": 1,
+        "autoAddOnly": true,
+        "limit": 1,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -17462,13 +17847,18 @@
         "wargear": [
           "LMG"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
       },
       {
         "name": "Tirador Designado Blindado Anfibio PLA",
         "points": 40,
-		"autoAddOnly": true,
-		"limit": 1,
+        "autoAddOnly": true,
+        "limit": 1,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -17484,13 +17874,18 @@
         "wargear": [
           "Rifle de Precisión"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
       },
       {
         "name": "Conductor Blindado Anfibio PLA",
         "points": 40,
-		"autoAddOnly": true,
-		"limit": 1,
+        "autoAddOnly": true,
+        "limit": 1,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -17506,13 +17901,18 @@
         "wargear": [
           "Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
       },
       {
         "name": "Artillero Blindado Anfibio PLA",
         "points": 40,
-		"autoAddOnly": true,
-		"limit": 1,
+        "autoAddOnly": true,
+        "limit": 1,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -17528,7 +17928,12 @@
         "wargear": [
           "Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Lanzacohetes Ligero Desechable",
+            "points": 25
+          }
+        ]
       },
       {
         "name": "Tirador Blindado Anfibio PLA",
