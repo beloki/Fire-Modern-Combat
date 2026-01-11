@@ -136,14 +136,14 @@
       "divisionProperty": "alignment",
       "divisions": [
         "EEUU",
-        "España",
-        "Francia",
         "Reino Unido",
+        "Francia",
+        "España",
+        "Insurgencia",
         "Alemania",
-        "Italia",
         "China",
-        "Australia",
-        "Insurgencia"
+        "Italia",
+        "Australia"
       ],
       "children": [
         {
@@ -8565,6 +8565,702 @@
         ]
       },
       {
+        "name": "Motocicleta Insurgentes Tipo 1",
+        "points": 65,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 1",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": [
+          {
+            "name": "Fusil de Asalto",
+            "points": 0,
+            "requireChooseOneKey": "a"
+          },
+          {
+            "name": "Lanzacohetes Ligero Recargable",
+            "points": 25,
+            "requireChooseOneKey": "a"
+          },
+          {
+            "name": "LMG",
+            "points": 10,
+            "requireChooseOneKey": "a"
+          }
+        ],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Insurgentes Tipo 1"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Insurgentes Tipo 1",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Motocicleta Insurgentes Tipo 2",
+        "points": 75,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 2",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": [
+          {
+            "name": "Fusil de Asalto",
+            "points": 0,
+            "requireChooseOneKey": "a"
+          },
+          {
+            "name": "Lanzacohetes Ligero Recargable",
+            "points": 25,
+            "requireChooseOneKey": "a"
+          },
+          {
+            "name": "LMG",
+            "points": 10,
+            "requireChooseOneKey": "a"
+          }
+        ],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Insurgentes Tipo 2"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Insurgentes Tipo 2",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Motocicleta Insurgentes Tipo 3",
+        "points": 85,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 3",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": [
+          {
+            "name": "Fusil de Asalto",
+            "points": 0,
+            "requireChooseOneKey": "a"
+          },
+          {
+            "name": "Lanzacohetes Ligero Recargable",
+            "points": 25,
+            "requireChooseOneKey": "a"
+          },
+          {
+            "name": "LMG",
+            "points": 10,
+            "requireChooseOneKey": "a"
+          }
+        ],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Insurgentes Tipo 3"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Insurgentes Tipo 3",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Motocicleta Insurgentes Tipo 4",
+        "points": 95,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 4",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": [
+          {
+            "name": "Fusil de Asalto",
+            "points": 0,
+            "requireChooseOneKey": "a"
+          },
+          {
+            "name": "Lanzacohetes Ligero Recargable",
+            "points": 25,
+            "requireChooseOneKey": "a"
+          },
+          {
+            "name": "LMG",
+            "points": 10,
+            "requireChooseOneKey": "a"
+          }
+        ],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Insurgentes Tipo 4"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Insurgentes Tipo 4",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Coche Insurgentes Tipo 1",
+        "points": 75,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 1",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Insurgentes Tipo 1"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Insurgentes Tipo 1",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Coche Insurgentes Tipo 2",
+        "points": 85,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 2",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Insurgentes Tipo 2"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Insurgentes Tipo 2",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Coche Insurgentes Tipo 3",
+        "points": 95,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 3",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Insurgentes Tipo 3"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Insurgentes Tipo 3",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Coche Insurgentes Tipo 4",
+        "points": 105,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 4",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Insurgentes Tipo 4"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Insurgentes Tipo 4",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Camioneta Técnica Insurgentes Tipo 1",
+        "points": 75,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 1",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Insurgentes Tipo 1"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Insurgentes Tipo 1",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Camioneta Técnica Insurgentes Tipo 2",
+        "points": 150,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 2",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Insurgentes Tipo 2"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Insurgentes Tipo 2",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Camioneta Técnica Insurgentes Tipo 3",
+        "points": 160,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 3",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Insurgentes Tipo 3"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Insurgentes Tipo 3",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Camioneta Técnica Tipo 4",
+        "points": 170,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 4",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Insurgentes Tipo 4"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Insurgentes Tipo 4",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Camioneta Técnica Tipo 5",
+        "points": 170,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 5",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Insurgentes Tipo 5"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Insurgentes Tipo 5",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Blindado con ruedas Tipo 3",
+        "points": 220,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 3",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Insurgentes Tipo 3"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Insurgentes Tipo 3",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Blindado con ruedas Tipo 4",
+        "points": 230,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 4",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Insurgentes Tipo 4"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Insurgentes Tipo 4",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Blindado con ruedas Técnica Tipo 5",
+        "points": 230,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Insurgentes Tipo 5",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Insurgentes Tipo 5"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Insurgentes Tipo 5",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
         "name": "Sargento Forze Armate Italiane",
         "points": 65,
         "pm": 2,
@@ -16874,6 +17570,216 @@
             "points": 5
           }
         ]
+      },
+      {
+        "name": "Conductor Insurgentes Tipo 1",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 5,
+        "experience": 1,
+        "factions": [
+          "Insurgentes Tipo 1"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          ""
+        ],
+        "options": []
+      },
+      {
+        "name": "Artillero Insurgentes Tipo 1",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 5,
+        "experience": 1,
+        "factions": [
+          "Insurgentes Tipo 1"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          ""
+        ],
+        "options": []
+      },
+      {
+        "name": "Conductor Insurgentes Tipo 2",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 5,
+        "experience": 1,
+        "factions": [
+          "Insurgentes Tipo 2"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          ""
+        ],
+        "options": []
+      },
+      {
+        "name": "Artillero Insurgentes Tipo 2",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 5,
+        "experience": 1,
+        "factions": [
+          "Insurgentes Tipo 2"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          ""
+        ],
+        "options": []
+      },
+      {
+        "name": "Conductor Insurgentes Tipo 3",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 5,
+        "experience": 1,
+        "factions": [
+          "Insurgentes Tipo 3"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          ""
+        ],
+        "options": []
+      },
+      {
+        "name": "Artillero Insurgentes Tipo 3",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 5,
+        "experience": 1,
+        "factions": [
+          "Insurgentes Tipo 3"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          ""
+        ],
+        "options": []
+      },
+      {
+        "name": "Conductor Insurgentes Tipo 4",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 5,
+        "experience": 1,
+        "factions": [
+          "Insurgentes Tipo 4"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          ""
+        ],
+        "options": []
+      },
+      {
+        "name": "Artillero Insurgentes Tipo 4",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 5,
+        "experience": 1,
+        "factions": [
+          "Insurgentes Tipo 4"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          ""
+        ],
+        "options": []
+      },
+      {
+        "name": "Conductor Insurgentes Tipo 5",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 5,
+        "experience": 1,
+        "factions": [
+          "Insurgentes Tipo 5"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          ""
+        ],
+        "options": []
+      },
+      {
+        "name": "Artillero Insurgentes Tipo 5",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 5,
+        "experience": 1,
+        "factions": [
+          "Insurgentes Tipo 5"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          ""
+        ],
+        "options": []
       },
       {
         "name": "Soldado Fusil Forze Armate Italiane",
