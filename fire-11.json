@@ -33,7 +33,7 @@
       "url": "https://www.youtube.com/@firemoderncombat"
     }
   ],
-  "game": "FIRE! Modern Combat - Miniature Wargame (VERSIÓN DE TRABAJO)",
+  "game": "FIRE! Modern Combat - Miniature Wargame (Beta)",
   "toggles": [],
   "scenarios": [],
   "stats": [
@@ -19057,26 +19057,7 @@
         "limit": 2,
         "training": 7,
         "experience": 0,
-        "factions": [],
-        "availableIn": [
-          {
-            "all": [
-              {
-                "in": "Cabo Special Operations Command (SOCOMD)"
-              },
-              {
-                "in": "Special Operations Command (SOCOMD)"
-              }
-            ]
-          }
-        ],
-        "limits": [
-          {
-            "key": "opcionAlfa",
-            "limit": 1,
-            "perParent": true
-          }
-        ],
+        "factions": ["Special Operations Command (SOCOMD)"],
         "unitType": [
           "Infantería"
         ],
@@ -19112,19 +19093,7 @@
         "limit": 1,
         "training": 7,
         "experience": 0,
-        "factions": [],
-        "availableIn": [
-          {
-            "all": [
-              {
-                "in": "Cabo Special Operations Command (SOCOMD)"
-              },
-              {
-                "in": "Special Operations Command (SOCOMD)"
-              }
-            ]
-          }
-        ],
+        "factions": ["Special Operations Command (SOCOMD)"],
         "unitType": [
           "Infantería"
         ],
@@ -19237,27 +19206,7 @@
         "autoAddOnly": true,
         "training": 7,
         "experience": 0,
-        "factions": [],
-        "availableIn": [
-          {
-            "all": [
-              {
-                "in": "Cabo Special Operations Command (SOCOMD)"
-              },
-              {
-                "in": "Special Operations Command (SOCOMD)"
-              }
-            ]
-          }
-        ],
-        "limits": [
-          {
-            "key": "opcionAlfa",
-            "limit": 1,
-            "perParent": true
-          }
-        ],
-        "localLimit": 1,
+        "factions": ["Special Operations Command (SOCOMD)"],
         "unitType": [
           "Infantería"
         ],
@@ -19288,18 +19237,8 @@
         "limit": 1,
         "training": 7,
         "experience": 0,
-        "factions": [],
-        "availableIn": [
-          {
-            "all": [
-              {
-                "in": "Cabo Special Operations Command (SOCOMD)"
-              },
-              {
-                "in": "Special Operations Command (SOCOMD)"
-              }
-            ]
-          }
+        "factions": [
+          "Special Operations Command (SOCOMD)"
         ],
         "unitType": [
           "Infantería"
