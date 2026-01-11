@@ -3699,6 +3699,55 @@
         ]
       },
       {
+        "name": "Humvee (Vehículo Reforzado) US Army",
+        "points": 150,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "US Army",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [],
+        "options": [
+          {
+            "name": "Lanzagranadas Automático 40mm",
+            "points": 0,
+            "requireChooseOneKey": "a"
+          },
+          {
+            "name": "HMG",
+            "points": 30,
+            "requireChooseOneKey": "a"
+          }
+        ],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor US Army"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero US Army",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
         "name": "Sargento British Army",
         "points": 60,
         "pm": 2,
@@ -5647,6 +5696,10 @@
           {
             "name": "Chaleco Antibalas",
             "points": 5
+          },
+          {
+            "name": "Miras tácticas",
+            "points": 5
           }
         ]
       },
@@ -5675,6 +5728,10 @@
         "options": [
           {
             "name": "Chaleco Antibalas",
+            "points": 5
+          },
+          {
+            "name": "Miras tácticas",
             "points": 5
           }
         ]
@@ -10252,6 +10309,50 @@
         "options": []
       },
       {
+        "name": "Conductor US Rangers",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "US Rangers"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Artillero US Rangers",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "US Rangers"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
         "name": "Soldado LMG US Army",
         "points": 55,
         "limit": 2,
@@ -10477,6 +10578,50 @@
         ]
       },
       {
+        "name": "Conductor US Army",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "US Army"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Artillero US Army",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "US Army"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
         "name": "Soldado Fusil con Lanzagranadas US Marines",
         "points": 55,
         "autoAddOnly": true,
@@ -10666,6 +10811,50 @@
         ]
       },
       {
+        "name": "Conductor US Marines",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "US Marines"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Artillero US Marines",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "US Marines"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
         "name": "Soldado LMG US SOCOM",
         "points": 65,
         "training": 7,
@@ -10851,6 +11040,50 @@
             "points": 5
           }
         ]
+      },
+      {
+        "name": "Conductor US SOCOM",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "US SOCOM"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Artillero US SOCOM",
+        "points": 45,
+        "limit": 1,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "US SOCOM"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": []
       },
       {
         "name": "Tirador US Army",
