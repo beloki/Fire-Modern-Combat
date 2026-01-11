@@ -5064,6 +5064,478 @@
         ]
       },
       {
+        "name": "Land Rover (Vehículo Civil) British Army",
+        "points": 160,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "British Army (2010)",
+            "suboficialTier": "Vehículo"
+          },
+          {
+            "name": "British Army (2010)",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor British Army"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero British Army",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Land Rover (Vehículo Civil) Royal Marines / Paras / Gurkhas",
+        "points": 170,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Royal Marines / Paras / Gurkhas (2010)",
+            "suboficialTier": "Vehículo"
+          },
+          {
+            "name": "Royal Marines / Paras / Gurkhas (2018)",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Royal Marines / Paras / Gurkhas"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Royal Marines / Paras / Gurkhas",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Land Rover (Vehículo Civil) SAS / SBS / SRR / SFSG",
+        "points": 180,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "SAS / SBS / SRR / SFSG",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor SAS / SBS / SRR / SFSG"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero SAS / SBS / SRR / SFSG",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Huskey (Vehículo Reforzado) British Army",
+        "points": 180,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "British Army (2010)",
+            "suboficialTier": "Vehículo"
+          },
+          {
+            "name": "British Army (2010)",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor British Army"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero British Army",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Huskey (Vehículo Reforzado) Royal Marines / Paras / Gurkhas",
+        "points": 190,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Royal Marines / Paras / Gurkhas (2010)",
+            "suboficialTier": "Vehículo"
+          },
+          {
+            "name": "Royal Marines / Paras / Gurkhas (2018)",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Royal Marines / Paras / Gurkhas"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Royal Marines / Paras / Gurkhas",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Huskey (Vehículo Reforzado) SAS / SBS / SRR / SFSG",
+        "points": 200,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "SAS / SBS / SRR / SFSG",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor SAS / SBS / SRR / SFSG"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero SAS / SBS / SRR / SFSG",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Foxhound (MRAP) British Army",
+        "points": 200,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "British Army (2010)",
+            "suboficialTier": "Vehículo"
+          },
+          {
+            "name": "British Army (2010)",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor British Army"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero British Army",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Foxhound (MRAP) Royal Marines / Paras / Gurkhas",
+        "points": 210,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Royal Marines / Paras / Gurkhas (2010)",
+            "suboficialTier": "Vehículo"
+          },
+          {
+            "name": "Royal Marines / Paras / Gurkhas (2018)",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Royal Marines / Paras / Gurkhas"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Royal Marines / Paras / Gurkhas",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Foxhound (MRAP) SAS / SBS / SRR / SFSG",
+        "points": 220,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "SAS / SBS / SRR / SFSG",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "HMG"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor SAS / SBS / SRR / SFSG"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero SAS / SBS / SRR / SFSG",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Warrior (VCI) British Army",
+        "points": 225,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "British Army (2010)",
+            "suboficialTier": "Vehículo"
+          },
+          {
+            "name": "British Army (2010)",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Cañón (Vehículo)"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor British Army"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero British Army",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
+        "name": "Warrior (VCI) Royal Marines / Paras / Gurkhas",
+        "points": 235,
+        "training": 0,
+        "experience": 0,
+        "factions": [
+          {
+            "name": "Royal Marines / Paras / Gurkhas (2010)",
+            "suboficialTier": "Vehículo"
+          },
+          {
+            "name": "Royal Marines / Paras / Gurkhas (2018)",
+            "suboficialTier": "Vehículo"
+          }
+        ],
+        "unitType": [
+          "Vehículo"
+        ],
+        "baseSize": [
+          "60mm"
+        ],
+        "wargear": [
+          "Cañón (Vehículo)"
+        ],
+        "options": [],
+        "includes": [
+          {
+            "dataSource": "soldados",
+            "name": "Conductor Royal Marines / Paras / Gurkhas"
+          }
+        ],
+        "increaseMaximumChildren": {
+          "soldados": -1
+        },
+        "requiredChildren": [
+          {
+            "elementPropertyName": "soldados",
+            "name": "Artillero Royal Marines / Paras / Gurkhas",
+            "quantity": 1,
+            "points": 0,
+            "lockedChildren": true
+          }
+        ]
+      },
+      {
         "name": "Sargento Armée de Terre",
         "points": 60,
         "pm": 2,
@@ -12929,6 +13401,138 @@
             "points": 10
           }
         ]
+      },
+      {
+        "name": "Conductor British Army",
+        "points": 40,
+        "autoAddOnly": true,
+        "limit": 1,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "British Army (2010)",
+          "British Army (2018)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Artillero British Army",
+        "points": 40,
+        "autoAddOnly": true,
+        "limit": 1,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "British Army (2010)",
+          "British Army (2018)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Conductor Royal Marines / Paras / Gurkhas",
+        "points": 40,
+        "autoAddOnly": true,
+        "limit": 1,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "Royal Marines / Paras / Gurkhas (2010)",
+          "Royal Marines / Paras / Gurkhas (2018)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Artillero Royal Marines / Paras / Gurkhas",
+        "points": 40,
+        "autoAddOnly": true,
+        "limit": 1,
+        "training": 6,
+        "experience": -1,
+        "factions": [
+          "Royal Marines / Paras / Gurkhas (2010)",
+          "Royal Marines / Paras / Gurkhas (2018)"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto"
+        ],
+        "options": []
+      },
+      {
+        "name": "Conductor SAS / SBS / SRR / SFSG",
+        "points": 40,
+        "autoAddOnly": true,
+        "limit": 1,
+        "training": 7,
+        "experience": -1,
+        "factions": [
+          "SAS / SBS / SRR / SFSG"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": []
+      },
+      {
+        "name": "Artillero SAS / SBS / SRR / SFSG",
+        "points": 40,
+        "autoAddOnly": true,
+        "limit": 1,
+        "training": 7,
+        "experience": -1,
+        "factions": [
+          "SAS / SBS / SRR / SFSG"
+        ],
+        "unitType": [
+          "Infantry"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
+        ],
+        "options": []
       },
       {
         "name": "Soldado LMG Armée de Terre",
