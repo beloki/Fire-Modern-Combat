@@ -33,7 +33,7 @@
       "url": "https://www.youtube.com/@firemoderncombat"
     }
   ],
-  "game": "FIRE! Modern Combat - Miniature Wargame (Beta)",
+  "game": "FIRE! Modern Combat - Miniature Wargame (WIP)",
   "toggles": [],
   "scenarios": [],
   "stats": [
@@ -427,13 +427,6 @@
               }
             ]
           }
-        ],
-        "requireOne": [
-          [
-            "Soldado Fusil con Lanzagranadas US Army",
-            "Soldado Escopeta US Army",
-            "Tirador Designado US Army"
-          ]
         ]
       },
       {
@@ -4346,7 +4339,12 @@
         "wargear": [
           "Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Cabo British Army",
@@ -4373,7 +4371,12 @@
         "wargear": [
           "Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Sargento Royal Marines / Paras / Gurkhas",
@@ -4400,7 +4403,12 @@
         "wargear": [
           "Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Cabo Royal Marines / Paras / Gurkhas",
@@ -4427,7 +4435,12 @@
         "wargear": [
           "Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Sargento SAS / SBS / SRR / SFSG",
@@ -4448,7 +4461,8 @@
           "25mm"
         ],
         "wargear": [
-          "Fusil de Asalto"
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
         ],
         "options": []
       },
@@ -4471,7 +4485,8 @@
           "25mm"
         ],
         "wargear": [
-          "Fusil de Asalto"
+          "Fusil de Asalto",
+          "Chaleco Antibalas"
         ],
         "options": []
       },
@@ -5583,7 +5598,8 @@
           "25mm"
         ],
         "wargear": [
-          "Fusil de Asalto"
+          "Fusil de Asalto",
+          "Lanzagranadas para Fusil de Asalto"
         ],
         "options": [
           {
@@ -10864,7 +10880,12 @@
           "Fusil de Asalto",
           "Chaleco Antibalas"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Miras tácticas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Cabo Kommando Spezialkräfte (KSK)",
@@ -10888,7 +10909,12 @@
           "Fusil de Asalto",
           "Chaleco Antibalas"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Miras tácticas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Suboficial Kommando Spezialkräfte (KSK)",
@@ -11135,7 +11161,12 @@
         "wargear": [
           "Lanzacohetes Pesado (3 x Cohetes)"
         ],
-        "options": [],
+        "options": [
+          {
+            "name": "Miras tácticas",
+            "points": 10
+          }
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -13148,18 +13179,8 @@
         "limit": 1,
         "training": 6,
         "experience": -1,
-        "factions": [],
-        "availableIn": [
-          {
-            "all": [
-              {
-                "in": "Cabo US Rangers"
-              },
-              {
-                "in": "US Rangers"
-              }
-            ]
-          }
+        "factions": [
+          "US Rangers"
         ],
         "unitType": [
           "Infantería"
@@ -13185,18 +13206,8 @@
         "limit": 1,
         "training": 6,
         "experience": -1,
-        "factions": [],
-        "availableIn": [
-          {
-            "all": [
-              {
-                "in": "Cabo US Rangers"
-              },
-              {
-                "in": "US Rangers"
-              }
-            ]
-          }
+        "factions": [
+          "US Rangers"
         ],
         "unitType": [
           "Infantería"
@@ -13412,18 +13423,8 @@
         "limit": 1,
         "training": 6,
         "experience": 0,
-        "factions": [],
-        "availableIn": [
-          {
-            "all": [
-              {
-                "in": "Cabo US Army"
-              },
-              {
-                "in": "US Army"
-              }
-            ]
-          }
+        "factions": [
+          "US Army"
         ],
         "unitType": [
           "Infantería"
@@ -13449,18 +13450,8 @@
         "limit": 1,
         "training": 6,
         "experience": 0,
-        "factions": [],
-        "availableIn": [
-          {
-            "all": [
-              {
-                "in": "Cabo US Army"
-              },
-              {
-                "in": "US Army"
-              }
-            ]
-          }
+        "factions": [
+          "US Army"
         ],
         "unitType": [
           "Infantería"
@@ -13645,18 +13636,8 @@
         "limit": 1,
         "training": 6,
         "experience": 0,
-        "factions": [],
-        "availableIn": [
-          {
-            "all": [
-              {
-                "in": "Cabo US Marines"
-              },
-              {
-                "in": "US Marines"
-              }
-            ]
-          }
+        "factions": [
+          "US Marines"
         ],
         "unitType": [
           "Infantería"
@@ -13682,18 +13663,8 @@
         "limit": 1,
         "training": 6,
         "experience": 0,
-        "factions": [],
-        "availableIn": [
-          {
-            "all": [
-              {
-                "in": "Cabo US Marines"
-              },
-              {
-                "in": "US Marines"
-              }
-            ]
-          }
+        "factions": [
+          "US Marines"
         ],
         "unitType": [
           "Infantería"
@@ -16124,28 +16095,12 @@
       {
         "name": "Soldado LMG Ejército de Tierra",
         "points": 50,
-        "limit": 2,
+        "autoAddOnly": true,
+        "limit": 1,
         "training": 6,
         "experience": 0,
-        "factions": [],
-        "availableIn": [
-          {
-            "all": [
-              {
-                "in": "Cabo Ejército de Tierra"
-              },
-              {
-                "in": "Ejército de Tierra"
-              }
-            ]
-          }
-        ],
-        "limits": [
-          {
-            "key": "LMG",
-            "limit": 1,
-            "perParent": true
-          }
+        "factions": [
+          "Ejército de Tierra"
         ],
         "unitType": [
           "Infantería"
@@ -16178,25 +16133,8 @@
         "limit": 1,
         "training": 6,
         "experience": 0,
-        "factions": [],
-        "availableIn": [
-          {
-            "all": [
-              {
-                "in": "Cabo Ejército de Tierra"
-              },
-              {
-                "in": "Ejército de Tierra"
-              }
-            ]
-          }
-        ],
-        "limits": [
-          {
-            "key": "lanzagranadas",
-            "limit": 1,
-            "perParent": true
-          }
+        "factions": [
+          "Ejército de Tierra"
         ],
         "unitType": [
           "Infantería"
@@ -16262,6 +16200,14 @@
           {
             "name": "Lanzacohetes Ligero Desechable",
             "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
           }
         ]
       },
@@ -16304,6 +16250,14 @@
           {
             "name": "Lanzacohetes Ligero Desechable",
             "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
           }
         ]
       },
@@ -16343,7 +16297,8 @@
       {
         "name": "Soldado LMG Legionarios / Cazadores de Montaña / Infantería de Marina",
         "points": 55,
-        "limit": 2,
+        "autoAddOnly": true,
+        "limit": 1,
         "training": 6,
         "experience": -1,
         "factions": [],
@@ -16357,13 +16312,6 @@
                 "in": "Legionarios / Cazadores de Montaña / Infantería de Marina"
               }
             ]
-          }
-        ],
-        "limits": [
-          {
-            "key": "LMG",
-            "limit": 1,
-            "perParent": true
           }
         ],
         "unitType": [
@@ -16393,7 +16341,8 @@
       {
         "name": "Soldado Fusil con Lanzagranadas Legionarios / Cazadores de Montaña / Infantería de Marina",
         "points": 55,
-        "limit": 2,
+        "autoAddOnly": true,
+        "limit": 1,
         "training": 6,
         "experience": -1,
         "factions": [],
@@ -16407,13 +16356,6 @@
                 "in": "Legionarios / Cazadores de Montaña / Infantería de Marina"
               }
             ]
-          }
-        ],
-        "limits": [
-          {
-            "key": "lanzagranadas",
-            "limit": 1,
-            "perParent": true
           }
         ],
         "unitType": [
@@ -16480,6 +16422,14 @@
           {
             "name": "Lanzacohetes Ligero Desechable",
             "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
           }
         ]
       },
@@ -16522,6 +16472,14 @@
           {
             "name": "Lanzacohetes Ligero Desechable",
             "points": 25
+          },
+          {
+            "name": "Perro Adiestrado",
+            "points": 10
+          },
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
           }
         ]
       },
@@ -16574,9 +16532,7 @@
         "baseSize": [
           "25mm"
         ],
-        "wargear": [
-          "Fusil de Asalto"
-        ],
+        "wargear": [],
         "options": []
       },
       {
@@ -16595,9 +16551,7 @@
         "baseSize": [
           "25mm"
         ],
-        "wargear": [
-          "Fusil de Asalto"
-        ],
+        "wargear": [],
         "options": []
       },
       {
@@ -16616,9 +16570,7 @@
         "baseSize": [
           "25mm"
         ],
-        "wargear": [
-          "Fusil de Asalto"
-        ],
+        "wargear": [],
         "options": []
       },
       {
@@ -16637,9 +16589,7 @@
         "baseSize": [
           "25mm"
         ],
-        "wargear": [
-          "Fusil de Asalto"
-        ],
+        "wargear": [],
         "options": []
       },
       {
@@ -16806,7 +16756,8 @@
           "25mm"
         ],
         "wargear": [
-          "Lanzacohetes Pesado (3 x Cohetes)"
+          "Lanzacohetes Pesado (3 x Cohetes)",
+          "Fusil de Asalto"
         ],
         "options": []
       },
@@ -16846,7 +16797,8 @@
           "25mm"
         ],
         "wargear": [
-          "Lanzacohetes Pesado (3 x Cohetes)"
+          "Lanzacohetes Pesado (3 x Cohetes)",
+          "Fusil de Asalto"
         ],
         "options": []
       },
@@ -17257,6 +17209,7 @@
       {
         "name": "Tirador Designado Insurgentes Tipo 2",
         "points": 35,
+        "limit": 1,
         "training": 5,
         "experience": 0,
         "factions": [
@@ -17474,6 +17427,7 @@
       {
         "name": "Tirador Designado Insurgentes Tipo 3",
         "points": 40,
+        "limit": 1,
         "training": 6,
         "experience": 0,
         "factions": [
@@ -17693,6 +17647,7 @@
       {
         "name": "Tirador Designado Insurgentes Tipo 4",
         "points": 45,
+        "limit": 1,
         "training": 6,
         "experience": -1,
         "factions": [
@@ -17968,6 +17923,7 @@
       {
         "name": "Tirador Designado Insurgentes Tipo 5",
         "points": 45,
+        "limit": 1,
         "training": 7,
         "experience": 0,
         "factions": [
@@ -18015,12 +17971,7 @@
         "wargear": [
           "Rifle de Precisión"
         ],
-        "options": [
-          {
-            "name": "Chaleco Antibalas",
-            "points": 5
-          }
-        ]
+        "options": []
       },
       {
         "name": "Observador Insurgentes Tipo 5",
@@ -18038,12 +17989,7 @@
           "25mm"
         ],
         "wargear": [],
-        "options": [
-          {
-            "name": "Chaleco Antibalas",
-            "points": 5
-          }
-        ]
+        "options": []
       },
       {
         "name": "Tirador Insurgentes Tipo 5",
@@ -18061,12 +18007,7 @@
           "60mm"
         ],
         "wargear": [],
-        "options": [
-          {
-            "name": "Chaleco Antibalas",
-            "points": 5
-          }
-        ]
+        "options": []
       },
       {
         "name": "Cargador Insurgentes Tipo 5",
@@ -18084,12 +18025,7 @@
           "25mm"
         ],
         "wargear": [],
-        "options": [
-          {
-            "name": "Chaleco Antibalas",
-            "points": 5
-          }
-        ]
+        "options": []
       },
       {
         "name": "Conductor Insurgentes Tipo 1",
@@ -18107,9 +18043,7 @@
         "baseSize": [
           "25mm"
         ],
-        "wargear": [
-          ""
-        ],
+        "wargear": [],
         "options": []
       },
       {
@@ -18128,9 +18062,7 @@
         "baseSize": [
           "25mm"
         ],
-        "wargear": [
-          ""
-        ],
+        "wargear": [],
         "options": []
       },
       {
@@ -18149,9 +18081,7 @@
         "baseSize": [
           "25mm"
         ],
-        "wargear": [
-          ""
-        ],
+        "wargear": [],
         "options": []
       },
       {
@@ -18170,9 +18100,7 @@
         "baseSize": [
           "25mm"
         ],
-        "wargear": [
-          ""
-        ],
+        "wargear": [],
         "options": []
       },
       {
@@ -18191,9 +18119,7 @@
         "baseSize": [
           "25mm"
         ],
-        "wargear": [
-          ""
-        ],
+        "wargear": [],
         "options": []
       },
       {
@@ -18212,9 +18138,7 @@
         "baseSize": [
           "25mm"
         ],
-        "wargear": [
-          ""
-        ],
+        "wargear": [],
         "options": []
       },
       {
@@ -18233,9 +18157,7 @@
         "baseSize": [
           "25mm"
         ],
-        "wargear": [
-          ""
-        ],
+        "wargear": [],
         "options": []
       },
       {
@@ -18254,9 +18176,7 @@
         "baseSize": [
           "25mm"
         ],
-        "wargear": [
-          ""
-        ],
+        "wargear": [],
         "options": []
       },
       {
@@ -18275,9 +18195,7 @@
         "baseSize": [
           "25mm"
         ],
-        "wargear": [
-          ""
-        ],
+        "wargear": [],
         "options": []
       },
       {
@@ -18296,9 +18214,7 @@
         "baseSize": [
           "25mm"
         ],
-        "wargear": [
-          ""
-        ],
+        "wargear": [],
         "options": []
       },
       {
@@ -19057,7 +18973,9 @@
         "limit": 2,
         "training": 7,
         "experience": 0,
-        "factions": ["Special Operations Command (SOCOMD)"],
+        "factions": [
+          "Special Operations Command (SOCOMD)"
+        ],
         "unitType": [
           "Infantería"
         ],
@@ -19093,7 +19011,9 @@
         "limit": 1,
         "training": 7,
         "experience": 0,
-        "factions": ["Special Operations Command (SOCOMD)"],
+        "factions": [
+          "Special Operations Command (SOCOMD)"
+        ],
         "unitType": [
           "Infantería"
         ],
@@ -19206,7 +19126,9 @@
         "autoAddOnly": true,
         "training": 7,
         "experience": 0,
-        "factions": ["Special Operations Command (SOCOMD)"],
+        "factions": [
+          "Special Operations Command (SOCOMD)"
+        ],
         "unitType": [
           "Infantería"
         ],
@@ -19247,7 +19169,7 @@
           "25mm"
         ],
         "wargear": [
-          "SMG"
+          "Subfusil (SMG)"
         ],
         "options": [
           {
@@ -20114,7 +20036,7 @@
           {
             "name": "Cambiar Fusil por SMG",
             "points": -5,
-            "usesDefinition": "SMG",
+            "usesDefinition": "Subfusil (SMG)",
             "chooseOneKey": "a"
           },
           {
@@ -20157,7 +20079,7 @@
           {
             "name": "Cambiar Fusil por SMG",
             "points": -5,
-            "usesDefinition": "SMG",
+            "usesDefinition": "Subfusil (SMG)",
             "chooseOneKey": "a"
           },
           {
@@ -20246,7 +20168,7 @@
           "25mm"
         ],
         "wargear": [
-          "SMG",
+          "Subfusil (SMG)",
           "Chaleco Antibalas"
         ],
         "options": [
