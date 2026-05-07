@@ -4946,7 +4946,7 @@
         "baseSize": [
           "25mm"
         ],
-        "wargear": [],
+        "wargear": ["Chaleco Antibalas"],
         "options": []
       },
       {
@@ -5656,7 +5656,8 @@
           "25mm"
         ],
         "wargear": [
-          "Fusil de Asalto"
+          "Fusil de Asalto",
+          "Lanzagranadas para Fusil de Asalto"
         ],
         "options": [
           {
@@ -19789,8 +19790,8 @@
         "points": 50,
         "limit": 1,
         "autoAddOnly": true,
-        "training": 7,
-        "experience": 0,
+        "training": 6,
+        "experience": -1,
         "factions": [
           "Fallschirmjäger / Gebirgsjäger"
         ],
