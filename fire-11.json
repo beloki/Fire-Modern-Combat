@@ -3654,7 +3654,10 @@
             "name": "Cargador US Army",
             "quantity": 1,
             "points": 0,
-            "lockedChildren": true
+            "lockedChildren": true,
+            "specialRules": [
+              "Cargador"
+            ]
           }
         ]
       },
@@ -21916,7 +21919,10 @@
       },
       {
         "name": "Lanzagranadas para Fusil de Asalto",
-        "definition": "40cm | PF: - | B/E: 3/8 | AT: 4 | Especial: Área, Recarga | Ejemplos: M79, M320"
+        "definition": "40cm | PF: - | B/E: 3/8 | AT: 4 | Especial: Área, Recarga | Ejemplos: M79, M320",
+        "specialRules": [
+          "Área"
+        ]
       },
       {
         "name": "Rifle",
@@ -21928,7 +21934,10 @@
       },
       {
         "name": "Escopeta",
-        "definition": "30cm | PF: 1 | B/E: 5C/0L / 6C/6L | AT: - | Especial: Escopeta | Ejemplos: Mossberg 590, Benelli M4"
+        "definition": "30cm | PF: 1 | B/E: 5C/0L / 6C/6L | AT: - | Especial: Escopeta | Ejemplos: Mossberg 590, Benelli M4",
+        "specialRules": [
+          "Escopeta"
+        ]
       },
       {
         "name": "LMG",
@@ -21940,49 +21949,83 @@
       },
       {
         "name": "MMG",
-        "definition": "120cm | PF: 5 | B/E: 4/8 | AT: 6 | Especial: ¡Atascada!, 180º visión | Ejemplos: M60, PKM, FN-MAG"
+        "definition": "120cm | PF: 5 | B/E: 4/8 | AT: 6 | Especial: ¡Atascada!, 180º visión | Ejemplos: M60, PKM, FN-MAG",
+        "specialRules": [
+          "¡Atascada!"
+        ]
       },
       {
         "name": "HMG",
-        "definition": "150cm | PF: 6 | B/E: 4/8 | AT: 6 | Especial: ¡Atascada!, Montar y Desmontar, 180º visión | Ejemplos: Browning .50 cal, DSHK"
+        "definition": "150cm | PF: 6 | B/E: 4/8 | AT: 6 | Especial: ¡Atascada!, Montar y Desmontar, 180º visión | Ejemplos: Browning .50 cal, DSHK",
+        "specialRules": [
+          "¡Atascada!"
+        ]
       },
       {
         "name": "Lanzagranadas automático 40 mm",
-        "definition": "100cm | PF: - | B/E: 3/8 | AT: 6 | Especial: Área, ¡Atascada!, Montar y Desmontar, 180º visión | Ejemplos: LAG-40, MK-19, AGS-17"
+        "definition": "100cm | PF: - | B/E: 3/8 | AT: 6 | Especial: Área, ¡Atascada!, Montar y Desmontar, 180º visión | Ejemplos: LAG-40, MK-19, AGS-17",
+        "specialRules": [
+          "¡Atascada!",
+		  "Área"
+        ]
       },
       {
         "name": "Mortero Ligero",
-        "definition": "90cm | PF: - | B/E: 3/8 | AT: 6 | Especial: Área, Recarga, Montar y Desmontar, 180º visión, Humo | Ejemplos: Mortero de 50 mm, Mortero de 60 mm, Mortero de 2”"
+        "definition": "90cm | PF: - | B/E: 3/8 | AT: 6 | Especial: Área, Recarga, Montar y Desmontar, 180º visión, Humo | Ejemplos: Mortero de 50 mm, Mortero de 60 mm, Mortero de 2”",
+        "specialRules": [
+          "Área"
+        ]
       },
       {
         "name": "Mortero Medio",
-        "definition": "120cm | PF: - | B/E: 4/8 | AT: 7 | Especial: Área, Recarga, Montar y Desmontar, 180º visión, Humo | Ejemplos: Mortero de 80 mm, Mortero de 3”"
+        "definition": "120cm | PF: - | B/E: 4/8 | AT: 7 | Especial: Área, Recarga, Montar y Desmontar, 180º visión, Humo | Ejemplos: Mortero de 80 mm, Mortero de 3”",
+        "specialRules": [
+          "Área"
+        ]
       },
       {
         "name": "Mortero Pesado",
-        "definition": "150cm | PF: - | B/E: 4/9 | AT: 8 | Especial: Área (3d10), Recarga, Montar y Desmontar, 180º visión, Humo | Ejemplos: Mortero de 120 mm"
+        "definition": "150cm | PF: - | B/E: 4/9 | AT: 8 | Especial: Área (3d10), Recarga, Montar y Desmontar, 180º visión, Humo | Ejemplos: Mortero de 120 mm",
+        "specialRules": [
+          "Área"
+        ]
       },
       {
         "name": "Lanzacohetes Ligero Desechable",
         "definition": "60cm | PF: - | B/E: 3/8 | AT: 10 | Especial: Área, Un sólo uso | Ejemplos: LAW-80, AT-4, C-90",
-        "type": "rpg"
+        "type": "rpg",
+        "specialRules": [
+          "Área"
+        ]
       },
       {
         "name": "Lanzacohetes Ligero Recargable",
         "definition": "60cm | PF: - | B/E: 3/8 | AT: 10 | Especial: Área, Recarga | Ejemplos: RPG-7",
-        "type": "rpg"
+        "type": "rpg",
+        "specialRules": [
+          "Área"
+        ]
       },
       {
         "name": "Lanzacohetes Pesado (3 x Cohetes)",
-        "definition": "80cm | PF: - | B/E: 4/8 | AT: 12 | Especial: Área, Recarga, Montar y Desmontar, 180º visión | Ejemplos: Javelin, NLAW, Alcotán-100"
+        "definition": "80cm | PF: - | B/E: 4/8 | AT: 12 | Especial: Área, Recarga, Montar y Desmontar, 180º visión | Ejemplos: Javelin, NLAW, Alcotán-100",
+        "specialRules": [
+          "Área"
+        ]
       },
       {
         "name": "Minas",
-        "definition": "Contacto Base | PF: - | B/E: 3/8 | AT: 4 | Especial: Área, Un solo uso | Ejemplos: Claymore / Booby Trap"
+        "definition": "Contacto Base | PF: - | B/E: 3/8 | AT: 4 | Especial: Área, Un solo uso | Ejemplos: Claymore / Booby Trap",
+        "specialRules": [
+          "Área"
+        ]
       },
       {
         "name": "Cañón (Vehículo)",
-        "definition": "120cm | PF: - | B/E: 3/8 | AT: 8 | Especial: Área (3d10) | Ejemplos: Bradley, Pizarro"
+        "definition": "120cm | PF: - | B/E: 3/8 | AT: 8 | Especial: Área (3d10) | Ejemplos: Bradley, Pizarro",
+        "specialRules": [
+          "Área"
+        ]
       },
       {
         "name": "Miras tácticas",
@@ -22011,25 +22054,45 @@
       },
       {
         "name": "Granada de Fragmentación",
-        "definition": "20cm | PF: - | B/E: 3/8 | AT: 4 | Especial: Área, Humo | Ejemplos: Granada de mano"
+        "definition": "20cm | PF: - | B/E: 3/8 | AT: 4 | Especial: Área, Humo | Ejemplos: Granada de mano",
+        "specialRules": [
+          "Área"
+        ]
       },
       {
         "name": "Granada Aturdidora",
-        "definition": "20cm | PF: - | B/E: 0/10 | AT: - | Especial: Área, Humo | Ejemplos: Granada de mano"
+        "definition": "20cm | PF: - | B/E: 0/10 | AT: - | Especial: Área, Humo | Ejemplos: Granada de mano",
+        "specialRules": [
+          "Área"
+        ]
       },
       {
         "name": "Granada Lanzagranadas (Fusil)",
-        "definition": "40cm | PF: - | B/E: 3/8 | AT: 4 | Especial: Área | Ejemplos: -"
+        "definition": "40cm | PF: - | B/E: 3/8 | AT: 4 | Especial: Área | Ejemplos: -",
+        "specialRules": [
+          "Área"
+        ]
       },
       {
         "name": "Cóctel Molotov",
-        "definition": "20cm | PF: - | B/E: 1/8 | AT: 3 | Especial: Área, Humo | Ejemplos: -"
+        "definition": "20cm | PF: - | B/E: 1/8 | AT: 3 | Especial: Área, Humo | Ejemplos: -",
+        "specialRules": [
+          "Área"
+        ]
       }
     ],
     "keywords": [
       {
         "name": "Área",
         "definition": "Utiliza una plantilla de área de explosión de 7,5 cm de diámetro para determinar el daño."
+      },
+      {
+        "name": "Recarga",
+        "definition": "Después de disparar, estas armas deben recibir una orden de recargar para poder disparar de nuevo."
+      },
+      {
+        "name": "Mira telescópica",
+        "definition": "La mira telescópica niega los modificadores por cobertura en la tirada para B/E de disparo que haga el tirador si no ha movido durante la Escena de Combate en la que efectúa el disparo."
       },
       {
         "name": "Escopeta",
@@ -22041,11 +22104,27 @@
       },
       {
         "name": "180º de Visión",
-        "definition": "Estas armas tienen un ángulo de visión de 180º. Usa el cañon del arma para determinar su encaramiento. Para cambiar su encaramiento se debe dar una orden mover o una orden de fuego de oportunidad. Si le das una orden de mover y disparar puedes cambiar el encaramiento y disparar en la misma orden, pivotando sobre el trípode. En este caso, para las MMG y HMG se reduce la PF del arma en -3 antes de aplicar otros modificadores y la tirada de B/E de disparo y el valor AT se modificará en -2 por cambiar el encaramiento del arma."
+        "definition": "Estas armas tienen un ángulo de visión de 180º. Usa el cañon del arma para determinar su encaramiento. Para cambiar su encaramiento se debe dar una orden mover o una orden de fuego de oportunidad. Si le das una orden de mover y disparar puedes cambiar el encaramiento y disparar en la misma orden, pivotando sobre el trípode. En este caso, para las MMG y HMG se reduce la PF del arma en -3 antes de aplicar otros modificadores y la tirada de B/E de disparo y el valor AT se modificará en -2 por cambiar el encaramiento del arma. En el caso de un lanzagranadas automático o un mortero modificará en -3 al valor de Entrenamiento del arma de apoyo para determinar el lugar de impacto del proyectil. Para un lanzacohetes pesado, modificará en -3 al valor de Entrenamiento del arma de apoyo si se usa como arma de área o se reduce el valor AT en -3 si se usa contra blindados."
+      },
+      {
+        "name": "Montar/Desmontar",
+        "definition": "Este tipo de armas siempre llevan trípodes porque tienden a ser bastante pesadas y dificiles de transportar. Antes de mover el arma hay que gastar 5 cm de la distancia máxima de movimiento para desmontarlas, y otros 5 cm para montarlas y dejarlas listas para disparar de nuevo. Este tipo de armas sólo pueden disparar si están montadas. No puedes darles una orden de mover y disparar para \"montar y disparar\" o para \"disparar y desmontar\" durante la misma orden. Tampoco pueden recibir una orden de asaltar, porque su dotación no va a dejar abandonada un arma pesada en medio del campo de batalla. Eso sí, pueden ser asaltadas por el contrincante."
+      },
+      {
+        "name": "Humo",
+        "definition": "Se pueden utilizar proyectiles de humo en lugar de proyectiles explosivos. Elige el tipo de proyectil que vas a utilizar antes de realizar cada disparo. Si eliges disparar con proyectiles de humo, no causará daño por su explosión."
+      },
+      {
+        "name": "Un solo uso",
+        "definition": "El arma solo tiene un disparo y no se puede recargar."
       },
       {
         "name": "Cargador",
         "definition": "La presencia del cargador de un arma permite descartar el primer resultado de ¡Atascada! que suceda en una Escena de combate. Solo puede ignorar UN resultado de ¡Atascada! por Escena de combate. Los resultados de ¡Atascada! adicionales se transforman en ME."
+      },
+      {
+        "name": "Cargador de mortero",
+        "definition": "Si el cargador de mortero NO causa Baja al final de una Escena de Combate en la que ha disparado el mortero, el mortero estará automáticamente recargado y listo para disparar al inicio de la siguiente Escena de Combate sin la necesidad de darle una orde de recargar. Si el cargador de mortero ha causado Baja, deberás dar una orden de recargar antes de volver a disparar."
       },
       {
         "name": "Suboficial",
