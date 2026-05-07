@@ -3654,9 +3654,15 @@
             "name": "Cargador US Army",
             "quantity": 1,
             "points": 0,
-            "lockedChildren": true,
-            "specialRules": [
-              "Cargador"
+            "lockedChildren": true,           
+            "requiredChildren": [
+              {
+                "elementPropertyName": "specialRules",
+                "name": "Cargador de mortero",
+                "quantity": 1,
+                "points": 0,
+                "lockedChildren": true
+              }
             ]
           }
         ]
