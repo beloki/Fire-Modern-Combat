@@ -216,9 +216,9 @@
                       "type": "static",
                       "dataSource": "keywords"
                     }
-				  ]
+                  ]
                 },
-				{
+                {
                   "label": "Reglas especiales",
                   "propertyName": "specialRules",
                   "type": "static",
@@ -3066,9 +3066,9 @@
         "wargear": [
           "Chaleco Antibalas"
         ],
-		"specialRules": [
-		  "Suboficial",
-		],
+        "specialRules": [
+          "Suboficial"
+        ],
         "options": []
       },
       {
@@ -4977,7 +4977,9 @@
         "baseSize": [
           "25mm"
         ],
-        "wargear": ["Chaleco Antibalas"],
+        "wargear": [
+          "Chaleco Antibalas"
+        ],
         "options": []
       },
       {
@@ -14355,9 +14357,9 @@
           "Chaleco Antibalas"
         ],
         "options": [],
-		"specialRules": [
-		  "Cargador",
-		]
+        "specialRules": [
+          "Cargador"
+        ]
       },
       {
         "name": "Tirador Lanzacohetes US Marines",
@@ -21908,9 +21910,9 @@
         "name": "LMG",
         "definition": "100cm | PF: 4 | B/E: 4/7 | AT: 4 | Especial: ¡Atascada! | Ejemplos: SAW, Minimi, RPK-47, MG-4",
         "type": "lmg",
-		"specialRules": [
-		  "¡Atascada!",
-		]
+        "specialRules": [
+          "¡Atascada!"
+        ]
       },
       {
         "name": "MMG",
@@ -22000,32 +22002,32 @@
         "definition": "20cm | PF: - | B/E: 1/8 | AT: 3 | Especial: Área, Humo | Ejemplos: -"
       }
     ],
-	"keywords": [
-	  {
-	    "name": "Área",
+    "keywords": [
+      {
+        "name": "Área",
         "definition": "Utiliza una plantilla de área de explosión de 7,5 cm de diámetro para determinar el daño."
       },
-	  {
-	    "name": "Escopeta",
+      {
+        "name": "Escopeta",
         "definition": "Tiene DOS valores de B/E. El primer valor es para disparos a distancias cortas (de 0 a 15 cm) y el segundo es para disparos a distancias largas (>15 cm)."
       },
-	  {
-	    "name": "¡Atascada!",
+      {
+        "name": "¡Atascada!",
         "definition": "Un DIEZ en las tiradas para disparar o en la de determinar un punto de impacto, implica que el arma se ha encasquillado. El proyectil encasquillado no produce ningún efecto y esa rápidamente extraído, pero añade +1 ME por cada resultado de DIEZ en las tiradas para disparar."
       },
-	  {
-	    "name": "180º de Visión",
+      {
+        "name": "180º de Visión",
         "definition": "Estas armas tienen un ángulo de visión de 180º. Usa el cañon del arma para determinar su encaramiento. Para cambiar su encaramiento se debe dar una orden mover o una orden de fuego de oportunidad. Si le das una orden de mover y disparar puedes cambiar el encaramiento y disparar en la misma orden, pivotando sobre el trípode. En este caso, para las MMG y HMG se reduce la PF del arma en -3 antes de aplicar otros modificadores y la tirada de B/E de disparo y el valor AT se modificará en -2 por cambiar el encaramiento del arma."
       },
-	  {
-	    "name": "Cargador",
+      {
+        "name": "Cargador",
         "definition": "La presencia del cargador de un arma permite descartar el primer resultado de ¡Atascada! que suceda en una Escena de combate. Solo puede ignorar UN resultado de ¡Atascada! por Escena de combate. Los resultados de ¡Atascada! adicionales se transforman en ME."
       },
-	  {
-	    "name": "Suboficial",
+      {
+        "name": "Suboficial",
         "definition": "Un suboficial es el equivalente a un Mando principal con algunas particularidades. El suboficial no aporta NINGÚN PM extra al inicio del turno. Sólo puede dar órdenes al arma de apoyo que comanda, así que tampoco puede dar órdenes a otras armas de apoyo o a otros soldados rasos de tu pelotón. Mientras el suboficial siga en pie, el coste de las órdenes que dé a su arma de apoyo no tendrá penalizador por estar fuera de la distancia de mando que proporcionan el Mando principal o el Mando secundario de tu pelotón, o si los mandos causan Baja. El arma de apoyo utilizará el valor de Entrenamiento de su suboficial mientras éste siga vivo para los chequeos de moral, pero no lo podrá utilizar en la tirada para determinar el punto de impacto de un arma explosiva, teniendo que utilizar el valor del tirador. Los valores de Entrenamiento y Experiencia en Combate del suboficial se consideran iguales que los del Mando principal de tu pelotón. Si el suboficial causa Baja, el arma de apoyo deberá seguir las reglas habituales de distancia de mando y bajas de mandos para calcular el coste de PM cuando necesite recibir nuevas órdenes."
       }
-	],
+    ],
     "armyBonuses": []
   }
 }
