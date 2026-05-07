@@ -202,7 +202,15 @@
                 {
                   "propertyName": "options",
                   "type": "checkbox",
-                  "dataSource": "gear"
+                  "dataSource": "gear",
+                  "children": [
+                    {
+                      "label": "Reglas especiales",
+                      "propertyName": "specialRules",
+                      "type": "static",
+                      "dataSource": "keywords"
+                    }
+                  ]
                 },
                 {
                   "propertyName": "wargear",
@@ -239,7 +247,15 @@
             {
               "propertyName": "options",
               "type": "checkbox",
-              "dataSource": "gear"
+              "dataSource": "gear",
+              "children": [
+                {
+                  "label": "Reglas especiales",
+                  "propertyName": "specialRules",
+                  "type": "static",
+                  "dataSource": "keywords"
+                }
+              ]
             },
             {
               "propertyName": "wargear",
@@ -277,7 +293,15 @@
           "propertyName": "options",
           "label": "Equipo Compartido",
           "type": "checkbox",
-          "dataSource": "gear"
+          "dataSource": "gear",
+          "children": [
+            {
+              "label": "Reglas especiales",
+              "propertyName": "specialRules",
+              "type": "static",
+              "dataSource": "keywords"
+            }
+          ]
         }
       ]
     }
