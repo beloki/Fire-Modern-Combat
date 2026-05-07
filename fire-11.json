@@ -3651,19 +3651,10 @@
           },
           {
             "elementPropertyName": "soldados",
-            "name": "Cargador US Army",
+            "name": "Cargador Mortero US Army",
             "quantity": 1,
             "points": 0,
-            "lockedChildren": true,           
-            "requiredChildren": [
-              {
-                "elementPropertyName": "specialRules",
-                "name": "Cargador de mortero",
-                "quantity": 1,
-                "points": 0,
-                "lockedChildren": true
-              }
-            ]
+            "lockedChildren": true
           }
         ]
       },
@@ -14064,6 +14055,29 @@
           "Chaleco Antibalas"
         ],
         "options": []
+      },
+      {
+        "name": "Cargador Mortero US Army",
+        "points": 0,
+        "autoAddOnly": true,
+        "training": 6,
+        "experience": 0,
+        "factions": [
+          "US Army"
+        ],
+        "unitType": [
+          "Infantería"
+        ],
+        "baseSize": [
+          "25mm"
+        ],
+        "wargear": [
+          "Chaleco Antibalas"
+        ],
+        "options": [],
+        "specialRules": [
+          "Cargador de mortero"
+        ]
       },
       {
         "name": "Tirador US Marines",
