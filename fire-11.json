@@ -8665,12 +8665,22 @@
           {
             "name": "Lanzacohetes Ligero Recargable",
             "points": 25,
-            "requireChooseOneKey": "a"
+            "requireChooseOneKey": "a",
+			"ignoreLimits": [
+			  {
+                "type": "rpg"
+              }
+            ]
           },
           {
             "name": "LMG",
             "points": 10,
-            "requireChooseOneKey": "a"
+            "requireChooseOneKey": "a",
+			"ignoreLimits": [
+			  {
+                "type": "lmg"
+              }
+            ]
           }
         ],
         "includes": [
