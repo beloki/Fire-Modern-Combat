@@ -411,6 +411,10 @@
         "name": "US Army",
         "alignment": "EEUU",
         "pm": 6,
+        "attributes": [
+          "Entrenamiento: Profesional (6)",
+          "Experiencia en Combate: Experimentado (0)"
+        ],
         "options": [
           {
             "name": "Minas",
@@ -495,6 +499,10 @@
         "name": "US Marines",
         "alignment": "EEUU",
         "pm": 6,
+        "attributes": [
+          "Entrenamiento: Profesional (6)",
+          "Experiencia en Combate: Experimentado (0)"
+        ],
         "options": [
           {
             "name": "Minas",
@@ -612,6 +620,10 @@
       {
         "name": "US SOCOM",
         "pm": 7,
+        "attributes": [
+          "Entrenamiento: Élite (7)",
+          "Experiencia en Combate: Veterano (-1)"
+        ],
         "alignment": "EEUU",
         "options": [
           {
@@ -657,6 +669,10 @@
         "name": "British Army (2010)",
         "alignment": "Reino Unido",
         "pm": 6,
+        "attributes": [
+          "Entrenamiento: Profesional (6)",
+          "Experiencia en Combate: Experimentado (0)"
+        ],
         "options": [
           {
             "name": "Minas",
@@ -735,6 +751,10 @@
         "name": "British Army (2018)",
         "alignment": "Reino Unido",
         "pm": 6,
+        "attributes": [
+          "Entrenamiento: Profesional (6)",
+          "Experiencia en Combate: Experimentado (0)"
+        ],
         "options": [
           {
             "name": "Minas",
@@ -817,6 +837,10 @@
         "name": "Royal Marines / Paras / Gurkhas (2010)",
         "alignment": "Reino Unido",
         "pm": 6,
+        "attributes": [
+          "Entrenamiento: Profesional (6)",
+          "Experiencia en Combate: Veterano (-1)"
+        ],
         "options": [
           {
             "name": "Minas",
@@ -895,6 +919,10 @@
         "name": "Royal Marines / Paras / Gurkhas (2018)",
         "alignment": "Reino Unido",
         "pm": 6,
+        "attributes": [
+          "Entrenamiento: Profesional (6)",
+          "Experiencia en Combate: Veterano (-1)"
+        ],
         "options": [
           {
             "name": "Minas",
@@ -977,6 +1005,10 @@
         "name": "SAS / SBS / SRR / SFSG",
         "alignment": "Reino Unido",
         "pm": 7,
+        "attributes": [
+          "Entrenamiento: Élite (7)",
+          "Experiencia en Combate: Veterano (-1)"
+        ],
         "options": [
           {
             "name": "Minas",
@@ -1021,6 +1053,10 @@
         "name": "Armée de Terre",
         "alignment": "Francia",
         "pm": 6,
+        "attributes": [
+          "Entrenamiento: Profesional (6)",
+          "Experiencia en Combate: Experimentado (0)"
+        ],
         "options": [
           {
             "name": "Minas",
@@ -1101,6 +1137,10 @@
         "name": "Légion Étrangere",
         "alignment": "Francia",
         "pm": 6,
+        "attributes": [
+          "Entrenamiento: Profesional (6)",
+          "Experiencia en Combate: Veterano (-1)"
+        ],
         "options": [
           {
             "name": "Minas",
@@ -1181,6 +1221,10 @@
         "name": "Ejército de Tierra",
         "alignment": "España",
         "pm": 6,
+        "attributes": [
+          "Entrenamiento: Profesional (6)",
+          "Experiencia en Combate: Experimentado (0)"
+        ],
         "options": [
           {
             "name": "Minas",
@@ -1266,6 +1310,10 @@
         "name": "Legionarios / Cazadores de Montaña / Infantería de Marina",
         "alignment": "España",
         "pm": 6,
+        "attributes": [
+          "Entrenamiento: Profesional (6)",
+          "Experiencia en Combate: Veterano (-1)"
+        ],
         "options": [
           {
             "name": "Minas",
@@ -1351,6 +1399,10 @@
         "name": "Insurgentes Tipo 1",
         "alignment": "Insurgencia",
         "pm": 5,
+        "attributes": [
+          "Entrenamiento: Milicia (5)",
+          "Experiencia en Combate: Novato (+1)"
+        ],
         "options": [
           {
             "name": "Cohetes Extra",
@@ -1407,6 +1459,10 @@
         "name": "Insurgentes Tipo 2",
         "alignment": "Insurgencia",
         "pm": 5,
+        "attributes": [
+          "Entrenamiento: Milicia (5)",
+          "Experiencia en Combate: Experimentado (0)"
+        ],
         "options": [
           {
             "name": "Cohetes Extra",
@@ -1463,6 +1519,10 @@
         "name": "Insurgentes Tipo 3",
         "alignment": "Insurgencia",
         "pm": 6,
+        "attributes": [
+          "Entrenamiento: Profesional (6)",
+          "Experiencia en Combate: Experimentado (0)"
+        ],
         "options": [
           {
             "name": "Cohetes Extra",
@@ -1519,6 +1579,10 @@
         "name": "Insurgentes Tipo 4",
         "alignment": "Insurgencia",
         "pm": 6,
+        "attributes": [
+          "Entrenamiento: Profesional (6)",
+          "Experiencia en Combate: Veterano (-1)"
+        ],
         "options": [
           {
             "name": "Cohetes Extra",
@@ -1575,6 +1639,10 @@
         "name": "Insurgentes Tipo 5",
         "alignment": "Insurgencia",
         "pm": 7,
+        "attributes": [
+          "Entrenamiento: Élite (6)",
+          "Experiencia en Combate: Experimentado (0)"
+        ],
         "options": [
           {
             "name": "Cohetes Extra",
@@ -1631,6 +1699,10 @@
         "name": "Forze Armate Italiane",
         "alignment": "Italia",
         "pm": 6,
+        "attributes": [
+          "Entrenamiento: Profesional (6)",
+          "Experiencia en Combate: Experimentado (0)"
+        ],
         "options": [
           {
             "name": "Minas",
@@ -1709,6 +1781,10 @@
         "name": "Bersaglieri / Alpini / Folgore",
         "alignment": "Italia",
         "pm": 6,
+        "attributes": [
+          "Entrenamiento: Profesional (6)",
+          "Experiencia en Combate: Veterano (-1)"
+        ],
         "options": [
           {
             "name": "Minas",
@@ -1787,6 +1863,10 @@
         "name": "Australian Army",
         "alignment": "Australia",
         "pm": 6,
+        "attributes": [
+          "Entrenamiento: Profesional (6)",
+          "Experiencia en Combate: Experimentado (0)"
+        ],
         "options": [
           {
             "name": "Minas",
@@ -1860,6 +1940,10 @@
         "name": "Special Operations Command (SOCOMD)",
         "alignment": "Australia",
         "pm": 7,
+        "attributes": [
+          "Entrenamiento: Élite (6)",
+          "Experiencia en Combate: Experimentado (0)"
+        ],
         "options": [
           {
             "name": "Minas",
@@ -1943,6 +2027,10 @@
         "name": "Panzergrenadiers Opción A (Vehículo)",
         "alignment": "Alemania",
         "pm": 6,
+        "attributes": [
+          "Entrenamiento: Profesional (6)",
+          "Experiencia en Combate: Experimentado (0)"
+        ],
         "options": [
           {
             "name": "Minas",
@@ -2023,6 +2111,10 @@
         "name": "Panzergrenadiers Opción B (Desmontados)",
         "alignment": "Alemania",
         "pm": 6,
+        "attributes": [
+          "Entrenamiento: Profesional (6)",
+          "Experiencia en Combate: Experimentado (0)"
+        ],
         "options": [
           {
             "name": "Minas",
@@ -2106,6 +2198,10 @@
         "name": "Fallschirmjäger / Gebirgsjäger",
         "alignment": "Alemania",
         "pm": 6,
+        "attributes": [
+          "Entrenamiento: Profesional (6)",
+          "Experiencia en Combate: Veterano (-1)"
+        ],
         "options": [
           {
             "name": "Minas",
@@ -2194,6 +2290,10 @@
         "name": "Kommando Spezialkräfte (KSK)",
         "alignment": "Alemania",
         "pm": 7,
+        "attributes": [
+          "Entrenamiento: Élite (6)",
+          "Experiencia en Combate: Experimentado (0)"
+        ],
         "options": [
           {
             "name": "Minas",
@@ -2272,6 +2372,10 @@
         "name": "Blindados Pesados PLA Opción A (Vehículo)",
         "alignment": "China",
         "pm": 6,
+        "attributes": [
+          "Entrenamiento: Profesional (6)",
+          "Experiencia en Combate: Experimentado (0)"
+        ],
         "options": [
           {
             "name": "Minas",
@@ -2351,6 +2455,10 @@
         "name": "Blindados Pesados PLA Opción B (Desmontados)",
         "alignment": "China",
         "pm": 6,
+        "attributes": [
+          "Entrenamiento: Profesional (6)",
+          "Experiencia en Combate: Experimentado (0)"
+        ],
         "options": [
           {
             "name": "Minas",
@@ -2434,6 +2542,10 @@
         "name": "Alta Movilidad PLA Opción A (Vehículo)",
         "alignment": "China",
         "pm": 6,
+        "attributes": [
+          "Entrenamiento: Profesional (6)",
+          "Experiencia en Combate: Novato (+1)"
+        ],
         "options": [
           {
             "name": "Cohetes Extra",
@@ -2530,6 +2642,10 @@
         "name": "Alta Movilidad PLA Opción B (Desmontados)",
         "alignment": "China",
         "pm": 6,
+        "attributes": [
+          "Entrenamiento: Profesional (6)",
+          "Experiencia en Combate: Novato (+1)"
+        ],
         "options": [
           {
             "name": "Minas",
@@ -2617,6 +2733,10 @@
         "name": "Asalto Aéreo de Marina PLA",
         "alignment": "China",
         "pm": 7,
+        "attributes": [
+          "Entrenamiento: Élite (6)",
+          "Experiencia en Combate: Experimentado (0)"
+        ],
         "options": [
           {
             "name": "Minas",
@@ -2704,6 +2824,10 @@
         "name": "Blindado Anfibio PLA Opción A (Vehículo)",
         "alignment": "China",
         "pm": 6,
+        "attributes": [
+          "Entrenamiento: Profesional (6)",
+          "Experiencia en Combate: Experimentado (0)"
+        ],
         "options": [
           {
             "name": "Granada de Fragmentación",
@@ -2779,6 +2903,10 @@
         "name": "Blindado Anfibio PLA Opción B (Desmontados)",
         "alignment": "China",
         "pm": 6,
+        "attributes": [
+          "Entrenamiento: Profesional (6)",
+          "Experiencia en Combate: Experimentado (0)"
+        ],
         "options": [
           {
             "name": "Granada de Fragmentación",
@@ -3204,7 +3332,13 @@
             "name": "Cargador US Army",
             "quantity": 1,
             "points": 0,
-            "lockedChildren": true
+            "lockedChildren": true,
+            "requiredChildren": [
+              {
+                "elementPropertyName": "specialRules",
+                "name": "Cargador ametralladora/lanzagranadas"
+              }
+            ]
           }
         ]
       },
