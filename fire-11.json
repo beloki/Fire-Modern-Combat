@@ -3252,7 +3252,10 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Suboficial"
+        ]
       },
       {
         "name": "Suboficial US Rangers",
@@ -3273,7 +3276,10 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Suboficial"
+        ]
       },
       {
         "name": "Suboficial US SOCOM",
@@ -3294,7 +3300,10 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Suboficial"
+        ]
       },
       {
         "name": "Ametralladora Media (MMG) US Army",
@@ -3518,6 +3527,9 @@
         "baseSize": [],
         "wargear": [],
         "options": [],
+        "specialRules": [
+          "Equipo de Lanzacohetes"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -3554,6 +3566,9 @@
         "baseSize": [],
         "wargear": [],
         "options": [],
+        "specialRules": [
+          "Equipo de Lanzacohetes"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -3590,6 +3605,9 @@
         "baseSize": [],
         "wargear": [],
         "options": [],
+        "specialRules": [
+          "Equipo de Lanzacohetes"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -3626,6 +3644,10 @@
         "baseSize": [],
         "wargear": [],
         "options": [],
+        "specialRules": [
+          "Inicio Oculto",
+		  "Detección del francotirador"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -3662,6 +3684,10 @@
         "baseSize": [],
         "wargear": [],
         "options": [],
+        "specialRules": [
+          "Inicio Oculto",
+		  "Detección del francotirador"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -3698,6 +3724,10 @@
         "baseSize": [],
         "wargear": [],
         "options": [],
+        "specialRules": [
+          "Inicio Oculto",
+		  "Detección del francotirador"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -3734,6 +3764,10 @@
         "baseSize": [],
         "wargear": [],
         "options": [],
+        "specialRules": [
+          "Inicio Oculto",
+		  "Detección del francotirador"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -4707,7 +4741,10 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Suboficial"
+        ]
       },
       {
         "name": "Ametralladora Media (MMG) British Army",
@@ -4784,6 +4821,9 @@
             "points": 10
           }
         ],
+        "specialRules": [
+          "Equipo de Lanzacohetes"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -4828,6 +4868,10 @@
             "name": "Chaleco Antibalas",
             "points": 10
           }
+        ],
+        "specialRules": [
+          "Inicio Oculto",
+		  "Detección del francotirador"
         ],
         "includes": [
           {
@@ -4924,7 +4968,10 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Suboficial"
+        ]
       },
       {
         "name": "Ametralladora Media (MMG) Royal Marines / Paras / Gurkhas",
@@ -5001,6 +5048,9 @@
             "points": 10
           }
         ],
+        "specialRules": [
+          "Equipo de Lanzacohetes"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -5045,6 +5095,10 @@
             "name": "Chaleco Antibalas",
             "points": 10
           }
+        ],
+        "specialRules": [
+          "Inicio Oculto",
+		  "Detección del francotirador"
         ],
         "includes": [
           {
@@ -5139,7 +5193,10 @@
         "wargear": [
           "Chaleco Antibalas"
         ],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Suboficial"
+        ]
       },
       {
         "name": "Ametralladora Media (MMG) SAS / SBS / SRR / SFSG",
@@ -5208,6 +5265,9 @@
             "points": 10
           }
         ],
+        "specialRules": [
+          "Equipo de Lanzacohetes"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -5248,6 +5308,10 @@
             "name": "Chaleco Antibalas",
             "points": 10
           }
+        ],
+        "specialRules": [
+          "Inicio Oculto",
+		  "Detección del francotirador"
         ],
         "includes": [
           {
@@ -5875,7 +5939,10 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Suboficial"
+        ]
       },
       {
         "name": "Suboficial Légion Étrangere",
@@ -5896,7 +5963,10 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Suboficial"
+        ]
       },
       {
         "name": "Ametralladora Media (MMG) Armée de Terre",
@@ -5965,6 +6035,9 @@
             "points": 10
           }
         ],
+        "specialRules": [
+          "Equipo de Lanzacohetes"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -6005,6 +6078,10 @@
             "name": "Chaleco Antibalas",
             "points": 10
           }
+        ],
+        "specialRules": [
+          "Inicio Oculto",
+		  "Detección del francotirador"
         ],
         "includes": [
           {
@@ -6141,6 +6218,9 @@
             "points": 10
           }
         ],
+        "specialRules": [
+          "Equipo de Lanzacohetes"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -6181,6 +6261,10 @@
             "name": "Chaleco Antibalas",
             "points": 10
           }
+        ],
+        "specialRules": [
+          "Inicio Oculto",
+		  "Detección del francotirador"
         ],
         "includes": [
           {
@@ -6693,7 +6777,10 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Suboficial"
+        ]
       },
       {
         "name": "Suboficial Legionarios / Cazadores de Montaña / Infantería de Marina",
@@ -6714,7 +6801,10 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Suboficial"
+        ]
       },
       {
         "name": "Ametralladora Media (MMG) Ejército de Tierra",
@@ -6773,6 +6863,9 @@
         "baseSize": [],
         "wargear": [],
         "options": [],
+        "specialRules": [
+          "Equipo de Lanzacohetes"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -6809,6 +6902,10 @@
         "baseSize": [],
         "wargear": [],
         "options": [],
+        "specialRules": [
+          "Inicio Oculto",
+		  "Detección del francotirador"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -6939,6 +7036,9 @@
             "points": 10
           }
         ],
+        "specialRules": [
+          "Equipo de Lanzacohetes"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -6979,6 +7079,10 @@
             "name": "Chaleco Antibalas",
             "points": 10
           }
+        ],
+        "specialRules": [
+          "Inicio Oculto",
+		  "Detección del francotirador"
         ],
         "includes": [
           {
@@ -7640,7 +7744,10 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Suboficial"
+        ]
       },
       {
         "name": "Suboficial Insurgente Tipo 2",
@@ -7661,7 +7768,10 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Suboficial"
+        ]
       },
       {
         "name": "Suboficial Insurgente Tipo 3",
@@ -7682,7 +7792,10 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Suboficial"
+        ]
       },
       {
         "name": "Suboficial Insurgente Tipo 4",
@@ -7703,7 +7816,10 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Suboficial"
+        ]
       },
       {
         "name": "Suboficial Insurgente Tipo 5",
@@ -7729,6 +7845,9 @@
             "name": "Chaleco Antibalas",
             "points": 5
           }
+        ],
+        "specialRules": [
+          "Suboficial"
         ]
       },
       {
@@ -8352,6 +8471,10 @@
         "baseSize": [],
         "wargear": [],
         "options": [],
+        "specialRules": [
+          "Inicio Oculto",
+		  "Detección del francotirador"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -8560,6 +8683,10 @@
         "baseSize": [],
         "wargear": [],
         "options": [],
+        "specialRules": [
+          "Inicio Oculto",
+		  "Detección del francotirador"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -8743,6 +8870,10 @@
             "name": "Chaleco Antibalas",
             "points": 10
           }
+        ],
+        "specialRules": [
+          "Inicio Oculto",
+		  "Detección del francotirador"
         ],
         "includes": [
           {
@@ -9568,7 +9699,10 @@
         "wargear": [
           "Chaleco Antibalas"
         ],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Suboficial"
+        ]
       },
       {
         "name": "Sargento Bersaglieri / Alpini / Folgore",
@@ -9639,7 +9773,10 @@
         "wargear": [
           "Chaleco Antibalas"
         ],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Suboficial"
+        ]
       },
       {
         "name": "Ametralladora Media (MMG) Forze Armate Italiane",
@@ -9738,6 +9875,9 @@
         "baseSize": [],
         "wargear": [],
         "options": [],
+        "specialRules": [
+          "Equipo de Lanzacohetes"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -9774,6 +9914,9 @@
         "baseSize": [],
         "wargear": [],
         "options": [],
+        "specialRules": [
+          "Equipo de Lanzacohetes"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -9810,6 +9953,10 @@
         "baseSize": [],
         "wargear": [],
         "options": [],
+        "specialRules": [
+          "Inicio Oculto",
+		  "Detección del francotirador"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -9846,6 +9993,10 @@
         "baseSize": [],
         "wargear": [],
         "options": [],
+        "specialRules": [
+          "Inicio Oculto",
+		  "Detección del francotirador"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -10338,7 +10489,10 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Suboficial"
+        ]
       },
       {
         "name": "Sargento Special Operations Command (SOCOMD)",
@@ -10405,7 +10559,10 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Suboficial"
+        ]
       },
       {
         "name": "Ametralladora Media (MMG) Australian Army",
@@ -10504,6 +10661,9 @@
         "baseSize": [],
         "wargear": [],
         "options": [],
+        "specialRules": [
+          "Equipo de Lanzacohetes"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -10540,6 +10700,9 @@
         "baseSize": [],
         "wargear": [],
         "options": [],
+        "specialRules": [
+          "Equipo de Lanzacohetes"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -10576,6 +10739,10 @@
         "baseSize": [],
         "wargear": [],
         "options": [],
+        "specialRules": [
+          "Inicio Oculto",
+		  "Detección del francotirador"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -10612,6 +10779,10 @@
         "baseSize": [],
         "wargear": [],
         "options": [],
+        "specialRules": [
+          "Inicio Oculto",
+		  "Detección del francotirador"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -11000,7 +11171,10 @@
         "wargear": [
           "Chaleco Antibalas"
         ],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Suboficial"
+        ]
       },
       {
         "name": "Sargento Fallschirmjäger / Gebirgsjäger",
@@ -11071,7 +11245,10 @@
         "wargear": [
           "Chaleco Antibalas"
         ],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Suboficial"
+        ]
       },
       {
         "name": "Sargento Kommando Spezialkräfte (KSK)",
@@ -11152,7 +11329,10 @@
         "wargear": [
           "Chaleco Antibalas"
         ],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Suboficial"
+        ]
       },
       {
         "name": "Ametralladora Media (MMG) Panzergrenadiers",
@@ -11299,6 +11479,9 @@
         "baseSize": [],
         "wargear": [],
         "options": [],
+        "specialRules": [
+          "Equipo de Lanzacohetes"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -11335,6 +11518,9 @@
         "baseSize": [],
         "wargear": [],
         "options": [],
+        "specialRules": [
+          "Equipo de Lanzacohetes"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -11376,6 +11562,9 @@
             "points": 10
           }
         ],
+        "specialRules": [
+          "Equipo de Lanzacohetes"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -11416,6 +11605,10 @@
         "baseSize": [],
         "wargear": [],
         "options": [],
+        "specialRules": [
+          "Inicio Oculto",
+		  "Detección del francotirador"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -11452,6 +11645,10 @@
         "baseSize": [],
         "wargear": [],
         "options": [],
+        "specialRules": [
+          "Inicio Oculto",
+		  "Detección del francotirador"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -11488,6 +11685,10 @@
         "baseSize": [],
         "wargear": [],
         "options": [],
+        "specialRules": [
+          "Inicio Oculto",
+		  "Detección del francotirador"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -11921,7 +12122,10 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Suboficial"
+        ]
       },
       {
         "name": "Sargento Alta Movilidad PLA",
@@ -12000,7 +12204,10 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Suboficial"
+        ]
       },
       {
         "name": "Sargento Asalto Aéreo de Marina PLA",
@@ -12067,7 +12274,10 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Suboficial"
+        ]
       },
       {
         "name": "Sargento Blindado Anfibio PLA",
@@ -12146,7 +12356,10 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Suboficial"
+        ]
       },
       {
         "name": "Ametralladora Media (MMG) Blindados Pesados PLA",
@@ -12341,6 +12554,10 @@
         "baseSize": [],
         "wargear": [],
         "options": [],
+        "specialRules": [
+          "Inicio Oculto",
+		  "Detección del francotirador"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -12381,6 +12598,10 @@
         "baseSize": [],
         "wargear": [],
         "options": [],
+        "specialRules": [
+          "Inicio Oculto",
+		  "Detección del francotirador"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -12417,6 +12638,10 @@
         "baseSize": [],
         "wargear": [],
         "options": [],
+        "specialRules": [
+          "Inicio Oculto",
+		  "Detección del francotirador"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -12457,6 +12682,10 @@
         "baseSize": [],
         "wargear": [],
         "options": [],
+        "specialRules": [
+          "Inicio Oculto",
+		  "Detección del francotirador"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -12497,6 +12726,9 @@
         "baseSize": [],
         "wargear": [],
         "options": [],
+        "specialRules": [
+          "Equipo de Lanzacohetes"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -12537,6 +12769,9 @@
         "baseSize": [],
         "wargear": [],
         "options": [],
+        "specialRules": [
+          "Equipo de Lanzacohetes"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -12573,6 +12808,9 @@
         "baseSize": [],
         "wargear": [],
         "options": [],
+        "specialRules": [
+          "Equipo de Lanzacohetes"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -12613,6 +12851,9 @@
         "baseSize": [],
         "wargear": [],
         "options": [],
+        "specialRules": [
+          "Equipo de Lanzacohetes"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -14381,7 +14622,10 @@
         "wargear": [
           "Chaleco Antibalas"
         ],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Observador"
+        ]
       },
       {
         "name": "Francotirador US Marines",
