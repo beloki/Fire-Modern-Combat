@@ -318,7 +318,7 @@
         "name": "US Rangers",
         "alignment": "EEUU",
         "pm": 6,
-        "additionalRules": [
+        "attributes": [
           "Entrenamiento: Profesional (6)",
           "Experiencia en Combate: Veterano (-1)"
         ],
