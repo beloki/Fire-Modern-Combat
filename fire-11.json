@@ -147,6 +147,12 @@
       ],
       "children": [
         {
+          "propertyName": "attributes",
+          "label": "Atributos: ",
+          "type": "static",
+          "bullet": true
+        },
+        {
           "propertyName": "suboficiales",
           "dataSource": "suboficiales",
           "label": "Escuadra",
@@ -312,6 +318,10 @@
         "name": "US Rangers",
         "alignment": "EEUU",
         "pm": 6,
+        "additionalRules": [
+          "Entrenamiento: Profesional (6)",
+          "Experiencia en Combate: Veterano (-1)"
+        ],
         "options": [
           {
             "name": "Minas",
@@ -3333,10 +3343,11 @@
           "Arma Apoyo"
         ],
         "baseSize": [],
-        "wargear": [
-          "Lanzacohetes Pesado (3 x Cohetes)"
-        ],
+        "wargear": [],
         "options": [],
+        "specialRules": [
+          "Equipo de Lanzacohetes"
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -3371,9 +3382,7 @@
           "Arma Apoyo"
         ],
         "baseSize": [],
-        "wargear": [
-          "Lanzacohetes Pesado (3 x Cohetes)"
-        ],
+        "wargear": [],
         "options": [],
         "includes": [
           {
@@ -3409,9 +3418,7 @@
           "Arma Apoyo"
         ],
         "baseSize": [],
-        "wargear": [
-          "Lanzacohetes Pesado (3 x Cohetes)"
-        ],
+        "wargear": [],
         "options": [],
         "includes": [
           {
@@ -3447,9 +3454,7 @@
           "Arma Apoyo"
         ],
         "baseSize": [],
-        "wargear": [
-          "Lanzacohetes Pesado (3 x Cohetes)"
-        ],
+        "wargear": [],
         "options": [],
         "includes": [
           {
@@ -4638,9 +4643,7 @@
           "Arma Apoyo"
         ],
         "baseSize": [],
-        "wargear": [
-          "Lanzacohetes Pesado (3 x Cohetes)"
-        ],
+        "wargear": [],
         "options": [
           {
             "name": "Chaleco Antibalas",
@@ -4857,9 +4860,7 @@
           "Arma Apoyo"
         ],
         "baseSize": [],
-        "wargear": [
-          "Lanzacohetes Pesado (3 x Cohetes)"
-        ],
+        "wargear": [],
         "options": [
           {
             "name": "Chaleco Antibalas",
@@ -5066,9 +5067,7 @@
           "Arma Apoyo"
         ],
         "baseSize": [],
-        "wargear": [
-          "Lanzacohetes Pesado (3 x Cohetes)"
-        ],
+        "wargear": [],
         "options": [
           {
             "name": "Chaleco Antibalas",
@@ -5825,9 +5824,7 @@
           "Arma Apoyo"
         ],
         "baseSize": [],
-        "wargear": [
-          "Lanzacohetes Pesado (3 x Cohetes)"
-        ],
+        "wargear": [],
         "options": [
           {
             "name": "Chaleco Antibalas",
@@ -6003,9 +6000,7 @@
           "Arma Apoyo"
         ],
         "baseSize": [],
-        "wargear": [
-          "Lanzacohetes Pesado (3 x Cohetes)"
-        ],
+        "wargear": [],
         "options": [
           {
             "name": "Chaleco Antibalas",
@@ -6642,9 +6637,7 @@
           "Arma Apoyo"
         ],
         "baseSize": [],
-        "wargear": [
-          "Lanzacohetes Pesado (3 x Cohetes)"
-        ],
+        "wargear": [],
         "options": [],
         "includes": [
           {
@@ -6805,9 +6798,7 @@
           "Arma Apoyo"
         ],
         "baseSize": [],
-        "wargear": [
-          "Lanzacohetes Pesado (3 x Cohetes)"
-        ],
+        "wargear": [],
         "options": [
           {
             "name": "Chaleco Antibalas",
@@ -8666,8 +8657,8 @@
             "name": "Lanzacohetes Ligero Recargable",
             "points": 25,
             "requireChooseOneKey": "a",
-			"ignoreLimits": [
-			  {
+            "ignoreLimits": [
+              {
                 "type": "rpg"
               }
             ]
@@ -8676,8 +8667,8 @@
             "name": "LMG",
             "points": 10,
             "requireChooseOneKey": "a",
-			"ignoreLimits": [
-			  {
+            "ignoreLimits": [
+              {
                 "type": "lmg"
               }
             ]
@@ -8729,12 +8720,22 @@
           {
             "name": "Lanzacohetes Ligero Recargable",
             "points": 25,
-            "requireChooseOneKey": "a"
+            "requireChooseOneKey": "a",
+            "ignoreLimits": [
+              {
+                "type": "rpg"
+              }
+            ]
           },
           {
             "name": "LMG",
             "points": 10,
-            "requireChooseOneKey": "a"
+            "requireChooseOneKey": "a",
+            "ignoreLimits": [
+              {
+                "type": "lmg"
+              }
+            ]
           }
         ],
         "includes": [
@@ -8783,12 +8784,22 @@
           {
             "name": "Lanzacohetes Ligero Recargable",
             "points": 25,
-            "requireChooseOneKey": "a"
+            "requireChooseOneKey": "a",
+            "ignoreLimits": [
+              {
+                "type": "rpg"
+              }
+            ]
           },
           {
             "name": "LMG",
             "points": 10,
-            "requireChooseOneKey": "a"
+            "requireChooseOneKey": "a",
+            "ignoreLimits": [
+              {
+                "type": "lmg"
+              }
+            ]
           }
         ],
         "includes": [
@@ -8837,12 +8848,22 @@
           {
             "name": "Lanzacohetes Ligero Recargable",
             "points": 25,
-            "requireChooseOneKey": "a"
+            "requireChooseOneKey": "a",
+            "ignoreLimits": [
+              {
+                "type": "rpg"
+              }
+            ]
           },
           {
             "name": "LMG",
             "points": 10,
-            "requireChooseOneKey": "a"
+            "requireChooseOneKey": "a",
+            "ignoreLimits": [
+              {
+                "type": "lmg"
+              }
+            ]
           }
         ],
         "includes": [
@@ -9581,9 +9602,7 @@
           "Arma Apoyo"
         ],
         "baseSize": [],
-        "wargear": [
-          "Lanzacohetes Pesado (3 x Cohetes)"
-        ],
+        "wargear": [],
         "options": [],
         "includes": [
           {
@@ -9619,9 +9638,7 @@
           "Arma Apoyo"
         ],
         "baseSize": [],
-        "wargear": [
-          "Lanzacohetes Pesado (3 x Cohetes)"
-        ],
+        "wargear": [],
         "options": [],
         "includes": [
           {
@@ -10351,9 +10368,7 @@
           "Arma Apoyo"
         ],
         "baseSize": [],
-        "wargear": [
-          "Lanzacohetes Pesado (3 x Cohetes)"
-        ],
+        "wargear": [],
         "options": [],
         "includes": [
           {
@@ -10389,9 +10404,7 @@
           "Arma Apoyo"
         ],
         "baseSize": [],
-        "wargear": [
-          "Lanzacohetes Pesado (3 x Cohetes)"
-        ],
+        "wargear": [],
         "options": [],
         "includes": [
           {
@@ -11150,9 +11163,7 @@
           "Arma Apoyo"
         ],
         "baseSize": [],
-        "wargear": [
-          "Lanzacohetes Pesado (3 x Cohetes)"
-        ],
+        "wargear": [],
         "options": [],
         "includes": [
           {
@@ -11188,9 +11199,7 @@
           "Arma Apoyo"
         ],
         "baseSize": [],
-        "wargear": [
-          "Lanzacohetes Pesado (3 x Cohetes)"
-        ],
+        "wargear": [],
         "options": [],
         "includes": [
           {
@@ -11226,9 +11235,7 @@
           "Arma Apoyo"
         ],
         "baseSize": [],
-        "wargear": [
-          "Lanzacohetes Pesado (3 x Cohetes)"
-        ],
+        "wargear": [],
         "options": [
           {
             "name": "Miras tácticas",
@@ -12354,9 +12361,7 @@
           "Arma Apoyo"
         ],
         "baseSize": [],
-        "wargear": [
-          "Lanzacohetes Pesado (3 x Cohetes)"
-        ],
+        "wargear": [],
         "options": [],
         "includes": [
           {
@@ -12396,9 +12401,7 @@
           "Arma Apoyo"
         ],
         "baseSize": [],
-        "wargear": [
-          "Lanzacohetes Pesado (3 x Cohetes)"
-        ],
+        "wargear": [],
         "options": [],
         "includes": [
           {
@@ -12434,9 +12437,7 @@
           "Arma Apoyo"
         ],
         "baseSize": [],
-        "wargear": [
-          "Lanzacohetes Pesado (3 x Cohetes)"
-        ],
+        "wargear": [],
         "options": [],
         "includes": [
           {
@@ -12476,9 +12477,7 @@
           "Arma Apoyo"
         ],
         "baseSize": [],
-        "wargear": [
-          "Lanzacohetes Pesado (3 x Cohetes)"
-        ],
+        "wargear": [],
         "options": [],
         "includes": [
           {
@@ -14390,7 +14389,8 @@
         ],
         "wargear": [
           "Lanzacohetes Pesado (3 x Cohetes)",
-          "Chaleco Antibalas"
+          "Chaleco Antibalas",
+          "Fusil de Asalto"
         ],
         "options": []
       },
@@ -14415,7 +14415,7 @@
         ],
         "options": [],
         "specialRules": [
-          "Cargador"
+          "Cargador de lanzacohetes"
         ]
       },
       {
@@ -14435,7 +14435,8 @@
         ],
         "wargear": [
           "Lanzacohetes Pesado (3 x Cohetes)",
-          "Chaleco Antibalas"
+          "Chaleco Antibalas",
+          "Fusil de Asalto"
         ],
         "options": []
       },
@@ -14477,7 +14478,8 @@
         ],
         "wargear": [
           "Lanzacohetes Pesado (3 x Cohetes)",
-          "Chaleco Antibalas"
+          "Chaleco Antibalas",
+          "Fusil de Asalto"
         ],
         "options": []
       },
@@ -14519,7 +14521,8 @@
         ],
         "wargear": [
           "Lanzacohetes Pesado (3 x Cohetes)",
-          "Chaleco Antibalas"
+          "Chaleco Antibalas",
+          "Fusil de Asalto"
         ],
         "options": []
       },
@@ -14639,7 +14642,8 @@
           "25mm"
         ],
         "wargear": [
-          "Lanzacohetes Pesado (3 x Cohetes)"
+          "Lanzacohetes Pesado (3 x Cohetes)",
+          "Fusil de Asalto"
         ],
         "options": []
       },
@@ -14759,7 +14763,8 @@
           "25mm"
         ],
         "wargear": [
-          "Lanzacohetes Pesado (3 x Cohetes)"
+          "Lanzacohetes Pesado (3 x Cohetes)",
+          "Fusil de Asalto"
         ],
         "options": []
       },
@@ -14882,7 +14887,8 @@
         ],
         "wargear": [
           "Lanzacohetes Pesado (3 x Cohetes)",
-          "Chaleco Antibalas"
+          "Chaleco Antibalas",
+          "Fusil de Asalto"
         ],
         "options": []
       },
@@ -16122,7 +16128,8 @@
           "25mm"
         ],
         "wargear": [
-          "Lanzacohetes Pesado (3 x Cohetes)"
+          "Lanzacohetes Pesado (3 x Cohetes)",
+          "Fusil de Asalto"
         ],
         "options": []
       },
@@ -16162,7 +16169,8 @@
           "25mm"
         ],
         "wargear": [
-          "Lanzacohetes Pesado (3 x Cohetes)"
+          "Lanzacohetes Pesado (3 x Cohetes)",
+          "Fusil de Asalto"
         ],
         "options": []
       },
@@ -18533,7 +18541,8 @@
         ],
         "wargear": [
           "Lanzacohetes Pesado (3 x Cohetes)",
-          "Chaleco Antibalas"
+          "Chaleco Antibalas",
+          "Fusil de Asalto"
         ],
         "options": []
       },
@@ -18780,7 +18789,8 @@
         ],
         "wargear": [
           "Lanzacohetes Pesado (3 x Cohetes)",
-          "Chaleco Antibalas"
+          "Chaleco Antibalas",
+          "Fusil de Asalto"
         ],
         "options": []
       },
@@ -20450,7 +20460,8 @@
         ],
         "wargear": [
           "Lanzacohetes Pesado (3 x Cohetes)",
-          "Chaleco Antibalas"
+          "Chaleco Antibalas",
+          "Fusil de Asalto"
         ],
         "options": []
       },
@@ -20574,7 +20585,8 @@
         ],
         "wargear": [
           "Lanzacohetes Pesado (3 x Cohetes)",
-          "Chaleco Antibalas"
+          "Chaleco Antibalas",
+          "Fusil de Asalto"
         ],
         "options": []
       },
@@ -20697,7 +20709,8 @@
         ],
         "wargear": [
           "Lanzacohetes Pesado (3 x Cohetes)",
-          "Chaleco Antibalas"
+          "Chaleco Antibalas",
+          "Fusil de Asalto"
         ],
         "options": []
       },
@@ -21028,7 +21041,8 @@
           "60mm"
         ],
         "wargear": [
-          "Lanzacohetes Pesado (3 x Cohetes)"
+          "Lanzacohetes Pesado (3 x Cohetes)",
+          "Fusil de Asalto"
         ],
         "options": [
           {
@@ -21291,7 +21305,8 @@
           "60mm"
         ],
         "wargear": [
-          "Lanzacohetes Pesado (3 x Cohetes)"
+          "Lanzacohetes Pesado (3 x Cohetes)",
+          "Fusil de Asalto"
         ],
         "options": []
       },
@@ -21582,7 +21597,8 @@
           "60mm"
         ],
         "wargear": [
-          "Lanzacohetes Pesado (3 x Cohetes)"
+          "Lanzacohetes Pesado (3 x Cohetes)",
+          "Fusil de Asalto"
         ],
         "options": [
           {
@@ -21906,7 +21922,8 @@
           "60mm"
         ],
         "wargear": [
-          "Lanzacohetes Pesado (3 x Cohetes)"
+          "Lanzacohetes Pesado (3 x Cohetes)",
+          "Fusil de Asalto"
         ],
         "options": []
       },
@@ -21935,43 +21952,47 @@
     "gear": [
       {
         "name": "Pistola",
-        "definition": "25cm | PF: 2 | B/E: 3/6 | AT: - | Especial: - | Ejemplos: Makarov, Glock, M9"
+        "definition": "25cm | PF: 2 | B/E: 3/6 | AT: -"
       },
       {
         "name": "Subfusil (SMG)",
-        "definition": "40cm | PF: 3 | B/E: 3/6 | AT: - | Especial: - | Ejemplos: MP-5, UZI",
+        "definition": "40cm | PF: 3 | B/E: 3/6 | AT: -",
         "type": "fusil"
       },
       {
         "name": "Fusil de Asalto",
-        "definition": "70cm | PF: 3 | B/E: 4/7 | AT: - | Especial: - | Ejemplos: AK-47, M-16, G-36, M-4",
+        "definition": "70cm | PF: 3 | B/E: 4/7 | AT: -",
         "type": "fusil"
       },
       {
         "name": "Lanzagranadas para Fusil de Asalto",
-        "definition": "40cm | PF: - | B/E: 3/8 | AT: 4 | Especial: Área, Recarga | Ejemplos: M79, M320",
+        "definition": "40cm | PF: - | B/E: 3/8 | AT: 4",
         "specialRules": [
-          "Área"
+          "Área",
+          "Recarga"
         ]
       },
       {
         "name": "Rifle",
-        "definition": "100cm | PF: 1 | B/E: 4/8 | AT: - | Especial: - | Ejemplos: Lee-Enfield, KaR98, Mosin-Nagant"
+        "definition": "100cm | PF: 1 | B/E: 4/8 | AT: -"
       },
       {
         "name": "Rifle de Precisión",
-        "definition": "100cm | PF: 1 | B/E: 4/8 | AT: - | Especial: Mira telescópica | Ejemplos: Dragunov, Accuracy"
+        "definition": "100cm | PF: 1 | B/E: 4/8 | AT: -",
+        "specialRules": [
+          "Mira telescópica"
+        ]
       },
       {
         "name": "Escopeta",
-        "definition": "30cm | PF: 1 | B/E: 5C/0L / 6C/6L | AT: - | Especial: Escopeta | Ejemplos: Mossberg 590, Benelli M4",
+        "definition": "30cm | PF: 1 | B/E: 5C/0L / 6C/6L | AT: -",
         "specialRules": [
           "Escopeta"
         ]
       },
       {
         "name": "LMG",
-        "definition": "100cm | PF: 4 | B/E: 4/7 | AT: 4 | Especial: ¡Atascada! | Ejemplos: SAW, Minimi, RPK-47, MG-4",
+        "definition": "100cm | PF: 4 | B/E: 4/7 | AT: 4",
         "type": "lmg",
         "specialRules": [
           "¡Atascada!"
@@ -21979,87 +22000,114 @@
       },
       {
         "name": "MMG",
-        "definition": "120cm | PF: 5 | B/E: 4/8 | AT: 6 | Especial: ¡Atascada!, 180º visión | Ejemplos: M60, PKM, FN-MAG",
+        "definition": "120cm | PF: 5 | B/E: 4/8 | AT: 6",
         "specialRules": [
-          "¡Atascada!"
+          "¡Atascada!",
+          "180º de Visión"
         ]
       },
       {
         "name": "HMG",
-        "definition": "150cm | PF: 6 | B/E: 4/8 | AT: 6 | Especial: ¡Atascada!, Montar y Desmontar, 180º visión | Ejemplos: Browning .50 cal, DSHK",
+        "definition": "150cm | PF: 6 | B/E: 4/8 | AT: 6",
         "specialRules": [
-          "¡Atascada!"
+          "¡Atascada!",
+          "Montar/Desmontar",
+          "180º de Visión"
         ]
       },
       {
         "name": "Lanzagranadas automático 40 mm",
-        "definition": "100cm | PF: - | B/E: 3/8 | AT: 6 | Especial: Área, ¡Atascada!, Montar y Desmontar, 180º visión | Ejemplos: LAG-40, MK-19, AGS-17",
+        "definition": "100cm | PF: - | B/E: 3/8 | AT: 6",
         "specialRules": [
           "¡Atascada!",
-		  "Área"
+          "Área",
+          "Montar/Desmontar",
+          "180º de Visión"
         ]
       },
       {
         "name": "Mortero Ligero",
-        "definition": "90cm | PF: - | B/E: 3/8 | AT: 6 | Especial: Área, Recarga, Montar y Desmontar, 180º visión, Humo | Ejemplos: Mortero de 50 mm, Mortero de 60 mm, Mortero de 2”",
+        "definition": "90cm | PF: - | B/E: 3/8 | AT: 6",
         "specialRules": [
-          "Área"
+          "Área",
+          "Reacarga",
+          "Montar/Desmontar",
+          "180º de Visión",
+          "Humo"
         ]
       },
       {
         "name": "Mortero Medio",
-        "definition": "120cm | PF: - | B/E: 4/8 | AT: 7 | Especial: Área, Recarga, Montar y Desmontar, 180º visión, Humo | Ejemplos: Mortero de 80 mm, Mortero de 3”",
+        "definition": "120cm | PF: - | B/E: 4/8 | AT: 7",
         "specialRules": [
-          "Área"
+          "Área",
+          "Reacarga",
+          "Montar/Desmontar",
+          "180º de Visión",
+          "Humo"
         ]
       },
       {
         "name": "Mortero Pesado",
-        "definition": "150cm | PF: - | B/E: 4/9 | AT: 8 | Especial: Área (3d10), Recarga, Montar y Desmontar, 180º visión, Humo | Ejemplos: Mortero de 120 mm",
+        "definition": "150cm | PF: - | B/E: 4/9 | AT: 8",
         "specialRules": [
-          "Área"
+          "Área (3d10)",
+          "Reacarga",
+          "Montar/Desmontar",
+          "180º de Visión",
+          "Humo"
         ]
       },
       {
         "name": "Lanzacohetes Ligero Desechable",
-        "definition": "60cm | PF: - | B/E: 3/8 | AT: 10 | Especial: Área, Un sólo uso | Ejemplos: LAW-80, AT-4, C-90",
+        "definition": "60cm | PF: - | B/E: 3/8 | AT: 10",
         "type": "rpg",
         "specialRules": [
-          "Área"
+          "Área",
+          "Un sólo uso"
         ]
       },
       {
         "name": "Lanzacohetes Ligero Recargable",
-        "definition": "60cm | PF: - | B/E: 3/8 | AT: 10 | Especial: Área, Recarga | Ejemplos: RPG-7",
+        "definition": "60cm | PF: - | B/E: 3/8 | AT: 10",
         "type": "rpg",
         "specialRules": [
-          "Área"
+          "Área",
+          "Recarga"
         ]
       },
       {
         "name": "Lanzacohetes Pesado (3 x Cohetes)",
-        "definition": "80cm | PF: - | B/E: 4/8 | AT: 12 | Especial: Área, Recarga, Montar y Desmontar, 180º visión | Ejemplos: Javelin, NLAW, Alcotán-100",
+        "definition": "80cm | PF: - | B/E: 4/8 | AT: 12",
         "specialRules": [
-          "Área"
+          "Área",
+          "Reacarga",
+          "Montar/Desmontar",
+          "180º de Visión"
         ]
       },
       {
         "name": "Minas",
-        "definition": "Contacto Base | PF: - | B/E: 3/8 | AT: 4 | Especial: Área, Un solo uso | Ejemplos: Claymore / Booby Trap",
+        "definition": "Contacto Base | PF: - | B/E: 3/8 | AT: 4",
         "specialRules": [
-          "Área"
+          "Área",
+          "Un sólo uso",
+          "Minas trampa"
         ]
       },
       {
         "name": "Cañón (Vehículo)",
-        "definition": "120cm | PF: - | B/E: 3/8 | AT: 8 | Especial: Área (3d10) | Ejemplos: Bradley, Pizarro",
+        "definition": "120cm | PF: - | B/E: 3/8 | AT: 8",
         "specialRules": [
-          "Área"
+          "Área (3d10)"
         ]
       },
       {
         "name": "Miras tácticas",
-        "definition": "Corta distancia (+5cm)"
+        "definition": "Corta distancia (+5cm)",
+        "specialRules": [
+          "Miras tácticas"
+        ]
       },
       {
         "name": "Perro Adiestrado",
@@ -22076,7 +22124,10 @@
       },
       {
         "name": "Chaleco Antibalas",
-        "definition": "Terreno Abierto (B/E -1/0)"
+        "definition": "Terreno Abierto (B/E -1/0)",
+        "specialRules": [
+          "Chaleco Antibalas"
+        ]
       },
       {
         "name": "Cohetes Extra",
@@ -22086,14 +22137,16 @@
         "name": "Granada de Fragmentación",
         "definition": "20cm | PF: - | B/E: 3/8 | AT: 4 | Especial: Área, Humo | Ejemplos: Granada de mano",
         "specialRules": [
-          "Área"
+          "Área",
+          "Humo"
         ]
       },
       {
         "name": "Granada Aturdidora",
         "definition": "20cm | PF: - | B/E: 0/10 | AT: - | Especial: Área, Humo | Ejemplos: Granada de mano",
         "specialRules": [
-          "Área"
+          "Área",
+          "Humo"
         ]
       },
       {
@@ -22107,7 +22160,9 @@
         "name": "Cóctel Molotov",
         "definition": "20cm | PF: - | B/E: 1/8 | AT: 3 | Especial: Área, Humo | Ejemplos: -",
         "specialRules": [
-          "Área"
+          "Cóctel Molotov",
+          "Área",
+          "Humo"
         ]
       }
     ],
@@ -22115,6 +22170,10 @@
       {
         "name": "Área",
         "definition": "Utiliza una plantilla de área de explosión de 7,5 cm de diámetro para determinar el daño."
+      },
+      {
+        "name": "Área (3d10)",
+        "definition": "Utiliza una plantilla de área de explosión de 7,5 cm de diámetro para determinar el daño. Lanza 3d10 en vez de 2d10 en la tirada para determinar el daño."
       },
       {
         "name": "Recarga",
@@ -22142,14 +22201,30 @@
       },
       {
         "name": "Humo",
-        "definition": "Se pueden utilizar proyectiles de humo en lugar de proyectiles explosivos. Elige el tipo de proyectil que vas a utilizar antes de realizar cada disparo. Si eliges disparar con proyectiles de humo, no causará daño por su explosión."
+        "definition": "Se pueden utilizar proyectiles de humo en lugar de proyectiles explosivos. Elige el tipo de proyectil que vas a utilizar antes de realizar cada disparo. Si eliges disparar con proyectiles de humo, no causará daño por su explosión. El método para disparar es igual al descrito anteriormente (ver página 49). Determina el punto de impacto final del proyectil tal y como hemos visto y colocal el centro de una plantilla de explosión. A continuación, coloca otra plantilla de explosión tocando el borde de la lantilla anterior en la dirección que marca el dado que has utilizado para determinar el punto de impacto. El humo ocupará toda el área que ocupan las plantillas y bloqueará la línea de visión que atraviese esa área a todas las miniaturas, tanto tuyas como las de tu contrincante, hasta el final del turno de juego actual."
       },
       {
-        "name": "Un solo uso",
+        "name": "Un sólo uso",
         "definition": "El arma solo tiene un disparo y no se puede recargar."
       },
       {
-        "name": "Cargador",
+        "name": "Miras tácticas",
+        "definition": "Estas miras tácticas facilitan la puntería de los fusiles de asalto y subfusiles utilizando diferentes tecnologías. A efectos del juego hemos agrupado todos los tipos de miras en un solo equipamiento adicional. Sólo se pueden añadir las miras a fusiles de asalto o subfusiles y a tropas con Entrenamiento de Élite. Los fusiles de asalto o subfusiles equipados con estas miras mantienen su mismo alcance máximo, pero aumentan en 5cm el alcance a corta distancia."
+      },
+      {
+        "name": "Minas trampa",
+        "definition": "Son artefactos explosivos que se colocan escondidos en el suelo, encaradas en una dirección y se activan con un cable o sensor. Para colocar una Mina Claymore/Booby Trap debes darles una orden especial, y sólo las pueden colocar los mandos. Cuando se coloca, indica la dirección hacia donde se encara el explosivo. Estas minas se activan si cualquier miniatura entra en su área de efecto, que es igual a la plantilla de explosión colocada en su borde exterior tocando la mina/trampa hacia donde está encarada. Cuando explota coloca la plantilla de explosión y todas ls miniaturas que queden debajo de la plantilla sufren DOS impactos de B/E (3/8)."
+      },
+      {
+        "name": "Chaleco Antibalas",
+        "definition": "Este chaleco proporciona protección contra las balas y trambién frente a la metralla. A efectos del juego, cuando una miniatura con chaleco antibalas recibe un disparo o explosión y NO cuenta con ninguna protección por cobertura de terreno, el chaleco reduce en -1 ÚNICAMENTE el valor para causar Baja, pero no modifica el valor de Estrés de la tirada de B/E. Si el objetivo está sin protección por cobertura y cuerpo a tierra o reptando en terreno abierto puede añadir el efecto del chaleco antibalas a la bonificación a la tirara de B/E que otorga estar cuerpo a tierra."
+      },
+      {
+        "name": "Cóctel Molotov",
+        "definition": "El explosivo consiste en una botella de cristal llena de líquido inflamable con una mecha rudimentaria que, al ser lanzada, estalla y el líquido que contiene se esparce y prende en llamas. Lánzalo como una granada (ver página 49) y se utiliza una plantilla de explosión de 7,5 cm de diámetro. Las miniaturas que queden debajo de la plantilla de explosión reciben UN impacto de B/E (1/8) sin protección alguna por cobertura. El área de la plantilla de explosión donde impacta el Cóctel Molotov será tratada como una barrera de Humo hasta el final de la siguiente Escena de combate."
+      },
+      {
+        "name": "Cargador ametralladora/lanzagranadas",
         "definition": "La presencia del cargador de un arma permite descartar el primer resultado de ¡Atascada! que suceda en una Escena de combate. Solo puede ignorar UN resultado de ¡Atascada! por Escena de combate. Los resultados de ¡Atascada! adicionales se transforman en ME."
       },
       {
@@ -22157,8 +22232,28 @@
         "definition": "Si el cargador de mortero NO causa Baja al final de una Escena de Combate en la que ha disparado el mortero, el mortero estará automáticamente recargado y listo para disparar al inicio de la siguiente Escena de Combate sin la necesidad de darle una orde de recargar. Si el cargador de mortero ha causado Baja, deberás dar una orden de recargar antes de volver a disparar."
       },
       {
+        "name": "Cargador de lanzacohetes",
+        "definition": "Si el cargador de lanzacohetes NO causa Baja al final de una Escena de Combate en la que ha disparado el lanzacohetes, el arma antitanque estará automáticamente recargado y listo para disparar al inicio de la siguiente Escena de Combate sin la necesidad de darle una orde de recargar. Si el cargador de lanzacohetes ha causado Baja, deberás dar una orden de recargar antes de volver a disparar."
+      },
+      {
         "name": "Suboficial",
         "definition": "Un suboficial es el equivalente a un Mando principal con algunas particularidades. El suboficial no aporta NINGÚN PM extra al inicio del turno. Sólo puede dar órdenes al arma de apoyo que comanda, así que tampoco puede dar órdenes a otras armas de apoyo o a otros soldados rasos de tu pelotón. Mientras el suboficial siga en pie, el coste de las órdenes que dé a su arma de apoyo no tendrá penalizador por estar fuera de la distancia de mando que proporcionan el Mando principal o el Mando secundario de tu pelotón, o si los mandos causan Baja. El arma de apoyo utilizará el valor de Entrenamiento de su suboficial mientras éste siga vivo para los chequeos de moral, pero no lo podrá utilizar en la tirada para determinar el punto de impacto de un arma explosiva, teniendo que utilizar el valor del tirador. Los valores de Entrenamiento y Experiencia en Combate del suboficial se consideran iguales que los del Mando principal de tu pelotón. Si el suboficial causa Baja, el arma de apoyo deberá seguir las reglas habituales de distancia de mando y bajas de mandos para calcular el coste de PM cuando necesite recibir nuevas órdenes."
+      },
+      {
+        "name": "Observador",
+        "definition": "Permite ignorar la distancia de mando de tu Mando principal o de un Mando secundario al calcular los PM necesarios para dar cualquier orden al francotirador. El resto de modificadores se seguirán teniendo en cuenta."
+      },
+      {
+        "name": "Inicio oculto",
+        "definition": "El jugador que controla un Equipo de Francotiradores coloca TRES marcadores de francotirador IGUALES en el tablero de juego(UNO de ellos deberá estar marcado por debajo, determinando la posición real del francotirador y su observador). Los otros dos marcadores serán señuelos. Se pueden situar en cualquier elemento de escenografía, pero cada marcador debe estar en un elemento diferene, en cobertura y como máximo a 50cm de distancia de la zona de despliegue de su pelotón. Mientras el Equipo de Francotiradores permanezca en modo oculto, no se puede mover de su posición. Sólo puede recibir una orden de disparar UNA vez por turno de juego mientras esté oculto. El observador no puede disparar. Mientras esté oculto, el francotirador puede recibir solo la orden de disparar, tanto como acción como reacción. El primer disparo de la partida es especial. Las miniaturas de tu contrincante no se esperan la presencia de un francotirador en el tablero de juego y no pueden reaccionar a su primer disparo. Como consecuencia, el Equipo de Francotiradores siempre actuará el primero en la resolución de la Escena de combate de su primer disparo sin necesidad de calcular su Prioridad de actuación. Esto no sucederá en los siguientes disparos, que seguirán la mecánica habitual de resolución de la Escena de COmbate a pesar de que el francotirador siga permaneciendo en modo oculto. El francotirador no puede ser objetivo de disparos ni de armas explisivas mientras permanezca oculto."
+      },
+      {
+        "name": "Detección del francotirador",
+        "definition": "Mira la sección de órdenes para ver cómo se realiza la detección de francotiradores (ver página 34). Una vez descubierto al francotirador se sitúan las miniaturas de francotirador y observador sobre la mesa y dejan de estar ocultas (ver la característica anterior Inicio oculto). Ya no podrá volver a estar en modo oculto en toda la partida. Un Equipo de Francotiradores descubierto actuará como un arma de apoyo a todos los efectos para el resto de la partida y se le podrá disparar con los modificdores habituales. Si recibe una Baja deberás retirar la miniatura del observador primero. A la siguiente Baja del Equipo de Francotiradores se considerará eliminado del juego."
+      },
+      {
+        "name": "Equipo de Lanzacohetes",
+        "definition": "Si disparas contra un vehículo, siguen las reglas de disparo AT ques se detallan en la sección de Vehículos, utilizando el valor AT del lanzacohetes descrito en la tabla de armamento. También puedes intentar disparar contra infantería y entonces sigue las reglas de dispro de las armas explosivas. Los equipos de lanzacohetes pesados disponen de TRES cohetes para ser disparados durante la partida. EL primero de ellos ya está listo para ser disparado. Puedes utilizar marcadores para saber los cohetes que tienes disponibles en cada momento. Una vez gastados estos tres cohetes, los integrantes de la dotación abandonan el lanzacohetes pesado y ya no forman un arma de apoyo, pasando a ser considerados soldados rasos equipados con fusiles de asalto."
       }
     ],
     "armyBonuses": []
