@@ -745,6 +745,12 @@
               }
             ]
           }
+        ],
+        "adjustLimits": [
+          {
+            "type": "lmg",
+            "percentage": 14
+          }
         ]
       },
       {
@@ -912,6 +918,12 @@
                 "elementPropertyName": "soldados"
               }
             ]
+          }
+        ],
+        "adjustLimits": [
+          {
+            "type": "lmg",
+            "percentage": 14
           }
         ]
       },
@@ -1131,6 +1143,12 @@
               }
             ]
           }
+        ],
+        "adjustLimits": [
+          {
+            "type": "rpg",
+            "percentage": 14
+          }
         ]
       },
       {
@@ -1214,6 +1232,12 @@
                 "elementPropertyName": "soldados"
               }
             ]
+          }
+        ],
+        "adjustLimits": [
+          {
+            "type": "rpg",
+            "percentage": 14
           }
         ]
       },
@@ -2284,6 +2308,12 @@
               }
             ]
           }
+        ],
+        "adjustLimits": [
+          {
+            "type": "rpg",
+            "percentage": 21
+          }
         ]
       },
       {
@@ -2365,6 +2395,12 @@
                 "elementPropertyName": "soldados"
               }
             ]
+          }
+        ],
+        "adjustLimits": [
+          {
+            "type": "rpg",
+            "percentage": 5
           }
         ]
       },
@@ -2449,6 +2485,12 @@
             "ZSL-10 (Blindado) Blindados Pesados PLA",
             "ZBD-86A (VCI) Blindados Pesados PLA"
           ]
+        ],
+        "adjustLimits": [
+          {
+            "type": "rpg",
+            "percentage": 5
+          }
         ]
       },
       {
@@ -2535,6 +2577,12 @@
                 "elementPropertyName": "soldados"
               }
             ]
+          }
+        ],
+        "adjustLimits": [
+          {
+            "type": "rpg",
+            "percentage": 5
           }
         ]
       },
@@ -2636,6 +2684,12 @@
               }
             ]
           }
+        ],
+        "adjustLimits": [
+          {
+            "type": "rpg",
+            "percentage": 5
+          }
         ]
       },
       {
@@ -2726,6 +2780,12 @@
                 "lockedChildren": true
               }
             ]
+          }
+        ],
+        "adjustLimits": [
+          {
+            "type": "rpg",
+            "percentage": 5
           }
         ]
       },
@@ -2818,6 +2878,12 @@
               }
             ]
           }
+        ],
+        "adjustLimits": [
+          {
+            "type": "rpg",
+            "percentage": 5
+          }
         ]
       },
       {
@@ -2897,6 +2963,12 @@
               }
             ]
           }
+        ],
+        "adjustLimits": [
+          {
+            "type": "rpg",
+            "percentage": 5
+          }
         ]
       },
       {
@@ -2973,6 +3045,12 @@
                 "elementPropertyName": "soldados"
               }
             ]
+          }
+        ],
+        "adjustLimits": [
+          {
+            "type": "rpg",
+            "percentage": 5
           }
         ]
       }
@@ -10445,7 +10523,12 @@
         "wargear": [
           "Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+		]
       },
       {
         "name": "Cabo Australian Army",
@@ -10468,7 +10551,12 @@
         "wargear": [
           "Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+		]
       },
       {
         "name": "Suboficial Australian Army",
@@ -10515,7 +10603,12 @@
         "wargear": [
           "Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+		]
       },
       {
         "name": "Cabo Special Operations Command (SOCOMD)",
@@ -10538,7 +10631,12 @@
         "wargear": [
           "Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+		]
       },
       {
         "name": "Suboficial Special Operations Command (SOCOMD)",
@@ -10584,7 +10682,12 @@
         "wargear": [
           "MMG"
         ],
-        "options": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 10
+          }
+		],
         "includes": [
           {
             "dataSource": "soldados",
@@ -10624,7 +10727,12 @@
         "wargear": [
           "MMG"
         ],
-        "options": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 10
+          }
+		],
         "includes": [
           {
             "dataSource": "soldados",
@@ -10660,7 +10768,12 @@
         ],
         "baseSize": [],
         "wargear": [],
-        "options": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 10
+          }		
+		],
         "specialRules": [
           "Equipo de Lanzacohetes"
         ],
@@ -10699,7 +10812,12 @@
         ],
         "baseSize": [],
         "wargear": [],
-        "options": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 10
+          }
+		],
         "specialRules": [
           "Equipo de Lanzacohetes"
         ],
@@ -10738,7 +10856,12 @@
         ],
         "baseSize": [],
         "wargear": [],
-        "options": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 10
+          }
+		],
         "specialRules": [
           "Inicio Oculto",
 		  "Detección del francotirador"
@@ -10778,7 +10901,12 @@
         ],
         "baseSize": [],
         "wargear": [],
-        "options": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 10
+          }
+		],
         "specialRules": [
           "Inicio Oculto",
 		  "Detección del francotirador"
@@ -10822,7 +10950,12 @@
         "wargear": [
           "Mortero Ligero"
         ],
-        "options": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 15
+          }
+		],
         "includes": [
           {
             "dataSource": "suboficiales",
@@ -10866,7 +10999,12 @@
         "wargear": [
           "Mortero Ligero"
         ],
-        "options": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 15
+          }
+		],
         "includes": [
           {
             "dataSource": "suboficiales",
