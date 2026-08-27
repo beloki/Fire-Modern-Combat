@@ -3724,7 +3724,7 @@
         "options": [],
         "specialRules": [
           "Inicio Oculto",
-		  "Detección del francotirador"
+          "Detección del francotirador"
         ],
         "includes": [
           {
@@ -3764,7 +3764,7 @@
         "options": [],
         "specialRules": [
           "Inicio Oculto",
-		  "Detección del francotirador"
+          "Detección del francotirador"
         ],
         "includes": [
           {
@@ -3804,7 +3804,7 @@
         "options": [],
         "specialRules": [
           "Inicio Oculto",
-		  "Detección del francotirador"
+          "Detección del francotirador"
         ],
         "includes": [
           {
@@ -3844,7 +3844,7 @@
         "options": [],
         "specialRules": [
           "Inicio Oculto",
-		  "Detección del francotirador"
+          "Detección del francotirador"
         ],
         "includes": [
           {
@@ -4949,7 +4949,7 @@
         ],
         "specialRules": [
           "Inicio Oculto",
-		  "Detección del francotirador"
+          "Detección del francotirador"
         ],
         "includes": [
           {
@@ -5176,7 +5176,7 @@
         ],
         "specialRules": [
           "Inicio Oculto",
-		  "Detección del francotirador"
+          "Detección del francotirador"
         ],
         "includes": [
           {
@@ -5389,7 +5389,7 @@
         ],
         "specialRules": [
           "Inicio Oculto",
-		  "Detección del francotirador"
+          "Detección del francotirador"
         ],
         "includes": [
           {
@@ -6159,7 +6159,7 @@
         ],
         "specialRules": [
           "Inicio Oculto",
-		  "Detección del francotirador"
+          "Detección del francotirador"
         ],
         "includes": [
           {
@@ -6342,7 +6342,7 @@
         ],
         "specialRules": [
           "Inicio Oculto",
-		  "Detección del francotirador"
+          "Detección del francotirador"
         ],
         "includes": [
           {
@@ -6982,7 +6982,7 @@
         "options": [],
         "specialRules": [
           "Inicio Oculto",
-		  "Detección del francotirador"
+          "Detección del francotirador"
         ],
         "includes": [
           {
@@ -7160,7 +7160,7 @@
         ],
         "specialRules": [
           "Inicio Oculto",
-		  "Detección del francotirador"
+          "Detección del francotirador"
         ],
         "includes": [
           {
@@ -8551,7 +8551,7 @@
         "options": [],
         "specialRules": [
           "Inicio Oculto",
-		  "Detección del francotirador"
+          "Detección del francotirador"
         ],
         "includes": [
           {
@@ -8763,7 +8763,7 @@
         "options": [],
         "specialRules": [
           "Inicio Oculto",
-		  "Detección del francotirador"
+          "Detección del francotirador"
         ],
         "includes": [
           {
@@ -8951,7 +8951,7 @@
         ],
         "specialRules": [
           "Inicio Oculto",
-		  "Detección del francotirador"
+          "Detección del francotirador"
         ],
         "includes": [
           {
@@ -10033,7 +10033,7 @@
         "options": [],
         "specialRules": [
           "Inicio Oculto",
-		  "Detección del francotirador"
+          "Detección del francotirador"
         ],
         "includes": [
           {
@@ -10073,7 +10073,7 @@
         "options": [],
         "specialRules": [
           "Inicio Oculto",
-		  "Detección del francotirador"
+          "Detección del francotirador"
         ],
         "includes": [
           {
@@ -10528,7 +10528,7 @@
             "name": "Chaleco Antibalas",
             "points": 5
           }
-		]
+        ]
       },
       {
         "name": "Cabo Australian Army",
@@ -10556,7 +10556,7 @@
             "name": "Chaleco Antibalas",
             "points": 5
           }
-		]
+        ]
       },
       {
         "name": "Suboficial Australian Army",
@@ -10608,7 +10608,7 @@
             "name": "Chaleco Antibalas",
             "points": 5
           }
-		]
+        ]
       },
       {
         "name": "Cabo Special Operations Command (SOCOMD)",
@@ -10636,7 +10636,7 @@
             "name": "Chaleco Antibalas",
             "points": 5
           }
-		]
+        ]
       },
       {
         "name": "Suboficial Special Operations Command (SOCOMD)",
@@ -10687,7 +10687,7 @@
             "name": "Chaleco Antibalas",
             "points": 10
           }
-		],
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -10732,7 +10732,7 @@
             "name": "Chaleco Antibalas",
             "points": 10
           }
-		],
+        ],
         "includes": [
           {
             "dataSource": "soldados",
@@ -10772,8 +10772,8 @@
           {
             "name": "Chaleco Antibalas",
             "points": 10
-          }		
-		],
+          }
+        ],
         "specialRules": [
           "Equipo de Lanzacohetes"
         ],
@@ -10817,7 +10817,7 @@
             "name": "Chaleco Antibalas",
             "points": 10
           }
-		],
+        ],
         "specialRules": [
           "Equipo de Lanzacohetes"
         ],
@@ -10861,10 +10861,10 @@
             "name": "Chaleco Antibalas",
             "points": 10
           }
-		],
+        ],
         "specialRules": [
           "Inicio Oculto",
-		  "Detección del francotirador"
+          "Detección del francotirador"
         ],
         "includes": [
           {
@@ -10906,10 +10906,10 @@
             "name": "Chaleco Antibalas",
             "points": 10
           }
-		],
+        ],
         "specialRules": [
           "Inicio Oculto",
-		  "Detección del francotirador"
+          "Detección del francotirador"
         ],
         "includes": [
           {
@@ -10955,7 +10955,7 @@
             "name": "Chaleco Antibalas",
             "points": 15
           }
-		],
+        ],
         "includes": [
           {
             "dataSource": "suboficiales",
@@ -11004,7 +11004,7 @@
             "name": "Chaleco Antibalas",
             "points": 15
           }
-		],
+        ],
         "includes": [
           {
             "dataSource": "suboficiales",
@@ -11745,7 +11745,7 @@
         "options": [],
         "specialRules": [
           "Inicio Oculto",
-		  "Detección del francotirador"
+          "Detección del francotirador"
         ],
         "includes": [
           {
@@ -11785,7 +11785,7 @@
         "options": [],
         "specialRules": [
           "Inicio Oculto",
-		  "Detección del francotirador"
+          "Detección del francotirador"
         ],
         "includes": [
           {
@@ -11825,7 +11825,7 @@
         "options": [],
         "specialRules": [
           "Inicio Oculto",
-		  "Detección del francotirador"
+          "Detección del francotirador"
         ],
         "includes": [
           {
@@ -12208,7 +12208,12 @@
         "wargear": [
           "Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Cabo Blindados Pesados PLA",
@@ -12235,7 +12240,12 @@
         "wargear": [
           "Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Suboficial Blindados Pesados PLA",
@@ -12260,7 +12270,12 @@
           "25mm"
         ],
         "wargear": [],
-        "options": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ],
         "specialRules": [
           "Suboficial"
         ]
@@ -12368,7 +12383,12 @@
         "wargear": [
           "Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Cabo Asalto Aéreo de Marina PLA",
@@ -12391,7 +12411,12 @@
         "wargear": [
           "Fusil de Asalto"
         ],
-        "options": []
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ]
       },
       {
         "name": "Suboficial Asalto Aéreo de Marina PLA",
@@ -12412,7 +12437,12 @@
           "25mm"
         ],
         "wargear": [],
-        "options": [],
+        "options": [
+          {
+            "name": "Chaleco Antibalas",
+            "points": 5
+          }
+        ],
         "specialRules": [
           "Suboficial"
         ]
@@ -12694,7 +12724,7 @@
         "options": [],
         "specialRules": [
           "Inicio Oculto",
-		  "Detección del francotirador"
+          "Detección del francotirador"
         ],
         "includes": [
           {
@@ -12738,7 +12768,7 @@
         "options": [],
         "specialRules": [
           "Inicio Oculto",
-		  "Detección del francotirador"
+          "Detección del francotirador"
         ],
         "includes": [
           {
@@ -12778,7 +12808,7 @@
         "options": [],
         "specialRules": [
           "Inicio Oculto",
-		  "Detección del francotirador"
+          "Detección del francotirador"
         ],
         "includes": [
           {
@@ -12822,7 +12852,7 @@
         "options": [],
         "specialRules": [
           "Inicio Oculto",
-		  "Detección del francotirador"
+          "Detección del francotirador"
         ],
         "includes": [
           {
