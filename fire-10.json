@@ -14804,7 +14804,10 @@
         "wargear": [
           "Chaleco Antibalas"
         ],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Observador"
+        ]
       },
       {
         "name": "Francotirador US Rangers",
@@ -14845,7 +14848,10 @@
         "wargear": [
           "Chaleco Antibalas"
         ],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Observador"
+        ]
       },
       {
         "name": "Francotirador US SOCOM",
@@ -14886,7 +14892,10 @@
         "wargear": [
           "Chaleco Antibalas"
         ],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Observador"
+        ]
       },
       {
         "name": "Tirador Lanzacohetes US Army",
@@ -15139,7 +15148,10 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Observador"
+        ]
       },
       {
         "name": "Tirador Lanzacohetes British Army",
@@ -15260,7 +15272,10 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Observador"
+        ]
       },
       {
         "name": "Tirador Lanzacohetes Royal Marines / Paras / Gurkhas",
@@ -15384,7 +15399,10 @@
         "wargear": [
           "Chaleco Antibalas"
         ],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Observador"
+        ]
       },
       {
         "name": "Tirador Lanzacohetes SAS / SBS / SRR / SFSG",
@@ -16588,7 +16606,10 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Observador"
+        ]
       },
       {
         "name": "Francotirador Légion Étrangere",
@@ -16626,7 +16647,10 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Observador"
+        ]
       },
       {
         "name": "Tirador Lanzacohetes Armée de Terre",
@@ -17318,7 +17342,10 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Observador"
+        ]
       },
       {
         "name": "Francotirador Legionarios / Cazadores de Montaña / Infantería de Marina",
@@ -17356,7 +17383,10 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Observador"
+        ]
       },
       {
         "name": "Tirador Lanzacohetes Ejército de Tierra",
@@ -17646,7 +17676,10 @@
         "wargear": [
           ""
         ],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Observador"
+        ]
       },
       {
         "name": "Tirador Insurgentes Tipo 1",
@@ -17891,7 +17924,10 @@
         "wargear": [
           ""
         ],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Observador"
+        ]
       },
       {
         "name": "Tirador Insurgentes Tipo 2",
@@ -18109,7 +18145,10 @@
         "wargear": [
           ""
         ],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Observador"
+        ]
       },
       {
         "name": "Tirador Insurgentes Tipo 3",
@@ -18327,7 +18366,10 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Observador"
+        ]
       },
       {
         "name": "Tirador Insurgentes Tipo 4",
@@ -18607,7 +18649,10 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Observador"
+        ]
       },
       {
         "name": "Tirador Insurgentes Tipo 5",
@@ -19038,7 +19083,10 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Observador"
+        ]
       },
       {
         "name": "Tirador Lanzacohetes Forze Armate Italiane",
@@ -19286,7 +19334,10 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Observador"
+        ]
       },
       {
         "name": "Tirador Lanzacohetes Bersaglieri / Alpini / Folgore",
@@ -19902,6 +19953,9 @@
             "name": "Chaleco Antibalas",
             "points": 5
           }
+        ],
+        "specialRules": [
+          "Observador"
         ]
       },
       {
@@ -20047,6 +20101,9 @@
             "name": "Chaleco Antibalas",
             "points": 5
           }
+        ],
+        "specialRules": [
+          "Observador"
         ]
       },
       {
@@ -20956,7 +21013,10 @@
         "wargear": [
           "Chaleco Antibalas"
         ],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Observador"
+        ]
       },
       {
         "name": "Tirador Lanzacohetes Panzergrenadiers",
@@ -21082,7 +21142,10 @@
         "wargear": [
           "Chaleco Antibalas"
         ],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Observador"
+        ]
       },
       {
         "name": "Tirador Lanzacohetes Fallschirmjäger / Gebirgsjäger",
@@ -21206,7 +21269,10 @@
         "wargear": [
           "Chaleco Antibalas"
         ],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Observador"
+        ]
       },
       {
         "name": "Tirador Lanzacohetes Kommando Spezialkräfte (KSK)",
@@ -21538,6 +21604,9 @@
             "name": "Chaleco Antibalas",
             "points": 5
           }
+        ],
+        "specialRules": [
+          "Observador"
         ]
       },
       {
@@ -21802,7 +21871,10 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Observador"
+        ]
       },
       {
         "name": "Tirador Lanzacohetes Alta Movilidad PLA",
@@ -22095,6 +22167,9 @@
             "name": "Chaleco Antibalas",
             "points": 5
           }
+        ],
+        "specialRules": [
+          "Observador"
         ]
       },
       {
@@ -22419,7 +22494,10 @@
           "25mm"
         ],
         "wargear": [],
-        "options": []
+        "options": [],
+        "specialRules": [
+          "Observador"
+        ]
       },
       {
         "name": "Tirador Lanzacohetes Blindado Anfibio PLA",
